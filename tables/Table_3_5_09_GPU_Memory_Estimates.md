@@ -1,0 +1,8 @@
+| Memory Component                | Memory (MB)            | Proportion (%)   | Notes                                           |
+|:--------------------------------|:-----------------------|:-----------------|:------------------------------------------------|
+| Model Weights & Biases (FP32)   | 3.12 MB                | 0.15%            | 817,189 parameters * 4 bytes                    |
+| Model Gradients (FP32)          | 3.12 MB                | 0.15%            | One gradient tensor per parameter               |
+| AdamW Optimizer States (FP32)   | 6.24 MB                | 0.31%            | First & second moment states (2 * weights)      |
+| Activation Tensors (BS=32, AMP) | 145.80 MB              | 7.22%            | Forward feature maps (Active-Only CNN)          |
+| In-Memory Dual-Tier RAM Cache   | 1,850.00 MB            | 91.60%           | 2,294 pre-cached patient tensor packages        |
+| Total Peak Execution Footprint  | 2,008.28 MB (~2.01 GB) | 100.00%          | Easily fits on standard 4GB-8GB GPUs & Host RAM |

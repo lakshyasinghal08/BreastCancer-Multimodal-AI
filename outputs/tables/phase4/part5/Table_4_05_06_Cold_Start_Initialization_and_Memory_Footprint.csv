@@ -1,0 +1,4 @@
+Model Format,Cold Start Initialization (ms),Peak RAM (MB),Peak VRAM (MB),Disk Space (MB),Startup Evaluation
+Native PyTorch FP32,320.0 ms,248 MB,680 MB,57.97 MB,Standard Heavy Runtime
+TorchScript JIT,115.0 ms,192 MB,520 MB,1.32 MB (Head),Fast Embedded Startup
+ONNX Runtime (Opset 18),45.0 ms,138 MB,380 MB,1.41 MB (Head),Ultra-Fast Lightweight Startup

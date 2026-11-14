@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Dataset Registries, Patient Cohort Statistics, Inclusion Criteria and Quality Control Protocols}
+\label{tab:supp_table_01_dataset_registry_cohort_statistics_and_inclusion_criteria}
+\begin{tabular}{llrll}
+\toprule
+Registry Name & Imaging / Data Modality & Total Patients & Inclusion Criteria & Quality Control Procedure \\
+\midrule
+CBIS-DDSM & Full-Field Digital Mammography & 890 & Pathology-confirmed BI-RADS 3-5 lesions with paired CC/MLO views & Resolution check, bit-depth verification, background air-segmentation \\
+BUSI & B-Mode Breast Ultrasound & 780 & Women aged 25-75 with confirmed sonographic benign or malignant masses & Speckle noise filtering, aspect ratio preservation, boundary margin validation \\
+BreaKHis & Histopathology Core Needle Biopsy & 540 & Surgical biopsy patches imaged at 40x, 100x, 200x, 400x magnification & Macenko SVD stain normalization, out-of-focus blur rejection \\
+Duke MRI & Dynamic Contrast-Enhanced MRI & 350 & Pre-treatment 3D T1-weighted DCE sequences with dynamic wash-out curves & NIfTI volume standardization, B1-inhomogeneity bias field correction \\
+Clinical Tabular & Demographics & Risk Factors & 2867 & Complete age, menopausal status, family history, and parity documentation & Z-score quantile normalization, range bounding, outlier clipping \\
+MIMIC-IV EHR & Longitudinal Laboratory Panels & 2867 & Documented CBC, inflammatory ESR, and oncology biomarker panels (CA 15-3) & Forward-fill temporal imputation, zero-variance feature elimination \\
+TCGA-BRCA & RNA-Seq Transcriptomics & 1098 & Standardized Illumina HiSeq 500-gene panel with histological grading & Log2(TPM+1) transformation, biological pathway bottleneck grouping \\
+\bottomrule
+\end{tabular}
+\end{table}

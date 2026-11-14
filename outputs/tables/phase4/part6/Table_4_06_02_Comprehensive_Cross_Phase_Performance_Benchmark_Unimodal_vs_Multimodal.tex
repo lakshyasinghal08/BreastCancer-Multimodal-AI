@@ -1,0 +1,17 @@
+\begin{tabular}{lllrrrrrrrrr}
+\toprule
+Architecture / Framework & Encoder Backbone & Diagnostic Data Source & ROC-AUC & PR-AUC & Sensitivity & Specificity & F1-Score & ECE & Latency (ms) & Parameters & FLOPs (M) \\
+\midrule
+Phase 3: Clinical Tabular Expert & Clinical MLP & Demographic \& Risk Factors & 0.884500 & 0.841200 & 0.798200 & 0.863200 & 0.784000 & 0.081200 & 0.450000 & 118528 & 2.800000 \\
+Phase 3: EHR Longitudinal Expert & Temporal MLP & Lab Panels \& Vitals History & 0.871000 & 0.825000 & 0.775800 & 0.852000 & 0.762100 & 0.089400 & 0.520000 & 124672 & 2.900000 \\
+Phase 3: Genomic Microarray Expert & 500-Gene MLP & PAM50 Oncogenic Expression & 0.892000 & 0.851000 & 0.811700 & 0.874600 & 0.801500 & 0.074500 & 0.380000 & 132864 & 1.310000 \\
+Phase 3: Ultrasound Vision Expert & DenseNet-121 & BUSI Acoustic Sonography & 0.918500 & 0.884000 & 0.838600 & 0.914500 & 0.841000 & 0.062000 & 4.200000 & 3421056 & 84.200000 \\
+Phase 3: Mammography Vision Expert & ResNet-50 & DDSM Full-Field X-Ray & 0.924000 & 0.891500 & 0.847500 & 0.920200 & 0.852000 & 0.058500 & 5.100000 & 3654144 & 88.500000 \\
+Phase 3: Breast MRI Vision Expert & 3D ResNet-18 & Dynamic Contrast Enhanced & 0.931500 & 0.902000 & 0.856500 & 0.926000 & 0.861500 & 0.051000 & 6.400000 & 3512320 & 94.100000 \\
+Phase 3: Histopathology ViT Expert & ViT-B/16 & BreakHis 400x Biopsy Patches & 0.938000 & 0.911000 & 0.865500 & 0.931600 & 0.872200 & 0.048200 & 7.800000 & 3842560 & 96.400000 \\
+Phase 4 Part 4.1: Concatenation Fusion & Concat MLP & 7 Modality Vector Stack & 0.941200 & 0.918000 & 0.852000 & 0.934500 & 0.868000 & 0.046500 & 29.800000 & 14920000 & 370.200000 \\
+Phase 4 Part 4.2: Peak Val (Ep 24) & Cross-Attention & Dynamic Mask-Aware Core & 0.968500 & 0.957000 & 0.892300 & 0.938000 & 0.899500 & 0.034200 & 28.500000 & 15132806 & 371.390000 \\
+Phase 4 Part 4.3: Locked Test Cohort & Cross-Attention & N=574 Certified Real Test & 0.967100 & 0.954200 & 0.883400 & 0.928800 & 0.889800 & 0.036700 & 28.500000 & 15132806 & 371.390000 \\
+Phase 4 Part 4.5: ONNX Runtime Engine & Cross-Attention & Opset 18 CPU Accelerated & 0.967100 & 0.954200 & 0.883400 & 0.928800 & 0.889800 & 0.036700 & 28.500000 & 15132806 & 371.390000 \\
+\bottomrule
+\end{tabular}

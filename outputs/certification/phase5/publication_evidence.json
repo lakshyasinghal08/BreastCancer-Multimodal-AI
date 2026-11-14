@@ -1,0 +1,18 @@
+{
+  "figures_exported": 16,
+  "figures_formats": [
+    "PNG_300DPI",
+    "SVG",
+    "PDF"
+  ],
+  "total_figure_files": 48,
+  "tables_exported": 12,
+  "tables_formats": [
+    "CSV",
+    "XLSX",
+    "MD",
+    "LATEX"
+  ],
+  "total_table_files": 48,
+  "manuscript_readiness": "PUBLICATION_READY"
+}

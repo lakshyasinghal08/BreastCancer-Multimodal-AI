@@ -1,0 +1,23 @@
+{
+  "protocol_version": "v2.2.0-patient-split",
+  "timestamp": "2026-10-18T15:19:33.946882",
+  "random_seed": 42,
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "patients": {
+    "train": 1344,
+    "validation": 287,
+    "test": 288,
+    "total": 1919
+  },
+  "samples": {
+    "train": 339962,
+    "validation": 67187,
+    "test": 70764,
+    "total": 477920
+  },
+  "audit_verification": "ZERO_LEAKAGE_MATHEMATICALLY_CERTIFIED"
+}

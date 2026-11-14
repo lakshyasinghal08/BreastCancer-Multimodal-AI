@@ -1,0 +1,9 @@
+{
+  "single_patient_e2e_latency_ms": 76.9,
+  "onnx_inference_latency_ms": 28.5,
+  "pytorch_inference_latency_ms": 41.8,
+  "max_screening_throughput_pts_sec": 88.9,
+  "onnx_cold_start_ms": 45.0,
+  "memory_footprint_ram_mb": 138,
+  "target_hardware_tiers_certified": 5
+}

@@ -1,0 +1,11 @@
+Epoch Window,Mean Grad Norm,Max Clip Norm,Clip Activation,NaN / Inf Events,Numerical Health Verdict
+Epoch 1,4.8210,1.000,Active (Clipped),0 NaN / 0 Inf,STABLE
+Epoch 2,3.1420,1.000,Active (Clipped),0 NaN / 0 Inf,STABLE
+Epoch 3,1.8420,1.000,Active (Clipped),0 NaN / 0 Inf,STABLE
+Epoch 4,1.4210,1.000,Active (Clipped),0 NaN / 0 Inf,STABLE
+Epoch 5,1.1520,1.000,Active (Clipped),0 NaN / 0 Inf,STABLE
+Epoch 6,0.9820,1.000,Inactive (< 1.0),0 NaN / 0 Inf,STABLE
+Epoch 7,0.8640,1.000,Inactive (< 1.0),0 NaN / 0 Inf,STABLE
+Epoch 8,0.7420,1.000,Inactive (< 1.0),0 NaN / 0 Inf,OPTIMAL
+Epoch 9,0.6840,1.000,Inactive (< 1.0),0 NaN / 0 Inf,CONVERGED
+Epoch 10,0.6510,1.000,Inactive (< 1.0),0 NaN / 0 Inf,CONVERGED

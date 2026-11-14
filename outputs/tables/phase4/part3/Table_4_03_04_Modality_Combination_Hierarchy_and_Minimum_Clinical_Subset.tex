@@ -1,0 +1,15 @@
+\begin{tabular}{llrllll}
+\toprule
+Clinical Setting & Modality Subset & Modality Count & Accuracy & ROC_AUC & AUC Retained & Recommendation \\
+\midrule
+Full Specialized Academic Cancer Center & All 7 Unified Modalities & 7 & 91.18% & 0.9672 & 100.00% & Gold Standard Full Comprehensive Diagnostic Panel \\
+Comprehensive Cancer Center (No EHR Integration) & Mammo + US + Histo + MRI + Clin + Geno & 6 & 91.15% & 0.9671 & 99.99% & Practically identical to full model; robust to EHR absence \\
+Advanced Diagnostic & Genomics Center & Mammo + US + Histo + MRI + Geno & 5 & 91.11% & 0.9669 & 99.97% & Comprehensive imaging plus genomic risk stratification \\
+Standard Clinical Oncology Quad Core & Mammo + US + Histo + MRI & 4 & 90.94% & 0.9660 & 99.88% & Core multimodal imaging protocol with pathology confirmation \\
+Standard Triple Assessment Breast Clinic & Mammo + US + Histo & 3 & 90.59% & 0.9638 & 99.65% & Optimal Parsimonious Triad: captures 99.65% of full model power \\
+Non-Invasive Diagnostic Screen (Dense Breast) & Mammo + Breast MRI & 2 & 89.02% & 0.9530 & 98.53% & High-risk non-invasive screening protocol \\
+Standard Routine Non-Invasive Screening & Mammo + Ultrasound & 2 & 88.15% & 0.9458 & 97.79% & Minimum Non-Invasive Combination for clinical screening \\
+Resource-Constrained Unimodal Pathology & Histopathology Only & 1 & 88.85% & 0.9512 & 98.35% & Highest-performing unimodal backup under severe outage \\
+Resource-Constrained Mammography Screen & Mammography Only & 1 & 86.59% & 0.9324 & 96.40% & Acceptable baseline for population screening \\
+\bottomrule
+\end{tabular}

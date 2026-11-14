@@ -1,0 +1,8 @@
+| Explanation Method          |   Deletion AUC (Lower = Better) |   Insertion AUC (Higher = Better) |   Fidelity Score (Ins - Del) |   Sparsity Gini Index | Faithfulness Rank                |
+|:----------------------------|--------------------------------:|----------------------------------:|-----------------------------:|----------------------:|:---------------------------------|
+| Integrated Gradients        |                          0.2892 |                            0.522  |                       0.2328 |                 0.842 | 1 (Highest Overall Faithfulness) |
+| Score-CAM                   |                          0.3084 |                            0.5122 |                       0.2038 |                 0.815 | 2                                |
+| Grad-CAM++                  |                          0.3221 |                            0.5116 |                       0.1896 |                 0.795 | 3                                |
+| Standard Grad-CAM           |                          0.3286 |                            0.5016 |                       0.1729 |                 0.768 | 4                                |
+| KernelSHAP (Tabular/Geno)   |                          0.1982 |                            0.6845 |                       0.4863 |                 0.825 | 1 (Tabular Gold Standard)        |
+| Random Baseline Attribution |                          0.546  |                            0.27   |                      -0.276  |                 0.112 | Null Baseline                    |

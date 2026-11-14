@@ -1,0 +1,18 @@
+{
+  "ieee_tmi_compliant": true,
+  "media_elsevier_compliant": true,
+  "nature_scientific_reports_compliant": true,
+  "lancet_digital_health_compliant": true,
+  "cbm_cmpb_compliant": true,
+  "vector_formats_included": [
+    "SVG",
+    "PDF",
+    "EPS"
+  ],
+  "raster_formats_included": [
+    "PNG_600DPI"
+  ],
+  "color_space": "RGB / sRGB",
+  "minimum_line_width_pt": 0.5,
+  "embedded_fonts": true
+}

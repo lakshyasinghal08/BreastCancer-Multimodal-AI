@@ -1,0 +1,131 @@
+{
+  "inventory_version": "1.0.0",
+  "timestamp": "2026-11-13T22:55:00+05:30",
+  "directories": {
+    "artifact_inventory": {
+      "path": "outputs/artifact_inventory",
+      "file_count": 5,
+      "size_mb": 0.87
+    },
+    "cache": {
+      "path": "outputs/cache",
+      "file_count": 3,
+      "size_mb": 1.15
+    },
+    "certification": {
+      "path": "outputs/certification",
+      "file_count": 135,
+      "size_mb": 1.49
+    },
+    "checkpoints": {
+      "path": "outputs/checkpoints",
+      "file_count": 24,
+      "size_mb": 216.68
+    },
+    "config": {
+      "path": "outputs/config",
+      "file_count": 38,
+      "size_mb": 0.06
+    },
+    "deployment": {
+      "path": "outputs/deployment",
+      "file_count": 62,
+      "size_mb": 0.11
+    },
+    "documentation": {
+      "path": "outputs/documentation",
+      "file_count": 6,
+      "size_mb": 0.01
+    },
+    "environment": {
+      "path": "outputs/environment",
+      "file_count": 5,
+      "size_mb": 0.0
+    },
+    "experiments": {
+      "path": "outputs/experiments",
+      "file_count": 45,
+      "size_mb": 0.03
+    },
+    "explainability": {
+      "path": "outputs/explainability",
+      "file_count": 1,
+      "size_mb": 0.0
+    },
+    "figures": {
+      "path": "outputs/figures",
+      "file_count": 1062,
+      "size_mb": 137.02
+    },
+    "logs": {
+      "path": "outputs/logs",
+      "file_count": 2,
+      "size_mb": 0.14
+    },
+    "models": {
+      "path": "outputs/models",
+      "file_count": 343,
+      "size_mb": 652.68
+    },
+    "paper": {
+      "path": "outputs/paper",
+      "file_count": 32,
+      "size_mb": 2.33
+    },
+    "predictions": {
+      "path": "outputs/predictions",
+      "file_count": 1,
+      "size_mb": 0.0
+    },
+    "publication": {
+      "path": "outputs/publication",
+      "file_count": 1,
+      "size_mb": 0.0
+    },
+    "publication_assets": {
+      "path": "outputs/publication_assets",
+      "file_count": 195,
+      "size_mb": 122.04
+    },
+    "reports": {
+      "path": "outputs/reports",
+      "file_count": 90,
+      "size_mb": 159.11
+    },
+    "reproducibility": {
+      "path": "outputs/reproducibility",
+      "file_count": 59,
+      "size_mb": 4.36
+    },
+    "splits": {
+      "path": "outputs/splits",
+      "file_count": 20,
+      "size_mb": 340.81
+    },
+    "statistics": {
+      "path": "outputs/statistics",
+      "file_count": 1,
+      "size_mb": 0.0
+    },
+    "submission_package": {
+      "path": "outputs/submission_package",
+      "file_count": 116,
+      "size_mb": 3.4
+    },
+    "supplementary": {
+      "path": "outputs/supplementary",
+      "file_count": 51,
+      "size_mb": 4.81
+    },
+    "tables": {
+      "path": "outputs/tables",
+      "file_count": 1391,
+      "size_mb": 447.66
+    },
+    "xai": {
+      "path": "outputs/xai",
+      "file_count": 10,
+      "size_mb": 0.03
+    }
+  }
+}

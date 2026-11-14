@@ -1,0 +1,8 @@
+Unique Dataset ID,Dataset Name,Detected Modality,Detected Type,Location,Total Files,Total Images,Total Tables,Metadata Available,Patient Information Available,Storage Size (MB),Health Status,Registration Timestamp
+DS_001_CBIS_DDSM,CBIS-DDSM,Mammography,Unknown Dataset,datasets/CBIS-DDSM,3988,882,0,Yes,No,2963.94,Optimal,2026-10-18 22:52:57
+DS_002_CLINICAL,Clinical,Clinical,Clinical Dataset,datasets/Clinical,1,0,1,No,Yes,0.12,Missing Documentation,2026-10-18 22:52:57
+DS_003_DATASET_BUSI_WITH_GT,Dataset_BUSI_with_GT,Ultrasound,Image Dataset,datasets/Dataset_BUSI_with_GT,1578,1578,0,No,No,253.85,Missing Documentation,2026-10-18 22:52:58
+DS_004_EHR,EHR,EHR,EHR Dataset,datasets/EHR,1,0,1,No,Yes,0.05,Missing Documentation,2026-10-18 22:52:58
+DS_005_GENOMIC,Genomic,Genomic,Genomic Dataset,datasets/Genomic,1,0,1,No,Yes,133.54,Missing Documentation,2026-10-18 22:53:02
+DS_006_HISTOPATHOLOGY,Histopathology,Histopathology,Image Dataset,datasets/Histopathology,224872,224872,0,No,Yes,1237.88,Missing Documentation,2026-10-18 22:53:43
+DS_007_VISION_GENOMIC_FUSION,Vision_Genomic_Fusion,Fusion,Mixed Dataset,datasets/Vision_Genomic_Fusion,250332,250325,6,Yes,Yes,19093.76,Optimal,2026-10-18 22:54:09

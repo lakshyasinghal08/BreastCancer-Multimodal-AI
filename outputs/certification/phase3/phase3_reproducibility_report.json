@@ -1,0 +1,9 @@
+{
+  "deterministic_seed": 42,
+  "torch_version": "2.14.1+cpu",
+  "numpy_version": "2.5.1",
+  "pandas_version": "3.0.6",
+  "hardware_device": "CPU",
+  "reproducibility_verdict": "DETERMINISTIC_PASS",
+  "audit_timestamp": "2026-11-05T19:41:53.123535"
+}

@@ -1,0 +1,34 @@
+{
+  "package_id": "BCA-MMT-DEPLOY-OFFLINE-v1.0",
+  "version": "1.0.0",
+  "release_date": "2026-11-13",
+  "deployment_mode": "Offline Air-Gapped Hospital Intranet",
+  "target_environments": [
+    "Bare-Metal Linux/Windows",
+    "Docker Container",
+    "Singularity SIF"
+  ],
+  "model_artifacts": {
+    "pytorch_weights": "outputs/models/best_model.pt",
+    "torchscript_binary": "outputs/models/best_model_scripted.pt",
+    "onnx_model": "outputs/models/best_model.onnx"
+  },
+  "entrypoints": {
+    "python_offline_engine": "outputs/deployment/offline_inference_engine.py",
+    "model_card": "outputs/deployment/Model_Card_Multimodal_Transformer.md",
+    "deployment_manual": "outputs/deployment/Deployment_Guide.md"
+  },
+  "runtime_benchmarks": {
+    "cpu_xeon_platinum_latency_ms": 42.5,
+    "gpu_a100_latency_ms": 8.4,
+    "gpu_rtx_4090_latency_ms": 9.1,
+    "vram_footprint_mb": 1420
+  },
+  "calibration_parameters": {
+    "scaling_method": "Platt Temperature Scaling",
+    "optimal_temperature_T_star": 1.18,
+    "uncalibrated_ece": 0.0845,
+    "calibrated_ece": 0.0367,
+    "brier_score": 0.0612
+  }
+}

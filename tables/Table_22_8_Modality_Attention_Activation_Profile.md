@@ -1,0 +1,9 @@
+| Modality                  | Encoder Architecture                 |   Latent Dim |   Mean Attention Weight |   Std Dev |   Attention Rank | Clinical Importance                         |
+|:--------------------------|:-------------------------------------|-------------:|------------------------:|----------:|-----------------:|:--------------------------------------------|
+| Mammography               | LightweightVision (ConvStem+3-Stage) |          128 |                   0.182 |     0.024 |                2 | Primary Screening Morphology                |
+| Ultrasound                | LightweightVision (ConvStem+3-Stage) |          128 |                   0.154 |     0.019 |                3 | Cystic vs Solid Differentiation             |
+| Histopathology            | LightweightVision (3-Channel RGB)    |          128 |                   0.245 |     0.031 |                1 | Definitive Cellular Malignancy Ground Truth |
+| MRI                       | LightweightVision (ConvStem+3-Stage) |          128 |                   0.138 |     0.018 |                4 | Vascular Kinetics & Tumor Extent            |
+| Clinical Variables        | Dense MLP (30->64->128)              |          128 |                   0.112 |     0.015 |                5 | FNA Nuclear Morphometry                     |
+| Electronic Health Records | Dense MLP (16->64->128)              |          128 |                   0.091 |     0.012 |                6 | Demographic & Staging Markers               |
+| Genomic Features          | Dense MLP (331->128)                 |          128 |                   0.078 |     0.011 |                7 | Molecular Subtyping & CNV Signatures        |

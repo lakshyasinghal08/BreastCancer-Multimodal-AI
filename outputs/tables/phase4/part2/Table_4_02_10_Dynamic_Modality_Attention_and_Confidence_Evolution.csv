@@ -1,0 +1,8 @@
+Modality Name,Initial Weight (Ep 1),Midpoint Weight (Ep 5),Optimal Weight (Ep 8),Confidence Trend,Clinical Diagnostic Synergism
+Mammography (MG),0.1428,0.1845,0.1982,Ascending (+38.8%),High sensitivity for microcalcifications & architectural distortion
+Ultrasound (US),0.1428,0.1582,0.1654,Ascending (+15.8%),Dense breast margin resolution and cystic/solid differentiation
+Histopathology (HP),0.1428,0.2241,0.2415,Ascending (+69.1%),Definitive microscopic cellular atypia and nuclear pleomorphism
+Breast MRI (MRI),0.1428,0.1654,0.1712,Ascending (+19.9%),Angiogenic dynamic contrast enhancement and lesion extent
+Clinical FNA (Clin),0.1428,0.0812,0.0745,Calibrated (-47.8%),Baseline physical cytology; supportive role when imaging clear
+EHR Oncology (EHR),0.1428,0.0741,0.0684,Calibrated (-52.1%),"Longitudinal staging, receptor status (ER/PR/HER2), patient age"
+Genomic Microarray (Gen),0.1428,0.1125,0.1208,Stabilized (-15.4%),PAM50 intrinsic subtype stratification and proliferation index

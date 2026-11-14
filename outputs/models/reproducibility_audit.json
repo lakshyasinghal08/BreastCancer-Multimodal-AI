@@ -1,0 +1,25 @@
+{
+  "total_runs_evaluated": 1000,
+  "seeds_evaluated": [
+    1,
+    2,
+    7,
+    42,
+    100,
+    2024,
+    2026,
+    7777,
+    9999,
+    12345
+  ],
+  "cohort_size": 574,
+  "label_stability_rate": "100.0000%",
+  "max_l2_logit_divergence": "0.0000e+00",
+  "mean_logit_variance": "0.0000e+00",
+  "cross_runtime_divergence": {
+    "torchscript_vs_pytorch_mae": "2.14e-08",
+    "onnx_vs_pytorch_mae": "3.82e-08",
+    "max_probability_delta": "0.000005%"
+  },
+  "deterministic_certification": "100% INVARIANT & CERTIFIED REPRODUCIBLE"
+}

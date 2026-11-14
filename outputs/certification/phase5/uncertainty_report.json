@@ -1,0 +1,18 @@
+{
+  "shannon_threshold_low": 0.15,
+  "shannon_threshold_high": 0.5,
+  "cohort_distribution": {
+    "automated_triage": {
+      "count": 422,
+      "percent": 73.5
+    },
+    "secondary_review": {
+      "count": 114,
+      "percent": 19.9
+    },
+    "tumor_board_escalation": {
+      "count": 38,
+      "percent": 6.6
+    }
+  }
+}

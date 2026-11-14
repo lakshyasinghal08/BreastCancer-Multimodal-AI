@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-18T15:20:08.156674",
+  "loader_status": "CERTIFIED_OPERATIONAL",
+  "cache_capacity": 256,
+  "cache_statistics": {
+    "requests": 35,
+    "hits": 0,
+    "misses": 35,
+    "errors": 0
+  },
+  "modalities_supported": [
+    "Mammography",
+    "Ultrasound",
+    "Histopathology",
+    "MRI",
+    "Clinical",
+    "EHR",
+    "Genomic"
+  ],
+  "benchmarked_modalities": 7
+}

@@ -1,0 +1,8 @@
+{
+  "cache_capacity": 128,
+  "cache_size_current": 128,
+  "cache_hits": 200,
+  "cache_misses": 200,
+  "hit_ratio_pct": 50.0,
+  "total_errors_logged": 0
+}

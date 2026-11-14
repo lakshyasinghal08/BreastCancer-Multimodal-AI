@@ -1,0 +1,10 @@
+Hyperparameter,Value,Mathematical Formulation
+Algorithm,AdamW (Decoupled Weight Decay),w_{t+1} = w_t - eta*(m_hat/(sqrt(v_hat)+eps) + lambda*w_t)
+Base Learning Rate (eta),1e-3 (0.0010),Global learning rate parameter
+Encoder Learning Rate,"5e-4 (0.0005, 0.5x ratio)",Conserves low-level feature representations
+Fusion Learning Rate,"1e-3 (0.0010, 1.0x ratio)",Dynamic cross-modal attention adaptation
+Classifier Head Learning Rate,"1.5e-3 (0.0015, 1.5x ratio)",Rapid decision boundary calibration
+Weight Decay (lambda),1e-4 (0.0001),Decoupled L2 regularization coefficient
+Betas (Momentum / Variance),"(0.90, 0.999)",Exponential decay rates for moment estimates
+Epsilon (Numerical Stability),1e-8,Denominator stabilizer against zero division
+Weight Decay Exclusion,Bias & LayerNorm / BatchNorm,Prevents artificial shrinkage of affine parameters

@@ -1,0 +1,8 @@
+Modality,Parameter_Count,Latent_Dim,Latency_ms,Throughput_fps,Checkpoint_Size_MB,Status
+Mammography,144848,128,4.25,235.3,0.58,Production Certified
+Ultrasound,144848,128,4.18,239.2,0.58,Production Certified
+Histopathology,145136,128,4.32,231.5,0.58,Production Certified
+Breast MRI,144848,128,4.22,237.0,0.58,Production Certified
+Clinical Tabular,45762,128,0.38,2631.6,0.18,Production Certified
+Electronic Health Record (EHR),61442,128,0.42,2381.0,0.24,Production Certified
+Genomic (GSE45827),14114568,128,12.3,81.3,53.84,Production Certified

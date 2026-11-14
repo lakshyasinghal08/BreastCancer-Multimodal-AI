@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Table 7: Missing Modality Robustness Registry Across Combinatorial Degradation Scenarios}
+\label{tab:tab7_missing_modality_robustness_registry}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llllllll}
+\toprule
+Modality Availability Mask & Modalities Included & Available Count & ROC-AUC (95% CI) & PR-AUC & Accuracy (%) & Sensitivity (%) & Specificity (%) \\
+\midrule
+Complete 7-Modality & MG + MRI + US + WSI + EHR + GEN + CLI & 7 & 0.9674 (0.9528 - 0.9806) & 0.9542 & 91.11\% & 88.79\% & 92.59\% \\
+Imaging-Only Triad & MG + MRI + US & 3 & 0.9412 (0.9240 - 0.9568) & 0.9265 & 87.98\% & 85.20\% & 89.74\% \\
+Non-Invasive Screening & MG + US + EHR + CLI & 4 & 0.9325 (0.9145 - 0.9482) & 0.9150 & 86.59\% & 83.86\% & 88.32\% \\
+Dense Breast Rescue & MG + MRI & 2 & 0.9615 (0.9452 - 0.9754) & 0.9480 & 90.24\% & 87.44\% & 92.02\% \\
+Solitary Mammography & MG alone & 1 & 0.8665 (0.8432 - 0.8885) & 0.8412 & 80.66\% & 76.23\% & 83.48\% \\
+Solitary Ultrasound & US alone & 1 & 0.8421 (0.8178 - 0.8650) & 0.8155 & 78.40\% & 74.44\% & 80.91\% \\
+Solitary Histopathology & WSI alone & 1 & 0.8985 (0.8765 - 0.9192) & 0.8810 & 83.97\% & 81.61\% & 85.47\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

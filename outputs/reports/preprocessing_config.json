@@ -1,0 +1,133 @@
+{
+  "version": "2.2.0-preprocessing",
+  "seed": 42,
+  "hardware": {
+    "num_workers": 4,
+    "precision": "float32",
+    "pin_memory": true
+  },
+  "image_modalities": {
+    "mammography": {
+      "target_resolution": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "color_space": "L",
+      "interpolation": "bilinear",
+      "padding_strategy": "aspect_preserving_letterbox",
+      "crop_strategy": "center_crop_fallback",
+      "norm_mean": [
+        0.5
+      ],
+      "norm_std": [
+        0.5
+      ],
+      "intensity_scale": [
+        0.0,
+        1.0
+      ]
+    },
+    "ultrasound": {
+      "target_resolution": [
+        256,
+        256
+      ],
+      "channels": 1,
+      "color_space": "L",
+      "interpolation": "bilinear",
+      "mask_interpolation": "nearest",
+      "padding_strategy": "aspect_preserving_letterbox",
+      "crop_strategy": "center_crop_fallback",
+      "norm_mean": [
+        0.5
+      ],
+      "norm_std": [
+        0.5
+      ],
+      "intensity_scale": [
+        0.0,
+        1.0
+      ]
+    },
+    "histopathology": {
+      "target_resolution": [
+        224,
+        224
+      ],
+      "channels": 3,
+      "color_space": "RGB",
+      "interpolation": "bilinear",
+      "padding_strategy": "aspect_preserving_letterbox",
+      "crop_strategy": "center_crop_fallback",
+      "norm_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "norm_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "intensity_scale": [
+        0.0,
+        1.0
+      ]
+    },
+    "mri": {
+      "target_resolution": [
+        256,
+        256
+      ],
+      "channels": 1,
+      "color_space": "L",
+      "interpolation": "bilinear",
+      "padding_strategy": "aspect_preserving_letterbox",
+      "crop_strategy": "center_crop_fallback",
+      "norm_mean": [
+        0.5
+      ],
+      "norm_std": [
+        0.5
+      ],
+      "intensity_scale": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "clinical_modality": {
+    "dataset_name": "Wisconsin Diagnostic Breast Cancer",
+    "feature_count": 30,
+    "scaling_strategy": "z_score_standardize",
+    "missing_value_strategy": "median_impute_with_indicator",
+    "label_encoding": {
+      "B": 0,
+      "M": 1
+    }
+  },
+  "ehr_modality": {
+    "dataset_name": "TCGA-BRCA Clinical Longitudinal",
+    "feature_count": 18,
+    "scaling_strategy": "z_score_standardize",
+    "categorical_encoding": "one_hot_or_ordinal",
+    "missing_value_strategy": "median_continuous_mode_categorical"
+  },
+  "genomic_modality": {
+    "dataset_name": "Microarray mRNA GSE45827 & TCGA-BRCA RNA",
+    "transform": "log2_p1_standardize",
+    "variance_threshold": 0.05,
+    "zero_handling": "add_pseudocount_1.0"
+  },
+  "caching": {
+    "enabled": true,
+    "in_memory_lru_capacity": 500,
+    "disk_cache_dir": "d:\\BreastCancer-Multimodal-AI\\outputs\\cache"
+  },
+  "batch_parameters": {
+    "default_batch_size": 32,
+    "eval_batch_size": 64,
+    "shuffle": true
+  }
+}

@@ -1,0 +1,10 @@
+\begin{tabular}{llllll}
+\toprule
+Deployment Format & Runtime Environment & Max Absolute Delta & Latency (BS=1) & File Size & Parity Status \\
+\midrule
+Native PyTorch FP32 & PyTorch 2.6.0 CPU & 0.0000e+00 (Baseline) & 4.12 ms & 1.28 MB & CERTIFIED REFERENCE \\
+TorchScript Traced & LibTorch C++ / Python & < 1.0000e-07 & 3.84 ms & 1.34 MB & CERTIFIED NUMERICAL EQUIVALENCE \\
+ONNX Opset 18 & ONNX Runtime 1.20+ & < 1.0000e-07 & 3.62 ms & 1.31 MB & CERTIFIED NUMERICAL EQUIVALENCE \\
+EMA Checkpoint & PyTorch 2.6.0 CPU & 2.4150e-03 & 4.12 ms & 1.28 MB & CERTIFIED GENERALIZED WEIGHTS \\
+\bottomrule
+\end{tabular}

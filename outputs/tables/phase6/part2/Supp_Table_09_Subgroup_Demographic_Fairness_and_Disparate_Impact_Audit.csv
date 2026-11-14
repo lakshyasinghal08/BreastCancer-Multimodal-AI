@@ -1,0 +1,7 @@
+Demographic / Clinical Axis,Subgroup Stratum,Cohort N,ROC-AUC,Sensitivity,Specificity,Disparate Impact Ratio,Fairness Status
+Age Group,Young (< 50 years),168,0.9652,0.8871,0.934,0.996,COMPLIANT (EEOC 4/5 Rule)
+Age Group,Senior (>= 50 years),406,0.9681,0.8819,0.9265,1.0,Reference Group
+Menopausal Status,Pre-Menopausal,185,0.9648,0.8889,0.9318,1.002,COMPLIANT
+Menopausal Status,Post-Menopausal,389,0.9684,0.8804,0.9274,1.0,Reference Group
+Breast Density,Dense (BI-RADS c/d),261,0.9615,0.8718,0.9226,0.99,COMPLIANT (Parenchymal Masking Rescued)
+Breast Density,Fatty (BI-RADS a/b),313,0.971,0.8943,0.9333,1.0,Reference Group

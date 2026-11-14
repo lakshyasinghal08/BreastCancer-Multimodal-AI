@@ -1,0 +1,139 @@
+# ==============================================================================
+# Comprehensive .gitignore for Multimodal Breast Cancer AI Research Project
+# PyTorch 2.1.2 | Python 3.10.13 | Medical Deep Learning (7 Modalities)
+# ==============================================================================
+
+# --- Clinical Datasets & Large Manifests (Exceeded GitHub limits & HIPAA Protected) ---
+# Original datasets MUST remain intact locally but excluded from version control
+datasets/
+data/
+raw_data/
+processed_data/
+outputs/reports/dataset_inventory.csv
+outputs/tables/master_manifest.csv
+outputs/tables/global_sample_index.csv
+outputs/tables/train*.csv
+outputs/tables/val*.csv
+outputs/tables/test*.csv
+outputs/splits/*.csv
+splits/*.csv
+*.dcm
+*.dicom
+*.svs
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.h5
+*.hdf5
+
+# --- Large Model Checkpoints & Serialized Weights (> 50 MB) ---
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.weights
+*.onnx.data
+models/*.pt
+models/*.joblib
+outputs/models/mammography/
+outputs/models/mri/
+outputs/models/ultrasound/
+outputs/models/histopathology/
+outputs/models/ehr/
+outputs/models/genomic/
+outputs/models/clinical/
+outputs/models/best_model.pt
+outputs/models/model_best*.pt
+outputs/models/model_final.pt
+outputs/models/model_ema.pt
+outputs/models/optimizer_state.pt
+outputs/models/scheduler_state.pt
+
+# Whitelist lightweight deployment demonstration models
+!outputs/models/best_model.onnx
+!outputs/models/best_model_scripted.pt
+!outputs/models/model_torchscript.pt
+
+# --- Python & Bytecode Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Jupyter Notebook & Interactive Checkpoints ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# --- Virtual Environments & Package Managers ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+
+# --- IDEs, Editors & Tooling Settings ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.directory
+
+# --- Operating System Generated Artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- Logging, Experiment Tracking & Profiling ---
+logs/
+*.log
+runs/
+wandb/
+tensorboard/
+*.tfevents.*
+lightning_logs/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Cache, Temporary Directories & Intermediate Scratch Files ---
+cache/
+.cache/
+scratch/
+mpl_config/
+tmp/
+temp/
+*.tmp
+*.bak
+

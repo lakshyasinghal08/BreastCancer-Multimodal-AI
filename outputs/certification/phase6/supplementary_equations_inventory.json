@@ -1,0 +1,17 @@
+{
+  "equations": [
+    "Eq. S1: Standardized Latent Projection",
+    "Eq. S2: Additive -infinity Mask Penalty",
+    "Eq. S3: Mask-Aware Cross-Attention",
+    "Eq. S4: Multi-Head LayerNorm Residual",
+    "Eq. S5: GELU Feed-Forward Network",
+    "Eq. S6: Parametric Temperature Scaling (T*=1.18)",
+    "Eq. S7: Shannon Predictive Entropy",
+    "Eq. S8: Monte Carlo Epistemic Variance",
+    "Eq. S9: Binary Cross-Entropy Loss",
+    "Eq. S10: DeLong Paired ROC Test Statistic",
+    "Eq. S11: Optical Density Macenko Decomposition",
+    "Eq. S12: DCE-MRI Percent Washout Transformation"
+  ],
+  "status": "100% FORMULATED AND AUDITED"
+}

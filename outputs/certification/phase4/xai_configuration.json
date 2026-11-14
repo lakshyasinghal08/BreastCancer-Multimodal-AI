@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 4 - Part 4.4",
+  "title": "Explainable Multimodal AI (XAI) Configuration Registry",
+  "evaluated_checkpoint": "outputs/models/best_model.pt",
+  "checkpoint_sha256": "b3b8a7b0b21bfd66e3211efab50fd8a15c0035e120595d4f8a7b9f295bb8ed8c",
+  "supported_vision_methods": [
+    "Grad-CAM",
+    "Grad-CAM++",
+    "Score-CAM",
+    "SmoothGrad",
+    "Integrated Gradients",
+    "Occlusion Sensitivity"
+  ],
+  "supported_tabular_methods": [
+    "KernelSHAP",
+    "Integrated Gradients",
+    "Feature Ablation",
+    "Permutation Feature Importance",
+    "Partial Dependence (PDP)",
+    "ICE",
+    "LIME"
+  ],
+  "supported_genomic_methods": [
+    "DeepSHAP",
+    "Integrated Gradients",
+    "Pathway Contribution Analysis",
+    "Biological Importance Profiling"
+  ],
+  "attention_mechanisms": [
+    "Multi-Head Attention Matrices",
+    "Layer-wise Attention Rollout",
+    "Modality Confidence Gating",
+    "Missing-Modality Redistribution"
+  ],
+  "status": "PRODUCTION_CONFIGURED"
+}

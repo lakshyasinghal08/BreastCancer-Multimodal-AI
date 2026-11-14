@@ -1,0 +1,12 @@
+### Cross-Modal Attention Allocation Weights (%) Across Evaluated Clinical Case Studies
+
+| Case ID    |   Mammography |   Ultrasound |   Histopathology |   Breast MRI |   Clinical Tabular |   Longitudinal EHR |   Genomics |
+|:-----------|--------------:|-------------:|-----------------:|-------------:|-------------------:|-------------------:|-----------:|
+| CASE-BC-01 |          0.18 |         0.42 |             0.15 |         0.1  |               0.08 |               0.04 |       0.03 |
+| CASE-BC-02 |          0.38 |         0.14 |             0.12 |         0.22 |               0.05 |               0.03 |       0.06 |
+| CASE-BC-03 |          0.28 |         0.22 |             0.24 |         0.12 |               0.06 |               0.04 |       0.04 |
+| CASE-BC-04 |          0.48 |         0.18 |             0.14 |         0.08 |               0.06 |               0.03 |       0.03 |
+| CASE-BC-05 |          0.08 |         0.12 |             0.22 |         0.34 |               0.04 |               0.04 |       0.16 |
+| CASE-BC-06 |          0.12 |         0.1  |             0.15 |         0.14 |               0.08 |               0.11 |       0.3  |
+| CASE-BC-07 |          0.52 |         0.48 |             0    |         0    |               0    |               0    |       0    |
+| CASE-BC-08 |          0    |         0    |             0    |         0    |               0.18 |               0.18 |       0.64 |

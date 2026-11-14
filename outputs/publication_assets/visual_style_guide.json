@@ -1,0 +1,20 @@
+{
+  "aspect_ratios": [
+    "1:1 (Square)",
+    "4:3 (Standard)",
+    "16:9 (Widescreen)",
+    "14:8 (Landscape Abstract)"
+  ],
+  "line_widths": {
+    "grid": 0.5,
+    "axis": 0.8,
+    "standard_plot": 1.5,
+    "fusion_highlight": 2.5
+  },
+  "dpi_standards": {
+    "online_preview": 150,
+    "standard_manuscript": 300,
+    "print_camera_ready": 600
+  },
+  "colorblind_safety": "Okabe-Ito and ColorBrewer Certified Accessible"
+}

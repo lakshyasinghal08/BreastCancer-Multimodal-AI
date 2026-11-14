@@ -1,0 +1,6 @@
+CV_Fold,Primary_Role,Patients_Enrolled,Cases_Enrolled,Samples_Contained,Malignant_Ratio,Isolation_Integrity
+Fold 0,Validation in Iteration 1,391,548,102101,0.1%,100% Patient-Level Isolated
+Fold 1,Validation in Iteration 2,386,543,94789,0.1%,100% Patient-Level Isolated
+Fold 2,Validation in Iteration 3,381,537,94280,0.1%,100% Patient-Level Isolated
+Fold 3,Validation in Iteration 4,381,536,97360,0.1%,100% Patient-Level Isolated
+Fold 4,Validation in Iteration 5,380,535,89390,0.1%,100% Patient-Level Isolated

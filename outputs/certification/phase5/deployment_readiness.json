@@ -1,0 +1,20 @@
+{
+  "supported_deployment_targets": [
+    "NVIDIA A100 Tensor Core GPU (80GB)",
+    "NVIDIA A100 Tensor Core GPU (80GB)",
+    "NVIDIA RTX 4090 Workstation GPU (24GB)",
+    "Intel Xeon Platinum 8380 CPU (32 Cores)",
+    "Apple M2 Pro (16GB Unified Memory)",
+    "Intel Core i7-12700K Standard PC (16GB)"
+  ],
+  "formats_verified": [
+    "PyTorch FP32 (Reference Checkpoint)",
+    "TorchScript JIT Compiled (model_torchscript.pt)",
+    "ONNX Runtime FP32 (model_fusion.onnx)",
+    "OpenVINO FP16 Quantized Engine"
+  ],
+  "model_file_size_pytorch_mb": 57.97,
+  "model_file_size_torchscript_mb": 1.32,
+  "model_file_size_onnx_mb": 0.21,
+  "production_readiness_verdict": "TIER_1_2_3_DEPLOYMENT_CERTIFIED"
+}

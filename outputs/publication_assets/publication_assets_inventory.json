@@ -1,0 +1,298 @@
+{
+  "total_assets_cataloged": 34,
+  "formats_exported": [
+    "PNG_600DPI",
+    "SVG",
+    "PDF",
+    "EPS",
+    "EDITABLE_SVG"
+  ],
+  "total_graphic_files": 170,
+  "directories": {
+    "graphical_abstract": "outputs/publication_assets/graphical_abstract",
+    "toc_figure": "outputs/publication_assets/toc_figure",
+    "architecture": "outputs/publication_assets/architecture",
+    "workflow": "outputs/publication_assets/workflow",
+    "performance": "outputs/publication_assets/performance",
+    "clinical_cases": "outputs/publication_assets/clinical_cases",
+    "infographics": "outputs/publication_assets/infographics",
+    "icons": "outputs/publication_assets/icons",
+    "templates": "outputs/publication_assets/templates",
+    "editable": "outputs/publication_assets/editable",
+    "certification": "outputs/certification/phase6"
+  },
+  "assets": [
+    {
+      "name": "Graphical_Abstract_Seven_Modality_Cross_Attention",
+      "png": "outputs/publication_assets/graphical_abstract/Graphical_Abstract_Seven_Modality_Cross_Attention.png",
+      "svg": "outputs/publication_assets/graphical_abstract/Graphical_Abstract_Seven_Modality_Cross_Attention.svg",
+      "pdf": "outputs/publication_assets/graphical_abstract/Graphical_Abstract_Seven_Modality_Cross_Attention.pdf",
+      "eps": "outputs/publication_assets/graphical_abstract/Graphical_Abstract_Seven_Modality_Cross_Attention.eps",
+      "editable_svg": "outputs/publication_assets/editable/Graphical_Abstract_Seven_Modality_Cross_Attention_editable.svg"
+    },
+    {
+      "name": "TOC_Figure_BreastCancer_Multimodal_Transformer",
+      "png": "outputs/publication_assets/toc_figure/TOC_Figure_BreastCancer_Multimodal_Transformer.png",
+      "svg": "outputs/publication_assets/toc_figure/TOC_Figure_BreastCancer_Multimodal_Transformer.svg",
+      "pdf": "outputs/publication_assets/toc_figure/TOC_Figure_BreastCancer_Multimodal_Transformer.pdf",
+      "eps": "outputs/publication_assets/toc_figure/TOC_Figure_BreastCancer_Multimodal_Transformer.eps",
+      "editable_svg": "outputs/publication_assets/editable/TOC_Figure_BreastCancer_Multimodal_Transformer_editable.svg"
+    },
+    {
+      "name": "Visual_Research_Summary_Infographic_Poster",
+      "png": "outputs/publication_assets/infographics/Visual_Research_Summary_Infographic_Poster.png",
+      "svg": "outputs/publication_assets/infographics/Visual_Research_Summary_Infographic_Poster.svg",
+      "pdf": "outputs/publication_assets/infographics/Visual_Research_Summary_Infographic_Poster.pdf",
+      "eps": "outputs/publication_assets/infographics/Visual_Research_Summary_Infographic_Poster.eps",
+      "editable_svg": "outputs/publication_assets/editable/Visual_Research_Summary_Infographic_Poster_editable.svg"
+    },
+    {
+      "name": "Arch_01_Overall_Seven_Modality_Framework",
+      "png": "outputs/publication_assets/architecture/Arch_01_Overall_Seven_Modality_Framework.png",
+      "svg": "outputs/publication_assets/architecture/Arch_01_Overall_Seven_Modality_Framework.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_01_Overall_Seven_Modality_Framework.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_01_Overall_Seven_Modality_Framework.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_01_Overall_Seven_Modality_Framework_editable.svg"
+    },
+    {
+      "name": "Arch_02_Seven_Unimodal_Expert_Encoders",
+      "png": "outputs/publication_assets/architecture/Arch_02_Seven_Unimodal_Expert_Encoders.png",
+      "svg": "outputs/publication_assets/architecture/Arch_02_Seven_Unimodal_Expert_Encoders.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_02_Seven_Unimodal_Expert_Encoders.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_02_Seven_Unimodal_Expert_Encoders.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_02_Seven_Unimodal_Expert_Encoders_editable.svg"
+    },
+    {
+      "name": "Arch_03_Dynamic_Mask_Aware_Cross_Attention",
+      "png": "outputs/publication_assets/architecture/Arch_03_Dynamic_Mask_Aware_Cross_Attention.png",
+      "svg": "outputs/publication_assets/architecture/Arch_03_Dynamic_Mask_Aware_Cross_Attention.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_03_Dynamic_Mask_Aware_Cross_Attention.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_03_Dynamic_Mask_Aware_Cross_Attention.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_03_Dynamic_Mask_Aware_Cross_Attention_editable.svg"
+    },
+    {
+      "name": "Arch_04_Embedding_Harmonization_Module",
+      "png": "outputs/publication_assets/architecture/Arch_04_Embedding_Harmonization_Module.png",
+      "svg": "outputs/publication_assets/architecture/Arch_04_Embedding_Harmonization_Module.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_04_Embedding_Harmonization_Module.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_04_Embedding_Harmonization_Module.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_04_Embedding_Harmonization_Module_editable.svg"
+    },
+    {
+      "name": "Arch_05_Missing_Modality_Handling_Engine",
+      "png": "outputs/publication_assets/architecture/Arch_05_Missing_Modality_Handling_Engine.png",
+      "svg": "outputs/publication_assets/architecture/Arch_05_Missing_Modality_Handling_Engine.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_05_Missing_Modality_Handling_Engine.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_05_Missing_Modality_Handling_Engine.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_05_Missing_Modality_Handling_Engine_editable.svg"
+    },
+    {
+      "name": "Arch_06_Explainability_Pipeline",
+      "png": "outputs/publication_assets/architecture/Arch_06_Explainability_Pipeline.png",
+      "svg": "outputs/publication_assets/architecture/Arch_06_Explainability_Pipeline.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_06_Explainability_Pipeline.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_06_Explainability_Pipeline.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_06_Explainability_Pipeline_editable.svg"
+    },
+    {
+      "name": "Arch_07_Clinical_Inference_Workflow",
+      "png": "outputs/publication_assets/architecture/Arch_07_Clinical_Inference_Workflow.png",
+      "svg": "outputs/publication_assets/architecture/Arch_07_Clinical_Inference_Workflow.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_07_Clinical_Inference_Workflow.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_07_Clinical_Inference_Workflow.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_07_Clinical_Inference_Workflow_editable.svg"
+    },
+    {
+      "name": "Arch_08_Deployment_Architecture",
+      "png": "outputs/publication_assets/architecture/Arch_08_Deployment_Architecture.png",
+      "svg": "outputs/publication_assets/architecture/Arch_08_Deployment_Architecture.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_08_Deployment_Architecture.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_08_Deployment_Architecture.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_08_Deployment_Architecture_editable.svg"
+    },
+    {
+      "name": "Arch_09_End_to_End_System_Pipeline",
+      "png": "outputs/publication_assets/architecture/Arch_09_End_to_End_System_Pipeline.png",
+      "svg": "outputs/publication_assets/architecture/Arch_09_End_to_End_System_Pipeline.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_09_End_to_End_System_Pipeline.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_09_End_to_End_System_Pipeline.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_09_End_to_End_System_Pipeline_editable.svg"
+    },
+    {
+      "name": "Arch_10_Research_Lifecycle_Overview",
+      "png": "outputs/publication_assets/architecture/Arch_10_Research_Lifecycle_Overview.png",
+      "svg": "outputs/publication_assets/architecture/Arch_10_Research_Lifecycle_Overview.svg",
+      "pdf": "outputs/publication_assets/architecture/Arch_10_Research_Lifecycle_Overview.pdf",
+      "eps": "outputs/publication_assets/architecture/Arch_10_Research_Lifecycle_Overview.eps",
+      "editable_svg": "outputs/publication_assets/editable/Arch_10_Research_Lifecycle_Overview_editable.svg"
+    },
+    {
+      "name": "Workflow_01_Complete_Project_Lifecycle",
+      "png": "outputs/publication_assets/workflow/Workflow_01_Complete_Project_Lifecycle.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_01_Complete_Project_Lifecycle.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_01_Complete_Project_Lifecycle.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_01_Complete_Project_Lifecycle.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_01_Complete_Project_Lifecycle_editable.svg"
+    },
+    {
+      "name": "Workflow_02_Dataset_Engineering_Pipeline",
+      "png": "outputs/publication_assets/workflow/Workflow_02_Dataset_Engineering_Pipeline.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_02_Dataset_Engineering_Pipeline.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_02_Dataset_Engineering_Pipeline.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_02_Dataset_Engineering_Pipeline.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_02_Dataset_Engineering_Pipeline_editable.svg"
+    },
+    {
+      "name": "Workflow_03_Multimodal_Training_Pipeline",
+      "png": "outputs/publication_assets/workflow/Workflow_03_Multimodal_Training_Pipeline.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_03_Multimodal_Training_Pipeline.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_03_Multimodal_Training_Pipeline.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_03_Multimodal_Training_Pipeline.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_03_Multimodal_Training_Pipeline_editable.svg"
+    },
+    {
+      "name": "Workflow_04_Comprehensive_Evaluation_Protocol",
+      "png": "outputs/publication_assets/workflow/Workflow_04_Comprehensive_Evaluation_Protocol.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_04_Comprehensive_Evaluation_Protocol.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_04_Comprehensive_Evaluation_Protocol.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_04_Comprehensive_Evaluation_Protocol.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_04_Comprehensive_Evaluation_Protocol_editable.svg"
+    },
+    {
+      "name": "Workflow_05_Explainability_Verification_Workflow",
+      "png": "outputs/publication_assets/workflow/Workflow_05_Explainability_Verification_Workflow.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_05_Explainability_Verification_Workflow.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_05_Explainability_Verification_Workflow.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_05_Explainability_Verification_Workflow.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_05_Explainability_Verification_Workflow_editable.svg"
+    },
+    {
+      "name": "Workflow_06_Clinical_Deployment_Workflow",
+      "png": "outputs/publication_assets/workflow/Workflow_06_Clinical_Deployment_Workflow.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_06_Clinical_Deployment_Workflow.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_06_Clinical_Deployment_Workflow.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_06_Clinical_Deployment_Workflow.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_06_Clinical_Deployment_Workflow_editable.svg"
+    },
+    {
+      "name": "Workflow_07_Publication_and_Translation_Workflow",
+      "png": "outputs/publication_assets/workflow/Workflow_07_Publication_and_Translation_Workflow.png",
+      "svg": "outputs/publication_assets/workflow/Workflow_07_Publication_and_Translation_Workflow.svg",
+      "pdf": "outputs/publication_assets/workflow/Workflow_07_Publication_and_Translation_Workflow.pdf",
+      "eps": "outputs/publication_assets/workflow/Workflow_07_Publication_and_Translation_Workflow.eps",
+      "editable_svg": "outputs/publication_assets/editable/Workflow_07_Publication_and_Translation_Workflow_editable.svg"
+    },
+    {
+      "name": "Perf_01_ROC_and_Precision_Recall_Multi_Modality",
+      "png": "outputs/publication_assets/performance/Perf_01_ROC_and_Precision_Recall_Multi_Modality.png",
+      "svg": "outputs/publication_assets/performance/Perf_01_ROC_and_Precision_Recall_Multi_Modality.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_01_ROC_and_Precision_Recall_Multi_Modality.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_01_ROC_and_Precision_Recall_Multi_Modality.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_01_ROC_and_Precision_Recall_Multi_Modality_editable.svg"
+    },
+    {
+      "name": "Perf_02_Calibration_Reliability_and_Temperature_Scaling",
+      "png": "outputs/publication_assets/performance/Perf_02_Calibration_Reliability_and_Temperature_Scaling.png",
+      "svg": "outputs/publication_assets/performance/Perf_02_Calibration_Reliability_and_Temperature_Scaling.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_02_Calibration_Reliability_and_Temperature_Scaling.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_02_Calibration_Reliability_and_Temperature_Scaling.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_02_Calibration_Reliability_and_Temperature_Scaling_editable.svg"
+    },
+    {
+      "name": "Perf_03_Confusion_Matrix_and_Clinical_Cutpoints",
+      "png": "outputs/publication_assets/performance/Perf_03_Confusion_Matrix_and_Clinical_Cutpoints.png",
+      "svg": "outputs/publication_assets/performance/Perf_03_Confusion_Matrix_and_Clinical_Cutpoints.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_03_Confusion_Matrix_and_Clinical_Cutpoints.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_03_Confusion_Matrix_and_Clinical_Cutpoints.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_03_Confusion_Matrix_and_Clinical_Cutpoints_editable.svg"
+    },
+    {
+      "name": "Perf_04_Uncertainty_Distributions_and_Error_Correlation",
+      "png": "outputs/publication_assets/performance/Perf_04_Uncertainty_Distributions_and_Error_Correlation.png",
+      "svg": "outputs/publication_assets/performance/Perf_04_Uncertainty_Distributions_and_Error_Correlation.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_04_Uncertainty_Distributions_and_Error_Correlation.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_04_Uncertainty_Distributions_and_Error_Correlation.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_04_Uncertainty_Distributions_and_Error_Correlation_editable.svg"
+    },
+    {
+      "name": "Perf_05_Demographic_Subgroup_Fairness_Dashboard",
+      "png": "outputs/publication_assets/performance/Perf_05_Demographic_Subgroup_Fairness_Dashboard.png",
+      "svg": "outputs/publication_assets/performance/Perf_05_Demographic_Subgroup_Fairness_Dashboard.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_05_Demographic_Subgroup_Fairness_Dashboard.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_05_Demographic_Subgroup_Fairness_Dashboard.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_05_Demographic_Subgroup_Fairness_Dashboard_editable.svg"
+    },
+    {
+      "name": "Perf_06_Computational_Efficiency_Latency_Throughput",
+      "png": "outputs/publication_assets/performance/Perf_06_Computational_Efficiency_Latency_Throughput.png",
+      "svg": "outputs/publication_assets/performance/Perf_06_Computational_Efficiency_Latency_Throughput.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_06_Computational_Efficiency_Latency_Throughput.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_06_Computational_Efficiency_Latency_Throughput.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_06_Computational_Efficiency_Latency_Throughput_editable.svg"
+    },
+    {
+      "name": "Perf_07_Landmark_SOTA_Benchmark_Comparison",
+      "png": "outputs/publication_assets/performance/Perf_07_Landmark_SOTA_Benchmark_Comparison.png",
+      "svg": "outputs/publication_assets/performance/Perf_07_Landmark_SOTA_Benchmark_Comparison.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_07_Landmark_SOTA_Benchmark_Comparison.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_07_Landmark_SOTA_Benchmark_Comparison.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_07_Landmark_SOTA_Benchmark_Comparison_editable.svg"
+    },
+    {
+      "name": "Perf_08_Combinatorial_127_Modality_Robustness_Summary",
+      "png": "outputs/publication_assets/performance/Perf_08_Combinatorial_127_Modality_Robustness_Summary.png",
+      "svg": "outputs/publication_assets/performance/Perf_08_Combinatorial_127_Modality_Robustness_Summary.svg",
+      "pdf": "outputs/publication_assets/performance/Perf_08_Combinatorial_127_Modality_Robustness_Summary.pdf",
+      "eps": "outputs/publication_assets/performance/Perf_08_Combinatorial_127_Modality_Robustness_Summary.eps",
+      "editable_svg": "outputs/publication_assets/editable/Perf_08_Combinatorial_127_Modality_Robustness_Summary_editable.svg"
+    },
+    {
+      "name": "Clinical_01_Representative_Benign_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_01_Representative_Benign_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_01_Representative_Benign_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_01_Representative_Benign_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_01_Representative_Benign_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_01_Representative_Benign_Case_editable.svg"
+    },
+    {
+      "name": "Clinical_02_Representative_Malignant_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_02_Representative_Malignant_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_02_Representative_Malignant_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_02_Representative_Malignant_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_02_Representative_Malignant_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_02_Representative_Malignant_Case_editable.svg"
+    },
+    {
+      "name": "Clinical_03_Challenging_Discordant_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_03_Challenging_Discordant_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_03_Challenging_Discordant_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_03_Challenging_Discordant_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_03_Challenging_Discordant_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_03_Challenging_Discordant_Case_editable.svg"
+    },
+    {
+      "name": "Clinical_04_False_Positive_Audit_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_04_False_Positive_Audit_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_04_False_Positive_Audit_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_04_False_Positive_Audit_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_04_False_Positive_Audit_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_04_False_Positive_Audit_Case_editable.svg"
+    },
+    {
+      "name": "Clinical_05_False_Negative_Audit_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_05_False_Negative_Audit_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_05_False_Negative_Audit_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_05_False_Negative_Audit_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_05_False_Negative_Audit_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_05_False_Negative_Audit_Case_editable.svg"
+    },
+    {
+      "name": "Clinical_06_Missing_Modality_Screening_Case",
+      "png": "outputs/publication_assets/clinical_cases/Clinical_06_Missing_Modality_Screening_Case.png",
+      "svg": "outputs/publication_assets/clinical_cases/Clinical_06_Missing_Modality_Screening_Case.svg",
+      "pdf": "outputs/publication_assets/clinical_cases/Clinical_06_Missing_Modality_Screening_Case.pdf",
+      "eps": "outputs/publication_assets/clinical_cases/Clinical_06_Missing_Modality_Screening_Case.eps",
+      "editable_svg": "outputs/publication_assets/editable/Clinical_06_Missing_Modality_Screening_Case_editable.svg"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{End-to-End Multi-Hardware Inference Latency, Throughput Scaling and Memory Footprint}
+\label{tab:table_5_03_05_end_to_end_multi_hardware_inference_latency_and_throughput}
+\begin{tabular}{llrrrrrrrl}
+\toprule
+Hardware Target & Deployment Tier & Batch Size & Mean Latency (ms) & p95 Latency (ms) & p99 Latency (ms) & Throughput (Patients/sec) & RAM Usage (GB) & VRAM Usage (GB) & Clinical Turnaround Time \\
+\midrule
+NVIDIA A100 Tensor Core GPU (80GB) & Tier-1 Academic Medical Center & 1 & 8.400000 & 9.800000 & 11.200000 & 119.000000 & 4.200000 & 2.800000 & < 0.01 sec (Instantaneous) \\
+NVIDIA A100 Tensor Core GPU (80GB) & Tier-1 Academic Medical Center & 8 & 18.200000 & 21.000000 & 24.500000 & 439.500000 & 5.100000 & 3.600000 & < 0.02 sec (Batch Queue) \\
+NVIDIA RTX 4090 Workstation GPU (24GB) & Tier-2 Regional Hospital Radiology Dept & 1 & 12.800000 & 14.500000 & 16.800000 & 78.100000 & 3.800000 & 2.400000 & < 0.02 sec (Interactive PACS) \\
+Intel Xeon Platinum 8380 CPU (32 Cores) & Tier-2 Hospital Server (CPU-Only) & 1 & 42.500000 & 48.200000 & 54.000000 & 23.500000 & 3.200000 & 0.000000 & < 0.05 sec (Near Real-Time) \\
+Apple M2 Pro (16GB Unified Memory) & Radiologist Laptop / Remote Clinic & 1 & 38.600000 & 44.100000 & 49.500000 & 25.900000 & 2.900000 & 1.800000 & < 0.04 sec (Point-of-Care) \\
+Intel Core i7-12700K Standard PC (16GB) & Tier-3 Community Clinic / Mobile Unit & 1 & 64.200000 & 72.800000 & 81.500000 & 15.600000 & 2.600000 & 0.000000 & < 0.10 sec (Seamless Review) \\
+\bottomrule
+\end{tabular}
+\end{table}

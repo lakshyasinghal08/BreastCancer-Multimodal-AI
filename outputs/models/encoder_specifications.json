@@ -1,0 +1,66 @@
+{
+  "mammography": {
+    "type": "LightweightVisionEncoder",
+    "in_channels": 1,
+    "input_shape": [
+      1,
+      224,
+      224
+    ],
+    "params": 144848
+  },
+  "ultrasound": {
+    "type": "LightweightVisionEncoder",
+    "in_channels": 1,
+    "input_shape": [
+      1,
+      224,
+      224
+    ],
+    "params": 144848
+  },
+  "histopathology": {
+    "type": "LightweightVisionEncoder",
+    "in_channels": 3,
+    "input_shape": [
+      3,
+      224,
+      224
+    ],
+    "params": 145136
+  },
+  "mri": {
+    "type": "LightweightVisionEncoder",
+    "in_channels": 1,
+    "input_shape": [
+      1,
+      224,
+      224
+    ],
+    "params": 144848
+  },
+  "clinical": {
+    "type": "ClinicalFNAEncoder",
+    "in_features": 30,
+    "input_shape": [
+      30
+    ],
+    "params": 14656
+  },
+  "ehr": {
+    "type": "TCGAEHREncoder",
+    "in_features": 16,
+    "input_shape": [
+      16
+    ],
+    "params": 11968
+  },
+  "genomic": {
+    "type": "GenomicMicroarrayEncoder",
+    "in_features": 331,
+    "input_shape": [
+      331
+    ],
+    "params": 59520
+  }
+}

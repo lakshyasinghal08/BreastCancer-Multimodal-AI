@@ -1,0 +1,77 @@
+{
+  "total_false_positives": 25,
+  "total_false_negatives": 26,
+  "total_borderline_cases": 38,
+  "taxonomy": [
+    [
+      "False Positive (FP-1)",
+      "Complex Sclerosing Lesion / Radial Scar",
+      11,
+      "44.0% of FPs",
+      "Architectural distortion mimicking invasive spiculated carcinoma",
+      0.385,
+      0.742,
+      "Secondary Biopsy Recommended"
+    ],
+    [
+      "False Positive (FP-2)",
+      "Fibroadenoma with Atypical Hyperplasia",
+      8,
+      "32.0% of FPs",
+      "Cellular pleomorphism on cytology with rapid ultrasound growth",
+      0.362,
+      0.718,
+      "Core Needle Biopsy Avoids Excision"
+    ],
+    [
+      "False Positive (FP-3)",
+      "Idiopathic Granulomatous Mastitis",
+      6,
+      "24.0% of FPs",
+      "Severe inflammatory edema with intense hypervascular contrast",
+      0.41,
+      0.695,
+      "Inflammatory Workup Indicated"
+    ],
+    [
+      "False Negative (FN-1)",
+      "Invasive Lobular Carcinoma (ILC)",
+      12,
+      "46.2% of FNs",
+      "Diffuse linear Indian-file growth lacking distinct mass borders",
+      0.412,
+      0.415,
+      "Targeted Breast MRI Recommended"
+    ],
+    [
+      "False Negative (FN-2)",
+      "Extreme Dense Breast Parenchymal Masking",
+      8,
+      "30.8% of FNs",
+      "BI-RADS Category d dense fibroglandular tissue hiding microcalc",
+      0.428,
+      0.435,
+      "Supplementary Ultrasound Recommended"
+    ],
+    [
+      "False Negative (FN-3)",
+      "Hypocellular Mucinous / Medullary Carcinoma",
+      6,
+      "23.1% of FNs",
+      "Abundant extracellular mucin with bland cytological nuclei",
+      0.395,
+      0.442,
+      "Histological Core Biopsy Confirmatory"
+    ],
+    [
+      "Borderline Cases",
+      "Equivocal Diagnostic Band (0.40 <= P <= 0.60)",
+      38,
+      "6.62% of Cohort",
+      "Balanced competing evidence across imaging vs genomics",
+      0.485,
+      0.512,
+      "Mandatory MDT Tumor Board Escalation"
+    ]
+  ]
+}

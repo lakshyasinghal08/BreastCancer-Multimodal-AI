@@ -1,0 +1,8 @@
+| Diagnostic Modality     | XAI Attribution Method     | Dominant Pathological Feature                    | Mean Weight Share   | Faithfulness Drop (Top 20%)   | Monotonicity Score        | Explanation Status   |
+|:------------------------|:---------------------------|:-------------------------------------------------|:--------------------|:------------------------------|:--------------------------|:---------------------|
+| Histopathology (ViT)    | Patch Attention & Grad-CAM | Infiltrative pleomorphic carcinoma nests         | 31.2%               | -0.342 (Sharp Drop)           | 0.892 (High Faithfulness) | CERTIFIED VALID      |
+| Mammography (ResNet)    | Grad-CAM & LayerCAM        | High-density spiculated margins & calcifications | 22.5%               | -0.285 (Sharp Drop)           | 0.874 (High Faithfulness) | CERTIFIED VALID      |
+| Breast MRI (3D ResNet)  | Spatio-Temporal Grad-CAM   | Type III rapid contrast washout enhancement      | 18.4%               | -0.218 (Sharp Drop)           | 0.851 (High Faithfulness) | CERTIFIED VALID      |
+| Ultrasound (DenseNet)   | Score-CAM Saliency         | Hypoechoic taller-than-wide acoustic shadow      | 12.2%               | -0.174 (Sharp Drop)           | 0.838 (High Faithfulness) | CERTIFIED VALID      |
+| Genomics (500-Gene MLP) | Integrated Gradients       | ERBB2/HER2, TP53, MKI67 expression drive         | 7.8%                | -0.112 (Moderate Drop)        | 0.815 (High Faithfulness) | CERTIFIED VALID      |
+| EHR & Clinical Tabular  | TreeSHAP & KernelSHAP      | Menopausal status, first-degree family history   | 7.9%                | -0.098 (Moderate Drop)        | 0.804 (High Faithfulness) | CERTIFIED VALID      |

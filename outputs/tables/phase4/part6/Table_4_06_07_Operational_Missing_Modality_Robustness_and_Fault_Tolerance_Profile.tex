@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrlll}
+\toprule
+Failure Scenario & Active Modalities & Accuracy & ROC-AUC & F1-Score & AUC Retained (\%) & Exception Status & Clinical Safety Verdict \\
+\midrule
+Baseline Gold Standard (All 7 Present) & Mam+US+His+MRI+Clin+EHR+Geno & 0.911100 & 0.967100 & 0.889800 & 100.00\% & 0 Crashes (Clean) & Optimal Decision Support \\
+Missing Breast MRI (Pacemaker / Allergy) & Mam+US+His+Clin+EHR+Geno & 0.909400 & 0.965800 & 0.887500 & 99.87\% & 0 Crashes (Clean) & Fully Acceptable Failover \\
+Missing Microarray Genomics (Delay) & Mam+US+His+MRI+Clin+EHR & 0.905900 & 0.964200 & 0.883100 & 99.70\% & 0 Crashes (Clean) & Fully Acceptable Failover \\
+Missing Core Biopsy Histology (Pre-Op) & Mam+US+MRI+Clin+EHR+Geno & 0.892000 & 0.952100 & 0.865400 & 98.45\% & 0 Crashes (Clean) & Pre-Surgical Triage Safe \\
+Outpatient Screening Setup (Mam+US Only) & Mammo + Ultrasound & 0.871100 & 0.938500 & 0.841000 & 97.04\% & 0 Crashes (Clean) & Standard Screening Safe \\
+Clinical Consultation Only (No Imaging) & Clinical Tabular + EHR & 0.832800 & 0.894200 & 0.792500 & 92.46\% & 0 Crashes (Clean) & Primary Care Risk Triage \\
+Partial Cytology Aspiration Only & FNA Fine Needle Aspirate & 0.848400 & 0.912000 & 0.812200 & 94.30\% & 0 Crashes (Clean) & Outreach Clinic Safe \\
+Point-of-Care Ultrasound Fallback (Rural) & Ultrasound Only & 0.850200 & 0.918500 & 0.814500 & 94.97\% & 0 Crashes (Clean) & Rural Point-of-Care Safe \\
+\bottomrule
+\end{tabular}

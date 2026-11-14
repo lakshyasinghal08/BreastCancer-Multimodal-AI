@@ -1,0 +1,11 @@
+Model Identifier,Modality Domain,Base Backbone,Parameters (Frozen),Parameters (Trainable),File Format,File Size (MB),Parity Diff
+Mammography Expert,Digital Mammography (CC/MLO),ConvNeXt-Base,"87,566,400",0,PyTorch (.pt),334.8,0.0
+DCE-MRI Expert,3D Volumetric DCE-MRI,3D ResNet-50,"46,159,104",0,PyTorch (.pt),176.4,0.0
+Ultrasound Expert,High-Resolution Ultrasound,EfficientNet-B4,"17,549,448",0,PyTorch (.pt),67.2,0.0
+Histopathology Expert,Biopsy WSI H&E,CLAM / Histo-ResNet,"21,284,608",0,PyTorch (.pt),81.5,0.0
+EHR Clinical Expert,Longitudinal EHR & Labs,Clinical-Transformer,"12,458,880",0,PyTorch (.pt),47.8,0.0
+Genomics Expert,PAM50 & RNA-Seq Panels,Deep-Pathway MLP,"3,211,264",0,PyTorch (.pt),12.4,0.0
+Biomarkers Expert,Tabular IHC Markers,TabNet,"1,540,024",0,PyTorch (.pt),5.9,0.0
+Multimodal Fusion Core,Dynamic 7-Modality Fusion,Cross-Attention Transformer,"58,169,728","346,242",PyTorch (.pt),1.39,<= 4.1e-6
+TorchScript Binary,Serialized Fusion Model,JIT C++ Optimized,"58,169,728","346,242",TorchScript (.pt),1.32,0.0
+ONNX Runtime Engine,Cross-Platform C++ Engine,ONNX Graph Specification,"58,169,728","346,242",ONNX (.onnx),0.21,<= 4.1e-6

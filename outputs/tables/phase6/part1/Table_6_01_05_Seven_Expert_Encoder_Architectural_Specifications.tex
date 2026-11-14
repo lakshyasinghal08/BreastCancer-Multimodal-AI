@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Architectural Specifications, Dimensions and Parameter Counts for All 7 Expert Networks}
+\label{tab:table_6_01_05_seven_expert_encoder_architectural_specifications}
+\begin{tabular}{lllllll}
+\toprule
+Modality Expert & Base Architecture & Input Tensor Dimensions & Encoder Output Dim & Projection Space & Parameter Count & Inference Latency (GPU) \\
+\midrule
+Expert 1: Mammography & ResNet-50 & (B, 1, 224, 224) & 2048 & Linear -> LayerNorm(128) & 23.51 M & 3.2 ms \\
+Expert 2: Ultrasound & EfficientNet-B0 & (B, 3, 224, 224) & 1280 & Linear -> LayerNorm(128) & 4.01 M & 1.8 ms \\
+Expert 3: Histopathology & DenseNet-121 & (B, 3, 224, 224) & 1024 & Linear -> LayerNorm(128) & 6.95 M & 2.4 ms \\
+Expert 4: Breast MRI & 3D ResNet-18 & (B, 1, 16, 112, 112) & 512 & Linear -> LayerNorm(128) & 11.17 M & 4.5 ms \\
+Expert 5: Clinical Tabular & Residual MLP & (B, 30) & 256 & Linear -> LayerNorm(128) & 0.18 M & 0.3 ms \\
+Expert 6: Longitudinal EHR & Temporal GRU/MLP & (B, 45) & 256 & Linear -> LayerNorm(128) & 0.24 M & 0.4 ms \\
+Expert 7: Genomics & Pathway MLP & (B, 500) & 512 & Linear -> LayerNorm(128) & 0.62 M & 0.5 ms \\
+TOTAL UNIFIED PIPELINE & 7 Decoupled Encoders & Heterogeneous Multimodal & 7 x 128 & Standardized 128-d Latent & 46.68 M & 8.4 ms \\
+\bottomrule
+\end{tabular}
+\end{table}

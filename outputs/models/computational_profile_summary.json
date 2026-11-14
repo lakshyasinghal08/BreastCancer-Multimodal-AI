@@ -1,0 +1,8 @@
+{
+  "total_parameters": 15132806,
+  "trainable_parameters": 326662,
+  "frozen_parameters": 14806144,
+  "total_flops_mflops": 371.39,
+  "fusion_overhead_mflops": 1.18,
+  "fusion_overhead_share_percent": 0.32
+}

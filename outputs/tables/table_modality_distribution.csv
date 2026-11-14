@@ -1,0 +1,8 @@
+Modality,Train_Samples,Validation_Samples,Test_Samples,Total_Samples,Train_Share_Pct
+Clinical,398,85,86,569,69.9%
+EHR,241,50,50,341,70.7%
+Genomic,106,23,22,151,70.2%
+Histopathology,214005,44190,43432,301627,71.0%
+MRI,124049,22593,26928,173570,71.5%
+Mammography,624,128,130,882,70.7%
+Ultrasound,546,118,116,780,70.0%

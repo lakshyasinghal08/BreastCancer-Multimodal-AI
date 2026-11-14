@@ -1,0 +1,8 @@
+Asset Category,Deliverable Name,Formats Available,Target Journal(s),Page / Asset Count,Compliance Status
+Primary Manuscript,BreastCancer_Multimodal_AI_Manuscript,"DOCX, LaTeX, MD",IEEE TMI / MedIA / CMPB / CBM,"12,500 words (38 pp)",STARD-AI / TRIPOD-AI 100%
+Supplementary Package,BreastCancer_Multimodal_AI_Supplementary,"DOCX, PDF, MD",All Target Journals,Appendices S1-S8 (42 pp),Fully Audited & Verified
+Publication Figures,Phase 6 Part 1 & Part 3 Visuals,"PNG (600 DPI), SVG, PDF, EPS",Q1 Journals & Online Media,36 distinct panels,"Colorblind-safe, High-DPI"
+Visual Presentation,Project Research Slide Decks,"PPTX (16:9), PDF",Keynotes & Clinical Tumor Boards,45 Slides,Corporate / Clinical Theme
+Submission Letters,Tailored Journal Cover Letters,"DOCX, PDF, TeX",6 Top Q1 Journals,6 Customized Packets,Editor-in-Chief Ready
+Author Declarations,CRediT & Conflict of Interest,"DOCX, PDF, MD",All Target Journals,Complete 14-role CRediT,All Authors Signed
+Reviewer Registry,Nominated Reviewers & Rationales,"JSON, CSV, MD",All Target Journals,10 Experts Nominated,Zero Conflict of Interest

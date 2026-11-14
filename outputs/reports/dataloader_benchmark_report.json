@@ -1,0 +1,41 @@
+{
+  "benchmarks": [
+    {
+      "batch_size": 8,
+      "n_samples": 128,
+      "n_batches": 16,
+      "elapsed_sec": 53.4476,
+      "samples_per_sec": 2.39,
+      "batches_per_sec": 0.3,
+      "latency_ms_per_batch": 3340.48,
+      "ram_usage_mb": 513.28,
+      "ram_delta_mb": 0,
+      "cpu_percent": 50.3
+    },
+    {
+      "batch_size": 16,
+      "n_samples": 128,
+      "n_batches": 8,
+      "elapsed_sec": 51.4273,
+      "samples_per_sec": 2.49,
+      "batches_per_sec": 0.16,
+      "latency_ms_per_batch": 6428.41,
+      "ram_usage_mb": 57.12,
+      "ram_delta_mb": 0,
+      "cpu_percent": 47.7
+    },
+    {
+      "batch_size": 32,
+      "n_samples": 128,
+      "n_batches": 4,
+      "elapsed_sec": 48.9477,
+      "samples_per_sec": 2.62,
+      "batches_per_sec": 0.08,
+      "latency_ms_per_batch": 12236.92,
+      "ram_usage_mb": 60.52,
+      "ram_delta_mb": 3.39,
+      "cpu_percent": 44.8
+    }
+  ],
+  "tested_at": "2026-10-14T00:20:27.578529"
+}

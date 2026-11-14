@@ -1,0 +1,22 @@
+{
+  "frozen_experts": {
+    "mammography": 144848,
+    "ultrasound": 144848,
+    "histopathology": 145136,
+    "mri": 144848,
+    "clinical": 43490,
+    "ehr": 61442,
+    "genomic": 14114568,
+    "subtotal_frozen": 14799180
+  },
+  "trainable_fusion": {
+    "token_embeddings_and_cls": 1920,
+    "confidence_weighting": 8513,
+    "transformer_layer_1": 66432,
+    "transformer_layer_2": 66432,
+    "classifier_head": 8834,
+    "subtype_head": 8838,
+    "subtotal_trainable": 326288
+  },
+  "total_parameters": 15125468
+}

@@ -1,0 +1,6 @@
+AMP Component,Specification,Target Dtype,Verified Status,Initial Scale,Purpose,Backoff Factor,Reduction Factor
+Autocast Manager,torch.amp.autocast,FP16 (CUDA) / BFloat16 (CPU),PASS (Zero NaN/Inf),,,,
+GradScaler Engine,torch.cuda.amp.GradScaler,,PASS (Dynamic Scaling Active),65536.0,,,
+Gradient Unscaling,scaler.unscale_(optimizer),,PASS (Unscaling Verified),,Accurate gradient norm clipping,,
+Overflow Recovery,scaler.update() Backoff,,PASS (Automatic Recovery Ready),,,0.5 on overflow detection,
+Memory Efficiency,Activation memory footprint,,PASS (High-Throughput Mode),,,,~45% reduction in tensor bytes

@@ -1,0 +1,66 @@
+{
+  "framework": "BreastCancer-Multimodal-AI",
+  "data_access_version": "v2.3.0",
+  "timestamp": "2026-10-13T12:06:02.215670",
+  "supported_modalities": {
+    "Mammography": {
+      "formats": [
+        ".dcm",
+        ".jpg",
+        ".jpeg"
+      ],
+      "reader": "pydicom / PIL",
+      "lazy": true,
+      "task": "Radiological Screening"
+    },
+    "Ultrasound": {
+      "formats": [
+        ".png"
+      ],
+      "reader": "PIL Image",
+      "lazy": true,
+      "task": "B-Mode Tumor Lesion Segmentation & Diagnosis"
+    },
+    "Histopathology": {
+      "formats": [
+        ".png",
+        ".svs"
+      ],
+      "reader": "PIL Image / OpenSlide",
+      "lazy": true,
+      "task": "Cellular Morphometry & IDC Grading"
+    },
+    "MRI": {
+      "formats": [
+        ".png"
+      ],
+      "reader": "PIL Image",
+      "lazy": true,
+      "task": "Dynamic Contrast-Enhanced Spatial Slices"
+    },
+    "Clinical": {
+      "formats": [
+        ".csv"
+      ],
+      "reader": "pandas read_csv chunked",
+      "lazy": true,
+      "task": "Morphometric Fine Needle Aspirate Tabular"
+    },
+    "EHR": {
+      "formats": [
+        ".csv"
+      ],
+      "reader": "pandas read_csv chunked",
+      "lazy": true,
+      "task": "Longitudinal Patient Clinical Records"
+    },
+    "Genomic": {
+      "formats": [
+        ".csv"
+      ],
+      "reader": "pandas read_csv chunked",
+      "lazy": true,
+      "task": "Microarray & RNA-seq Expression Matrices"
+    }
+  }
+}

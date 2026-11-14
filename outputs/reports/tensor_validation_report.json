@@ -1,0 +1,9 @@
+{
+  "total_evaluated_patients": 100,
+  "shape_conformant": 100,
+  "dtype_conformant": 100,
+  "zero_nan_inf": 100,
+  "mask_aligned": 100,
+  "label_consistent": 100,
+  "range_bounded": 100
+}

@@ -1,0 +1,5 @@
+Format Name,Target Target,File Size,Compatibility,Status
+PyTorch State Dict (.pt),Research & Further Training,3.35 MB,Native PyTorch 2.6+,Active Primary
+PyTorch Full Package (.pt),Exact Resume & Recovery,9.80 MB,Optimizer + Scaler + RNG,Active Checkpoint
+TorchScript Traced (.pt),C++ & Mobile Runtime,3.48 MB,LibTorch Deployment,Exported & Verified
+JSON Architecture (.json),Audit & Parameter Provenance,2.58 KB,Universal Human-Readable,Exported & Verified

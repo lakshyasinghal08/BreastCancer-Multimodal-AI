@@ -1,0 +1,16 @@
+{
+  "scheduler_name": "WarmupCosineAnnealingLR",
+  "warmup_epochs": 2,
+  "warmup_start_lr": 0.0001,
+  "peak_lr": 0.0005,
+  "min_lr": 1e-06,
+  "total_epochs": 10,
+  "cycle_type": "Half-Cosine Decay",
+  "milestones": {
+    "epoch_1": "Warmup Tier 1 (1.00e-4)",
+    "epoch_2": "Warmup Peak (5.00e-4)",
+    "epoch_5": "Midpoint Annealing (3.46e-4)",
+    "epoch_8": "Optimal Convergence Peak (7.40e-5)",
+    "epoch_10": "Terminal Floor (5.00e-6)"
+  }
+}

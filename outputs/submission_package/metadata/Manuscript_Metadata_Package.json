@@ -1,0 +1,118 @@
+{
+  "title": "A Unified Seven-Modality Cross-Attention Transformer for Clinically Robust, Uncertainty-Aware Breast Cancer Diagnosis and Molecular Phenotyping",
+  "running_title": "Seven-Modality Cross-Attention Breast Cancer AI",
+  "short_title": "Unified Multimodal AI for Precision Breast Oncology",
+  "article_type": "Original Full-Length Research Article",
+  "word_counts": {
+    "abstract": 248,
+    "main_text": 12850,
+    "references_count": 68,
+    "figures_count": 12,
+    "tables_count": 12,
+    "supplementary_words": 25480,
+    "supplementary_figures": 12,
+    "supplementary_tables": 12
+  },
+  "keywords": [
+    "Multimodal Deep Learning",
+    "Cross-Attention Transformer",
+    "Breast Cancer Diagnosis",
+    "Dense Breast Parenchyma",
+    "Missing-Modality Invariance",
+    "Uncertainty Quantification",
+    "Temperature Calibration",
+    "Explainable Artificial Intelligence",
+    "Computer-Aided Diagnosis (CADx)",
+    "PACS Clinical Deployment"
+  ],
+  "mesh_terms": [
+    "Breast Neoplasms/diagnosis",
+    "Deep Learning",
+    "Mammography",
+    "Ultrasonography, Mammary",
+    "Magnetic Resonance Imaging",
+    "Digital Pathology",
+    "Genomics",
+    "Proteomics",
+    "Decision Support Systems, Clinical"
+  ],
+  "ieee_taxonomy": [
+    "Artificial Intelligence",
+    "Biomedical Imaging",
+    "Medical Diagnostic Imaging",
+    "Neural Networks",
+    "Transformers",
+    "Decision Support Systems"
+  ],
+  "abbreviations": {
+    "MMG": "Screening Mammography (2D DICOM)",
+    "US": "Breast Ultrasound (B-Mode)",
+    "DCE-MRI": "Dynamic Contrast-Enhanced Magnetic Resonance Imaging",
+    "WSI": "Whole-Slide Histopathology Imaging (H&E)",
+    "RPPA": "Reverse Phase Protein Array (Proteomics)",
+    "EHR": "Electronic Health Record (Clinical Tabular)",
+    "ROC-AUC": "Area Under the Receiver Operating Characteristic Curve",
+    "PR-AUC": "Area Under the Precision-Recall Curve",
+    "ECE": "Expected Calibration Error",
+    "PACS": "Picture Archiving and Communication System",
+    "DICOM-SR": "Digital Imaging and Communications in Medicine - Structured Reporting",
+    "MDT": "Multidisciplinary Tumor Board",
+    "CRediT": "Contributor Roles Taxonomy",
+    "CLAIM": "Checklist for Artificial Intelligence in Medical Imaging",
+    "TRIPOD-AI": "Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (AI)"
+  },
+  "suggested_reviewers": [
+    {
+      "name": "Prof. Maryellen L. Giger, Ph.D.",
+      "institution": "Department of Radiology, University of Chicago, Chicago, IL, USA",
+      "email": "mgiger@uchicago.edu",
+      "expertise": "Multimodal Breast Imaging CADx, Quantitative Radiomics, AI Evaluation",
+      "rationale": "Leading authority on computer-aided diagnosis and multimodal image analysis in breast oncology."
+    },
+    {
+      "name": "Prof. Regina Barzilay, Ph.D.",
+      "institution": "Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT, Cambridge, MA, USA",
+      "email": "regina@csail.mit.edu",
+      "expertise": "Deep Learning for Mammography, Breast Cancer Risk Modeling, Algorithmic Fairness",
+      "rationale": "Pioneered landmark deep learning models for mammographic breast cancer risk estimation."
+    },
+    {
+      "name": "Prof. Krzysztof J. Geras, Ph.D.",
+      "institution": "Department of Radiology, NYU Grossman School of Medicine, New York, NY, USA",
+      "email": "k.j.geras@nyu.edu",
+      "expertise": "Multi-View Mammography, Deep Neural Networks for Breast Screening, Reader Studies",
+      "rationale": "Expertise in deep learning architectures for breast cancer detection and multi-view imaging."
+    },
+    {
+      "name": "Prof. Despina Kontos, Ph.D.",
+      "institution": "Department of Radiology, Columbia University Irving Medical Center, New York, NY, USA",
+      "email": "dkontos@columbia.edu",
+      "expertise": "Breast DCE-MRI Radiomics, Parenchymal Texture Analysis, Multi-Omics Integration",
+      "rationale": "World expert in contrast-enhanced breast MRI and integrating imaging with molecular biomarkers."
+    },
+    {
+      "name": "Prof. Nico Karssemeijer, Ph.D.",
+      "institution": "Radboud University Medical Center, Nijmegen, Netherlands",
+      "email": "nico.karssemeijer@radboudumc.nl",
+      "expertise": "Automated Breast Ultrasound, Digital Breast Tomosynthesis, Interactive Clinical CAD",
+      "rationale": "Extensive experience in European screening protocols, ultrasound, and clinical reader performance."
+    },
+    {
+      "name": "Prof. Fiona J. Gilbert, MD, FRCR",
+      "institution": "Department of Radiology, University of Cambridge, Cambridge, UK",
+      "email": "fjg28@cam.ac.uk",
+      "expertise": "Clinical Breast Screening Trials, AI Evaluation in National Screening Programs, Cost-Effectiveness",
+      "rationale": "Leading clinical radiologist with international expertise in trialing AI systems in population screening."
+    }
+  ],
+  "excluded_reviewers": [
+    {
+      "name": "Direct Institutional Collaborators",
+      "reason": "Co-authorship on unrelated publications within the preceding 36 months."
+    },
+    {
+      "name": "Commercial Competitors / Proprietary CADx Vendors",
+      "reason": "Direct commercial conflict of interest regarding proprietary commercial screening software."
+    }
+  ]
+}

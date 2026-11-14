@@ -1,0 +1,9 @@
+{
+  "loss_type": "label_smoothing",
+  "smoothing": 0.05,
+  "reduction": "mean",
+  "focal_alpha": 0.25,
+  "focal_gamma": 2.0,
+  "class_balanced_beta": 0.999,
+  "weighted_bce_pos_weight": 1.5
+}

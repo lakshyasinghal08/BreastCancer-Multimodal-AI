@@ -1,0 +1,43 @@
+{
+  "version_id": "v2.1.0-RC1-patient-multimodal",
+  "phase": "Phase 2 - Part 2.1",
+  "project": "BreastCancer-Multimodal-AI",
+  "creation_time": "2026-10-18T15:19:08.384026",
+  "base_manifest_version": "1.4.0",
+  "dataset_fingerprint_sha256": "75c05585d558173f2cb375c713f5dec1d5ba2dbde686b2665b3b683ca60db0fb",
+  "total_samples": 477920,
+  "total_cohort_patients": 1919,
+  "total_tracked_modalities": 7,
+  "multimodal_patients": 123,
+  "monomodal_patients": 1796,
+  "cross_dataset_tcga_bridge_patients": 47,
+  "namespace_collision_count": 1,
+  "completeness_distribution": {
+    "1": 1796,
+    "3": 80,
+    "4": 41,
+    "2": 2
+  },
+  "modality_availability": {
+    "Mammography": 561,
+    "Ultrasound": 0,
+    "Histopathology": 344,
+    "MRI": 122,
+    "Clinical": 569,
+    "EHR": 335,
+    "Genomic": 273
+  },
+  "leakage_mitigation_policies": [
+    "Mandatory cohort namespacing (e.g., CLIN_8913 vs HIST_8913)",
+    "Mandatory patient-level GroupKFold splitting across multi-sample imaging tiles",
+    "Zero synthetic data imputation guarantee"
+  ],
+  "system_configuration_snapshot": {
+    "random_seed": 42,
+    "base_dir": ".",
+    "tables_dir": "outputs\\tables",
+    "reports_dir": "outputs\\reports",
+    "figures_dir": "outputs\\figures"
+  },
+  "version_sha256": "350ad4a145d183567779e12cf5e49f11c97e1820a5309b50a6821aab70b7fce4"
+}

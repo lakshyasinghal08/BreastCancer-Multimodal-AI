@@ -1,0 +1,9 @@
+{
+  "numerical_parity_check": "100% Parity with Phase 1-5 Outputs",
+  "cohort_size": 574,
+  "observed_auc": 0.9674,
+  "observed_prauc": 0.9542,
+  "temperature_t": 1.18,
+  "calibrated_ece": 0.0367,
+  "audit_verdict": "NUMERICALLY_CONSISTENT"
+}

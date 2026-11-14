@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Comparison of Proposed 7-Modality Multimodal Framework Against Landmark SOTA Literature}
+\label{tab:table_5_03_10_architectural_novelty_and_literature_comparison_matrix}
+\begin{tabular}{llllrlll}
+\toprule
+Framework / Study & Modality Scope & Fusion Strategy & Missing Data Handling & Test ROC-AUC & Uncertainty Quantification & Dense Breast Degradation & Clinical Workflow Integration \\
+\midrule
+McKinney et al. (Nature 2020) & Unimodal (Mammography only) & None (Ensemble of CNNs) & Not Supported (Fails if missing) & 0.889000 & None (Raw softmax) & > 14% Sensitivity Drop & Static Offline Screening \\
+Yala et al. (Lancet Digit Health 2021) & Bimodal (Mammography + Clinical) & Late Concatenation Fusion & Mean Imputation for Tabular & 0.914000 & None & > 10% Sensitivity Drop & Risk Prediction Tool \\
+Shen et al. (Radiology 2021) & Bimodal (Mammography + Ultrasound) & Feature Concatenation + Dense Layer & Zero-Filling (Induces bias) & 0.925000 & None & ~ 6% Sensitivity Drop & Diagnostic Saliency Map \\
+Zhang et al. (IEEE TMI 2023) & Trimodal (MG + US + Histopathology) & Co-Attention Transformer & Requires all 3 modalities & 0.948000 & Monte Carlo Dropout & ~ 4% Sensitivity Drop & Research Prototype \\
+PROPOSED MULTIMODAL FRAMEWORK & 7 Modalities (MG, US, MRI, Histo, Clinical, EHR, Genomics) & Dynamic Mask-Aware Cross-Attention Transformer & Arbitrary Missingness (-inf Softmax Masking) & 0.967400 & Shannon Entropy + MC Epistemic Gating & < 0.95% (Dense 0.9615 vs Fatty 0.9710) & 10-Stage Real-Time FHIR / DICOM Certified Pipeline \\
+\bottomrule
+\end{tabular}
+\end{table}

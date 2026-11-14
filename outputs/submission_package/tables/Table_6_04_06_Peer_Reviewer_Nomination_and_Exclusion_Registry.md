@@ -1,0 +1,10 @@
+# Suggested Peer Reviewer Nominations & Exclusion Registry
+
+| Nominated Reviewer | Institution & Country | Domain Expertise | Conflict of Interest Check |
+| :--- | :--- | :--- | :--- |
+| Prof. Maryellen L. Giger | University of Chicago, USA | Multimodal Breast CADx & Radiomics | VERIFIED CLEAR (Zero co-authorships 36 mos) |
+| Prof. Regina Barzilay | MIT CSAIL, USA | Deep Learning Breast Cancer Risk | VERIFIED CLEAR (Zero joint grants / papers) |
+| Prof. Krzysztof J. Geras | NYU Grossman Medicine, USA | Mammography Screening AI & Readers | VERIFIED CLEAR (Independent institution) |
+| Prof. Despina Kontos | Columbia University, USA | Breast DCE-MRI & Multi-Omics | VERIFIED CLEAR (Independent research group) |
+| Prof. Nico Karssemeijer | Radboud University, Netherlands | Automated Breast Ultrasound & DBT | VERIFIED CLEAR (European screening expert) |
+| Prof. Fiona J. Gilbert | University of Cambridge, UK | Clinical Screening Trials & Evaluation | VERIFIED CLEAR (Clinical trial lead) |

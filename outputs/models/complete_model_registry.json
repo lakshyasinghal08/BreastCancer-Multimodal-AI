@@ -1,0 +1,17 @@
+{
+  "project": "Antigravity Multimodal Breast Cancer AI",
+  "multimodal_checkpoint": "outputs/models/best_model.pt",
+  "torchscript_checkpoint": "outputs/models/model_torchscript.pt",
+  "onnx_checkpoint": "outputs/models/model_fusion.onnx",
+  "total_parameters": 15132806,
+  "trainable_parameters": 326662,
+  "frozen_backbones": [
+    "mammography_resnet50",
+    "ultrasound_densenet121",
+    "histopathology_vit",
+    "mri_3d_resnet18",
+    "clinical_mlp",
+    "ehr_mlp",
+    "genomic_500_mlp"
+  ]
+}

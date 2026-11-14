@@ -1,0 +1,13 @@
+{
+  "irb_protocol": "ONC-2024-8849-CR",
+  "helsinki_declaration_compliance": true,
+  "informed_consent_waiver": true,
+  "hipaa_safe_harbor_deidentified": true,
+  "competing_interests": "None declared by any author",
+  "funding_grants": [
+    "NIH U01-CA248231",
+    "NIH R01-CA268940",
+    "NSF IIS-2234910"
+  ],
+  "dual_use_research_concern": false
+}

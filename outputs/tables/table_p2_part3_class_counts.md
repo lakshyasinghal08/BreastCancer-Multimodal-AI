@@ -1,0 +1,5 @@
+| Diagnostic_Class   |   Train_Count |   Val_Count |   Test_Count |
+|:-------------------|--------------:|------------:|-------------:|
+| Benign             |             0 |           0 |            0 |
+| Malignant          |             0 |           0 |            0 |
+| Normal             |             4 |           1 |            2 |

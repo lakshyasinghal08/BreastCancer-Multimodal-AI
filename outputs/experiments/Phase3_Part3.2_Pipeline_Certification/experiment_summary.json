@@ -1,0 +1,47 @@
+{
+  "experiment_id": "Phase3_Part3.2_Pipeline_Certification",
+  "completed_at": "2026-10-18T22:40:18.096452",
+  "total_execution_duration_sec": 9.42,
+  "hardware_summary": {
+    "cpu_utilization_percent": 0.0,
+    "system_ram_total_gb": 7.65,
+    "system_ram_available_gb": 0.86,
+    "system_ram_used_gb": 6.79,
+    "system_ram_percent": 88.7,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "cuda_device_name": "N/A"
+  },
+  "software_versions": {
+    "python": "3.13.9",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.1",
+    "pandas": "3.0.6"
+  },
+  "summary_metrics": {
+    "loss": 1.71875,
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 0.0,
+    "ppv": 0.0,
+    "npv": 0.0,
+    "f1_score": 0.0,
+    "mcc": -1.0,
+    "cohen_kappa": -0.6,
+    "roc_auc": 0.0,
+    "pr_auc": 0.125,
+    "ece": 0.787,
+    "mce": 0.9482,
+    "brier_score": 0.6333,
+    "confusion_matrix": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 3,
+      "fn": 1
+    }
+  },
+  "total_events_logged": 11
+}

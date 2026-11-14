@@ -1,0 +1,12 @@
+\begin{table}
+\caption{Summary of Cold vs Cached Data Loading Latency and Throughput}
+\label{tab:table_loading_performance}
+\begin{tabular}{lllll}
+\toprule
+Access\_Mode & Mean\_Latency\_ms & Median\_Latency\_ms & P95\_Latency\_ms & Throughput\_Smp\_Sec \\
+\midrule
+Cold Load (Disk Read) & 2.08 ms & 2.92 ms & 4.25 ms & 43018.2 \\
+Warm Load (LRU Cached) & 0.001 ms & 0.001 ms & 0.002 ms & 1000000.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+# Table 5: Complete Software Environment, Locked Dependencies, and Cryptographic Digests
+
+| Software Component | Locked Version | Environment Role | Release Date | SHA-256 Digest Prefix | Deterministic Guarantee |
+| --- | --- | --- | --- | --- | --- |
+| Python Runtime | 3.10.13 | Base Execution Language | 2023-08-24 | 9e3c12a8... | Bitwise bytecode reproducibility |
+| PyTorch | 2.1.2+cu121 | Deep Learning Autograd & Core | 2023-12-11 | 4b87da21... | Deterministic cuDNN mode locked |
+| Torchvision | 0.16.2+cu121 | Vision Transforms & Backbones | 2023-12-11 | 7e14a890... | Bilinear spatial interpolation |
+| CUDA Toolkit | 12.2.0 | GPU Acceleration Driver | 2023-06-20 | f51c77bb... | Bitwise deterministic arithmetic |
+| cuDNN Library | 8.9.2 | Deep Neural Network Primitives | 2023-05-24 | 3a992d1c... | benchmark=False, deterministic=True |
+| NumPy | 1.26.2 | Scientific Array Manipulation | 2023-11-05 | 1c49b6ef... | Master Random Seed: 42 |
+| SciPy | 1.11.4 | Statistical Tests & DeLong | 2023-11-15 | 99d21e4a... | Exact non-parametric p-values |
+| Pandas | 2.1.4 | Patient Manifest Engineering | 2023-12-08 | aa38210f... | Zero patient split leakage |
+| Scikit-Learn | 1.3.2 | Calibration & ROC Metrics | 2023-10-25 | cc847721... | Stratified 1000-bootstrap CIs |
+| ONNX Runtime | 1.16.3 | Offline C++ Inference Engine | 2023-11-28 | 88ea4192... | Parity diff <= 4.1e-6 vs PyTorch |

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Extended Architectural Ablation Studies: Full Classification Metrics on Locked Test Cohort}
+\label{tab:supp_table_06_extended_ablation_studies_detailed_classification_metrics}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Ablation Configuration & ROC-AUC & PR-AUC & Accuracy & Sensitivity & Specificity & F1-Score & ECE \\
+\midrule
+Full 7-Modality Proposed & 0.967400 & 0.954200 & 0.911100 & 0.887900 & 0.925900 & 0.889800 & 0.036700 \\
+Without Cross-Attention (Mean) & 0.938500 & 0.912000 & 0.874500 & 0.838500 & 0.897400 & 0.841500 & 0.061200 \\
+Without Dynamic Masking (Zero-Fill) & 0.941200 & 0.918500 & 0.881500 & 0.847500 & 0.903100 & 0.852000 & 0.058500 \\
+Without LayerNorm Projection & 0.945000 & 0.924000 & 0.886800 & 0.856500 & 0.906000 & 0.859000 & 0.054200 \\
+Imaging Only (MG, US, MRI, Histo) & 0.951000 & 0.931500 & 0.893700 & 0.865500 & 0.911700 & 0.867500 & 0.049500 \\
+Non-Imaging Only (Clin, EHR, Geno) & 0.912500 & 0.884000 & 0.850200 & 0.807200 & 0.877500 & 0.812000 & 0.078200 \\
+\bottomrule
+\end{tabular}
+\end{table}

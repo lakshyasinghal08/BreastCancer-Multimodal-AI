@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrrll}
+\toprule
+Failure Scenario & Active Diagnostic Streams & Accuracy & ROC_AUC & F1_Score & AUC Retained (%) & Crash / NaN Status & Clinical Safety \\
+\midrule
+Baseline Gold Standard (All 7 Present) & Mammo + US + Histo + MRI + Clin + EHR + Geno & 0.911100 & 0.967100 & 0.889800 & 100.000000 & 0 Crashes (Clean) & Optimal Comprehensive Diagnostic Decision \\
+Missing Breast MRI (Allergy / Pacemaker) & Mammo + US + Histo + Clin + EHR + Geno & 0.909400 & 0.965800 & 0.887500 & 99.870000 & 0 Crashes (Clean) & Fully Acceptable; Histology compensates \\
+Missing Histopathology (Pre-Biopsy Screen) & Mammo + US + MRI + Clin + EHR + Geno & 0.890200 & 0.953000 & 0.872200 & 98.540000 & 0 Crashes (Clean) & High-Risk Screening Indication \\
+Missing Genomics (14-day Turnaround) & Mammo + US + Histo + MRI + Clin + EHR & 0.908500 & 0.965200 & 0.888500 & 99.800000 & 0 Crashes (Clean) & Standard Surgical Oncology Triage \\
+Missing EHR (Outside Referral Patient) & Mammo + US + Histo + MRI + Clin + Geno & 0.911500 & 0.967100 & 0.892200 & 100.000000 & 0 Crashes (Clean) & Zero Impact; Model immune to missing EHR \\
+Acellular FNA Cytology (Dry Tap) & Mammo + US + Histo + MRI + EHR + Geno & 0.910300 & 0.966400 & 0.890200 & 99.930000 & 0 Crashes (Clean) & Core Biopsy & Imaging resolve cytology void \\
+Non-Invasive Diagnostic Screen Only & Mammo + US + Clin + EHR & 0.887000 & 0.949500 & 0.869000 & 98.180000 & 0 Crashes (Clean) & Safe for Biopsy Triage Decision \\
+Severe Outage (Point-of-Care US Only) & Ultrasound Only & 0.850200 & 0.918500 & 0.831000 & 94.970000 & 0 Crashes (Clean) & Satisfies Minimum Feasibility Baseline (AUC >= 0.90) \\
+\bottomrule
+\end{tabular}

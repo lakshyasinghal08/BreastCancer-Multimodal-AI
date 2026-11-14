@@ -1,0 +1,100 @@
+{
+  "stress_test": [
+    {
+      "batch_size": 1,
+      "total_samples": 128,
+      "n_batches": 128,
+      "elapsed_sec": 39.6161,
+      "samples_per_sec": 3.23,
+      "latency_ms_per_batch": 309.5,
+      "ram_usage_mb": 619.14,
+      "cpu_percent": 59.3
+    },
+    {
+      "batch_size": 2,
+      "total_samples": 128,
+      "n_batches": 64,
+      "elapsed_sec": 0.1068,
+      "samples_per_sec": 1198.35,
+      "latency_ms_per_batch": 1.67,
+      "ram_usage_mb": 619.14,
+      "cpu_percent": 41.9
+    },
+    {
+      "batch_size": 4,
+      "total_samples": 128,
+      "n_batches": 32,
+      "elapsed_sec": 0.1095,
+      "samples_per_sec": 1168.43,
+      "latency_ms_per_batch": 3.42,
+      "ram_usage_mb": 620.67,
+      "cpu_percent": 26.1
+    },
+    {
+      "batch_size": 8,
+      "total_samples": 128,
+      "n_batches": 16,
+      "elapsed_sec": 0.1742,
+      "samples_per_sec": 734.83,
+      "latency_ms_per_batch": 10.89,
+      "ram_usage_mb": 620.68,
+      "cpu_percent": 52.1
+    },
+    {
+      "batch_size": 16,
+      "total_samples": 128,
+      "n_batches": 8,
+      "elapsed_sec": 0.1393,
+      "samples_per_sec": 918.69,
+      "latency_ms_per_batch": 17.42,
+      "ram_usage_mb": 622.21,
+      "cpu_percent": 55.4
+    },
+    {
+      "batch_size": 32,
+      "total_samples": 128,
+      "n_batches": 4,
+      "elapsed_sec": 0.1363,
+      "samples_per_sec": 939.06,
+      "latency_ms_per_batch": 34.08,
+      "ram_usage_mb": 625.28,
+      "cpu_percent": 44.4
+    },
+    {
+      "batch_size": 64,
+      "total_samples": 128,
+      "n_batches": 2,
+      "elapsed_sec": 0.1714,
+      "samples_per_sec": 746.64,
+      "latency_ms_per_batch": 85.72,
+      "ram_usage_mb": 631.41,
+      "cpu_percent": 61.0
+    }
+  ],
+  "worker_scaling": [
+    {
+      "worker_count": 0,
+      "theoretical_fps": 939.06,
+      "ram_overhead_mb": 50.0,
+      "scaling_efficiency": "100.0%"
+    },
+    {
+      "worker_count": 2,
+      "theoretical_fps": 2347.65,
+      "ram_overhead_mb": 106.0,
+      "scaling_efficiency": "93.0%"
+    },
+    {
+      "worker_count": 4,
+      "theoretical_fps": 3756.24,
+      "ram_overhead_mb": 162.0,
+      "scaling_efficiency": "86.0%"
+    },
+    {
+      "worker_count": 8,
+      "theoretical_fps": 6573.42,
+      "ram_overhead_mb": 274.0,
+      "scaling_efficiency": "72.0%"
+    }
+  ]
+}

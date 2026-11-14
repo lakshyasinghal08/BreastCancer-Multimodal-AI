@@ -1,0 +1,25 @@
+{
+  "experiment_id": "EXP_20261018_150810_Multimodal_CrossAttention_Baseline",
+  "timestamp": "2026-10-18T09:38:10Z",
+  "dataset_version": "v1.0.0-phase1.5",
+  "model_name": "Multimodal_CrossAttention_Baseline",
+  "random_seed": 42,
+  "hyperparameters": {
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "optimizer": "AdamW",
+    "loss_function": "CrossEntropyLoss",
+    "mixed_precision": "fp16",
+    "cv_folds": 5
+  },
+  "training_status": "PENDING (Phase 2 Preprocessing Required)",
+  "evaluation_status": "PENDING",
+  "output_directory": "D:\\BreastCancer-Multimodal-AI\\outputs\\experiments\\EXP_20261018_150810_Multimodal_CrossAttention_Baseline",
+  "result_summary": {
+    "macro_f1": null,
+    "auroc": null,
+    "sensitivity": null,
+    "specificity": null
+  }
+}

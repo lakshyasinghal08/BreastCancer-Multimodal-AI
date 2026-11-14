@@ -1,0 +1,10 @@
+Metadata Dimension,Audit Value
+Experiment ID,Phase3_Part3.6_Real_Multimodal_Training
+Architecture,"LightweightMultimodalNet (817,189 Parameters)"
+Patient Cohorts,"1,889 Train, 405 Validation, 574 Test (Locked)"
+Loss Formulation,LabelSmoothingCrossEntropy (epsilon=0.05)
+Optimizer,"Differential AdamW (0.5x, 1.0x, 1.5x Tiers)"
+Scheduler,Warmup-Cosine Annealing (2 Epoch Warmup)
+Mixed Precision,AMP BFloat16 / FP16 with GradScaler
+Random Seed,42 (PyTorch + NumPy Bitwise Deterministic)
+Best Epoch,"Epoch 4 (Val ROC-AUC: 0.9470, Acc: 87.41%)"

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Multi-Modal Explainability Method Stability, Consistency Metrics and Clinical Characteristics}
+\label{tab:table_5_03_01_explainability_method_consistency_and_cross_method_agreement}
+\begin{tabular}{lllrrrll}
+\toprule
+Method & Target Modalities & Resolution & Stability (Run-to-Run Cosine) & Rank Correlation Stability & Inference Overhead (ms) & Clinical Strength & Clinical Limitation \\
+\midrule
+Grad-CAM & Mammography, Ultrasound, MRI, Histopathology & Coarse (Last Conv Layer) & 0.999400 & 0.998900 & 14.200000 & Rapid spatial localization of dominant lesion margins & Coarse gradient resolution misses fine microcalcifications \\
+Grad-CAM++ & Mammography, Ultrasound, MRI, Histopathology & Fine (Higher-order gradients) & 0.999200 & 0.998500 & 18.600000 & Multiple co-occurring lesion detection, superior boundary delineation & Slightly higher computational latency during interactive review \\
+Integrated Gradients & All 7 Modalities (Imaging & Tabular) & Pixel / Feature-Level Direct & 0.999800 & 0.999500 & 45.800000 & Axiomatic completeness, exact feature-level attribution attribution & Susceptible to high-frequency pixel noise without smoothing \\
+Kernel SHAP / TreeSHAP & Clinical Tabular, Longitudinal EHR, Genomics & Exact Feature Contribution & 0.998800 & 0.998100 & 28.400000 & Additive efficiency, direct odds-ratio interpretation for oncologists & Approximation error if sample background set is insufficiently diverse \\
+Attention Rollout & Cross-Attention Fusion Layer (All Modalities) & Modality-to-Modality Latent & 1.000000 & 1.000000 & 4.100000 & Reveals cross-modal synergy and dynamic gating decisions directly & Does not reflect negative gradient weights in deep heads \\
+Occlusion Sensitivity & All Imaging & Tabular Modalities & Patch / Feature Block & 0.999600 & 0.999200 & 62.300000 & Model-agnostic ground truth verification of necessary diagnostic features & High computational cost requiring multiple forward evaluations \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+| Hyperparameter Category   | Hyperparameter Dimension   | Assigned Value                                 |
+|:--------------------------|:---------------------------|:-----------------------------------------------|
+| Optimization Engine       | Optimizer                  | AdamW (Decoupled Weight Decay)                 |
+| Optimization Engine       | Base Learning Rate         | 1.0e-3 (1.000000e-03)                          |
+| Optimization Engine       | Weight Decay               | 1.0e-2 (0.010000)                              |
+| Optimization Engine       | Gradient Clipping          | Max L2 Norm <= 1.0000                          |
+| Scheduler Dynamic         | Schedule Algorithm         | Warmup (3 Epochs) + Cosine Annealing           |
+| Scheduler Dynamic         | Minimum Learning Rate      | 1.0e-6 (1.000000e-06)                          |
+| Loss Formulation          | Loss Objective             | CrossEntropyLoss with Label Smoothing (0.02)   |
+| Loss Formulation          | Positive Class Weighting   | 1.7007 (Inverse Frequency Calculated on Train) |
+| Cohort & Batching         | Train Batch Size           | 32 Samples                                     |
+| Cohort & Batching         | Total Training Epochs      | 35 Epochs                                      |
+| Reproducibility           | Deterministic Seed         | 42 (PyTorch + NumPy Global)                    |

@@ -1,0 +1,14 @@
+| Diagnostic Metric          | Validation Cohort (N = 84)   | Independent Test Cohort (N = 88)   | Delta / Shift   |
+|:---------------------------|:-----------------------------|:-----------------------------------|:----------------|
+| Classification Accuracy    | 96.43%                       | 97.73%                             | +1.30%          |
+| Balanced Accuracy          | 96.50%                       | 97.58%                             | +1.08%          |
+| Precision (PPV)            | 0.9375                       | 0.9697                             | +0.0322         |
+| Recall / Sensitivity       | 0.9677                       | 0.9697                             | +0.0020         |
+| Specificity (TNR)          | 0.9623                       | 0.9818                             | +0.0196         |
+| Harmonized F1-Score        | 0.9524                       | 0.9697                             | +0.0173         |
+| ROC-AUC Discrimination     | 0.9921                       | 0.9791                             | -0.0130         |
+| PR-AUC (Average Precision) | 0.9873                       | 0.9829                             | -0.0044         |
+| Matthews Correlation (MCC) | +0.9241                      | +0.9515                            | +0.0274         |
+| Cohen's Kappa Agreement    | 0.9238                       | 0.9515                             | +0.0277         |
+| Expected Calibration Error | 0.0285                       | 0.0251                             | -0.0034         |
+| Brier Probability Loss     | 0.0321                       | 0.0254                             | -0.0067         |

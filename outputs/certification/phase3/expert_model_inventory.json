@@ -1,0 +1,836 @@
+{
+  "audit_timestamp": "2026-11-05T20:43:12",
+  "total_artifacts": 83,
+  "artifacts": [
+    {
+      "modality": "mammography",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/mammography/best_model.pt",
+      "size_bytes": 629703,
+      "size_formatted": "614.9 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "513138dbf20f7dee12633be0dc1dc73954eeda68800cfa4a024592914714a7f4",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_architecture_summary.json",
+      "relative_path": "outputs/models/mammography/mammography_architecture_summary.json",
+      "size_bytes": 173,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "62281cac90a13523519198405fc1875f3843a449f5ac1aa539dad553cb0457c7",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_benchmark.json",
+      "relative_path": "outputs/models/mammography/mammography_benchmark.json",
+      "size_bytes": 196,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "282e026428a9fbe958215bc133977630436ea7ddd3ff19970a95fe73f8f03f7a",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_metrics.json",
+      "relative_path": "outputs/models/mammography/mammography_metrics.json",
+      "size_bytes": 308,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "3f1ff9b4c1cf04e9dd7d6c2f05fd931e9828203cefb1a4a036238a884550bb56",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model.onnx",
+      "relative_path": "outputs/models/mammography/mammography_model.onnx",
+      "size_bytes": 169395,
+      "size_formatted": "165.4 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "be25bdf282f08548f5c3b9f2ad6515a96f002d4ad1896ba9565cf63ef4c3c854",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model.onnx.data",
+      "relative_path": "outputs/models/mammography/mammography_model.onnx.data",
+      "size_bytes": 570048,
+      "size_formatted": "556.7 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "686884d5fd6223bc78ad36951ac6098606a0528c48088b9daf49f8690c1ca1e8",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model_best.pt",
+      "relative_path": "outputs/models/mammography/mammography_model_best.pt",
+      "size_bytes": 631255,
+      "size_formatted": "616.5 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "e081431c7646a1dab81972825cfc75a03eab7b9e5fd6f5cf2df79c6db47d6cee",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model_config.json",
+      "relative_path": "outputs/models/mammography/mammography_model_config.json",
+      "size_bytes": 374,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "4eb5908eb7c1d4542acc59dd0ab2104d9cecd3ed7c7f1e7a4e0396d3b4de6dee",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model_final.pt",
+      "relative_path": "outputs/models/mammography/mammography_model_final.pt",
+      "size_bytes": 631379,
+      "size_formatted": "616.6 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "1eb63910312614d98ab9016d2be13856e2166d0c5c0fde1659f88a9034a40c0e",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mammography",
+      "filename": "mammography_model_torchscript.pt",
+      "relative_path": "outputs/models/mammography/mammography_model_torchscript.pt",
+      "size_bytes": 731757,
+      "size_formatted": "714.6 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "89a4ea24afa8affdee62bdcd0ea0265f9011688f10f98acdead3323805aae158",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/ultrasound/best_model.pt",
+      "size_bytes": 629703,
+      "size_formatted": "614.9 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "21b5521fe8d0c8e190316abf74b1026e0a9cf83a61a71e4cb4fbb1266830e60f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_architecture_summary.json",
+      "relative_path": "outputs/models/ultrasound/ultrasound_architecture_summary.json",
+      "size_bytes": 171,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "be9d7f38fe00037fdfd7d7eba4db251189e37ab06b30bd5d081ec29020ca406f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_benchmark.json",
+      "relative_path": "outputs/models/ultrasound/ultrasound_benchmark.json",
+      "size_bytes": 196,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "324cfaa39daf4f516d7c373c511f76761b4ba7190d8294adb36ee872c17b3891",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_metrics.json",
+      "relative_path": "outputs/models/ultrasound/ultrasound_metrics.json",
+      "size_bytes": 309,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "f8392a0d6e3ad0557140795a4e73cbe1ac671f2f035fc9757269f5b2ed365322",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model.onnx",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model.onnx",
+      "size_bytes": 169364,
+      "size_formatted": "165.4 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "b48e39a4caa22f55c82ed8956f2618268fbf5db54b28aba9a4af1ae66a46575c",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model.onnx.data",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model.onnx.data",
+      "size_bytes": 570048,
+      "size_formatted": "556.7 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "8f9f7a202331d6a1676ec35445ae62cb553c92d3c32d2f241202fdb7bf3fd6f7",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model_best.pt",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model_best.pt",
+      "size_bytes": 631067,
+      "size_formatted": "616.3 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "d304338b3fbb4ddc3f7fa7ea5af8738a30f9862a834af1e714ff37aecbbbe337",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model_config.json",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model_config.json",
+      "size_bytes": 372,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "ffa8608777000f6fe5e2da6f80f85a6886c4d7c54a7a875f470e56988f532417",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model_final.pt",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model_final.pt",
+      "size_bytes": 631255,
+      "size_formatted": "616.5 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "1f436f41bc4b0f70aee85e8ebeb9904504ba8f3a1038d5230e16a3fe8277b577",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ultrasound",
+      "filename": "ultrasound_model_torchscript.pt",
+      "relative_path": "outputs/models/ultrasound/ultrasound_model_torchscript.pt",
+      "size_bytes": 733470,
+      "size_formatted": "716.3 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "e998e5c6a1acb31a26cbbf6bee9302da03148c252938fcf4592da51159eb3315",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/histopathology/best_model.pt",
+      "size_bytes": 630855,
+      "size_formatted": "616.1 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "b24f9e88aadb8e408c098c0cafe02ad8efc7109d46b67267109a384c05680f5f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_architecture_summary.json",
+      "relative_path": "outputs/models/histopathology/histopathology_architecture_summary.json",
+      "size_bytes": 179,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "5827350da4316e5f9259171abf09963f2923bf8ac81a30cdb0aea795083f9301",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_benchmark.json",
+      "relative_path": "outputs/models/histopathology/histopathology_benchmark.json",
+      "size_bytes": 200,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "66ce6b8a5c818f959091ee9a98d54de2f4aa9badd9e48228bb59c7a08543eec3",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_metrics.json",
+      "relative_path": "outputs/models/histopathology/histopathology_metrics.json",
+      "size_bytes": 313,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "30e9a66568b81ce6122b791b3eaf86dab89e0d813b5896a0a482e6d1aa8d744d",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model.onnx",
+      "relative_path": "outputs/models/histopathology/histopathology_model.onnx",
+      "size_bytes": 169489,
+      "size_formatted": "165.5 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "c2f1bc1b093f87060cdb9c97765042a12a64a9193f6c23c26857e53cec36da45",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model.onnx.data",
+      "relative_path": "outputs/models/histopathology/histopathology_model.onnx.data",
+      "size_bytes": 571200,
+      "size_formatted": "557.8 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "3cfc3198e0d02c5722a731658fb064af35c90d9e2bd8383752c21c3a2da2a7ff",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model_best.pt",
+      "relative_path": "outputs/models/histopathology/histopathology_model_best.pt",
+      "size_bytes": 632779,
+      "size_formatted": "617.9 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "c3b3d70ecbdf5d37e8875af8291c5ebb8dca3339d626b7261fbddd1d9e800449",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model_config.json",
+      "relative_path": "outputs/models/histopathology/histopathology_model_config.json",
+      "size_bytes": 380,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "1be86b052a20a44b0a160c008821ec788768c6b8b62c26e1a80c223848203bbb",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model_final.pt",
+      "relative_path": "outputs/models/histopathology/histopathology_model_final.pt",
+      "size_bytes": 632903,
+      "size_formatted": "618.1 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "c443ce50d1296040d80283204df0c35d75a68b0575bad88624474cba88805b3b",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "histopathology",
+      "filename": "histopathology_model_torchscript.pt",
+      "relative_path": "outputs/models/histopathology/histopathology_model_torchscript.pt",
+      "size_bytes": 735706,
+      "size_formatted": "718.5 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "2422d9ab4609361b319b9d81e4c7993671771412fc440e531298578724571025",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/mri/best_model.pt",
+      "size_bytes": 629703,
+      "size_formatted": "614.9 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "dc1cebe7f3934ac1e89781e1162192abeb38b78d1027117bff0c53ac12f11967",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_architecture_summary.json",
+      "relative_path": "outputs/models/mri/mri_architecture_summary.json",
+      "size_bytes": 157,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "ca85945f35a9d397c9f4473dfa92825841a6765d5a5a5748c81c0b5cb3a9aaab",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_benchmark.json",
+      "relative_path": "outputs/models/mri/mri_benchmark.json",
+      "size_bytes": 189,
+      "size_formatted": "0.2 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "be4fe95a43522b44df2209fc682bdad6971e1731cb29289776afe7ac5e0bb743",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_metrics.json",
+      "relative_path": "outputs/models/mri/mri_metrics.json",
+      "size_bytes": 301,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d6edec5d375130a1ecd15446930ae49b9a128fabae12f201e1e02743da2cb084",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model.onnx",
+      "relative_path": "outputs/models/mri/mri_model.onnx",
+      "size_bytes": 169147,
+      "size_formatted": "165.2 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "c2e92fbf3c6fbf1e4c1b2a74e956863f31e229977c81654ddcd311a66573ced7",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model.onnx.data",
+      "relative_path": "outputs/models/mri/mri_model.onnx.data",
+      "size_bytes": 570048,
+      "size_formatted": "556.7 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "fc70ca7be28ced029c9ce2a1c5fbed4511113491695fe1853b0304e7ce6d6fb9",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model_best.pt",
+      "relative_path": "outputs/models/mri/mri_model_best.pt",
+      "size_bytes": 630199,
+      "size_formatted": "615.4 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "98784f02b0100d17986b63e2d932b98a56c9b6430c678751c82006e8dc619edf",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model_config.json",
+      "relative_path": "outputs/models/mri/mri_model_config.json",
+      "size_bytes": 358,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "70e45cb8ca12aa9e52b6dec2a122baa55087107130989aeb3e8302895233aab6",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model_final.pt",
+      "relative_path": "outputs/models/mri/mri_model_final.pt",
+      "size_bytes": 630323,
+      "size_formatted": "615.5 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "99f49d05fe41235e744f063abc0623a1286b100c1c57941754c4bb4a563c420d",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "mri",
+      "filename": "mri_model_torchscript.pt",
+      "relative_path": "outputs/models/mri/mri_model_torchscript.pt",
+      "size_bytes": 731317,
+      "size_formatted": "714.2 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "e648d539286e122cac75dbf94005b26ab52de036a2ac08132551f3ce2a7b0e9d",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/clinical/best_model.pt",
+      "size_bytes": 557833,
+      "size_formatted": "544.8 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "b977a6e01727d0d522ba1c887a984afc631177c58f75c6a1897396c12b73738b",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_benchmark.json",
+      "relative_path": "outputs/models/clinical/clinical_benchmark.json",
+      "size_bytes": 1534,
+      "size_formatted": "1.5 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "e5fb85c0c32d21e613025fa3b233b816f1167d3f46fbb6e66f7e4287db5ea008",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_metrics.json",
+      "relative_path": "outputs/models/clinical/clinical_metrics.json",
+      "size_bytes": 1665,
+      "size_formatted": "1.6 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "2460f5bee41117795f5e6b3e89d02422147d0cd9d121501f2a16c285900bdbb6",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model.onnx",
+      "relative_path": "outputs/models/clinical/clinical_model.onnx",
+      "size_bytes": 80772,
+      "size_formatted": "78.9 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "014eae7089d15ba1227594b27df1f2b0dbf4e1d63c0e6415e363ee0bba9f7d3f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model.onnx.data",
+      "relative_path": "outputs/models/clinical/clinical_model.onnx.data",
+      "size_bytes": 171520,
+      "size_formatted": "167.5 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "5fccc5281e68226bac99ad4655b5f617a3a9ca92883fe2a66e7b57c50d2d4a5b",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model_best.pt",
+      "relative_path": "outputs/models/clinical/clinical_model_best.pt",
+      "size_bytes": 185145,
+      "size_formatted": "180.8 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "544d6cd76536308b3e903b06d345d9f139132af65a9cfa7079575c8d47f2c6a5",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model_config.json",
+      "relative_path": "outputs/models/clinical/clinical_model_config.json",
+      "size_bytes": 974,
+      "size_formatted": "1.0 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "8fc6577da5a1fb84a9930827ddb05959bdb8b2bb70a4c0f323c0b4f364dcd57e",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model_final.pt",
+      "relative_path": "outputs/models/clinical/clinical_model_final.pt",
+      "size_bytes": 185181,
+      "size_formatted": "180.8 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "052b6d863a66ae387b1d2d11960144d61c5de43c19e5ab118087192b95057f8e",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model_summary.json",
+      "relative_path": "outputs/models/clinical/clinical_model_summary.json",
+      "size_bytes": 785,
+      "size_formatted": "0.8 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "dc1eed7e6c6591662e60c7e66b4e3d243e2f039fa0deb062e58118320b4e5e39",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_model_torchscript.pt",
+      "relative_path": "outputs/models/clinical/clinical_model_torchscript.pt",
+      "size_bytes": 226462,
+      "size_formatted": "221.2 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "8e632ec6a118c91c3283816dec7b003a52ac2b33b33febb1ad29d7d1fa715ecd",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_training_config.json",
+      "relative_path": "outputs/models/clinical/clinical_training_config.json",
+      "size_bytes": 562,
+      "size_formatted": "0.5 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "0d0ae678b19bcfcd03df0b260af0e265818a1ccd693d7aeadb98b80cf97c292a",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_training_history.csv",
+      "relative_path": "outputs/models/clinical/clinical_training_history.csv",
+      "size_bytes": 12151,
+      "size_formatted": "11.9 KB",
+      "format": "CSV History/Log",
+      "sha256": "c785cc9b2c4512f2f9f84fd2d1484d1b0c8e80391aace609807960fb19fc5634",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "clinical_training_history.json",
+      "relative_path": "outputs/models/clinical/clinical_training_history.json",
+      "size_bytes": 26350,
+      "size_formatted": "25.7 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "b09dad18b8ed30ef0211f844d1c811e60b37d4d59304f75fbc6039a980820044",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "clinical",
+      "filename": "normalization_stats.json",
+      "relative_path": "outputs/models/clinical/normalization_stats.json",
+      "size_bytes": 3388,
+      "size_formatted": "3.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d09702e1edbe50b96177ebbdb12af22e7a43ab1d93471362889b2965ec416636",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/ehr/best_model.pt",
+      "size_bytes": 768505,
+      "size_formatted": "750.5 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "641f20a07e6e9579331efa6166ac2350fd5f06de7efb93940dc64163a98f8961",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_architecture_summary.json",
+      "relative_path": "outputs/models/ehr/ehr_architecture_summary.json",
+      "size_bytes": 1131,
+      "size_formatted": "1.1 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "04b5166431cbfd02e82e3862d4b2805ff2c48b379ec66df3ead1f150e3c3f4ae",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_benchmark.json",
+      "relative_path": "outputs/models/ehr/ehr_benchmark.json",
+      "size_bytes": 1483,
+      "size_formatted": "1.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d677b4ba92e5d6766cce77e75435e07164d72b91bfa737b64f9710bd359c61e4",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_metrics.json",
+      "relative_path": "outputs/models/ehr/ehr_metrics.json",
+      "size_bytes": 2170,
+      "size_formatted": "2.1 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d1fdd3d50a9ff853443def5d9f1a2cca51599c1eb112e8dd92fc6dfaa77002c7",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model.onnx",
+      "relative_path": "outputs/models/ehr/ehr_model.onnx",
+      "size_bytes": 51258,
+      "size_formatted": "50.1 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "d03cd7d2bd4bd5d99c02dfac6a185e7f1385c617913546cd5bf2d9841e69ed17",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model.onnx.data",
+      "relative_path": "outputs/models/ehr/ehr_model.onnx.data",
+      "size_bytes": 244224,
+      "size_formatted": "238.5 KB",
+      "format": "Binary Data/Weight",
+      "sha256": "e3073ac1874ee18b45995a59bb5e111b3fbeba2e4d7888f332ab66eadbd509cc",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model_best.pt",
+      "relative_path": "outputs/models/ehr/ehr_model_best.pt",
+      "size_bytes": 254773,
+      "size_formatted": "248.8 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "3a906a4cc54601e969ec506098e05c4068ff27f35ae4aab7e32c2f461333559d",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model_config.json",
+      "relative_path": "outputs/models/ehr/ehr_model_config.json",
+      "size_bytes": 278,
+      "size_formatted": "0.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "7b0a2d473388a74e72f59388149f7d846a4c64b781fd692221f26abed02a2c2f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model_final.pt",
+      "relative_path": "outputs/models/ehr/ehr_model_final.pt",
+      "size_bytes": 254805,
+      "size_formatted": "248.8 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "9b3258c92db43bdb2dc38ac9f5261324e0ced81f660c0069a58cee829ee4729c",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_model_torchscript.pt",
+      "relative_path": "outputs/models/ehr/ehr_model_torchscript.pt",
+      "size_bytes": 287675,
+      "size_formatted": "280.9 KB",
+      "format": "PyTorch Serialized State",
+      "sha256": "76cf0d615224820650af84cec9d283b4b364c790c433d5ab83b3d9259cd61303",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_training_config.json",
+      "relative_path": "outputs/models/ehr/ehr_training_config.json",
+      "size_bytes": 418,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "8004c0a64b4a6ab9e36a5926e3b2dd9e647be5af71ca0a0799cb600b47452988",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_training_history.json",
+      "relative_path": "outputs/models/ehr/ehr_training_history.json",
+      "size_bytes": 15452,
+      "size_formatted": "15.1 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "c831c16e2a1dc061285371627faf61deb4c6428a7cbbbf0638718243d2db1fdf",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "ehr_validation_report.json",
+      "relative_path": "outputs/models/ehr/ehr_validation_report.json",
+      "size_bytes": 3123,
+      "size_formatted": "3.0 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "f891049a110d640909156372d827b1b4010f22450e521deeb3a5d7d08f663fa0",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "ehr",
+      "filename": "normalization_stats.json",
+      "relative_path": "outputs/models/ehr/normalization_stats.json",
+      "size_bytes": 785,
+      "size_formatted": "0.8 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "f283a1144ec424a2fbe6101b2586d203e12783911a0ff14d9aaab790e2205cb5",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "best_model.pt",
+      "relative_path": "outputs/models/genomic/best_model.pt",
+      "size_bytes": 56466549,
+      "size_formatted": "53.85 MB",
+      "format": "PyTorch Serialized State",
+      "sha256": "83a3d4fdda215af4ea1132af535c611c49dc533a01e24a1b7f4976026d10fb23",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_architecture_summary.json",
+      "relative_path": "outputs/models/genomic/genomic_architecture_summary.json",
+      "size_bytes": 2689,
+      "size_formatted": "2.6 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "f4832d1192ff9672f6ae5058fb8cb1cd4974bbce8ee067ccf9db5161ecbcc5df",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_benchmark.json",
+      "relative_path": "outputs/models/genomic/genomic_benchmark.json",
+      "size_bytes": 1125,
+      "size_formatted": "1.1 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "411df2e60c84cd3cc33b234977b86bcf6e4cc658b6cb66a48a6b3bd286692034",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_metrics.json",
+      "relative_path": "outputs/models/genomic/genomic_metrics.json",
+      "size_bytes": 1697,
+      "size_formatted": "1.7 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "bdd50c31a51033384cb2f4c84c07e2bf5afac755f77a1fbe59c950c008d78ed0",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model.onnx",
+      "relative_path": "outputs/models/genomic/genomic_model.onnx",
+      "size_bytes": 49799,
+      "size_formatted": "48.6 KB",
+      "format": "ONNX Runtime Graph",
+      "sha256": "76fde4c4503b36f7ca33649aaf049860d0906e0e73ed36cf239b76bd8f8bb432",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model.onnx.data",
+      "relative_path": "outputs/models/genomic/genomic_model.onnx.data",
+      "size_bytes": 56511488,
+      "size_formatted": "53.89 MB",
+      "format": "Binary Data/Weight",
+      "sha256": "69daf63ee99d3166138307ea12a1f993d334455460a8825b69863dc82d84f151",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model_best.pt",
+      "relative_path": "outputs/models/genomic/genomic_model_best.pt",
+      "size_bytes": 56466805,
+      "size_formatted": "53.85 MB",
+      "format": "PyTorch Serialized State",
+      "sha256": "1ad560cb93d31cdecb7fad9af2d8d9df4900adaaeda25b9fa88240ddfc9b44bf",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model_config.json",
+      "relative_path": "outputs/models/genomic/genomic_model_config.json",
+      "size_bytes": 441,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "864921569db33b3469a2b681fa4d91a1906cb22a8f75cb70886f77f7d5f7bf6b",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model_final.pt",
+      "relative_path": "outputs/models/genomic/genomic_model_final.pt",
+      "size_bytes": 56467541,
+      "size_formatted": "53.85 MB",
+      "format": "PyTorch Serialized State",
+      "sha256": "e23e55658e957afd8e5a8c97a9c8bd1a04f0513ff7289de31a394fc8fdfb56f1",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_model_torchscript.pt",
+      "relative_path": "outputs/models/genomic/genomic_model_torchscript.pt",
+      "size_bytes": 56499571,
+      "size_formatted": "53.88 MB",
+      "format": "PyTorch Serialized State",
+      "sha256": "3eaddef282666c3d818aa1701303d80dc8e2884e22cbddc032288ffc469fcc1f",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_training_config.json",
+      "relative_path": "outputs/models/genomic/genomic_training_config.json",
+      "size_bytes": 436,
+      "size_formatted": "0.4 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d888958be2f3623fb6b73f529ab082c2e68bcf8c950cafcd138a05544c4f881e",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_training_history.csv",
+      "relative_path": "outputs/models/genomic/genomic_training_history.csv",
+      "size_bytes": 2173,
+      "size_formatted": "2.1 KB",
+      "format": "CSV History/Log",
+      "sha256": "77ae46a3c2b177b52dec9a7e214d73d80936045f1f3f6a076cb80784f9fe1f1c",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_training_history.json",
+      "relative_path": "outputs/models/genomic/genomic_training_history.json",
+      "size_bytes": 8493,
+      "size_formatted": "8.3 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "d0f3e79cc3ef0c29ea36b7c9eda1c94d3a12d6131de6674e8f1283ca710ca304",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "genomic_validation_report.json",
+      "relative_path": "outputs/models/genomic/genomic_validation_report.json",
+      "size_bytes": 548,
+      "size_formatted": "0.5 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "bf6c4eabb90ed4edfeb7b580cadaaa6af93fc71747b017cb50828458f2515b55",
+      "integrity_status": "VERIFIED"
+    },
+    {
+      "modality": "genomic",
+      "filename": "normalization_stats.json",
+      "relative_path": "outputs/models/genomic/normalization_stats.json",
+      "size_bytes": 755,
+      "size_formatted": "0.7 KB",
+      "format": "JSON Configuration/Metrics",
+      "sha256": "674359589c743ab11cc2066a6dfcc1d5ad76fef583fd5b93048dd5b9b5f56349",
+      "integrity_status": "VERIFIED"
+    }
+  ]
+}

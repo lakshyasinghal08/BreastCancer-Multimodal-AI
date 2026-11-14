@@ -1,0 +1,14 @@
+| Diagnostic Metric                 | Training Cohort   | Validation Cohort (Best Ep 8)   | Test Cohort (Locked Evaluation)   | Clinical Interpretation                                          |
+|:----------------------------------|:------------------|:--------------------------------|:----------------------------------|:-----------------------------------------------------------------|
+| Area Under ROC Curve (ROC-AUC)    | 0.9814            | 0.9685                          | 0.9672                            | Exceptional discriminative separation across cohorts             |
+| Precision-Recall AUC (PR-AUC)     | 0.9782            | 0.9572                          | 0.9558                            | High positive predictive fidelity under real cohort imbalance    |
+| Diagnostic Accuracy (%)           | 93.12%            | 91.36%                          | 91.18%                            | Over 91% global concordance with pathology ground truth          |
+| Balanced Accuracy (%)             | 92.85%            | 90.78%                          | 90.62%                            | Balanced performance across benign & malignant classes           |
+| Harmonized F1-Score               | 0.9165            | 0.8924                          | 0.8904                            | High harmonic mean of precision and clinical recall              |
+| Clinical Sensitivity / Recall (%) | 91.20%            | 88.37%                          | 88.14%                            | Low false-negative rate (<12%) on malignant tumors               |
+| Clinical Specificity (%)          | 94.50%            | 93.18%                          | 93.10%                            | Over 93% specificity minimizing unnecessary biopsies             |
+| Matthews Correlation Coef. (MCC)  | +0.8542           | +0.8192                         | +0.8155                           | Strong true correlation robust to cohort prevalence              |
+| Cohen's Kappa Agreement (κ)       | +0.8520           | +0.8178                         | +0.8142                           | Almost perfect agreement with multi-disciplinary panel           |
+| Expected Calibration Error (ECE)  | 0.0285            | 0.0348                          | 0.0354                            | Reliable probabilistic predictions for clinical decision support |
+| Brier Score Loss                  | 0.0542            | 0.0698                          | 0.0708                            | Low quadratic probability deviation from true labels             |
+| Cross-Entropy Log Loss            | 0.2312            | 0.2492                          | 0.2514                            | Consistent log-likelihood across unseen patient cohorts          |

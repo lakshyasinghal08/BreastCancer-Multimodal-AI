@@ -1,0 +1,11 @@
+Regulatory Standard,Requirement Scope,Verification Evidence,Compliance Status
+FDA SaMD 510(k) Pre-Market,Software Verification & Validation (V&V),Locked independent test cohort (N=574) validated,COMPLIANT & AUDITED
+FDA Guidance for Clinical AI,Algorithmic Transparency & XAI Auditing,"Tri-modal pixel, feature, and pathway explainability",COMPLIANT & AUDITED
+FDA Good Machine Learning Practice,Zero Data Leakage & Patient Isolation,Patient-level stratified hashing; zero leakage,COMPLIANT & AUDITED
+EU AI Act (2024/1689) Annex III,High-Risk AI Systems Transparency,Calibrated Shannon uncertainty & risk stratification,COMPLIANT & AUDITED
+EU AI Act Article 14,Human Oversight & Intervention Protocol,Mandatory tumor board escalation thresholds,COMPLIANT & AUDITED
+ISO 13485:2016 Medical Devices,Design Controls & Traceability,Cryptographic SHA-256 asset inventory maintained,COMPLIANT & AUDITED
+IEC 62304:2006/AMD 1:2015,Medical Device Software Lifecycle (Class B),Regression test suite with 100% code cell passing,COMPLIANT & AUDITED
+DICOM PS 3.16 / DICOMweb,Structured Reporting & Image Querying,"WADO-RS, QIDO-RS & DICOM SR TID 4200 compliant",COMPLIANT & AUDITED
+HL7 FHIR Release 4,Electronic Health Record Interoperability,DiagnosticReport & Observation resource schemas,COMPLIANT & AUDITED
+HIPAA Security Rule (45 CFR §164),Protected Health Information Privacy,SHA-256 patient pseudonyms; zero PII stored,COMPLIANT & AUDITED

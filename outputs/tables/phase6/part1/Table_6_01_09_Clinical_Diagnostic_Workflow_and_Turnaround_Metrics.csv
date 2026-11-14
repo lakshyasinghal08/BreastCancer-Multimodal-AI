@@ -1,0 +1,10 @@
+Workflow Stage,Duration,Clinical Action
+Stage 1: Multi-Modal Ingestion & De-identification,0.45 sec,Receives DICOM C-STORE and HL7 FHIR streams; strips patient PII
+Stage 2: Image Normalization & Quality Audit,0.38 sec,Applies Macenko stain normalization and 16-bit LUT windowing
+Stage 3: Frozen Expert Encoders Feature Extraction,0.62 sec,Generates seven 128-d LayerNorm latent vectors in parallel
+Stage 4: Dynamic Mask-Aware Cross-Attention Fusion,0.12 sec,"Calculates cross-modal attention mass, masking missing slots to -inf"
+Stage 5: Calibrated Risk & Uncertainty Quantification,0.08 sec,Outputs calibrated probability (T*=1.18) and Shannon entropy H(p)
+Stage 6: Real-Time Saliency & Explainability Rendering,0.35 sec,Generates Grad-CAM++ overlays and SHAP feature importance bars
+Stage 7: Triage Dispatch (Autonomous vs MDT Review),0.05 sec,Auto-triages 73.5% (H<0.150); routes 6.6% to multidisciplinary tumor board
+Stage 8: Cryptographic Signing & FHIR Report Export,0.10 sec,Exports signed HL7 FHIR DiagnosticReport and DICOM Structured Report
+TOTAL DIAGNOSTIC LOOP TURNAROUND,2.15 sec,Full end-to-end processing well within 3-second clinical interactive target

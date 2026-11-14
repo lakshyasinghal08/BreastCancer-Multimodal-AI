@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Modality-Specific Missingness Frequencies and Recommended Latent Imputation Strategy}
+\label{tab:table_p2_missing_modality_summary}
+\begin{tabular}{llrrrrl}
+\toprule
+Modality & Clinical Domain & Present Patients & Present (\%) & Missing Patients & Missing (\%) & Missingness Strategy \\
+\midrule
+Mammography & Radiology & 561 & 29.230000 & 1358 & 70.770000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+Ultrasound & Radiology & 0 & 0.000000 & 1919 & 100.000000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+Histopathology & Pathology & 344 & 17.930000 & 1575 & 82.070000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+MRI & Radiology & 122 & 6.360000 & 1797 & 93.640000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+Clinical & Clinical/EHR & 569 & 29.650000 & 1350 & 70.350000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+EHR & Clinical/EHR & 335 & 17.460000 & 1584 & 82.540000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+Genomic & Molecular & 273 & 14.230000 & 1646 & 85.770000 & Zero-Masked Latent Imputation / Drop-Modality Training \\
+\bottomrule
+\end{tabular}
+\end{table}

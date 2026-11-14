@@ -1,0 +1,53 @@
+{
+  "total_combinations_evaluated": 30,
+  "full_model_roc_auc": 0.9671190442940751,
+  "minimum_acceptable_criteria": {
+    "min_accuracy": 0.85,
+    "min_roc_auc": 0.9
+  },
+  "minimum_clinically_acceptable_pair": {
+    "combination": "Mammography + Ultrasound",
+    "accuracy": 0.8815,
+    "roc_auc": 0.9458,
+    "f1_score": 0.864,
+    "clinical_context": "Standard Routine Non-Invasive Screening"
+  },
+  "optimal_parsimonious_triad": {
+    "combination": "Mammography + Ultrasound + Histopathology (Triple Assessment)",
+    "accuracy": 0.9059,
+    "roc_auc": 0.9638,
+    "f1_score": 0.889,
+    "auc_retained_pct": 99.65,
+    "clinical_context": "Standard Gold-Standard Triple Assessment"
+  },
+  "marginal_contributions_shapley": [
+    {
+      "modality": "Histopathology",
+      "marginal_auc_gain": 0.0422
+    },
+    {
+      "modality": "Mammography",
+      "marginal_auc_gain": 0.0314
+    },
+    {
+      "modality": "Breast MRI",
+      "marginal_auc_gain": 0.0245
+    },
+    {
+      "modality": "Ultrasound",
+      "marginal_auc_gain": 0.0218
+    },
+    {
+      "modality": "Genomics",
+      "marginal_auc_gain": 0.0182
+    },
+    {
+      "modality": "Clinical Tabular",
+      "marginal_auc_gain": 0.0095
+    },
+    {
+      "modality": "Electronic Health Record",
+      "marginal_auc_gain": 0.0038
+    }
+  ]
+}

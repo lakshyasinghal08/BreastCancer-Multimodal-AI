@@ -1,0 +1,4 @@
+batch_size,n_samples,n_batches,elapsed_sec,samples_per_sec,batches_per_sec,latency_ms_per_batch,ram_usage_mb,ram_delta_mb,cpu_percent
+8,128,16,53.4476,2.39,0.3,3340.48,513.28,0.0,50.3
+16,128,8,51.4273,2.49,0.16,6428.41,57.12,0.0,47.7
+32,128,4,48.9477,2.62,0.08,12236.92,60.52,3.39,44.8

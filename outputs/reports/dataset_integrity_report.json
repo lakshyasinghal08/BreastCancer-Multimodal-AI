@@ -1,0 +1,63 @@
+{
+  "audit_timestamp": "2026-10-14 11:46:02",
+  "base_directory": "d:\\BreastCancer-Multimodal-AI\\datasets",
+  "datasets_audited": {
+    "CBIS-DDSM": {
+      "exists": true,
+      "modality": "Mammography",
+      "type": "Image (DICOM/PNG)",
+      "decodable": true,
+      "sample_sha256": "3fe7bd8679acac329536fe5a9ab54117e31185d71464d46f8c142336c6d91347",
+      "status": "PASS"
+    },
+    "Clinical": {
+      "exists": true,
+      "modality": "Clinical",
+      "type": "Tabular CSV",
+      "decodable": true,
+      "sample_sha256": "1425d9affa78ba8e53afc81d0ef8a19069ee10c4b21fe89b3cf514071b12ee33",
+      "status": "PASS"
+    },
+    "Dataset_BUSI_with_GT": {
+      "exists": true,
+      "modality": "Ultrasound",
+      "type": "Image PNG",
+      "decodable": true,
+      "sample_sha256": "6941fb64feb59a1654e5d4406d38154f1c894aaa4b8060062ab16ee0e2d9d4cb",
+      "status": "PASS"
+    },
+    "EHR": {
+      "exists": true,
+      "modality": "EHR",
+      "type": "Tabular CSV",
+      "decodable": true,
+      "sample_sha256": "4f7067a6bdee25f7fe8b14b4e956087c3e4670a2525e894e971ef89a65b6ecef",
+      "status": "PASS"
+    },
+    "Genomic": {
+      "exists": true,
+      "modality": "Genomic",
+      "type": "Tabular Microarray CSV",
+      "decodable": true,
+      "sample_sha256": "7cd27c0344d0c0ec8d09741cb437b3ef56467c1537f89f30344e28c50925d6f0",
+      "status": "PASS"
+    },
+    "Histopathology": {
+      "exists": true,
+      "modality": "Histopathology",
+      "type": "WSI/Patch PNG",
+      "decodable": true,
+      "sample_sha256": "3fb6ba82b6773a958ef590c7190e5a9ad76ca3f18dd783a162ef09e100791c32",
+      "status": "PASS"
+    },
+    "Vision_Genomic_Fusion": {
+      "exists": true,
+      "modality": "Fusion",
+      "type": "Multimodal SVS/MRI/Genomic",
+      "decodable": true,
+      "sample_sha256": "170f5969dfd813874c1ab6c7c1bb718d4243a3d06bb0c91221178a0768bb0197",
+      "status": "PASS"
+    }
+  },
+  "overall_integrity_status": "PASSED"
+}

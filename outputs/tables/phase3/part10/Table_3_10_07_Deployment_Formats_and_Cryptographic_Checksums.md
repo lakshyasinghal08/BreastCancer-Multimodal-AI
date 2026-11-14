@@ -1,0 +1,22 @@
+| Modality | Artifact_Type | File_Name | Size_KB | Format | SHA256_Checksum_Prefix |
+| --- | --- | --- | --- | --- | --- |
+| Mammography | Production Model Binary | best_model.pt | 614.9 | PyTorch Serialized State | 513138dbf20f7dee... |
+| Mammography | Production Model Binary | mammography_model.onnx | 165.4 | ONNX Runtime Graph | be25bdf282f08548... |
+| Mammography | Production Model Binary | mammography_model.onnx.data | 556.7 | Binary Data/Weight | 686884d5fd6223bc... |
+| Mammography | Production Model Binary | mammography_model_best.pt | 616.5 | PyTorch Serialized State | e081431c7646a1da... |
+| Mammography | Production Model Binary | mammography_model_torchscript.pt | 714.6 | PyTorch Serialized State | 89a4ea24afa8affd... |
+| Ultrasound | Production Model Binary | best_model.pt | 614.9 | PyTorch Serialized State | 21b5521fe8d0c8e1... |
+| Ultrasound | Production Model Binary | ultrasound_model.onnx | 165.4 | ONNX Runtime Graph | b48e39a4caa22f55... |
+| Ultrasound | Production Model Binary | ultrasound_model.onnx.data | 556.7 | Binary Data/Weight | 8f9f7a202331d6a1... |
+| Ultrasound | Production Model Binary | ultrasound_model_best.pt | 616.3 | PyTorch Serialized State | d304338b3fbb4ddc... |
+| Ultrasound | Production Model Binary | ultrasound_model_torchscript.pt | 716.3 | PyTorch Serialized State | e998e5c6a1acb31a... |
+| Histopathology | Production Model Binary | best_model.pt | 616.1 | PyTorch Serialized State | b24f9e88aadb8e40... |
+| Histopathology | Production Model Binary | histopathology_model.onnx | 165.5 | ONNX Runtime Graph | c2f1bc1b093f8706... |
+| Histopathology | Production Model Binary | histopathology_model.onnx.data | 557.8 | Binary Data/Weight | 3cfc3198e0d02c57... |
+| Histopathology | Production Model Binary | histopathology_model_best.pt | 617.9 | PyTorch Serialized State | c3b3d70ecbdf5d37... |
+| Histopathology | Production Model Binary | histopathology_model_torchscript.pt | 718.5 | PyTorch Serialized State | 2422d9ab4609361b... |
+| Mri | Production Model Binary | best_model.pt | 614.9 | PyTorch Serialized State | dc1cebe7f3934ac1... |
+| Mri | Production Model Binary | mri_model.onnx | 165.2 | ONNX Runtime Graph | c2e92fbf3c6fbf1e... |
+| Mri | Production Model Binary | mri_model.onnx.data | 556.7 | Binary Data/Weight | fc70ca7be28ced02... |
+| Mri | Production Model Binary | mri_model_best.pt | 615.4 | PyTorch Serialized State | 98784f02b0100d17... |
+| Mri | Production Model Binary | mri_model_torchscript.pt | 714.2 | PyTorch Serialized State | e648d539286e122c... |

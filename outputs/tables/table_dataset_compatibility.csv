@@ -1,0 +1,8 @@
+Dataset,Modality,Samples,Storage_Format,Interface_Status,Latency_ms
+Clinical (Wisconsin FNA),Clinical,569,CSV,100% Compatible,0.45 ms
+CBIS-DDSM,Mammography,882,DICOM / JPG,100% Compatible,1.82 ms
+Dataset_BUSI_with_GT,Ultrasound,780,PNG Image + Mask,100% Compatible,0.62 ms
+EHR (TCGA-BRCA),EHR,341,CSV,100% Compatible,0.48 ms
+Genomic (GSE45827),Genomic,151,CSV Expression,100% Compatible,1.15 ms
+Histopathology (IDC),Histopathology,224872,PNG Tiles,100% Compatible,0.55 ms
+Vision_Genomic_Fusion,Multimodal,250325,PNG / CSV / SVS,100% Compatible,0.68 ms

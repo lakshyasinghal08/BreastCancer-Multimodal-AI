@@ -1,0 +1,209 @@
+{
+  "expected_calibration_error": 0.03666726892696949,
+  "brier_score": 0.07002481162436155,
+  "cross_entropy_log_loss": 0.23668542398736336,
+  "decile_bins": [
+    {
+      "bin_index": 1,
+      "mean_confidence": 0.020493840865455228,
+      "observed_accuracy": 0.016666666666666666,
+      "sample_proportion": 0.4181184668989547
+    },
+    {
+      "bin_index": 2,
+      "mean_confidence": 0.15078221322053656,
+      "observed_accuracy": 0.15384615384615385,
+      "sample_proportion": 0.06794425087108014
+    },
+    {
+      "bin_index": 3,
+      "mean_confidence": 0.2464513689905685,
+      "observed_accuracy": 0.21739130434782608,
+      "sample_proportion": 0.04006968641114982
+    },
+    {
+      "bin_index": 4,
+      "mean_confidence": 0.34292354002308556,
+      "observed_accuracy": 0.21428571428571427,
+      "sample_proportion": 0.024390243902439025
+    },
+    {
+      "bin_index": 5,
+      "mean_confidence": 0.4612058601392762,
+      "observed_accuracy": 0.13636363636363635,
+      "sample_proportion": 0.03832752613240418
+    },
+    {
+      "bin_index": 6,
+      "mean_confidence": 0.5516411324202798,
+      "observed_accuracy": 0.1111111111111111,
+      "sample_proportion": 0.0156794425087108
+    },
+    {
+      "bin_index": 7,
+      "mean_confidence": 0.6549965966486607,
+      "observed_accuracy": 0.6666666666666666,
+      "sample_proportion": 0.02613240418118467
+    },
+    {
+      "bin_index": 8,
+      "mean_confidence": 0.7373203255180988,
+      "observed_accuracy": 0.6875,
+      "sample_proportion": 0.027874564459930314
+    },
+    {
+      "bin_index": 9,
+      "mean_confidence": 0.8576757070468349,
+      "observed_accuracy": 0.8095238095238095,
+      "sample_proportion": 0.036585365853658534
+    },
+    {
+      "bin_index": 10,
+      "mean_confidence": 0.9796858320198634,
+      "observed_accuracy": 0.9542857142857143,
+      "sample_proportion": 0.3048780487804878
+    }
+  ],
+  "threshold_performance": [
+    {
+      "Decision Threshold": 0.1,
+      "TP": 223,
+      "FP": 111,
+      "TN": 236,
+      "FN": 4,
+      "Sensitivity": "98.24%",
+      "Specificity": "68.01%",
+      "PPV": "66.77%",
+      "NPV": "98.33%",
+      "F1-Score": "0.7950",
+      "Youden's J Index": "+0.6625",
+      "Clinical Use Case": "High Sensitivity Screening"
+    },
+    {
+      "Decision Threshold": 0.2,
+      "TP": 217,
+      "FP": 78,
+      "TN": 269,
+      "FN": 10,
+      "Sensitivity": "95.59%",
+      "Specificity": "77.52%",
+      "PPV": "73.56%",
+      "NPV": "96.42%",
+      "F1-Score": "0.8314",
+      "Youden's J Index": "+0.7312",
+      "Clinical Use Case": "High Sensitivity Screening"
+    },
+    {
+      "Decision Threshold": 0.3,
+      "TP": 212,
+      "FP": 60,
+      "TN": 287,
+      "FN": 15,
+      "Sensitivity": "93.39%",
+      "Specificity": "82.71%",
+      "PPV": "77.94%",
+      "NPV": "95.03%",
+      "F1-Score": "0.8497",
+      "Youden's J Index": "+0.7610",
+      "Clinical Use Case": "High Sensitivity Screening"
+    },
+    {
+      "Decision Threshold": 0.4,
+      "TP": 209,
+      "FP": 49,
+      "TN": 298,
+      "FN": 18,
+      "Sensitivity": "92.07%",
+      "Specificity": "85.88%",
+      "PPV": "81.01%",
+      "NPV": "94.30%",
+      "F1-Score": "0.8619",
+      "Youden's J Index": "+0.7795",
+      "Clinical Use Case": "Standard 0.50 Baseline"
+    },
+    {
+      "Decision Threshold": 0.468,
+      "TP": 208,
+      "FP": 40,
+      "TN": 307,
+      "FN": 19,
+      "Sensitivity": "91.63%",
+      "Specificity": "88.47%",
+      "PPV": "83.87%",
+      "NPV": "94.17%",
+      "F1-Score": "0.8758",
+      "Youden's J Index": "+0.8010",
+      "Clinical Use Case": "Optimal Clinical Operating Point (Youden Peak)"
+    },
+    {
+      "Decision Threshold": 0.5,
+      "TP": 206,
+      "FP": 30,
+      "TN": 317,
+      "FN": 21,
+      "Sensitivity": "90.75%",
+      "Specificity": "91.35%",
+      "PPV": "87.29%",
+      "NPV": "93.79%",
+      "F1-Score": "0.8898",
+      "Youden's J Index": "+0.8210",
+      "Clinical Use Case": "Standard 0.50 Baseline"
+    },
+    {
+      "Decision Threshold": 0.6,
+      "TP": 205,
+      "FP": 22,
+      "TN": 325,
+      "FN": 22,
+      "Sensitivity": "90.31%",
+      "Specificity": "93.66%",
+      "PPV": "90.31%",
+      "NPV": "93.66%",
+      "F1-Score": "0.9031",
+      "Youden's J Index": "+0.8397",
+      "Clinical Use Case": "Standard 0.50 Baseline"
+    },
+    {
+      "Decision Threshold": 0.7,
+      "TP": 195,
+      "FP": 17,
+      "TN": 330,
+      "FN": 32,
+      "Sensitivity": "85.90%",
+      "Specificity": "95.10%",
+      "PPV": "91.98%",
+      "NPV": "91.16%",
+      "F1-Score": "0.8884",
+      "Youden's J Index": "+0.8100",
+      "Clinical Use Case": "High Specificity Confirmation"
+    },
+    {
+      "Decision Threshold": 0.8,
+      "TP": 184,
+      "FP": 12,
+      "TN": 335,
+      "FN": 43,
+      "Sensitivity": "81.06%",
+      "Specificity": "96.54%",
+      "PPV": "93.88%",
+      "NPV": "88.62%",
+      "F1-Score": "0.8700",
+      "Youden's J Index": "+0.7760",
+      "Clinical Use Case": "High Specificity Confirmation"
+    },
+    {
+      "Decision Threshold": 0.9,
+      "TP": 167,
+      "FP": 8,
+      "TN": 339,
+      "FN": 60,
+      "Sensitivity": "73.57%",
+      "Specificity": "97.69%",
+      "PPV": "95.43%",
+      "NPV": "84.96%",
+      "F1-Score": "0.8308",
+      "Youden's J Index": "+0.7126",
+      "Clinical Use Case": "High Specificity Confirmation"
+    }
+  ]
+}

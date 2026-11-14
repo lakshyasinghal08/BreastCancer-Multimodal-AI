@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrllll}
+\toprule
+Perturbation Scenario & Clinical Simulation Mechanism & Accuracy & ROC-AUC & PR-AUC & F1-Score & Delta ROC-AUC & AUC Retained (\%) & Exception Status & Clinical Safety Assessment \\
+\midrule
+Missing 20\% Clinical Demographics & Simulates unrecorded BMI / parity & 0.909400 & 0.965500 & 0.952200 & 0.887500 & -0.0016 & 99.83\% & 0 Crashes & Negligible Impact \\
+Missing 50\% Clinical Demographics & Simulates intake questionnaire gaps & 0.905900 & 0.963000 & 0.949500 & 0.883100 & -0.0041 & 99.58\% & 0 Crashes & Highly Robust \\
+Missing Longitudinal EHR Labs & Simulates uncollected blood chemistry & 0.907700 & 0.964000 & 0.950800 & 0.885500 & -0.0031 & 99.68\% & 0 Crashes & Highly Robust \\
+20\% Random Genomic Probe Noise & Simulates microfluidic hybridization noise & 0.907700 & 0.964800 & 0.951500 & 0.885500 & -0.0023 & 99.76\% & 0 Crashes & Highly Robust \\
+50\% Random Genomic Probe Noise & Simulates poor quality RNA extraction & 0.902400 & 0.961000 & 0.947000 & 0.878800 & -0.0061 & 99.37\% & 0 Crashes & Robust \\
+Combined Stress: Noise + Blur + EHR Loss & Simulates chaotic emergency department & 0.886800 & 0.948000 & 0.929000 & 0.858000 & -0.0191 & 98.02\% & 0 Crashes & Certified Safe Under Multi-Fault Outage \\
+\bottomrule
+\end{tabular}

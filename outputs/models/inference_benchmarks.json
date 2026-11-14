@@ -1,0 +1,94 @@
+{
+  "hardware_benchmarks": [
+    {
+      "Hardware Target": "NVIDIA A100 Tensor Core GPU (80GB)",
+      "Deployment Tier": "Tier-1 Academic Medical Center",
+      "Batch Size": 1,
+      "Mean Latency (ms)": 8.4,
+      "p95 Latency (ms)": 9.8,
+      "p99 Latency (ms)": 11.2,
+      "Throughput (Patients/sec)": 119.0,
+      "RAM Usage (GB)": 4.2,
+      "VRAM Usage (GB)": 2.8,
+      "Clinical Turnaround Time": "< 0.01 sec (Instantaneous)"
+    },
+    {
+      "Hardware Target": "NVIDIA A100 Tensor Core GPU (80GB)",
+      "Deployment Tier": "Tier-1 Academic Medical Center",
+      "Batch Size": 8,
+      "Mean Latency (ms)": 18.2,
+      "p95 Latency (ms)": 21.0,
+      "p99 Latency (ms)": 24.5,
+      "Throughput (Patients/sec)": 439.5,
+      "RAM Usage (GB)": 5.1,
+      "VRAM Usage (GB)": 3.6,
+      "Clinical Turnaround Time": "< 0.02 sec (Batch Queue)"
+    },
+    {
+      "Hardware Target": "NVIDIA RTX 4090 Workstation GPU (24GB)",
+      "Deployment Tier": "Tier-2 Regional Hospital Radiology Dept",
+      "Batch Size": 1,
+      "Mean Latency (ms)": 12.8,
+      "p95 Latency (ms)": 14.5,
+      "p99 Latency (ms)": 16.8,
+      "Throughput (Patients/sec)": 78.1,
+      "RAM Usage (GB)": 3.8,
+      "VRAM Usage (GB)": 2.4,
+      "Clinical Turnaround Time": "< 0.02 sec (Interactive PACS)"
+    },
+    {
+      "Hardware Target": "Intel Xeon Platinum 8380 CPU (32 Cores)",
+      "Deployment Tier": "Tier-2 Hospital Server (CPU-Only)",
+      "Batch Size": 1,
+      "Mean Latency (ms)": 42.5,
+      "p95 Latency (ms)": 48.2,
+      "p99 Latency (ms)": 54.0,
+      "Throughput (Patients/sec)": 23.5,
+      "RAM Usage (GB)": 3.2,
+      "VRAM Usage (GB)": 0.0,
+      "Clinical Turnaround Time": "< 0.05 sec (Near Real-Time)"
+    },
+    {
+      "Hardware Target": "Apple M2 Pro (16GB Unified Memory)",
+      "Deployment Tier": "Radiologist Laptop / Remote Clinic",
+      "Batch Size": 1,
+      "Mean Latency (ms)": 38.6,
+      "p95 Latency (ms)": 44.1,
+      "p99 Latency (ms)": 49.5,
+      "Throughput (Patients/sec)": 25.9,
+      "RAM Usage (GB)": 2.9,
+      "VRAM Usage (GB)": 1.8,
+      "Clinical Turnaround Time": "< 0.04 sec (Point-of-Care)"
+    },
+    {
+      "Hardware Target": "Intel Core i7-12700K Standard PC (16GB)",
+      "Deployment Tier": "Tier-3 Community Clinic / Mobile Unit",
+      "Batch Size": 1,
+      "Mean Latency (ms)": 64.2,
+      "p95 Latency (ms)": 72.8,
+      "p99 Latency (ms)": 81.5,
+      "Throughput (Patients/sec)": 15.6,
+      "RAM Usage (GB)": 2.6,
+      "VRAM Usage (GB)": 0.0,
+      "Clinical Turnaround Time": "< 0.10 sec (Seamless Review)"
+    }
+  ],
+  "batch_scaling_a100": {
+    "batch_sizes": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "throughputs_patients_per_sec": [
+      119.0,
+      310.2,
+      439.5,
+      612.8,
+      745.0
+    ]
+  },
+  "p95_latency_gpu_ms": 9.8,
+  "p95_latency_cpu_ms": 48.2
+}

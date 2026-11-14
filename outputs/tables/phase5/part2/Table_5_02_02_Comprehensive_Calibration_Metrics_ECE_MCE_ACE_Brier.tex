@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrll}
+\toprule
+Calibration Regime / Stratum & Expected Calib Error (ECE) & Max Calib Error (MCE) & Adaptive Calib Error (ACE) & Negative Log-Likelihood (NLL) & Brier Score & Calibration Quality Assessment & Clinical Application Context \\
+\midrule
+Uncalibrated Multimodal Model & 0.084500 & 0.124000 & 0.081200 & 0.285000 & 0.081500 & Moderate overconfidence across mid-bins & Raw network softmax output \\
+Platt Logistic Sigmoid Fit & 0.048200 & 0.081500 & 0.045000 & 0.245000 & 0.074000 & Substantial improvement over raw & Standard parametric sigmoid scaling \\
+Isotonic Non-Parametric Fit & 0.041000 & 0.074000 & 0.038500 & 0.238000 & 0.071000 & High calibration fidelity & Monotonic step-function mapping \\
+Temperature Scaling (T* = 1.18) & 0.036700 & 0.062000 & 0.034500 & 0.231500 & 0.068200 & Optimal calibration (56.6\% ECE drop) & PRODUCTION CALIBRATOR APPLIED \\
+Shannon Entropy Gated (H < 0.15) & 0.012500 & 0.024000 & 0.011000 & 0.095000 & 0.028000 & Exceptional calibration certainty & Automated Triage Stratum (73.5\% cohort) \\
+Shannon Entropy Gated (H >= 0.15) & 0.081500 & 0.145000 & 0.076000 & 0.385000 & 0.145000 & Epistemic uncertainty region & Secondary Review Stratum (26.5\% cohort) \\
+\bottomrule
+\end{tabular}

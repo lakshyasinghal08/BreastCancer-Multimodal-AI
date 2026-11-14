@@ -1,0 +1,9 @@
+{
+  "clipping_threshold": 1.0,
+  "clipping_algorithm": "L2_Norm_Adaptive",
+  "mean_gradient_norm": 4.0672,
+  "min_gradient_norm": 1.462,
+  "max_gradient_norm": 14.064,
+  "explosion_events": 0,
+  "vanishing_events": 0
+}

@@ -1,0 +1,8 @@
+| Hyperparameter                  | Search_Space             |   Selected_Value | Selection_Rationale                                           |
+|:--------------------------------|:-------------------------|-----------------:|:--------------------------------------------------------------|
+| Bottleneck Projection Dimension | [128, 256, 512]          |           256    | Optimal trade-off between expressive capacity and RAM         |
+| Residual Hidden Dimension       | [64, 128, 256]           |           128    | Bottleneck compression preserves salient biological motifs    |
+| Multimodal Latent Dimension     | [64, 128, 256]           |           128    | Conforms invariantly to 7-modality fusion manifold standard   |
+| Input Projection Dropout        | [0.10, 0.20, 0.30, 0.50] |             0.3  | Prevents over-reliance on dominant probe subsets              |
+| Label Smoothing Alpha           | [0.00, 0.05, 0.10]       |             0.05 | Prevents over-confident logit separation on extreme probes    |
+| Subtype Loss Multiplier         | [0.10, 0.30, 0.50, 1.00] |             0.3  | Balances binary tumor detection with molecular classification |

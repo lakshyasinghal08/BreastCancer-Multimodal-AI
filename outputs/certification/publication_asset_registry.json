@@ -1,0 +1,40 @@
+{
+  "registry_version": "1.0.0",
+  "timestamp": "2026-11-13T22:55:00+05:30",
+  "primary_manuscript": {
+    "docx": "outputs/manuscript/BreastCancer_Multimodal_AI_Manuscript.docx",
+    "latex": "outputs/manuscript/BreastCancer_Multimodal_AI_Manuscript.tex",
+    "markdown": "outputs/manuscript/BreastCancer_Multimodal_AI_Manuscript.md"
+  },
+  "supplementary_material": {
+    "docx": "outputs/supplementary/BreastCancer_Multimodal_AI_Supplementary.docx",
+    "pdf": "outputs/supplementary/BreastCancer_Multimodal_AI_Supplementary.pdf",
+    "appendices": [
+      "S1_Mathematical_Formulations",
+      "S2_Dataset_Characteristics",
+      "S3_Ablation_Studies",
+      "S4_Subgroup_Analyses",
+      "S5_Missing_Modality_Evaluation",
+      "S6_Explainability_Details",
+      "S7_Calibration_Uncertainty",
+      "S8_Implementation_Reproducibility"
+    ]
+  },
+  "figures_packages": {
+    "phase6_part1_manuscript_figures": 6,
+    "phase6_part2_supplementary_figures": 8,
+    "phase6_part3_visual_abstracts_and_slides": 12,
+    "phase6_part4_submission_workflows": 4,
+    "phase6_part5_preservation_figures": 4,
+    "phase6_part6_final_overview_figures": 4,
+    "total_figure_assets_all_formats": 152
+  },
+  "tables_packages": {
+    "phase6_part1_manuscript_tables": 6,
+    "phase6_part2_supplementary_tables": 8,
+    "phase6_part4_submission_tables": 10,
+    "phase6_part5_preservation_tables": 10,
+    "phase6_part6_final_tables": 10,
+    "total_table_assets_all_formats": 176
+  }
+}

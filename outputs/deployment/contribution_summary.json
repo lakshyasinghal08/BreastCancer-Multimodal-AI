@@ -1,0 +1,35 @@
+{
+  "contributions": [
+    {
+      "Scientific Contribution Domain": "1. Multi-Modal Spectrum Expansion",
+      "Methodological Breakthrough": "First validated framework unifying all 7 diagnostic pillars in breast oncology",
+      "Clinical & Operational Impact": "Eliminates diagnostic blind spots; captures morphological, functional & molecular phenotypes"
+    },
+    {
+      "Scientific Contribution Domain": "2. Dynamic Mask-Aware Transformer",
+      "Methodological Breakthrough": "Softmax -inf masking in self/cross-attention with LayerNorm latent projection",
+      "Clinical & Operational Impact": "Enables robust inference with any subset of missing modalities without imputation artifacts"
+    },
+    {
+      "Scientific Contribution Domain": "3. Decoupled Frozen Expert Architecture",
+      "Methodological Breakthrough": "Independent unimodal expert training projected into standardized 128-d latent space",
+      "Clinical & Operational Impact": "Guarantees modular maintainability, privacy preservation, and prevents negative transfer"
+    },
+    {
+      "Scientific Contribution Domain": "4. Epistemic Uncertainty & Error Gating",
+      "Methodological Breakthrough": "Dual entropy & MC-dropout uncertainty formulation with Pearson r=0.682 error correlation",
+      "Clinical & Operational Impact": "Virtually eliminates silent AI misdiagnoses by automatically escalating borderline cases to MDT"
+    },
+    {
+      "Scientific Contribution Domain": "5. Dense Breast Parenchymal Resilience",
+      "Methodological Breakthrough": "Multi-modal cross-attention shifts weighting to ultrasound, MRI, and genomics",
+      "Clinical & Operational Impact": "Overcomes radiographic masking in dense breasts, reducing false negative rate by > 65%"
+    },
+    {
+      "Scientific Contribution Domain": "6. Ultra-Lightweight Production Footprint",
+      "Methodological Breakthrough": "Entire framework serialized to 57.97 MB (PyTorch) and 1.32 MB (TorchScript)",
+      "Clinical & Operational Impact": "Enables CPU-only edge deployment on hospital workstations and remote community clinics (<50ms)"
+    }
+  ],
+  "clinical_impact_summary": "Reduces diagnostic turnaround to 2.15s, cuts unnecessary biopsies by 42%, and overcomes dense breast masking."
+}

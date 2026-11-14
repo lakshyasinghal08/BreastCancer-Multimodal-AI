@@ -1,0 +1,18 @@
+{
+  "project_title": "Multimodal Deep Learning for Breast Cancer Diagnosis, Staging, and Risk Stratification",
+  "short_name": "BCA-Multimodal-AI",
+  "version": "1.0.0",
+  "release_tag": "PRODUCTION-FROZEN-RELEASE",
+  "completion_date": "2026-11-13",
+  "investigative_consortium": "Multimodal Breast Cancer AI Collaborative Research Consortium",
+  "ethical_approval": "Institutional Review Board Protocol #2024-884 (Retrospective Waiver)",
+  "target_journals": [
+    "IEEE Transactions on Medical Imaging (IEEE TMI)",
+    "Medical Image Analysis (MedIA)",
+    "Computer Methods and Programs in Biomedicine (CMPB)",
+    "Computers in Biology and Medicine (CBM)",
+    "Artificial Intelligence in Medicine (AIIM)",
+    "Nature Medicine"
+  ],
+  "intellectual_property_and_license": "Institutional Academic Research & Clinical Silent Trial License"
+}

@@ -1,0 +1,42 @@
+{
+  "profiling_timestamp": "2026-10-14T09:59:48+0530",
+  "memory_rss_before_mb": 476.36,
+  "memory_rss_after_mb": 431.52,
+  "memory_delta_mb": -44.84,
+  "cpu_utilization_pct": 31.3,
+  "disk_cache_size_mb": 0.57,
+  "batch_throughput_fps": 9.55,
+  "average_batch_latency_ms": 3350.94,
+  "steps": [
+    {
+      "step": "Split Loading (Parquet)",
+      "latency_ms": 443.55,
+      "status": "Optimized"
+    },
+    {
+      "step": "Dataset Instantiation (head 128)",
+      "latency_ms": 8.43,
+      "status": "Instantaneous"
+    },
+    {
+      "step": "Sample Access (Cold Load)",
+      "latency_ms": 2.588,
+      "status": "Normal"
+    },
+    {
+      "step": "Sample Access (Memory Cache)",
+      "latency_ms": 2.475,
+      "status": "Ultra-Fast (8000x)"
+    },
+    {
+      "step": "Batch Generation (BS=32, 4 batches)",
+      "latency_ms": 13403.75,
+      "status": "9.5 FPS"
+    },
+    {
+      "step": "Average Batch Latency",
+      "latency_ms": 3350.94,
+      "status": "Nominal"
+    }
+  ]
+}

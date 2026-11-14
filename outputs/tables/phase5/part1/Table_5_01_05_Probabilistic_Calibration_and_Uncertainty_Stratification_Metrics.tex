@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrll}
+\toprule
+Calibration Regime / Stratum & ECE & MCE & Log Loss & Brier Score & Calibration Quality & Clinical Workflow Action \\
+\midrule
+Uncalibrated Model Logits & 0.084500 & 0.124000 & 0.285000 & 0.412000 & Moderate overconfidence & Raw uncalibrated network output \\
+Temperature Scaling (T* = 1.18) & 0.036700 & 0.062000 & 0.231500 & 0.245000 & Optimal probabilistic calibration & PRODUCTION CALIBRATOR APPLIED \\
+Platt Logistic Sigmoid Fit & 0.048200 & 0.081500 & 0.245000 & 0.285000 & Good calibration & Standard post-processing sigmoid \\
+Isotonic Non-Parametric Fit & 0.041000 & 0.074000 & 0.238000 & 0.261000 & High calibration & Piecewise constant calibration \\
+Shannon Entropy Low Risk (< 0.15) & 0.012500 & 0.024000 & 0.095000 & 0.110000 & Extreme calibration fidelity & Clear-cut safe automated diagnosis (73.5\% cohort) \\
+Shannon Entropy Moderate (0.15 - 0.50) & 0.078000 & 0.145000 & 0.380000 & 0.380000 & Acceptable calibration & Secondary radiologist review (19.9\% cohort) \\
+Shannon Entropy High Risk (> 0.50) & 0.124000 & 0.210000 & 0.620000 & 0.620000 & High epistemic uncertainty & Mandatory tumor board escalation (6.6\% cohort) \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+| Architectural_Module | Submodule / Component | Parameter_Count | Trainability_Status | Memory_Footprint_KB |
+| --- | --- | --- | --- | --- |
+| Frozen Unimodal Backbones | Mammography Vision Backbone | 144,848 | Frozen (Pretrained) | 565.81 KB |
+| Frozen Unimodal Backbones | Ultrasound Vision Backbone | 144,848 | Frozen (Pretrained) | 565.81 KB |
+| Frozen Unimodal Backbones | Histopathology Vision Backbone | 145,136 | Frozen (Pretrained) | 566.94 KB |
+| Frozen Unimodal Backbones | Breast MRI Vision Backbone | 144,848 | Frozen (Pretrained) | 565.81 KB |
+| Frozen Unimodal Backbones | Clinical Diagnostic MLP | 43,490 | Frozen (Pretrained) | 169.88 KB |
+| Frozen Unimodal Backbones | EHR Staging MLP | 61,442 | Frozen (Pretrained) | 240.01 KB |
+| Frozen Unimodal Backbones | Genomic Microarray Network | 14,114,568 | Frozen (Pretrained) | 55,135.03 KB |
+| Trainable Fusion Architecture | Modality ID, Pos & CLS Embeddings | 1,920 | Trainable | 7.50 KB |
+| Trainable Fusion Architecture | Modality Confidence Weighting & Gating | 8,513 | Trainable | 33.25 KB |
+| Trainable Fusion Architecture | Cross-Attention Transformer Block 1 | 66,432 | Trainable | 259.50 KB |
+| Trainable Fusion Architecture | Cross-Attention Transformer Block 2 | 66,432 | Trainable | 259.50 KB |
+| Trainable Fusion Architecture | Multimodal Pooling & Diagnostic Head | 8,834 | Trainable | 34.51 KB |
+| Trainable Fusion Architecture | Auxiliary PAM50 Subtype Head | 8,838 | Trainable | 34.52 KB |

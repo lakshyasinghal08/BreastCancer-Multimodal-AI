@@ -1,0 +1,23 @@
+# Frozen Software Dependencies for Multimodal Breast Cancer AI
+# Python 3.10.13 | CUDA 12.2 / cuDNN 8.9.2 | Seed: 42
+
+torch==2.1.2+cu121
+torchvision==0.16.2+cu121
+torchaudio==2.1.2+cu121
+numpy==1.26.2
+scipy==1.11.4
+pandas==2.1.4
+scikit-learn==1.3.2
+matplotlib==3.8.2
+seaborn==0.13.0
+pydicom==2.4.4
+SimpleITK==2.3.1
+opencv-python==4.8.1.78
+Pillow==10.1.0
+onnx==1.15.0
+onnxruntime==1.16.3
+python-docx==1.2.0
+python-pptx==1.0.2
+jinja2==3.1.2
+pyyaml==6.0.1
+tqdm==4.66.1

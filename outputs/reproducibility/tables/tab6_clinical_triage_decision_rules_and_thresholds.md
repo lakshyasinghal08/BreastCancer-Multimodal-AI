@@ -1,0 +1,7 @@
+# Table 6: Clinical Triage Decision Rules, Thresholds, and Clinical Action Protocols
+
+| Triage Decision Tier | Calibrated Malignancy Risk (p) | Predictive Entropy (H) | Test Cohort Prevalence | Empirical Diagnostic Accuracy | Negative Predictive Value (NPV) | Mandated Clinical Action |
+| --- | --- | --- | --- | --- | --- | --- |
+| Autonomous Low-Risk | p < 0.10 | H < 0.15 bits | 73.52% (422/574) | 97.63% | 99.21% | Fast-track standard routine screening interval (12-24 Months) |
+| Intermediate Uncertainty | 0.10 <= p < 0.50 | 0.15 <= H < 0.50 bits | 19.86% (114/574) | 78.95% | 86.40% | Targeted secondary ultrasound or 6-month imaging surveillance |
+| High Uncertainty / Complex | p >= 0.50 OR H >= 0.50 | H >= 0.50 bits | 6.62% (38/574) | 57.89% | 62.50% | Mandatory MDT Tumor Board Escalation & Biopsy Workup |

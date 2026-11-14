@@ -1,0 +1,11 @@
+| Component | Parameters | Trainable | MACs / FLOPs per Sample | Peak RAM (BS=8) | Latency (BS=1) |
+| --- | --- | --- | --- | --- | --- |
+| Mammography Backbone | 144,848 | No | ~85 MFLOPs | ~2.4 MB | 52.61 ms |
+| Ultrasound Backbone | 144,848 | No | ~85 MFLOPs | ~2.4 MB | 38.47 ms |
+| Histopathology Backbone | 145,136 | No | ~87 MFLOPs | ~2.5 MB | 53.11 ms |
+| Breast MRI Backbone | 144,848 | No | ~85 MFLOPs | ~2.4 MB | 99.55 ms |
+| Clinical MLP Backbone | 43,490 | No | ~0.08 MFLOPs | ~0.3 MB | 2.59 ms |
+| EHR MLP Backbone | 61,442 | No | ~0.12 MFLOPs | ~0.4 MB | 5.84 ms |
+| Genomic Backbone | 14,114,568 | No | ~28 MFLOPs | ~60.0 MB | 13.84 ms |
+| Cross-Attention Fusion Module | 160,969 | Yes | ~0.65 MFLOPs | ~1.2 MB | 4.12 ms |
+| Total Multimodal System | 14,960,149 | 160,969 (1.08%) | ~285.85 MFLOPs | ~71.6 MB | 270.13 ms (All 7 Active) |

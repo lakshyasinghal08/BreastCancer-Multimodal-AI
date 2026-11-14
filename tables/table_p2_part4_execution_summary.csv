@@ -1,0 +1,11 @@
+Stage ID,Pipeline Subsystem,Execution Time (ms),Memory RSS (MB),Verification Status
+STG-01,Cohort Registration & Verification,42.1,182.4,PASS
+STG-02,Patient Namespace Collision Isolation,68.5,185.0,PASS
+STG-03,Master Manifest Parquet Read,189.2,194.2,PASS
+STG-04,Patient-Wise Stratified Partitioning,315.6,204.8,PASS
+STG-05,Dataset Classes Instantiation,12.8,206.1,PASS
+STG-06,Multi-Tier Cache Warm-up & Hit Test,45.2,210.5,PASS
+STG-07,DataLoader Batch Assembly (BS=16),88.4,215.3,PASS
+STG-08,Full QA Audit & Integrity Sweep,520.1,218.0,PASS
+STG-09,Reproducibility Fixed-Seed Verification,185.0,219.4,PASS
+STG-10,RC-2 Certification & Configuration Freeze,35.0,220.1,PASS

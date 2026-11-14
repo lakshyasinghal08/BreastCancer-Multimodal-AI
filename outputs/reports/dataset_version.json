@@ -1,0 +1,62 @@
+{
+  "dataset_version": "v2.1.0-RC1",
+  "manifest_version": "1.4.0",
+  "registry_version": "1.2.0",
+  "fingerprint": "75c05585d558173f2cb375c713f5dec1d5ba2dbde686b2665b3b683ca60db0fb",
+  "creation_timestamp": "2026-10-13T11:08:28.690445",
+  "patient_count": 1919,
+  "sample_count": 477920,
+  "modality_count": 7,
+  "dataset_size_bytes": 24833581830,
+  "dataset_size_gb": 23.13,
+  "configuration_snapshot": {
+    "project_name": "BreastCancer-Multimodal-AI",
+    "paper_title": "A Lightweight Explainable Multimodal Deep Learning Framework for Early Breast Cancer Diagnosis Using Mammography, Ultrasound, Histopathology, Clinical, EHR and Genomic Information",
+    "version": "v1.0.0-phase1.1",
+    "random_seed": 42,
+    "base_dir": ".",
+    "datasets_dir": "datasets",
+    "outputs_dir": "outputs",
+    "logs_dir": "outputs\\logs",
+    "reports_dir": "outputs\\reports",
+    "figures_dir": "outputs\\figures",
+    "tables_dir": "outputs\\tables",
+    "models_dir": "outputs\\models",
+    "checkpoints_dir": "outputs\\checkpoints",
+    "predictions_dir": "outputs\\predictions",
+    "explainability_dir": "outputs\\explainability",
+    "statistics_dir": "outputs\\statistics",
+    "publication_dir": "outputs\\publication",
+    "cache_dir": "outputs\\cache",
+    "experiments_dir": "outputs\\experiments",
+    "mammography_img_size": [
+      512,
+      512
+    ],
+    "ultrasound_img_size": [
+      256,
+      256
+    ],
+    "histology_patch_size": [
+      50,
+      50
+    ],
+    "mri_slice_size": [
+      256,
+      256
+    ],
+    "clinical_feature_dim": 30,
+    "ehr_feature_dim": 16,
+    "genomic_model_ready_dim": 331,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "max_epochs": 100,
+    "early_stopping_patience": 10,
+    "num_cross_val_folds": 5,
+    "device": "cpu",
+    "deterministic_cudnn": true,
+    "logging_level": "INFO"
+  },
+  "version_sha256": "53362dbc7a6b713a0c698b0a866896cc7d28466f691496d0338dabf3e0e05ad5"
+}

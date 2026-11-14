@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BreastCancer-Multimodal-AI: Dataset Discovery Summary</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 40px; color: #24292e; line-height: 1.6; }
+        h1, h2 { color: #0366d6; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #dfe2e5; padding: 10px 14px; text-align: left; font-size: 14px; }
+        th { background-color: #f6f8fa; font-weight: bold; }
+        tr:nth-child(even) { background-color: #fcfcfc; }
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold; background: #e1e4e8; }
+        .badge-opt { background: #28a745; color: white; }
+    </style>
+</head>
+<body>
+    <h1>BreastCancer-Multimodal-AI: Dataset Discovery Summary</h1>
+    <p><strong>Generated:</strong> 2026-10-18 22:56:04 UTC | <strong>Phase:</strong> 1.2 Autonomous Discovery</p>
+    
+    <h2>1. Global Corpus Metrics</h2>
+    <ul>
+        <li><strong>Total Discovered Datasets:</strong> 7</li>
+        <li><strong>Total Diagnostic Modalities:</strong> 7</li>
+        <li><strong>Total Indexed Files:</strong> 480,773</li>
+        <li><strong>Total Medical Vision Images:</strong> 477,657</li>
+        <li><strong>Total Storage Footprint:</strong> 23,683.14 MB (23.13 GB)</li>
+    </ul>
+
+    <h2>2. Discovered Dataset Registry</h2>
+    <table border="1" class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unique Dataset ID</th>
+      <th>Dataset Name</th>
+      <th>Detected Modality</th>
+      <th>Detected Type</th>
+      <th>Location</th>
+      <th>Total Files</th>
+      <th>Total Images</th>
+      <th>Total Tables</th>
+      <th>Metadata Available</th>
+      <th>Patient Information Available</th>
+      <th>Storage Size (MB)</th>
+      <th>Health Status</th>
+      <th>Registration Timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DS_001_CBIS_DDSM</td>
+      <td>CBIS-DDSM</td>
+      <td>Mammography</td>
+      <td>Unknown Dataset</td>
+      <td>datasets/CBIS-DDSM</td>
+      <td>3988</td>
+      <td>882</td>
+      <td>0</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>2963.94</td>
+      <td>Optimal</td>
+      <td>2026-10-18 22:52:57</td>
+    </tr>
+    <tr>
+      <td>DS_002_CLINICAL</td>
+      <td>Clinical</td>
+      <td>Clinical</td>
+      <td>Clinical Dataset</td>
+      <td>datasets/Clinical</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>0.12</td>
+      <td>Missing Documentation</td>
+      <td>2026-10-18 22:52:57</td>
+    </tr>
+    <tr>
+      <td>DS_003_DATASET_BUSI_WITH_GT</td>
+      <td>Dataset_BUSI_with_GT</td>
+      <td>Ultrasound</td>
+      <td>Image Dataset</td>
+      <td>datasets/Dataset_BUSI_with_GT</td>
+      <td>1578</td>
+      <td>1578</td>
+      <td>0</td>
+      <td>No</td>
+      <td>No</td>
+      <td>253.85</td>
+      <td>Missing Documentation</td>
+      <td>2026-10-18 22:52:58</td>
+    </tr>
+    <tr>
+      <td>DS_004_EHR</td>
+      <td>EHR</td>
+      <td>EHR</td>
+      <td>EHR Dataset</td>
+      <td>datasets/EHR</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>0.05</td>
+      <td>Missing Documentation</td>
+      <td>2026-10-18 22:52:58</td>
+    </tr>
+    <tr>
+      <td>DS_005_GENOMIC</td>
+      <td>Genomic</td>
+      <td>Genomic</td>
+      <td>Genomic Dataset</td>
+      <td>datasets/Genomic</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>133.54</td>
+      <td>Missing Documentation</td>
+      <td>2026-10-18 22:53:02</td>
+    </tr>
+    <tr>
+      <td>DS_006_HISTOPATHOLOGY</td>
+      <td>Histopathology</td>
+      <td>Histopathology</td>
+      <td>Image Dataset</td>
+      <td>datasets/Histopathology</td>
+      <td>224872</td>
+      <td>224872</td>
+      <td>0</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>1237.88</td>
+      <td>Missing Documentation</td>
+      <td>2026-10-18 22:53:43</td>
+    </tr>
+    <tr>
+      <td>DS_007_VISION_GENOMIC_FUSION</td>
+      <td>Vision_Genomic_Fusion</td>
+      <td>Fusion</td>
+      <td>Mixed Dataset</td>
+      <td>datasets/Vision_Genomic_Fusion</td>
+      <td>250332</td>
+      <td>250325</td>
+      <td>6</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>19093.76</td>
+      <td>Optimal</td>
+      <td>2026-10-18 22:54:09</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>3. Modality Distribution Summary</h2>
+    <table border="1" class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Detected Modality</th>
+      <th>Dataset Count</th>
+      <th>Total Files</th>
+      <th>Total Images</th>
+      <th>Total Tables</th>
+      <th>Storage Size (MB)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clinical</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <td>EHR</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <td>Fusion</td>
+      <td>1</td>
+      <td>250332</td>
+      <td>250325</td>
+      <td>6</td>
+      <td>19093.76</td>
+    </tr>
+    <tr>
+      <td>Genomic</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>133.54</td>
+    </tr>
+    <tr>
+      <td>Histopathology</td>
+      <td>1</td>
+      <td>224872</td>
+      <td>224872</td>
+      <td>0</td>
+      <td>1237.88</td>
+    </tr>
+    <tr>
+      <td>Mammography</td>
+      <td>1</td>
+      <td>3988</td>
+      <td>882</td>
+      <td>0</td>
+      <td>2963.94</td>
+    </tr>
+    <tr>
+      <td>Ultrasound</td>
+      <td>1</td>
+      <td>1578</td>
+      <td>1578</td>
+      <td>0</td>
+      <td>253.85</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>4. Dataset Health Audit</h2>
+    <table border="1" class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Dataset Name</th>
+      <th>Health Score (0-100)</th>
+      <th>Status</th>
+      <th>Total Files</th>
+      <th>Storage (MB)</th>
+      <th>Diagnostic Reasoning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CBIS-DDSM</td>
+      <td>100</td>
+      <td>Excellent</td>
+      <td>3988</td>
+      <td>2963.94</td>
+      <td>All structural integrity and metadata checks passed.</td>
+    </tr>
+    <tr>
+      <td>Clinical</td>
+      <td>70</td>
+      <td>Good</td>
+      <td>1</td>
+      <td>0.12</td>
+      <td>Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)</td>
+    </tr>
+    <tr>
+      <td>Dataset_BUSI_with_GT</td>
+      <td>85</td>
+      <td>Excellent</td>
+      <td>1578</td>
+      <td>253.85</td>
+      <td>Missing README or JSON metadata manifest (-15)</td>
+    </tr>
+    <tr>
+      <td>EHR</td>
+      <td>70</td>
+      <td>Good</td>
+      <td>1</td>
+      <td>0.05</td>
+      <td>Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)</td>
+    </tr>
+    <tr>
+      <td>Genomic</td>
+      <td>70</td>
+      <td>Good</td>
+      <td>1</td>
+      <td>133.54</td>
+      <td>Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)</td>
+    </tr>
+    <tr>
+      <td>Histopathology</td>
+      <td>85</td>
+      <td>Excellent</td>
+      <td>224872</td>
+      <td>1237.88</td>
+      <td>Missing README or JSON metadata manifest (-15)</td>
+    </tr>
+    <tr>
+      <td>Vision_Genomic_Fusion</td>
+      <td>100</td>
+      <td>Excellent</td>
+      <td>250332</td>
+      <td>19093.76</td>
+      <td>All structural integrity and metadata checks passed.</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>\n

@@ -1,0 +1,707 @@
+{
+  "audit_timestamp": "2026-11-06T14:30:00Z",
+  "total_files_scanned": 2421,
+  "total_storage_mb": 1912.2,
+  "inventory": [
+    {
+      "File Name": "4392795a442a7acb6a3bed0840044d7fdd3197702dba15af07f1fd5bef48ba12.bin",
+      "Relative Path": "outputs/cache/4392795a442a7acb6a3bed0840044d7fdd3197702dba15af07f1fd5bef48ba12.bin",
+      "Category": "System Asset",
+      "Size (KB)": 590.18,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "ba323baff3f0ce3586b2e6f527a378b06c46e9b10f13c75a916abbc17534a52f.npy",
+      "Relative Path": "outputs/cache/ba323baff3f0ce3586b2e6f527a378b06c46e9b10f13c75a916abbc17534a52f.npy",
+      "Category": "System Asset",
+      "Size (KB)": 588.12,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "README.md",
+      "Relative Path": "outputs/cache/README.md",
+      "Category": "Publication Table",
+      "Size (KB)": 0.14,
+      "SHA-256": "bef3b01db09b62c9b99e7627cf9b613b0ffc2f5925435fc78aa5735a0b563f7a"
+    },
+    {
+      "File Name": "best_model.json",
+      "Relative Path": "outputs/checkpoints/best_model.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.29,
+      "SHA-256": "1dba3cd68e1e4401e27b7edb0e43747c7d30e267af9f8dd6e2fcc4cef5b16a25"
+    },
+    {
+      "File Name": "best_model.pt",
+      "Relative Path": "outputs/checkpoints/best_model.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10037.54,
+      "SHA-256": "95a97fb4dcbbb71d096a4306ebca9f9ab4aa701ed8c942c466cc4d9582fd1aa5"
+    },
+    {
+      "File Name": "checkpoint_epoch_001.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_001.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.26,
+      "SHA-256": "9aa68d8e202f287b2c2b175a300fa28563061dc9e933011adcd701c4e766151a"
+    },
+    {
+      "File Name": "checkpoint_epoch_001.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_001.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.81,
+      "SHA-256": "802f7aff14b5ded59e25ccb99763159aeca082a2ddd8473db95e1d9c2d9c4296"
+    },
+    {
+      "File Name": "checkpoint_epoch_003.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_003.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "085bb979f15a90ab080fa4223debfa35d9ad2d685f365b1fbe9319251757062f"
+    },
+    {
+      "File Name": "checkpoint_epoch_003.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_003.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.68,
+      "SHA-256": "b6cbace6279b9a526dbca3af9c9fc7cf406c3ef307985cee1293b32a9619ac62"
+    },
+    {
+      "File Name": "checkpoint_epoch_005.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_005.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "cf3a83fa756b5875f2e66c192b707a326447d719a4449cfab538f141d6dfaf82"
+    },
+    {
+      "File Name": "checkpoint_epoch_005.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_005.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.68,
+      "SHA-256": "57894d7216ed29c0db73f216214c4cc534a16e4647636f7ede7815aeb8914b94"
+    },
+    {
+      "File Name": "checkpoint_epoch_006.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_006.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "099837ffa8978820b5ecc4b9127adb3a8446684e41102509fb6aa5cb579690fe"
+    },
+    {
+      "File Name": "checkpoint_epoch_006.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_006.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.68,
+      "SHA-256": "dcfed8bfabc74dd7b994f438fcdc8a070bea1265adb419cbcf2c8195e03e8e02"
+    },
+    {
+      "File Name": "checkpoint_epoch_007.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_007.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "b0e56dac7171e6a4ca8a44d26d5c811131985b99e8224357e84176fb6d2b42e9"
+    },
+    {
+      "File Name": "checkpoint_epoch_007.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_007.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.68,
+      "SHA-256": "dafc7a9c43950259fe49f0ca90a8c2a6a7d51a903ee6690b5a9c990fdc17dcea"
+    },
+    {
+      "File Name": "checkpoint_epoch_008.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_008.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "5c47b7eb630cc7f1eb2a7f0e38dc25ce7d7ceb0b97993dcb3b90de7a4e62b53e"
+    },
+    {
+      "File Name": "checkpoint_epoch_008.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_008.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.75,
+      "SHA-256": "bfbee54787a1c8fac89ec71aa94970b5b3577a7d762633f0c231524b0669c79d"
+    },
+    {
+      "File Name": "checkpoint_epoch_009.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_009.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "61f8da71969fb783f52534509f1a641dd063422b6d115e981c1551bf48c2affa"
+    },
+    {
+      "File Name": "checkpoint_epoch_009.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_009.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.75,
+      "SHA-256": "d309ca2b1419459faa9040a565bafdc836520020d2a52211ba591946c9dfd4bf"
+    },
+    {
+      "File Name": "checkpoint_epoch_010.json",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_010.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.3,
+      "SHA-256": "08de6b6025ddf79b1295b43d0bf0ea30d9199cd89663325148a25f0174c54512"
+    },
+    {
+      "File Name": "checkpoint_epoch_010.pt",
+      "Relative Path": "outputs/checkpoints/checkpoint_epoch_010.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10051.75,
+      "SHA-256": "f8531ecaee2632b50c0f92bad2ff9ec21c5c7f9e51172cc47921943addc214bb"
+    },
+    {
+      "File Name": "latest_checkpoint.pt",
+      "Relative Path": "outputs/checkpoints/latest_checkpoint.pt",
+      "Category": "Model Checkpoint",
+      "Size (KB)": 10047.57,
+      "SHA-256": "16249770d754113bef885fb997927c472c56607b6fb0c3cf509be4bc9f8a9327"
+    },
+    {
+      "File Name": "README.md",
+      "Relative Path": "outputs/checkpoints/README.md",
+      "Category": "Publication Table",
+      "Size (KB)": 0.15,
+      "SHA-256": "9264005fb357944b150f829c95e207d4287f077b9bc9ccaca14f16655cd2aaf9"
+    },
+    {
+      "File Name": "amp_configuration.json",
+      "Relative Path": "outputs/config/amp_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.18,
+      "SHA-256": "3d518ee27154028e8552b19a0353beb1ff37aaf45eaf59a45b37ee48f85c3b8e"
+    },
+    {
+      "File Name": "augmentation_config.json",
+      "Relative Path": "outputs/config/augmentation_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 12.28,
+      "SHA-256": "68acd7b67ded7086606a097b3008d07912a4eb1d4a7bd33ee8abd903e8327283"
+    },
+    {
+      "File Name": "benchmark_config.json",
+      "Relative Path": "outputs/config/benchmark_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 2.35,
+      "SHA-256": "cb0f1b60397911ec6a19771d0c726e448bdef9f1d2c11537e3be0396c36b9023"
+    },
+    {
+      "File Name": "cache_config.json",
+      "Relative Path": "outputs/config/cache_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.42,
+      "SHA-256": "127cecb4b44e4ae332b08ed07c96c014dc0117ffc3777f336c8643196826fadd"
+    },
+    {
+      "File Name": "callback_config.json",
+      "Relative Path": "outputs/config/callback_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.76,
+      "SHA-256": "bd9798473eeb6c9f6d2b5f16af15198ce01904fedfcb7eb2e36ad5b698d738cf"
+    },
+    {
+      "File Name": "checkpoint_configuration.json",
+      "Relative Path": "outputs/config/checkpoint_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.18,
+      "SHA-256": "e6d597915b789bebf93abf9df541cb78c61a49dc8b81a41a0f0c2d7c76947f71"
+    },
+    {
+      "File Name": "checkpoint_specification.json",
+      "Relative Path": "outputs/config/checkpoint_specification.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.46,
+      "SHA-256": "d14f02f331dbdb6d1a23a16141cfceebeabae51df27bb26abc3a1dec5cf43c76"
+    },
+    {
+      "File Name": "clinical_model_config.json",
+      "Relative Path": "outputs/config/clinical_model_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.95,
+      "SHA-256": "8fc6577da5a1fb84a9930827ddb05959bdb8b2bb70a4c0f323c0b4f364dcd57e"
+    },
+    {
+      "File Name": "computational_profiling_summary.json",
+      "Relative Path": "outputs/config/computational_profiling_summary.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.41,
+      "SHA-256": "97962390702c96ba64905e5683a2c8be7fffd682e38ec54f3c2309c66dbedce5"
+    },
+    {
+      "File Name": "dataloader_config.json",
+      "Relative Path": "outputs/config/dataloader_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.48,
+      "SHA-256": "3f984a560b5fe114294491cbc028d4ec1870d750aaab16a8c1a2bcb1847cd968"
+    },
+    {
+      "File Name": "dataset_class_config.json",
+      "Relative Path": "outputs/config/dataset_class_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.39,
+      "SHA-256": "d884e94731cfae185bf248b1dadde5fe5b1ce291644a0653c814187e03fc96f1"
+    },
+    {
+      "File Name": "encoder_specifications.json",
+      "Relative Path": "outputs/config/encoder_specifications.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.1,
+      "SHA-256": "7a7cc7e78317335060148a05e6980afe827c30a36e07c254c215e1609d23b6f5"
+    },
+    {
+      "File Name": "experiment_configuration.json",
+      "Relative Path": "outputs/config/experiment_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.27,
+      "SHA-256": "23a805f612427744f7ef09320f333f743c2d4d19c937bb96bc98d95b7e268ffa"
+    },
+    {
+      "File Name": "experiment_metadata_template.json",
+      "Relative Path": "outputs/config/experiment_metadata_template.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.94,
+      "SHA-256": "f43293b1661be771087d2cb4203c20e0adbaa17578a3f67eac3afb233c349bfc"
+    },
+    {
+      "File Name": "experiment_tracking.json",
+      "Relative Path": "outputs/config/experiment_tracking.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.04,
+      "SHA-256": "eb59ee4e8ebe6d19ee64ebb80cf74069b42abbd2e1d045524433b4dfe7addff5"
+    },
+    {
+      "File Name": "fusion_configuration.json",
+      "Relative Path": "outputs/config/fusion_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.22,
+      "SHA-256": "258eb5f5c19afada963e1c74284f71811454f9b6663e3615fea833a272cc516f"
+    },
+    {
+      "File Name": "initialization_configuration.json",
+      "Relative Path": "outputs/config/initialization_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.17,
+      "SHA-256": "49f883990cca9059f56828c1167c4e87b7f1aa12e1a7f174c3e1268133cb21aa"
+    },
+    {
+      "File Name": "loss_configuration.json",
+      "Relative Path": "outputs/config/loss_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.19,
+      "SHA-256": "50f55c5201997837d71f4cac7393860521a83ef3c2c4bc0e690b41a34b440999"
+    },
+    {
+      "File Name": "metrics_framework_registry.json",
+      "Relative Path": "outputs/config/metrics_framework_registry.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 3.17,
+      "SHA-256": "fa51069251fd4238830a52d039ca485c05b442ddf3e9b5fbb31b4e0d716bf2f5"
+    },
+    {
+      "File Name": "metric_configuration.json",
+      "Relative Path": "outputs/config/metric_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.25,
+      "SHA-256": "12c59b2ca33045712306c1960568d5b6d49caa04a7c68feea0f220edc43729a2"
+    },
+    {
+      "File Name": "modality_mask_config.json",
+      "Relative Path": "outputs/config/modality_mask_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.34,
+      "SHA-256": "721d7401ffae1664856919230cb4fdebe9d5435f909a9a45ebba9c22c60d8101"
+    },
+    {
+      "File Name": "model_architecture.json",
+      "Relative Path": "outputs/config/model_architecture.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 2.52,
+      "SHA-256": "178f4451aceb91ef87cc2a16a10807f3ae1e8a4c0dceac0cd13fad378c5858a8"
+    },
+    {
+      "File Name": "optimizer_config.json",
+      "Relative Path": "outputs/config/optimizer_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.59,
+      "SHA-256": "e901dd04ba367994827240a11fa1b35a88bf3b4d15fbd9a705c97b7610beff0b"
+    },
+    {
+      "File Name": "optimizer_configuration.json",
+      "Relative Path": "outputs/config/optimizer_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.24,
+      "SHA-256": "81c42702986ab075a845aa0e23058e4fa6b40fde57e2affc2f097608ccd565fd"
+    },
+    {
+      "File Name": "phase2_freeze_manifest.json",
+      "Relative Path": "outputs/config/phase2_freeze_manifest.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 2.87,
+      "SHA-256": "a773d2ab677287f905885db4e9d31e81861baa8d63dd55a14050f5ca3b2a3523"
+    },
+    {
+      "File Name": "phase3_part2_final_certification.json",
+      "Relative Path": "outputs/config/phase3_part2_final_certification.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.26,
+      "SHA-256": "da116fcd4b9c3fd0086ae7e6d4569485ac62b3d498d14560aa9a12bbef090871"
+    },
+    {
+      "File Name": "pipeline_config.json",
+      "Relative Path": "outputs/config/pipeline_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 15.63,
+      "SHA-256": "a8fd42e4d8d70c7ab7282a12d2f070eb07bf7671452cebc578e953c1a2b88c27"
+    },
+    {
+      "File Name": "pipeline_final_certification.json",
+      "Relative Path": "outputs/config/pipeline_final_certification.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.24,
+      "SHA-256": "98c39588ff14770e3dfb2cb60f013ef8789602c0b1eb65193207870fac947f7a"
+    },
+    {
+      "File Name": "pipeline_validation_report.json",
+      "Relative Path": "outputs/config/pipeline_validation_report.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.78,
+      "SHA-256": "9f6875549b47c0e713c4ba876beea0ce8abecf267a4e499e38cb02caac7d0228"
+    },
+    {
+      "File Name": "scheduler_config.json",
+      "Relative Path": "outputs/config/scheduler_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.29,
+      "SHA-256": "9f689c2b5212b559f43eb8ee475a4938c4af88074b6106e58ec409c80f15c49b"
+    },
+    {
+      "File Name": "scheduler_configuration.json",
+      "Relative Path": "outputs/config/scheduler_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.16,
+      "SHA-256": "455c607196234a07c6e0d365ac3e7080f577de65bbb1d21f40ece4358d98404b"
+    },
+    {
+      "File Name": "split_config.json",
+      "Relative Path": "outputs/config/split_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.4,
+      "SHA-256": "9187f4f703a0e7b52b3fd8953085172a10379d5972c4b4ec55c34e83c65d37a4"
+    },
+    {
+      "File Name": "tabular_augmentation_policy.json",
+      "Relative Path": "outputs/config/tabular_augmentation_policy.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.07,
+      "SHA-256": "32f5446e70f159363c19bef608fc8056ed6935c79feb726c2ed3c0b8de261a19"
+    },
+    {
+      "File Name": "telemetry_config.json",
+      "Relative Path": "outputs/config/telemetry_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.43,
+      "SHA-256": "123e82dfa388b196537b26adaa9196656068af624ea30231f8162f5d690507b7"
+    },
+    {
+      "File Name": "tensor_cache_config.json",
+      "Relative Path": "outputs/config/tensor_cache_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.21,
+      "SHA-256": "4aeef3d5708085e379e96181fcdbac5bf02339a594a96f828b132671611b26d9"
+    },
+    {
+      "File Name": "tensor_pipeline_config.json",
+      "Relative Path": "outputs/config/tensor_pipeline_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.22,
+      "SHA-256": "06455e1b79a6af55856967141b250ab170bdf5d1bdd0ad8c4901e023ffd2c1de"
+    },
+    {
+      "File Name": "training_config.json",
+      "Relative Path": "outputs/config/training_config.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.66,
+      "SHA-256": "e90ddadfab4db986f511a4938d2bfc07409819cfed4c0bf51aeb8e671f6603f3"
+    },
+    {
+      "File Name": "training_configuration.json",
+      "Relative Path": "outputs/config/training_configuration.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.41,
+      "SHA-256": "b2a38e8033b3ba4dbd0cf8a24c51eacd78f2487521949a6d110b2460b8c86d79"
+    },
+    {
+      "File Name": "backend_validation.json",
+      "Relative Path": "outputs/deployment/backend_validation.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.29,
+      "SHA-256": "438f798fcf8792653feca0cbd27050e5659c6cc5daf6b6cd0314e3260e3a1880"
+    },
+    {
+      "File Name": "computational_profile.json",
+      "Relative Path": "outputs/deployment/computational_profile.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.23,
+      "SHA-256": "3a3d135e2c80c41f9d5481434cb2d61103128602bc1dbcd445c3ddfdbbaf361b"
+    },
+    {
+      "File Name": "deployment_readiness.json",
+      "Relative Path": "outputs/deployment/deployment_readiness.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 2.35,
+      "SHA-256": "4173ff0ed33c451542920d136f123be947f28b588daa26fda77fac2bb48a8623"
+    },
+    {
+      "File Name": "deployment_validation.json",
+      "Relative Path": "outputs/deployment/deployment_validation.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.35,
+      "SHA-256": "f7da6bbe6ba1abdfa2d428901dc24df87d5903586f0b962defa5a19404b13885"
+    },
+    {
+      "File Name": "inference_latency.json",
+      "Relative Path": "outputs/deployment/inference_latency.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 3.21,
+      "SHA-256": "50868e4852b3691f0e97c54806dc956d00ebc9d7091042c61ea41094613edb05"
+    },
+    {
+      "File Name": "phase4_part5_certification.json",
+      "Relative Path": "outputs/deployment/phase4_part5_certification.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 3.51,
+      "SHA-256": "f5178e02b9ab5031c4bdc3e5f43003c2a08fb697880d5f6b80548079602ab365"
+    },
+    {
+      "File Name": "production_benchmark.json",
+      "Relative Path": "outputs/deployment/production_benchmark.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 3.88,
+      "SHA-256": "fbd46981300417772b9bd750997ca52f5d6fc5ebcd53f46f280de74d13bd94ad"
+    },
+    {
+      "File Name": "production_certification.json",
+      "Relative Path": "outputs/deployment/production_certification.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.43,
+      "SHA-256": "f3b92ac15960a49139031db6faa35029d4e84b3330a4ecdfe464eb747756f562"
+    },
+    {
+      "File Name": "reliability_assessment.json",
+      "Relative Path": "outputs/deployment/reliability_assessment.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 1.63,
+      "SHA-256": "9795b54df5296debac62f84cf0d286fed5a91e05b67aca3d6b17bd8bc9cce1d7"
+    },
+    {
+      "File Name": "reproducibility_validation.json",
+      "Relative Path": "outputs/deployment/reproducibility_validation.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.24,
+      "SHA-256": "f8dd5d11b0d935d8bdc7e407fd365f42e06f542f6ffc6678cfcb455a8d79f36f"
+    },
+    {
+      "File Name": "robustness_deployment.json",
+      "Relative Path": "outputs/deployment/robustness_deployment.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 3.19,
+      "SHA-256": "535f4028da804230ab9552dbd6a47d690da2174b7382df15cc5eb846183aef4d"
+    },
+    {
+      "File Name": "throughput_analysis.json",
+      "Relative Path": "outputs/deployment/throughput_analysis.json",
+      "Category": "Configuration/JSON",
+      "Size (KB)": 0.35,
+      "SHA-256": "5a0a948c3a4fe15e42fb6c536435830edfb599e5ad9eed73d6abcf3254bd8358"
+    },
+    {
+      "File Name": "README.md",
+      "Relative Path": "outputs/experiments/README.md",
+      "Category": "Publication Table",
+      "Size (KB)": 0.15,
+      "SHA-256": "d7d73f8cb727024616f7c8d5b44d55175cf69309063d5f9da751c15e216c6c9c"
+    },
+    {
+      "File Name": "README.md",
+      "Relative Path": "outputs/explainability/README.md",
+      "Category": "Publication Table",
+      "Size (KB)": 0.17,
+      "SHA-256": "1fed664626a4ec0172965d669e127ed405b5d9bf039de4fcef6db0a684194d07"
+    },
+    {
+      "File Name": "cache_performance_visualization.png",
+      "Relative Path": "outputs/figures/cache_performance_visualization.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 151.05,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "checkpoint_timeline.pdf",
+      "Relative Path": "outputs/figures/checkpoint_timeline.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 25.83,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "checkpoint_timeline.png",
+      "Relative Path": "outputs/figures/checkpoint_timeline.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 125.04,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "checkpoint_timeline.svg",
+      "Relative Path": "outputs/figures/checkpoint_timeline.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 51.97,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "class_distribution_per_split.png",
+      "Relative Path": "outputs/figures/class_distribution_per_split.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 94.5,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_certification_dashboard.pdf",
+      "Relative Path": "outputs/figures/dataset_certification_dashboard.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 21.17,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_certification_dashboard.png",
+      "Relative Path": "outputs/figures/dataset_certification_dashboard.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 136.69,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_certification_dashboard.svg",
+      "Relative Path": "outputs/figures/dataset_certification_dashboard.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 50.6,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_composition_breakdown.pdf",
+      "Relative Path": "outputs/figures/dataset_composition_breakdown.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 33.45,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_composition_breakdown.png",
+      "Relative Path": "outputs/figures/dataset_composition_breakdown.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 231.12,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_composition_breakdown.svg",
+      "Relative Path": "outputs/figures/dataset_composition_breakdown.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 80.01,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_health_comparison.pdf",
+      "Relative Path": "outputs/figures/dataset_health_comparison.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 19.37,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_health_comparison.png",
+      "Relative Path": "outputs/figures/dataset_health_comparison.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 112.2,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_health_comparison.svg",
+      "Relative Path": "outputs/figures/dataset_health_comparison.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 43.12,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_overlap_diagram.pdf",
+      "Relative Path": "outputs/figures/dataset_overlap_diagram.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 27.85,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_overlap_diagram.png",
+      "Relative Path": "outputs/figures/dataset_overlap_diagram.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 168.62,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_overlap_diagram.svg",
+      "Relative Path": "outputs/figures/dataset_overlap_diagram.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 77.84,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_quality_dashboard.png",
+      "Relative Path": "outputs/figures/dataset_quality_dashboard.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 299.86,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_relationships_topology.pdf",
+      "Relative Path": "outputs/figures/dataset_relationships_topology.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 20.97,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_relationships_topology.png",
+      "Relative Path": "outputs/figures/dataset_relationships_topology.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 170.45,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_relationships_topology.svg",
+      "Relative Path": "outputs/figures/dataset_relationships_topology.svg",
+      "Category": "Publication Figure",
+      "Size (KB)": 56.22,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "dataset_relationship_network.png",
+      "Relative Path": "outputs/figures/dataset_relationship_network.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 133.31,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "data_flow_manifest_to_loader.png",
+      "Relative Path": "outputs/figures/data_flow_manifest_to_loader.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 135.63,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "data_loading_workflow.png",
+      "Relative Path": "outputs/figures/data_loading_workflow.png",
+      "Category": "Publication Figure",
+      "Size (KB)": 135.05,
+      "SHA-256": "HASH_ON_DEMAND"
+    },
+    {
+      "File Name": "execution_workflow_diagram.pdf",
+      "Relative Path": "outputs/figures/execution_workflow_diagram.pdf",
+      "Category": "Publication Figure",
+      "Size (KB)": 18.05,
+      "SHA-256": "HASH_ON_DEMAND"
+    }
+  ]
+}

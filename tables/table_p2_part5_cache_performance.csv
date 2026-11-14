@@ -1,0 +1,4 @@
+Cache Tier,Hit Latency (ms),Miss Latency (ms),Throughput (samples/s),Speedup Ratio,Capacity
+RAM LRU Cache,0.082,14.5,12195.1,176.8x,"1,000 Packages"
+SHA-256 Disk Cache,1.25,14.5,800.0,11.6x,Bounded Disk (10 GB)
+Uncached Raw Build,14.5,14.5,68.9,1.0x (Baseline),Infinite

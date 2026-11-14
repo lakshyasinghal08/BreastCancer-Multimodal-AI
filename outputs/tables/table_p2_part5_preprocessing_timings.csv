@@ -1,0 +1,8 @@
+Modality,Mean Latency (ms),Std Dev (ms),Min Latency (ms),Max Latency (ms),Throughput (tensors/s)
+Mammography,8.42,1.15,6.8,14.2,118.7
+Ultrasound,2.15,0.42,1.7,4.1,465.1
+Histopathology,1.85,0.35,1.4,3.8,540.5
+Magnetic Resonance,2.2,0.45,1.75,4.3,454.5
+Clinical FNA,0.04,0.01,0.02,0.12,25000.0
+EHR,0.05,0.01,0.03,0.15,20000.0
+Genomics,0.12,0.03,0.08,0.35,8333.3

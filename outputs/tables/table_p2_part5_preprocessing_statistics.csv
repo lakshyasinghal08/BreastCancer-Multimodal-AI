@@ -1,0 +1,8 @@
+Modality,Input Resolution,Output Resolution,Interpolation,Mean Post-Norm,Std Post-Norm,Outlier Policy
+Mammography,Variable (up to 4000x3000),512x512,Bilinear Letterbox,-0.012,0.485,Preserved
+Ultrasound,Variable (approx 500x500),256x256,Bilinear Letterbox,-0.045,0.512,Speckle Reduced
+Histopathology,50x50 Patches,224x224,Bilinear Resize,0.005,0.998,Stain Scaled
+MRI,256x256 Slices,256x256,Bilinear Letterbox,-0.008,0.492,Intensity Clamped
+Clinical FNA,30 Float Dimensions,30 Features,N/A (Tabular),0.000,1.000,Robust Median
+EHR,16 Raw Fields,16 Features,N/A (Tabular),0.000,0.985,Category Imputed
+Genomics,331 Continuous Probes,331 Features,N/A (Omics),0.000,1.000,Log2 Scaled

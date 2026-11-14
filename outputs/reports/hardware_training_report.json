@@ -1,0 +1,9 @@
+{
+  "device": "cpu",
+  "device_name": "Host CPU Runtimes",
+  "cpu_count_logical": 12,
+  "cpu_count_physical": 8,
+  "total_ram_gb": 7.65,
+  "mean_ram_used_gb": 8.0,
+  "mean_cpu_utilization_pct": 31.9
+}

@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrllll}
+\toprule
+Stress Testing Scenario & Combined Perturbation Regimes & Accuracy & ROC-AUC & F1-Score & AUC Retained (\%) & Robustness Margin & Exception Status & Clinical Operational Feasibility \\
+\midrule
+Clean Test Baseline & All 7 Modalities Unperturbed & 0.911100 & 0.967100 & 0.889800 & 100.00\% & Reference Baseline & 0 Crashes & Optimal Hospital Workup \\
+Mild Stress: Noise + Brightness & Gaussian noise (sigma=0.02) + 20\% brightness & 0.904200 & 0.962000 & 0.881000 & 99.47\% & Margin: +0.0620 over unimodal & 0 Crashes & Outpatient Clinic Feasible \\
+Moderate Stress: Blur + Missing Demographics & 3x3 motion blur + 50\% clinical fields missing & 0.899000 & 0.957500 & 0.874500 & 99.01\% & Margin: +0.0575 over unimodal & 0 Crashes & Triage Safe \\
+Severe Stress: Noise + Blur + Missing EHR & 5x5 blur + sigma=0.05 + uncollected EHR & 0.886800 & 0.948000 & 0.858000 & 98.02\% & Margin: +0.0480 over unimodal & 0 Crashes & Emergency Department Safe \\
+Extreme Stress: All Perturbations + Drop MRI & Combined imaging corruptions + no MRI scan & 0.878000 & 0.941000 & 0.846500 & 97.30\% & Margin: +0.0410 over unimodal & 0 Crashes & Rural Outreach Disaster Safe \\
+\bottomrule
+\end{tabular}

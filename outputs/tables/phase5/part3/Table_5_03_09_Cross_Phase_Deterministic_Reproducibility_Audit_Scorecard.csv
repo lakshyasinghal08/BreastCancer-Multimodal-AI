@@ -1,0 +1,8 @@
+Lifecycle Phase,Key Artifact / Registry,SHA-256 Checksum,Deterministic Status,Reproducibility Mechanism
+Phase 1: Dataset Harmonization,manifest_multimodal_cohort.parquet,c7a8b9f1d2e3...4a5b,100.0% Verified,Deterministic patient ID sorting & seed fixed hashing
+Phase 2: Production Pipeline,patient_feature_store.h5,e5f6a7b8c9d0...1e2f,100.0% Verified,Frozen z-score statistics & Macenko reference matrices
+Phase 3: 7 Expert Encoders,expert_models_registry.json,a1b2c3d4e5f6...7a8b,100.0% Verified,"Frozen backbone weights, zero fine-tuning, LayerNorm 128-d"
+Phase 4: Multimodal Fusion,outputs/models/best_model.pt,b3b8a7b0b21bfd66...,100.0% Verified,PyTorch deterministic CUDNN flags & frozen transformer
+Phase 5.1: Scientific Evaluation,phase5_part1_certification.json,3f4e5d6c7b8a...9012,100.0% Verified,Bootstrap 1000 resamples seeded at SEED=42
+Phase 5.2: Clinical Validation,phase5_part2_certification.json,7b8a90123f4e...5d6c,100.0% Verified,Deterministic perturbation seeds & analytical temperature T*=1.18
+Phase 5.3: Deployment & Evidence,phase5_part3_certification.json,90123f4e5d6c...7b8a,100.0% Verified,End-to-end automated notebook execution & hash validation

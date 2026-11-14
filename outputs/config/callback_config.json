@@ -1,0 +1,38 @@
+{
+  "callbacks": [
+    {
+      "name": "EarlyStoppingCallback",
+      "patience": 5,
+      "min_delta": 0.0001,
+      "mode": "max",
+      "metric": "roc_auc"
+    },
+    {
+      "name": "ModelCheckpointCallback",
+      "mode": "max",
+      "metric": "roc_auc",
+      "save_interval": 1
+    },
+    {
+      "name": "LearningRateMonitorCallback",
+      "frequency": "step"
+    },
+    {
+      "name": "GradientMonitorCallback",
+      "max_norm": 1.0,
+      "clip": true
+    },
+    {
+      "name": "NaNDetectionCallback",
+      "terminate_on_anomaly": true
+    },
+    {
+      "name": "DivergenceDetectionCallback",
+      "max_loss_multiplier": 5.0
+    },
+    {
+      "name": "InterruptionRecoveryCallback",
+      "auto_restore": true
+    }
+  ]
+}

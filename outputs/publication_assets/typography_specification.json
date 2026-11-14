@@ -1,0 +1,39 @@
+{
+  "font_families": [
+    "Arial",
+    "Helvetica",
+    "DejaVu Sans"
+  ],
+  "hierarchies": {
+    "figure_title": {
+      "pt": 13,
+      "weight": "bold"
+    },
+    "panel_title": {
+      "pt": 11,
+      "weight": "bold"
+    },
+    "axis_labels": {
+      "pt": 10,
+      "weight": "normal"
+    },
+    "tick_labels": {
+      "pt": 8.5,
+      "weight": "normal"
+    },
+    "legend_text": {
+      "pt": 8.5,
+      "weight": "normal"
+    },
+    "annotations": {
+      "pt": 7.5,
+      "weight": "normal"
+    }
+  },
+  "journal_compliance": [
+    "IEEE",
+    "Elsevier",
+    "Springer Nature",
+    "Lancet"
+  ]
+}

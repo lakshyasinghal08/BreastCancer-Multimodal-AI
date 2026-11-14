@@ -1,0 +1,6 @@
+Module Category,Initialization Method,Nonlinearity,Mode,Variance Formula,Status,Gain,Weight Init,Bias Init,Mean,Std Dev
+Convolutional 2D Layers,Kaiming Normal (He),GELU / ReLU,fan_out,2.0 / fan_out,VERIFIED,,,,,
+Linear Projection Layers,Xavier Uniform (Glorot),,fan_in + fan_out,6.0 / (fan_in + fan_out),VERIFIED,1.0,,,,
+Normalization Layers (LayerNorm/BN),Constant Scaling,,,N/A,VERIFIED,,1.0 (Ones),0.0 (Zeros),,
+Learnable Modality Tokens,Truncated Normal,,,0.0004,VERIFIED,,,,0.0,0.02
+Classification Logit Heads,Xavier Normal,,fan_in + fan_out,2.0 / (fan_in + fan_out),VERIFIED,0.1 (Small output init),,,,

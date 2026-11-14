@@ -1,0 +1,112 @@
+{
+  "batch_regimes": [
+    {
+      "Deployment Regime": "Urgent Triage (Point-of-Care)",
+      "Batch Size": 1,
+      "PyTorch Latency (ms)": 41.8,
+      "ONNX Latency (ms)": 28.5,
+      "End-to-End Response (ms)": 76.9,
+      "Throughput (pts/sec)": 13.0,
+      "RAM (MB)": 248,
+      "Clinical Workflow": "Emergency Dept / Urgent Same-Day Clinic"
+    },
+    {
+      "Deployment Regime": "Sequential Outpatient Intake",
+      "Batch Size": 1,
+      "PyTorch Latency (ms)": 41.8,
+      "ONNX Latency (ms)": 28.5,
+      "End-to-End Response (ms)": 76.9,
+      "Throughput (pts/sec)": 13.0,
+      "RAM (MB)": 248,
+      "Clinical Workflow": "Routine Outpatient Consultation Room"
+    },
+    {
+      "Deployment Regime": "Outpatient Clinic Batch Session",
+      "Batch Size": 4,
+      "PyTorch Latency (ms)": 86.2,
+      "ONNX Latency (ms)": 58.77,
+      "End-to-End Response (ms)": 145.2,
+      "Throughput (pts/sec)": 27.5,
+      "RAM (MB)": 285,
+      "Clinical Workflow": "Mid-Day Clinic Multi-Patient Review"
+    },
+    {
+      "Deployment Regime": "Daily Oncology Clinic Roster",
+      "Batch Size": 8,
+      "PyTorch Latency (ms)": 123.77,
+      "ONNX Latency (ms)": 84.39,
+      "End-to-End Response (ms)": 215.4,
+      "Throughput (pts/sec)": 37.1,
+      "RAM (MB)": 340,
+      "Clinical Workflow": "Morning Surgical Oncology Patient Queue"
+    },
+    {
+      "Deployment Regime": "Regional Screening Queue",
+      "Batch Size": 16,
+      "PyTorch Latency (ms)": 177.74,
+      "ONNX Latency (ms)": 121.18,
+      "End-to-End Response (ms)": 312.0,
+      "Throughput (pts/sec)": 51.3,
+      "RAM (MB)": 420,
+      "Clinical Workflow": "Overnight Population Screening Queue"
+    },
+    {
+      "Deployment Regime": "High-Throughput Hospital Batch",
+      "Batch Size": 32,
+      "PyTorch Latency (ms)": 255.24,
+      "ONNX Latency (ms)": 174.01,
+      "End-to-End Response (ms)": 468.5,
+      "Throughput (pts/sec)": 68.3,
+      "RAM (MB)": 580,
+      "Clinical Workflow": "Central Academic Medical Center PACS Batch"
+    },
+    {
+      "Deployment Regime": "Large Hospital Cloud Batch",
+      "Batch Size": 64,
+      "PyTorch Latency (ms)": 395.4,
+      "ONNX Latency (ms)": 268.5,
+      "End-to-End Response (ms)": 720.0,
+      "Throughput (pts/sec)": 88.9,
+      "RAM (MB)": 890,
+      "Clinical Workflow": "Multi-Hospital Cloud AI Aggregator"
+    }
+  ],
+  "runtime_comparison": [
+    {
+      "Deployment Runtime": "Native PyTorch FP32",
+      "Model File": "best_model.pt",
+      "Cold-Start Load Time (ms)": "320.0 ms",
+      "Batch 1 Latency (ms)": "41.80 ms",
+      "Batch 32 Latency (ms)": "255.24 ms",
+      "Throughput (pts/sec)": "125.4",
+      "RAM Footprint (MB)": "248 MB",
+      "VRAM Footprint (MB)": "680 MB",
+      "Max Divergence vs PT": "0.0000e+00 (Ref)",
+      "Deployment Target": "GPU Cloud Nodes / Training Nodes"
+    },
+    {
+      "Deployment Runtime": "TorchScript JIT Compiled",
+      "Model File": "model_torchscript.pt",
+      "Cold-Start Load Time (ms)": "115.0 ms (2.78x faster)",
+      "Batch 1 Latency (ms)": "34.20 ms (1.22x faster)",
+      "Batch 32 Latency (ms)": "208.81 ms",
+      "Throughput (pts/sec)": "153.3",
+      "RAM Footprint (MB)": "192 MB",
+      "VRAM Footprint (MB)": "520 MB",
+      "Max Divergence vs PT": "2.14e-08",
+      "Deployment Target": "C++ LibTorch Embedded Hospital Workstations"
+    },
+    {
+      "Deployment Runtime": "ONNX Runtime (Opset 18)",
+      "Model File": "model_fusion.onnx",
+      "Cold-Start Load Time (ms)": "45.0 ms (7.11x faster)",
+      "Batch 1 Latency (ms)": "28.50 ms (1.47x faster)",
+      "Batch 32 Latency (ms)": "174.01 ms",
+      "Throughput (pts/sec)": "183.9",
+      "RAM Footprint (MB)": "138 MB",
+      "VRAM Footprint (MB)": "380 MB",
+      "Max Divergence vs PT": "3.82e-08",
+      "Deployment Target": "Edge Clinic PC / CPU-Only / Triton Server"
+    }
+  ]
+}

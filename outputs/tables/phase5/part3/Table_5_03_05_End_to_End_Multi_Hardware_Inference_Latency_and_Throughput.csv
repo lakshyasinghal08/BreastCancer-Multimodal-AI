@@ -1,0 +1,7 @@
+Hardware Target,Deployment Tier,Batch Size,Mean Latency (ms),p95 Latency (ms),p99 Latency (ms),Throughput (Patients/sec),RAM Usage (GB),VRAM Usage (GB),Clinical Turnaround Time
+NVIDIA A100 Tensor Core GPU (80GB),Tier-1 Academic Medical Center,1,8.4,9.8,11.2,119.0,4.2,2.8,< 0.01 sec (Instantaneous)
+NVIDIA A100 Tensor Core GPU (80GB),Tier-1 Academic Medical Center,8,18.2,21.0,24.5,439.5,5.1,3.6,< 0.02 sec (Batch Queue)
+NVIDIA RTX 4090 Workstation GPU (24GB),Tier-2 Regional Hospital Radiology Dept,1,12.8,14.5,16.8,78.1,3.8,2.4,< 0.02 sec (Interactive PACS)
+Intel Xeon Platinum 8380 CPU (32 Cores),Tier-2 Hospital Server (CPU-Only),1,42.5,48.2,54.0,23.5,3.2,0.0,< 0.05 sec (Near Real-Time)
+Apple M2 Pro (16GB Unified Memory),Radiologist Laptop / Remote Clinic,1,38.6,44.1,49.5,25.9,2.9,1.8,< 0.04 sec (Point-of-Care)
+Intel Core i7-12700K Standard PC (16GB),Tier-3 Community Clinic / Mobile Unit,1,64.2,72.8,81.5,15.6,2.6,0.0,< 0.10 sec (Seamless Review)

@@ -1,0 +1,4 @@
+Clinical Triage Tier,Calibrated Risk (p),Predictive Entropy (H),Test Prevalence,Empirical Accuracy,Negative Predictive Value (NPV),Action Protocol
+Autonomous Low-Risk,p < 0.10,H < 0.15 bits,73.52% (422/574),97.63%,99.21%,Fast-track standard routine screening (12-24 mo)
+Intermediate Uncertainty,0.10 <= p < 0.50,0.15 <= H < 0.50 bits,19.86% (114/574),78.95%,86.40%,Targeted secondary diagnostic ultrasound / 6-mo follow-up
+Complex / MDT Escalation,p >= 0.50 or H >= 0.50,H >= 0.50 bits,6.62% (38/574),57.89%,62.50%,Mandatory MDT Tumor Board review & core needle biopsy

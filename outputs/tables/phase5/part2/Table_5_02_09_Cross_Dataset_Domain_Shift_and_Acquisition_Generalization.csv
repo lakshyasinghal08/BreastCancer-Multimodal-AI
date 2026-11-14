@@ -1,0 +1,9 @@
+Original Clinical Data Source,Modality Acquisition Protocol,Multi-Center Acquisition Context,Unimodal ROC-AUC,Latent Cosine Sim,Domain Shift Degree,Generalization Reliability,Domain Invariance Mechanism
+CBIS-DDSM (Mammography),Full-Field Digital Mammography,Film & Digital Screenings,0.924,0.942,Low Shift,High Consistency,Standardized Dual-Energy LUT Normalization
+BUSI (Breast Ultrasound),B-Mode Acoustic Sonography,Handheld Point-of-Care Ultrasound,0.9185,0.938,Moderate Shift,Robust Generalization,Speckle Filtering & Spatial Invariant Pooling
+BreakHis (Histopathology),400x Whole Slide Core Biopsies,Multi-Hospital Pathology Labs,0.938,0.955,Low Shift,High Consistency,Macenko Hematoxylin-Eosin Color Normalization
+Duke Breast MRI DCE Series,Dynamic 3D Contrast Kinetics,3T & 1.5T Clinical MRI Scanners,0.9315,0.948,Moderate Shift,Robust Generalization,Percent Washout Kinetic Normalization
+Clinical Tabular Cohort,Demographics & FNA Cytology,Outpatient Oncology Consultations,0.8845,0.962,Minimal Shift,High Consistency,Z-Score Quantile Standardization
+Longitudinal EHR Cohort,Temporal Lab Panels & Vitals,Hospital Inpatient & Ambulatory,0.871,0.958,Minimal Shift,High Consistency,Forward-Fill Zero-Imputation Embedding
+TCGA-BRCA Genomic Cohort,500-Gene RNA-Seq Microarray,Multi-Center Cancer Genome Atlas,0.892,0.968,Minimal Shift,High Consistency,Log2(TPM+1) Quantile Transformation
+PROPOSED UNIFIED SYSTEM,All 7 Multi-Institutional Sources,Cross-Attention Dynamic Synthesis,0.9671,0.953,Mitigated Shift,OPTIMAL GENERALIZATION,LayerNorm Latent Alignment & Dynamic Masking

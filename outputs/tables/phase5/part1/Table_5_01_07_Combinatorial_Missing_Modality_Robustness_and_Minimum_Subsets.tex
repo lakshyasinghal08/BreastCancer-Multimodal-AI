@@ -1,0 +1,18 @@
+\begin{tabular}{llrrrrlll}
+\toprule
+Modality Configuration Subset & Active Modality Streams & Accuracy & ROC-AUC & PR-AUC & F1-Score & AUC Retained (\%) & Exception Status & Clinical Operational Applicability \\
+\midrule
+Complete 7-Modality Baseline & Mammo + US + Histo + MRI + Clin + EHR + Geno & 0.911100 & 0.967100 & 0.954200 & 0.889800 & 100.00\% & 0 Crashes & Comprehensive Tumor Board Gold Standard \\
+Leave-Out Histopathology & Mammo + US + MRI + Clin + EHR + Geno & 0.892000 & 0.952100 & 0.934000 & 0.865400 & 98.45\% & 0 Crashes & Non-Invasive Pre-Biopsy Screening Suite \\
+Leave-Out Breast MRI & Mammo + US + Histo + Clin + EHR + Geno & 0.909400 & 0.965800 & 0.952000 & 0.887500 & 99.87\% & 0 Crashes & Standard Workup (MRI Contraindicated) \\
+Leave-Out Microarray Genomics & Mammo + US + Histo + MRI + Clin + EHR & 0.905900 & 0.964200 & 0.950100 & 0.883100 & 99.70\% & 0 Crashes & Rapid Diagnostic Workup (Awaiting NGS) \\
+Leave-Out Mammography & US + Histo + MRI + Clin + EHR + Geno & 0.898500 & 0.958000 & 0.942000 & 0.874000 & 99.06\% & 0 Crashes & Dense Breast / Pregnancy Workup \\
+Leave-Out Ultrasound & Mammo + Histo + MRI + Clin + EHR + Geno & 0.904200 & 0.962000 & 0.948000 & 0.881000 & 99.47\% & 0 Crashes & Standard Mammography + MRI Center \\
+Leave-Out EHR \& Clinical & Mammo + US + Histo + MRI + Geno & 0.902400 & 0.961000 & 0.946000 & 0.879000 & 99.37\% & 0 Crashes & Isolated Diagnostic Laboratory Workup \\
+Imaging Triad Only (Mammo+US+MRI) & Mammo + Ultrasound + Breast MRI & 0.881500 & 0.945000 & 0.924000 & 0.852000 & 97.71\% & 0 Crashes & Pure Radiological Screening Assessment \\
+Standard Outpatient Pair (Mammo+US) & Mammography + Ultrasound & 0.871100 & 0.938500 & 0.914000 & 0.841000 & 97.04\% & 0 Crashes & Routine Outpatient Radiology Clinic \\
+Non-Invasive Diagnostic Suite & Mammo + US + MRI + Clin + EHR & 0.899000 & 0.959000 & 0.943000 & 0.875000 & 99.16\% & 0 Crashes & Avoids Invasive Core Needle Biopsies \\
+Clinical Consultation Only & Clinical Tabular + EHR History & 0.832800 & 0.894200 & 0.861000 & 0.792500 & 92.46\% & 0 Crashes & Primary Care Epidemiological Risk Assessment \\
+Point-of-Care Ultrasound Fallback & Ultrasound Only (Single Modality) & 0.850200 & 0.918500 & 0.889000 & 0.814500 & 94.97\% & 0 Crashes & Rural Outreach / Low-Resource Field Unit \\
+\bottomrule
+\end{tabular}

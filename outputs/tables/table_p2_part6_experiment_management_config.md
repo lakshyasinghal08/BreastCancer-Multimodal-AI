@@ -1,0 +1,10 @@
+# Phase 3 Experiment Management Asset Specifications
+
+| Directory_Asset   | Purpose                             | Retention_Policy      | Format          | Phase_3_Role          |
+|:------------------|:------------------------------------|:----------------------|:----------------|:----------------------|
+| checkpoints/      | Model weights & optimizer states    | Best + Latest         | .pt / .json     | Model Checkpointing   |
+| logs/             | Execution traces & errors           | Complete History      | .log / .json    | Telemetry Monitoring  |
+| metrics/          | Validation scores per epoch         | All Epochs            | .csv / .parquet | Curve Tracking        |
+| tensorboard/      | Interactive loss & scalar curves    | Full Training Run     | tfevents        | Visual Diagnostics    |
+| model_registry/   | Exported ONNX / TorchScript models  | Final Certified Model | .onnx / .pt     | Production Deployment |
+| predictions/      | Test cohort out-of-fold predictions | Full Test Cohort      | .parquet        | Ensemble Stacking     |

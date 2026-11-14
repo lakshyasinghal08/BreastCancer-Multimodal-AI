@@ -1,0 +1,13 @@
+\begin{tabular}{llll}
+\toprule
+Config File & Scope & Key Parameters & Hash (SHA256) \\
+\midrule
+pipeline\_config.json & End-to-End Orchestration & batch\_size=32, num\_workers=4, pin\_memory=True & a7f3c91b8d2e... \\
+split\_config.json & Patient Partitioning & train=0.70, val=0.15, test=0.15, seed=42 & b4e2d19f0a5c... \\
+cache\_config.json & Multi-Tier Caching & mem\_cap=1000, disk\_fmt=npy, eviction=LRU & 9c1a5f82d3e0... \\
+augmentation\_config.json & Clinical Transformations & 18 transforms, enabled=False (baseline) & e3b8a1c92d4f... \\
+dataloader\_config.json & Worker \& Collate Engine & prefetch=2, persistent=True, dynamic\_batch=True & 7d2e9f1a5b8c... \\
+benchmark\_config.json & Stress Testing Engine & bs\_range=[1,64], workers=[0,8], timeout=120s & 6f0b4d9a1e3c... \\
+dataset\_class\_config.json & Multimodal Class Contracts & 8 classes, lazy\_load=True, error\_policy=fallback & 5e1c8d2a9f4b... \\
+\bottomrule
+\end{tabular}

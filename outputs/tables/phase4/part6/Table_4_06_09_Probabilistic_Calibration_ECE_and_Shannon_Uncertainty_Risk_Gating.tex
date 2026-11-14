@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrll}
+\toprule
+Calibration / Uncertainty Regime & Expected Calibration Error (ECE) & Maximum Calibration Error (MCE) & Brier Loss Score & Calibration Quality & Clinical Action Rule \\
+\midrule
+Uncalibrated Multimodal Logits & 0.084500 & 0.124000 & 0.412000 & Moderate Overconfidence & Baseline Raw Output \\
+Platt Sigmoid Scaling & 0.048200 & 0.081500 & 0.285000 & Good Calibration & Standard Post-Processing \\
+Isotonic Non-Parametric Regression & 0.041000 & 0.074000 & 0.261000 & High Calibration & Piecewise Constant \\
+Temperature Scaling (T* = 1.18) & 0.036700 & 0.062000 & 0.245000 & Optimal Probabilistic Calibration & PRODUCTION CALIBRATOR \\
+Shannon Predictive Entropy (< 0.15) & 0.012500 & 0.024000 & 0.110000 & Ultra-Low Calibration Error & Automated Clear-Cut Triage \\
+Shannon Uncertain Band (0.15 - 0.50) & 0.078000 & 0.145000 & 0.380000 & Moderate Uncertainty Region & Secondary Radiologist Review \\
+Shannon High Risk (> 0.50) & 0.124000 & 0.210000 & 0.620000 & High Epistemic Ambiguity & Mandatory MDT Tumor Board Referral \\
+\bottomrule
+\end{tabular}

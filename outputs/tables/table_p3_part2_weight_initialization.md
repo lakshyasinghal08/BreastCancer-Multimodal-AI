@@ -1,0 +1,7 @@
+| Module Category                     | Initialization Method   | Nonlinearity   | Mode             | Variance Formula         | Status   | Gain                    | Weight Init   | Bias Init   |   Mean |   Std Dev |
+|:------------------------------------|:------------------------|:---------------|:-----------------|:-------------------------|:---------|:------------------------|:--------------|:------------|-------:|----------:|
+| Convolutional 2D Layers             | Kaiming Normal (He)     | GELU / ReLU    | fan_out          | 2.0 / fan_out            | VERIFIED | nan                     | nan           | nan         |    nan |    nan    |
+| Linear Projection Layers            | Xavier Uniform (Glorot) | nan            | fan_in + fan_out | 6.0 / (fan_in + fan_out) | VERIFIED | 1.0                     | nan           | nan         |    nan |    nan    |
+| Normalization Layers (LayerNorm/BN) | Constant Scaling        | nan            | nan              | N/A                      | VERIFIED | nan                     | 1.0 (Ones)    | 0.0 (Zeros) |    nan |    nan    |
+| Learnable Modality Tokens           | Truncated Normal        | nan            | nan              | 0.0004                   | VERIFIED | nan                     | nan           | nan         |      0 |      0.02 |
+| Classification Logit Heads          | Xavier Normal           | nan            | fan_in + fan_out | 2.0 / (fan_in + fan_out) | VERIFIED | 0.1 (Small output init) | nan           | nan         |    nan |    nan    |

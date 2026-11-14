@@ -1,0 +1,12 @@
+\begin{tabular}{lllrl}
+\toprule
+Module Component & Layer Specification & Output Shape & Parameters & Design Purpose \\
+\midrule
+Input Projection & Linear(16 -> 128) + LayerNorm(128) + GELU + Drop(0.15) & [B, 128] & 2432 & Structured feature dimension expansion \& normalization \\
+Residual Block 1 (Dense) & Linear(128 -> 128) + LN + GELU + Linear(128 -> 128) + LN + Skip & [B, 128] & 33280 & Feature interaction modeling with pre-norm skip connection \\
+Residual Block 2 (Bottleneck) & Linear(128 -> 64) + LN + GELU + Linear(64 -> 128) + LN + Skip & [B, 128] & 16896 & Latent compression and clinical manifold regularization \\
+Multimodal Latent Hook & Latent Representation Hook (Identity / Anchor) & [B, 128] & 0 & Exact alignment with TCGAEHREncoder for multimodal fusion \\
+Diagnostic Classifier Head & Linear(128 -> 64) + LN + GELU + Drop(0.15) + Linear(64 -> 2) & [B, 2] & 8514 & Calibrated binary diagnostic classification (IDC vs Non-IDC) \\
+Total Network Model & Complete EHRExpertMLP Architecture & [B, 2] \& [B, 128] & 61122 & Production-grade lightweight EHR expert model \\
+\bottomrule
+\end{tabular}

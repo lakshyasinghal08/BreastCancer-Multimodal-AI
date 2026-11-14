@@ -1,0 +1,16 @@
+\begin{tabular}{lrll}
+\toprule
+Metric Category & Count / Value & Unit & Notes \\
+\midrule
+Medical Cohorts & 7 & Cohorts & CBIS-DDSM, BUSI, BreakHis, TCGA-BRCA, Wisconsin, GSE45827, IDC \\
+Medical Modalities & 7 & Modalities & Mammography, Ultrasound, Histopathology, MRI, Clinical, EHR, Genomic \\
+Total Sample Volume & 477913 & Samples & 100\% path verified on disk \\
+Unique Human Patients & 1918 & Patients & Namespace collision isolated \\
+Train Partition Samples & 331669 & Samples (69.4\%) & 1,336 Patients (70\% Target) \\
+Validation Partition Samples & 72147 & Samples (15.1\%) & 282 Patients (15\% Target) \\
+Test Partition Samples & 73317 & Samples (15.5\%) & 300 Patients (15\% Target) \\
+Patient Overlap across Splits & 0 & Patients (0.0\%) & Mathematically zero leakage \\
+Tabular Feature Vector Dim & 41 & Features & 30 Clinical FNA + 11 TCGA EHR \\
+Genomic Probe Vector Dim & 54675 & Probes & GSE45827 Affymetrix HG-U133\_Plus\_2 \\
+\bottomrule
+\end{tabular}

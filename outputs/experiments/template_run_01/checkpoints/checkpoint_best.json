@@ -1,0 +1,24 @@
+{
+  "epoch": 1,
+  "global_step": 100,
+  "metric_name": "roc_auc",
+  "best_metric": 0.9824,
+  "is_best": true,
+  "timestamp": "2026-10-18T17:50:12.950896",
+  "model_architecture": "MultimodalCrossAttentionNetwork_RC1",
+  "weights_placeholder": {
+    "status": "untrained_weights_schema_verified",
+    "param_count": 48750000
+  },
+  "optimizer_state": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.01
+  },
+  "scheduler_state": {
+    "type": "CosineAnnealingLR",
+    "T_max": 100
+  },
+  "random_seed": 42,
+  "dataset_version": "v2.5.0-RC2.5-final"
+}

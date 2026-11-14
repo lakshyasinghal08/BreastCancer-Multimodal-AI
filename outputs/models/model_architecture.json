@@ -1,0 +1,114 @@
+{
+  "model_name": "LightweightMultimodalNet",
+  "framework_version": "v3.1.0-Proposed-Framework",
+  "timestamp": "2026-10-18T18:18:24.437388",
+  "design_philosophy": "Low-Parameter Clinically Interpretable Multimodal Diagnostic Network",
+  "latent_dimension": 128,
+  "num_classes": 2,
+  "num_modalities": 7,
+  "modalities": [
+    "mammography",
+    "ultrasound",
+    "histopathology",
+    "mri",
+    "clinical",
+    "ehr",
+    "genomic"
+  ],
+  "encoder_topologies": {
+    "mammography": {
+      "type": "LightweightVisionEncoder",
+      "in_channels": 1,
+      "input_shape": [
+        1,
+        224,
+        224
+      ],
+      "params": 144848
+    },
+    "ultrasound": {
+      "type": "LightweightVisionEncoder",
+      "in_channels": 1,
+      "input_shape": [
+        1,
+        224,
+        224
+      ],
+      "params": 144848
+    },
+    "histopathology": {
+      "type": "LightweightVisionEncoder",
+      "in_channels": 3,
+      "input_shape": [
+        3,
+        224,
+        224
+      ],
+      "params": 145136
+    },
+    "mri": {
+      "type": "LightweightVisionEncoder",
+      "in_channels": 1,
+      "input_shape": [
+        1,
+        224,
+        224
+      ],
+      "params": 144848
+    },
+    "clinical": {
+      "type": "ClinicalFNAEncoder",
+      "in_features": 30,
+      "input_shape": [
+        30
+      ],
+      "params": 14656
+    },
+    "ehr": {
+      "type": "TCGAEHREncoder",
+      "in_features": 16,
+      "input_shape": [
+        16
+      ],
+      "params": 11968
+    },
+    "genomic": {
+      "type": "GenomicMicroarrayEncoder",
+      "in_features": 331,
+      "input_shape": [
+        331
+      ],
+      "params": 59520
+    }
+  },
+  "harmonization_layer": {
+    "type": "EmbeddingHarmonizer",
+    "d_embed": 128,
+    "missing_token_strategy": "Learnable Modality Presence Vector",
+    "modality_type_embeddings": true,
+    "params": 2048
+  },
+  "fusion_layer": {
+    "type": "CrossModalAttentionFusion",
+    "d_embed": 128,
+    "num_heads": 4,
+    "head_dim": 32,
+    "ffn_expansion": 2,
+    "dropout": 0.1,
+    "mask_aware_key_masking": true,
+    "learnable_gating": true,
+    "params": 136641
+  },
+  "classifier_head": {
+    "type": "MultimodalClassifierHead",
+    "d_embed": 128,
+    "hidden_dim": 64,
+    "num_classes": 2,
+    "uncertainty_estimation_placeholder": true,
+    "temperature_scaling_calibration": true,
+    "params": 12676
+  },
+  "total_parameters": 817189,
+  "trainable_parameters": 817189,
+  "model_footprint_mb": 3.12
+}

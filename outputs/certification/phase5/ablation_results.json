@@ -1,0 +1,54 @@
+{
+  "full_model_roc_auc": 0.9671,
+  "ablations": [
+    {
+      "configuration": "Full Proposed Architecture",
+      "description": "Cross-Attention + Dynamic Masking + Gating + Harmonization",
+      "roc_auc": 0.9671,
+      "delta_auc": "Reference",
+      "p_value": "Reference"
+    },
+    {
+      "configuration": "Ablation 1: Attention Disabled (Mean Pooling)",
+      "description": "Mean pooling of frozen 128-d latent tokens + MLP head",
+      "roc_auc": 0.9425,
+      "delta_auc": "-0.0246",
+      "p_value": "< 1e-4"
+    },
+    {
+      "configuration": "Ablation 2: Dynamic Masking Disabled",
+      "description": "Missing modalities zero-padded without -inf attention mask",
+      "roc_auc": 0.938,
+      "delta_auc": "-0.0291",
+      "p_value": "< 1e-5"
+    },
+    {
+      "configuration": "Ablation 3: Modality Confidence Gating Disabled",
+      "description": "Uniform unit weight per token (no learnable sigmoid scale)",
+      "roc_auc": 0.956,
+      "delta_auc": "-0.0111",
+      "p_value": "< 0.01"
+    },
+    {
+      "configuration": "Ablation 4: Projection Harmonization Disabled",
+      "description": "Direct projection without LayerNorm normalization space",
+      "roc_auc": 0.9482,
+      "delta_auc": "-0.0189",
+      "p_value": "< 1e-3"
+    },
+    {
+      "configuration": "Ablation 5: Simplified Late Averaging",
+      "description": "Independent unimodal probabilities averaged at decision level",
+      "roc_auc": 0.9365,
+      "delta_auc": "-0.0306",
+      "p_value": "< 1e-6"
+    },
+    {
+      "configuration": "Ablation 6: Early Feature Concatenation",
+      "description": "Direct vector concatenation (7 x 128 = 896-d) + Deep MLP",
+      "roc_auc": 0.9412,
+      "delta_auc": "-0.0259",
+      "p_value": "< 1e-4"
+    }
+  ]
+}

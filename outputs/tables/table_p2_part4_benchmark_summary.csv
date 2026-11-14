@@ -1,0 +1,8 @@
+Benchmark Metric,Measured Value,Target Specification,Assessment
+Cold Disk Read Throughput,1.66 samples/sec,> 1.0 samples/sec,OPTIMAL
+L2 Disk Cache Read Throughput,25.7 samples/sec,> 15.0 samples/sec,OPTIMAL (15.5x Speedup)
+L1 RAM Cache Read Throughput,"13,333 samples/sec","> 5,000 samples/sec","OPTIMAL (8,036x Speedup)"
+Batch Generation Latency (BS=32),34.1 ms,< 100.0 ms,OPTIMAL (937.5 FPS)
+Peak Process Memory Footprint,220.1 MB,"< 2,048.0 MB",EXEMPLARY (< 11% Budget)
+Worker Scaling Efficiency (4 Workers),3.82x Speedup,> 3.0x Speedup,LINEAR_SCALING
+Split Manifest Load Time (Parquet),189.2 ms,"< 1,000.0 ms",SUB-SECOND

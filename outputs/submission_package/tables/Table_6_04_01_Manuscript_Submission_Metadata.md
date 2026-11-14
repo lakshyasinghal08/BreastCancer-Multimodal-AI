@@ -1,0 +1,13 @@
+# Manuscript Submission Metadata & Article Profile
+
+| Metadata Attribute | Configured Value | Journal Specification / Standard |
+| :--- | :--- | :--- |
+| Manuscript Full Title | A Unified Seven-Modality Cross-Attention Transformer for Clinically Robust, Uncertainty-Aware Breast Cancer Diagnosis and Molecular Phenotyping | Max 150 characters, title case |
+| Running / Short Title | Seven-Modality Cross-Attention Breast Cancer AI | Max 50 characters for running heads |
+| Target Article Type | Original Full-Length Research Article | Standard Q1 peer-reviewed category |
+| Total Manuscript Words | 12,850 Words | Within Q1 journal limits (8,000 - 15,000) |
+| Abstract Word Count | 248 Words | Structured: Background, Methods, Results, Conclusion |
+| Total Display Items | 12 Figures, 12 Tables | Main manuscript core display items |
+| Supplementary Material | 25,480 Words, 16 Sections | Comprehensive supporting documentation |
+| Total References | 68 Citations | Formatted in IEEE / Vancouver numerical format |
+| Corresponding Author | Lead AI Architect (multimodal.breastcancer.ai@consortium.org) | Institutional email, single point of contact |

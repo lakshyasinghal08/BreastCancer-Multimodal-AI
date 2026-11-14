@@ -1,0 +1,96 @@
+{
+  "project_name": "Multimodal-Breast-Cancer-AI",
+  "version": "1.0.0-FINAL-RELEASE",
+  "census_timestamp": "2026-11-13T22:55:00+05:30",
+  "scale_and_complexity_metrics": {
+    "total_cataloged_files": 3768,
+    "total_storage_megabytes": 2107.71,
+    "total_storage_gigabytes": 2.058,
+    "master_notebook_cells": 546,
+    "master_notebook_code_cells": 451,
+    "master_notebook_markdown_cells": 95,
+    "master_notebook_sections": 45,
+    "standalone_python_modules": 15,
+    "technical_markdown_reports": 507,
+    "json_metadata_manifests": 533,
+    "trained_model_checkpoints": 120,
+    "publication_figures_total": 1062,
+    "publication_tables_total": 1391,
+    "manuscript_artifacts": 0,
+    "supplementary_assets": 51,
+    "journal_submission_assets": 116,
+    "reproducibility_artifacts": 59,
+    "deployment_artifacts": 62,
+    "environment_specification_files": 5,
+    "documentation_files": 6,
+    "certification_records": 132
+  },
+  "cohort_and_clinical_scale": {
+    "diagnostic_modalities_integrated": 7,
+    "modality_list": [
+      "Digital Mammography (MG: CC & MLO)",
+      "Dynamic Contrast-Enhanced MRI (DCE-MRI)",
+      "Diagnostic Breast Ultrasound (US)",
+      "Histopathology Whole-Slide Imaging (WSI H&E)",
+      "Longitudinal Electronic Health Records (EHR)",
+      "Genomics / Transcriptomics (PAM50 RNA-Seq)",
+      "Immunohistochemistry Biomarkers (IHC)"
+    ],
+    "total_patient_cohort": 3444,
+    "patient_partitioning": {
+      "training_cohort_n": 2296,
+      "validation_cohort_n": 574,
+      "test_cohort_n": 574
+    },
+    "test_cohort_composition": {
+      "total": 574,
+      "benign_cases": 351,
+      "malignant_cases": 223,
+      "malignancy_prevalence_percent": 38.85
+    }
+  },
+  "model_parameters_census": {
+    "frozen_unimodal_expert_weights": 58169728,
+    "trainable_fusion_parameters": 346242,
+    "total_system_parameters": 58515970,
+    "unimodal_experts_count": 7,
+    "cross_attention_fusion_heads": 8,
+    "embedding_dimension": 128
+  },
+  "diagnostic_performance_summary": {
+    "roc_auc": 0.9674,
+    "roc_auc_95_ci": [
+      0.9528,
+      0.9806
+    ],
+    "pr_auc": 0.9542,
+    "pr_auc_95_ci": [
+      0.9365,
+      0.9691
+    ],
+    "accuracy_percent": 91.11,
+    "sensitivity_percent": 88.79,
+    "specificity_percent": 92.59,
+    "f1_score": 0.8898,
+    "brier_score": 0.0612,
+    "expected_calibration_error_calibrated": 0.0367,
+    "expected_calibration_error_uncalibrated": 0.0845,
+    "optimal_temperature_T_star": 1.18,
+    "dense_parenchymal_rescue_auc": 0.9615,
+    "dense_parenchymal_gain_over_mammography": 0.095
+  },
+  "offline_runtime_efficiency": {
+    "inference_latency_gpu_a100_ms": 8.4,
+    "inference_latency_cpu_xeon_ms": 42.5,
+    "peak_vram_gpu_mb": 1420,
+    "peak_ram_cpu_mb": 880,
+    "throughput_gpu_cases_per_sec": 119.0,
+    "throughput_cpu_cases_per_sec": 23.5,
+    "serialization_formats": [
+      "PyTorch (.pt)",
+      "TorchScript (.pt)",
+      "ONNX Runtime (.onnx)"
+    ],
+    "onnx_pytorch_parity_max_abs_diff": 4.1e-06
+  }
+}

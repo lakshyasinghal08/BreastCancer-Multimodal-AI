@@ -1,0 +1,18 @@
+{
+  "cross_attention_key_dim": 128,
+  "cross_attention_value_dim": 128,
+  "cross_attention_query_dim": 128,
+  "attention_heads": 4,
+  "head_dim": 32,
+  "mask_aware_fusion_compatible": true,
+  "missing_modality_dropout_compatible": true,
+  "encoders_verified": [
+    "mammography",
+    "ultrasound",
+    "histopathology",
+    "mri",
+    "clinical",
+    "ehr",
+    "genomic"
+  ]
+}

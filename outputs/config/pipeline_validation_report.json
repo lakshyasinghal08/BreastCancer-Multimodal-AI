@@ -1,0 +1,34 @@
+{
+  "status": "CERTIFIED_PASS",
+  "dry_run_duration_sec": 9.443,
+  "loss_value": 1.71875,
+  "gradient_norm": 16.848920822143555,
+  "gradient_health": "HEALTHY",
+  "checkpoint_sha256": "4044d618a17e905630f04bb73b8c1a31a4615ce337bdf032b757e74f441f7be9",
+  "restoration_verified": true,
+  "metrics_evaluated": {
+    "loss": 1.71875,
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 0.0,
+    "ppv": 0.0,
+    "npv": 0.0,
+    "f1_score": 0.0,
+    "mcc": -1.0,
+    "cohen_kappa": -0.6,
+    "roc_auc": 0.0,
+    "pr_auc": 0.125,
+    "ece": 0.787,
+    "mce": 0.9482,
+    "brier_score": 0.6333,
+    "confusion_matrix": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 3,
+      "fn": 1
+    }
+  }
+}

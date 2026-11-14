@@ -1,0 +1,6 @@
+{
+  "entropy_confidence_correlation": -0.892,
+  "stability_entropy_correlation": -0.845,
+  "uncertainty_flagging_threshold": 0.35,
+  "high_uncertainty_case_handling": "Flagged for Mandatory Multidisciplinary Tumor Board Review"
+}

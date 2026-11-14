@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Centralized Architectural Hyperparameter Specifications}
+\begin{tabular}{lll}
+\toprule
+Hyperparameter & Value & Rationale \\
+\midrule
+Latent Embedding Dimension (d_embed) & 128 & Optimal trade-off between capacity and parameter budget \\
+Attention Heads (num_heads) & 4 & Allows diverse subspace representation across 7 modalities \\
+Attention Head Dimension (d_k) & 32 & Standard scaled dot-product stability (d_embed / num_heads) \\
+FFN Expansion Ratio & 2 & Conservative expansion prevents parameter bloat in medical vision \\
+Dropout Rate & 0.100000 & Prevents co-adaptation across correlated clinical features \\
+Non-Linear Activation & GELU & Smooth probabilistic non-linearity avoids dying ReLU in deep fusion \\
+Normalization Strategy & LayerNorm / BatchNorm2d & LayerNorm stabilizes sequential cross-attention; BatchNorm for CNN stems \\
+Number of Diagnostic Classes & 2 & Binary Diagnosis: Benign (0) vs Malignant (1) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+Parameter,Configured_Value
+Global Seed,42
+Data Precision,float32
+Workers,4
+Batch Size,32
+Mammography Resolution,512 x 512 (1 channel)
+Ultrasound Resolution,256 x 256 (1 channel)
+Histopathology Resolution,224 x 224 (3 channels)
+MRI Resolution,256 x 256 (1 channel)
+Clinical Feature Dimension,30 features
+EHR Feature Dimension,18 features
+Genomic Normalization,Log2(x + 1) + Gene-wise Z-Score
+Aspect Ratio Preservation,Symmetric Zero Letterboxing
+Caching Policy,LRU In-Memory (Cap 500) + Disk

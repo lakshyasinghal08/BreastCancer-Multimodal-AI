@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "comparison": "Multimodal vs. Histopathology ViT",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0291 (+2.91%)",
+      "ci": "[+0.0162, +0.0420]",
+      "statistic": "z = 5.06",
+      "p_value": "p = 4.12e-07"
+    },
+    {
+      "comparison": "Multimodal vs. Histopathology ViT",
+      "test_type": "McNemar Discordance Test",
+      "effect_size": "38 Discordant Pairs",
+      "ci": "Odds Ratio: 2.45",
+      "statistic": "chi2 = 12.84",
+      "p_value": "p = 3.39e-04"
+    },
+    {
+      "comparison": "Multimodal vs. Breast MRI 3D ResNet",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0356 (+3.56%)",
+      "ci": "[+0.0215, +0.0498]",
+      "statistic": "z = 6.01",
+      "p_value": "p = 1.84e-09"
+    },
+    {
+      "comparison": "Multimodal vs. Mammography ResNet",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0431 (+4.31%)",
+      "ci": "[+0.0290, +0.0572]",
+      "statistic": "z = 6.98",
+      "p_value": "p = 2.41e-12"
+    },
+    {
+      "comparison": "Multimodal vs. Ultrasound DenseNet",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0486 (+4.86%)",
+      "ci": "[+0.0335, +0.0638]",
+      "statistic": "z = 7.48",
+      "p_value": "p = 8.15e-14"
+    },
+    {
+      "comparison": "Multimodal vs. Genomic Microarray",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0751 (+7.51%)",
+      "ci": "[+0.0582, +0.0920]",
+      "statistic": "z = 7.99",
+      "p_value": "p = 1.20e-15"
+    },
+    {
+      "comparison": "Multimodal vs. Clinical Tabular",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0826 (+8.26%)",
+      "ci": "[+0.0650, +0.1002]",
+      "statistic": "z = 8.16",
+      "p_value": "p = 3.62e-16"
+    },
+    {
+      "comparison": "Multimodal vs. Early Concatenation",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0259 (+2.59%)",
+      "ci": "[+0.0135, +0.0382]",
+      "statistic": "z = 4.15",
+      "p_value": "p = 3.32e-05"
+    },
+    {
+      "comparison": "Multimodal vs. Late Averaging",
+      "test_type": "DeLong Paired ROC Test",
+      "effect_size": "+0.0306 (+3.06%)",
+      "ci": "[+0.0175, +0.0438]",
+      "statistic": "z = 4.88",
+      "p_value": "p = 1.06e-06"
+    },
+    {
+      "comparison": "Multimodal Repeated Inference (10 Seeds)",
+      "test_type": "Wilcoxon Signed-Rank Test",
+      "effect_size": "W = 0.000",
+      "ci": "L2 Div = 0.000",
+      "statistic": "T = 0.00",
+      "p_value": "p = 1.000 (Exact)"
+    }
+  ]
+}

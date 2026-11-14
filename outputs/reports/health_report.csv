@@ -1,0 +1,8 @@
+Dataset Name,Health Score (0-100),Status,Total Files,Storage (MB),Diagnostic Reasoning
+CBIS-DDSM,100,Excellent,3988,2963.94,All structural integrity and metadata checks passed.
+Clinical,70,Good,1,0.12,Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)
+Dataset_BUSI_with_GT,85,Excellent,1578,253.85,Missing README or JSON metadata manifest (-15)
+EHR,70,Good,1,0.05,Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)
+Genomic,70,Good,1,133.54,Missing README or JSON metadata manifest (-15); Single-file dataset without supplementary descriptors (-15)
+Histopathology,85,Excellent,224872,1237.88,Missing README or JSON metadata manifest (-15)
+Vision_Genomic_Fusion,100,Excellent,250332,19093.76,All structural integrity and metadata checks passed.

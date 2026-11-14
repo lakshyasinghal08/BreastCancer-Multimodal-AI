@@ -1,0 +1,14 @@
+\begin{tabular}{llllllllllll}
+\toprule
+Model Architecture & Input Modalities & Accuracy & ROC_AUC & F1_Score & Sensitivity & Specificity & Parameters & Batch_1_Latency_ms & Throughput_fps & Relative_AUC_Gain & Status \\
+\midrule
+Multimodal Cross-Attention (Proposed) & All 7 Unified Modalities & 91.11% & 0.9671 & 0.8898 & 90.75% & 91.35% & 15.12M (326K Trainable) & 41.80 ms & 79.10 & REFERENCE & Production Certified \\
+Mammography Expert & Mammography & 86.80% & 0.9380 & 0.8600 & 85.06% & 88.54% & 144,848 & 52.61 ms & 26.4 & -0.0291 (Multi +0.0291) & Certified Frozen \\
+Ultrasound Expert & Ultrasound & 85.40% & 0.9250 & 0.8420 & 83.69% & 87.11% & 144,848 & 38.47 ms & 28.3 & -0.0421 (Multi +0.0421) & Certified Frozen \\
+Histopathology Expert & Histopathology & 89.20% & 0.9560 & 0.8780 & 87.42% & 90.98% & 145,136 & 53.11 ms & 29.5 & -0.0111 (Multi +0.0111) & Certified Frozen \\
+Breast MRI Expert & Breast MRI & 87.50% & 0.9410 & 0.8650 & 85.75% & 89.25% & 144,848 & 99.55 ms & 25.0 & -0.0261 (Multi +0.0261) & Certified Frozen \\
+Clinical Tabular Expert & Clinical Tabular & 83.62% & 0.9015 & 0.8124 & 81.95% & 85.29% & 43,490 & 2.59 ms & 4344.8 & -0.0656 (Multi +0.0656) & Certified Frozen \\
+Electronic Health Record & Electronic Health Record & 74.22% & 0.7420 & 0.7012 & 72.74% & 75.70% & 61,442 & 5.84 ms & 8903.8 & -0.2251 (Multi +0.2251) & Certified Frozen \\
+Genomic Microarray Expert & Genomic Microarray & 84.84% & 0.9150 & 0.8288 & 83.14% & 86.54% & 14,114,568 & 13.84 ms & 802.1 & -0.0521 (Multi +0.0521) & Certified Frozen \\
+\bottomrule
+\end{tabular}

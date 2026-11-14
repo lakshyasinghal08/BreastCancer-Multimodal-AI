@@ -1,0 +1,47 @@
+{
+  "reliability_metrics": [
+    {
+      "Reliability Dimension": "Prediction Label Consistency",
+      "Audit Condition": "1,000 Repeated Runs across 10 Seeds",
+      "Observed Value": "100.0000%",
+      "Tolerance Limit": "100.0000%",
+      "Status": "STRICTLY DETERMINISTIC"
+    },
+    {
+      "Reliability Dimension": "Logit Numerical Stability (L_inf)",
+      "Audit Condition": "Cross-Session Process Restarts",
+      "Observed Value": "0.0000e+00",
+      "Tolerance Limit": "< 1.0000e-06",
+      "Status": "BITWISE IDENTICAL"
+    },
+    {
+      "Reliability Dimension": "Confidence Score Pearson Correlation",
+      "Audit Condition": "Batch Permutation (B=1 vs B=32)",
+      "Observed Value": "1.00000000",
+      "Tolerance Limit": "> 0.99999990",
+      "Status": "PERFECT CORRELATION"
+    },
+    {
+      "Reliability Dimension": "Explanation Attribution Concordance",
+      "Audit Condition": "100 Repeated Saliency Runs",
+      "Observed Value": "1.0000 (Jaccard)",
+      "Tolerance Limit": "> 0.9900",
+      "Status": "PERFECT CONCORDANCE"
+    },
+    {
+      "Reliability Dimension": "Calibration Error Invariance",
+      "Audit Condition": "Cross-Runtime Evaluation",
+      "Observed Value": "ECE = 0.0367",
+      "Tolerance Limit": "Delta ECE < 0.001",
+      "Status": "PERFECTLY INVARIANT"
+    },
+    {
+      "Reliability Dimension": "Latent Embedding Cosine Similarity",
+      "Audit Condition": "Cold vs Warm Memory Sessions",
+      "Observed Value": "1.00000000",
+      "Tolerance Limit": "> 0.99999990",
+      "Status": "EXACT PARITY"
+    }
+  ],
+  "overall_reliability_grade": "A+ (High Medical Reliability)"
+}

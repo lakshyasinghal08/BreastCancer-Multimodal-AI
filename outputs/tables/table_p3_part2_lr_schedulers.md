@@ -1,0 +1,6 @@
+| Scheduler Type          | Mathematical Formulation                              | Configured Parameters                   | Convergence Objective                      |
+|:------------------------|:------------------------------------------------------|:----------------------------------------|:-------------------------------------------|
+| Warmup-Cosine Scheduler | Linear 0->LR (warmup) then 0.5*(1+cos(pi*t/T))        | warmup=10 steps, total=100, min_lr=1e-6 | Smooth warm start, steady late-stage decay |
+| Cosine Annealing LR     | eta_min + 0.5*(eta_max - eta_min)*(1+cos(pi*t/T_max)) | T_max=50, eta_min=1e-6                  | Standard cyclical/decaying exploration     |
+| ReduceLR On Plateau     | LR_new = LR_old * factor (if no metric gain)          | factor=0.5, patience=4, metric=val_auc  | Adaptive plateau breakthrough              |
+| OneCycleLR              | Triangular warmup to max_lr followed by cosine decay  | max_lr=1e-3, pct_start=0.3              | Super-convergence fast prototyping         |

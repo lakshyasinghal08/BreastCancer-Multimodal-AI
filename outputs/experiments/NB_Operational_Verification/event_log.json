@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2026-10-18T22:39:15.786073",
+    "elapsed_sec": 0.002,
+    "event": "Hardware_Telemetry_Verified",
+    "payload": {
+      "cpu_utilization_percent": 71.2,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.45,
+      "system_ram_used_gb": 7.2,
+      "system_ram_percent": 94.1,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 50.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.45,
+      "system_ram_used_gb": 7.2,
+      "system_ram_percent": 94.1,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  }
+]

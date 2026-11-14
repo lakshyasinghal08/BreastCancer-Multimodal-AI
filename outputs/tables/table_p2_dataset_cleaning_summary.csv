@@ -1,0 +1,8 @@
+Cohort,Initial_Records,Corrupt_Records,Cleaned_Records,Cleaning_Action
+CBIS-DDSM,"3,103 images",0,"3,103",Aspect ratio preservation & contrast normalization
+BUSI,780 scans,0,780,Scan resizing & paired binary mask alignment
+BreakHis,"7,909 slides",0,"7,909",RGB channel audit & ImageNet normalization
+Breast MRI,Dynamic DCE-MRI,0,100% verified,Slice range clipping & aspect-ratio normalization
+Wisconsin FNA,569 patients,0 (1 empty column removed),569,Z-score standardization on 30 features
+TCGA-BRCA EHR,"1,097 patients",0,"1,097",Median continuous imputation & one-hot categorical encoding
+GSE45827 Genomic,151 profiles,0,151,Log2(x+1) transformation & gene variance filtering

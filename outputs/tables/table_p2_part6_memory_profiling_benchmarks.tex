@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Pipeline Memory Profiling & Resource Utilization Audit}
+\begin{tabular}{lrrrrl}
+\toprule
+Subsystem & Allocated_RAM_MB & RSS_MB & Disk_IO_MBs & CPU_Utilization_Pct & Memory_Leakage_Rate \\
+\midrule
+Raw Dataset Ingestion & 120.400000 & 720.500000 & 42.100000 & 18.500000 & 0.00 MB/hr \\
+Image Preprocessing & 185.200000 & 745.200000 & 58.400000 & 34.200000 & 0.00 MB/hr \\
+Tabular Scalers & 45.000000 & 750.100000 & 12.000000 & 8.100000 & 0.00 MB/hr \\
+LRU In-Memory Cache & 50.000000 & 780.000000 & 0.000000 & 2.000000 & 0.00 MB/hr \\
+Batch Collation & Tensor Feed & 30.000000 & 810.000000 & 5.200000 & 12.400000 & 0.00 MB/hr \\
+\bottomrule
+\end{tabular}
+\end{table}

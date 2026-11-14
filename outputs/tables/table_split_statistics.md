@@ -1,0 +1,8 @@
+# Dataset Partition Allocation Statistics
+
+| Split      |   Clinical_Patients |   Samples | Sample_Pct   |
+|:-----------|--------------------:|----------:|:-------------|
+| Train      |                1344 |    339962 | 71.13%       |
+| Validation |                 287 |     67187 | 14.06%       |
+| Test       |                 288 |     70764 | 14.81%       |
+| Total      |                1919 |    477920 | 100.00%      |

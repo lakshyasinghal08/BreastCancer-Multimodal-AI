@@ -1,0 +1,1919 @@
+Patient_ID,Dataset_Sources,Modalities_Enrolled,Total_Samples,Diagnostic_Labels,Cross_Modality_Consistent,Namespace_Collision_Isolated,Patient_Certification
+100,Genomic,Genomic,1,HER,True,False,CERTIFIED
+101,Genomic,Genomic,1,basal,True,False,CERTIFIED
+102,Genomic,Genomic,1,basal,True,False,CERTIFIED
+10253,Histopathology,Histopathology,549,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10254,Histopathology,Histopathology,848,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10255,Histopathology,Histopathology,272,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10256,Histopathology,Histopathology,468,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10257,Histopathology,Histopathology,635,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10258,Histopathology,Histopathology,530,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10259,Histopathology,Histopathology,1465,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10260,Histopathology,Histopathology,1289,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10261,Histopathology,Histopathology,646,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10262,Histopathology,Histopathology,1807,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10264,Histopathology,Histopathology,1204,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10268,Histopathology,Histopathology,2109,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10269,Histopathology,Histopathology,1154,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10272,Histopathology,Histopathology,2175,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10273,Histopathology,Histopathology,2022,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10274,Histopathology,Histopathology,878,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10275,Histopathology,Histopathology,1057,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10276,Histopathology,Histopathology,939,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10277,Histopathology,Histopathology,955,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10278,Histopathology,Histopathology,1159,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10279,Histopathology,Histopathology,1694,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10282,Histopathology,Histopathology,2033,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10285,Histopathology,Histopathology,1233,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10286,Histopathology,Histopathology,620,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10288,Histopathology,Histopathology,2278,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10290,Histopathology,Histopathology,2031,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10291,Histopathology,Histopathology,1212,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10292,Histopathology,Histopathology,1485,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10293,Histopathology,Histopathology,870,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10295,Histopathology,Histopathology,895,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10299,Histopathology,Histopathology,2106,"Benign, Malignant (IDC)",True,False,CERTIFIED
+103,Genomic,Genomic,1,HER,True,False,CERTIFIED
+10300,Histopathology,Histopathology,1493,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10301,Histopathology,Histopathology,1416,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10302,Histopathology,Histopathology,1907,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10303,Histopathology,Histopathology,1352,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10304,Histopathology,Histopathology,880,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10305,Histopathology,Histopathology,1821,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10306,Histopathology,Histopathology,1024,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10307,Histopathology,Histopathology,995,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10308,Histopathology,Histopathology,2278,"Benign, Malignant (IDC)",True,False,CERTIFIED
+104,Genomic,Genomic,1,HER,True,False,CERTIFIED
+105,Genomic,Genomic,1,HER,True,False,CERTIFIED
+106,Genomic,Genomic,1,basal,True,False,CERTIFIED
+107,Genomic,Genomic,1,HER,True,False,CERTIFIED
+108,Genomic,Genomic,1,basal,True,False,CERTIFIED
+109,Genomic,Genomic,1,basal,True,False,CERTIFIED
+110,Genomic,Genomic,1,basal,True,False,CERTIFIED
+111,Genomic,Genomic,1,basal,True,False,CERTIFIED
+112,Genomic,Genomic,1,basal,True,False,CERTIFIED
+113,Genomic,Genomic,1,basal,True,False,CERTIFIED
+114,Genomic,Genomic,1,basal,True,False,CERTIFIED
+115,Genomic,Genomic,1,basal,True,False,CERTIFIED
+116,Genomic,Genomic,1,HER,True,False,CERTIFIED
+117,Genomic,Genomic,1,HER,True,False,CERTIFIED
+118,Genomic,Genomic,1,basal,True,False,CERTIFIED
+119,Genomic,Genomic,1,basal,True,False,CERTIFIED
+120,Genomic,Genomic,1,basal,True,False,CERTIFIED
+121,Genomic,Genomic,1,HER,True,False,CERTIFIED
+122,Genomic,Genomic,1,HER,True,False,CERTIFIED
+12241,Histopathology,Histopathology,152,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12242,Histopathology,Histopathology,1097,"Benign, Malignant (IDC)",True,False,CERTIFIED
+123,Genomic,Genomic,1,HER,True,False,CERTIFIED
+124,Genomic,Genomic,1,basal,True,False,CERTIFIED
+125,Genomic,Genomic,1,basal,True,False,CERTIFIED
+126,Genomic,Genomic,1,HER,True,False,CERTIFIED
+12626,Histopathology,Histopathology,1342,"Benign, Malignant (IDC)",True,False,CERTIFIED
+127,Genomic,Genomic,1,HER,True,False,CERTIFIED
+12748,Histopathology,Histopathology,366,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12749,Histopathology,Histopathology,1762,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12750,Histopathology,Histopathology,1434,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12751,Histopathology,Histopathology,1816,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12752,Histopathology,Histopathology,1099,"Benign, Malignant (IDC)",True,False,CERTIFIED
+128,Genomic,Genomic,1,basal,True,False,CERTIFIED
+12810,Histopathology,Histopathology,1166,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12811,Histopathology,Histopathology,251,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12817,Histopathology,Histopathology,934,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12818,Histopathology,Histopathology,1611,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12819,Histopathology,Histopathology,1627,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12820,Histopathology,Histopathology,1122,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12821,Histopathology,Histopathology,1385,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12822,Histopathology,Histopathology,761,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12823,Histopathology,Histopathology,1003,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12824,Histopathology,Histopathology,707,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12826,Histopathology,Histopathology,1137,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12867,Histopathology,Histopathology,1426,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12868,Histopathology,Histopathology,861,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12869,Histopathology,Histopathology,796,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12870,Histopathology,Histopathology,829,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12871,Histopathology,Histopathology,182,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12872,Histopathology,Histopathology,780,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12873,Histopathology,Histopathology,281,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12875,Histopathology,Histopathology,374,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12876,Histopathology,Histopathology,155,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12877,Histopathology,Histopathology,305,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12878,Histopathology,Histopathology,1474,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12879,Histopathology,Histopathology,416,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12880,Histopathology,Histopathology,1935,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12881,Histopathology,Histopathology,273,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12882,Histopathology,Histopathology,392,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12883,Histopathology,Histopathology,349,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12884,Histopathology,Histopathology,769,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12886,Histopathology,Histopathology,527,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12890,Histopathology,Histopathology,1471,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12891,Histopathology,Histopathology,614,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12892,Histopathology,Histopathology,226,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12893,Histopathology,Histopathology,698,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12894,Histopathology,Histopathology,1716,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12895,Histopathology,Histopathology,1680,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12896,Histopathology,Histopathology,507,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12897,Histopathology,Histopathology,861,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12898,Histopathology,Histopathology,580,"Benign, Malignant (IDC)",True,False,CERTIFIED
+129,Genomic,Genomic,1,HER,True,False,CERTIFIED
+12900,Histopathology,Histopathology,1023,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12901,Histopathology,Histopathology,808,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12905,Histopathology,Histopathology,1214,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12906,Histopathology,Histopathology,1703,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12907,Histopathology,Histopathology,1050,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12908,Histopathology,Histopathology,1040,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12909,Histopathology,Histopathology,797,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12910,Histopathology,Histopathology,1718,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12911,Histopathology,Histopathology,1242,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12929,Histopathology,Histopathology,160,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12930,Histopathology,Histopathology,1000,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12931,Histopathology,Histopathology,607,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12932,Histopathology,Histopathology,737,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12933,Histopathology,Histopathology,155,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12934,Histopathology,Histopathology,2004,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12935,Histopathology,Histopathology,1226,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12947,Histopathology,Histopathology,830,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12948,Histopathology,Histopathology,167,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12949,Histopathology,Histopathology,808,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12951,Histopathology,Histopathology,1138,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12954,Histopathology,Histopathology,2009,"Benign, Malignant (IDC)",True,False,CERTIFIED
+12955,Histopathology,Histopathology,1062,"Benign, Malignant (IDC)",True,False,CERTIFIED
+130,Genomic,Genomic,1,basal,True,False,CERTIFIED
+13018,Histopathology,Histopathology,303,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13019,Histopathology,Histopathology,1510,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13020,Histopathology,Histopathology,386,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13021,Histopathology,Histopathology,1197,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13022,Histopathology,Histopathology,1342,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13023,Histopathology,Histopathology,227,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13024,Histopathology,Histopathology,810,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13025,Histopathology,Histopathology,761,"Benign, Malignant (IDC)",True,False,CERTIFIED
+131,Genomic,Genomic,1,basal,True,False,CERTIFIED
+13106,Histopathology,Histopathology,1134,"Benign, Malignant (IDC)",True,False,CERTIFIED
+132,Genomic,Genomic,1,HER,True,False,CERTIFIED
+133,Genomic,Genomic,1,HER,True,False,CERTIFIED
+134,Genomic,Genomic,1,HER,True,False,CERTIFIED
+13400,Histopathology,Histopathology,1363,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13401,Histopathology,Histopathology,567,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13402,Histopathology,Histopathology,811,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13403,Histopathology,Histopathology,312,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13404,Histopathology,Histopathology,557,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13458,Histopathology,Histopathology,443,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13459,Histopathology,Histopathology,1026,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13460,Histopathology,Histopathology,669,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13461,Histopathology,Histopathology,664,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13462,Histopathology,Histopathology,1754,"Benign, Malignant (IDC)",True,False,CERTIFIED
+135,Genomic,Genomic,1,basal,True,False,CERTIFIED
+13591,Histopathology,Histopathology,1035,"Benign, Malignant (IDC)",True,False,CERTIFIED
+136,Genomic,Genomic,1,basal,True,False,CERTIFIED
+13613,Histopathology,Histopathology,1457,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13616,Histopathology,Histopathology,1357,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13617,Histopathology,Histopathology,355,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13666,Histopathology,Histopathology,407,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13687,Histopathology,Histopathology,454,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13688,Histopathology,Histopathology,342,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13689,Histopathology,Histopathology,586,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13691,Histopathology,Histopathology,1191,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13692,Histopathology,Histopathology,607,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13693,Histopathology,Histopathology,2395,"Benign, Malignant (IDC)",True,False,CERTIFIED
+13694,Histopathology,Histopathology,1230,"Benign, Malignant (IDC)",True,False,CERTIFIED
+137,Genomic,Genomic,1,HER,True,False,CERTIFIED
+138,Genomic,Genomic,1,basal,True,False,CERTIFIED
+139,Genomic,Genomic,1,basal,True,False,CERTIFIED
+13916,Histopathology,Histopathology,1633,"Benign, Malignant (IDC)",True,False,CERTIFIED
+140,Genomic,Genomic,1,HER,True,False,CERTIFIED
+14078,Histopathology,Histopathology,221,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14079,Histopathology,Histopathology,890,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14081,Histopathology,Histopathology,326,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14082,Histopathology,Histopathology,478,"Benign, Malignant (IDC)",True,False,CERTIFIED
+141,Genomic,Genomic,1,HER,True,False,CERTIFIED
+14153,Histopathology,Histopathology,789,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14154,Histopathology,Histopathology,1520,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14155,Histopathology,Histopathology,1877,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14156,Histopathology,Histopathology,1398,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14157,Histopathology,Histopathology,1478,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14188,Histopathology,Histopathology,709,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14189,Histopathology,Histopathology,1002,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14190,Histopathology,Histopathology,949,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14191,Histopathology,Histopathology,1340,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14192,Histopathology,Histopathology,1032,"Benign, Malignant (IDC)",True,False,CERTIFIED
+142,Genomic,Genomic,1,basal,True,False,CERTIFIED
+14209,Histopathology,Histopathology,342,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14210,Histopathology,Histopathology,573,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14211,Histopathology,Histopathology,2096,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14212,Histopathology,Histopathology,211,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14213,Histopathology,Histopathology,422,"Benign, Malignant (IDC)",True,False,CERTIFIED
+143,Genomic,Genomic,1,basal,True,False,CERTIFIED
+14304,Histopathology,Histopathology,842,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14305,Histopathology,Histopathology,986,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14306,Histopathology,Histopathology,431,"Benign, Malignant (IDC)",True,False,CERTIFIED
+14321,Histopathology,Histopathology,621,"Benign, Malignant (IDC)",True,False,CERTIFIED
+144,Genomic,Genomic,1,basal,True,False,CERTIFIED
+145,Genomic,Genomic,1,basal,True,False,CERTIFIED
+146,Genomic,Genomic,1,basal,True,False,CERTIFIED
+147,Genomic,Genomic,1,basal,True,False,CERTIFIED
+148,Genomic,Genomic,1,basal,True,False,CERTIFIED
+149,Genomic,Genomic,1,basal,True,False,CERTIFIED
+150,Genomic,Genomic,1,basal,True,False,CERTIFIED
+151,Genomic,Genomic,1,HER,True,False,CERTIFIED
+152,Genomic,Genomic,1,HER,True,False,CERTIFIED
+153,Genomic,Genomic,1,HER,True,False,CERTIFIED
+154,Genomic,Genomic,1,HER,True,False,CERTIFIED
+15471,Histopathology,Histopathology,534,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15472,Histopathology,Histopathology,1704,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15473,Histopathology,Histopathology,1438,"Benign, Malignant (IDC)",True,False,CERTIFIED
+155,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+15510,Histopathology,Histopathology,1061,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15512,Histopathology,Histopathology,222,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15513,Histopathology,Histopathology,869,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15514,Histopathology,Histopathology,638,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15515,Histopathology,Histopathology,1162,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15516,Histopathology,Histopathology,1291,"Benign, Malignant (IDC)",True,False,CERTIFIED
+156,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+15632,Histopathology,Histopathology,493,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15633,Histopathology,Histopathology,451,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15634,Histopathology,Histopathology,809,"Benign, Malignant (IDC)",True,False,CERTIFIED
+157,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+158,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+15839,Histopathology,Histopathology,239,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15840,Histopathology,Histopathology,1106,"Benign, Malignant (IDC)",True,False,CERTIFIED
+159,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+15902,Histopathology,Histopathology,1167,"Benign, Malignant (IDC)",True,False,CERTIFIED
+15903,Histopathology,Histopathology,1039,"Benign, Malignant (IDC)",True,False,CERTIFIED
+160,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+16014,Histopathology,Histopathology,706,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16085,Histopathology,Histopathology,1937,"Benign, Malignant (IDC)",True,False,CERTIFIED
+161,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+16165,Histopathology,Histopathology,2111,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16166,Histopathology,Histopathology,1290,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16167,Histopathology,Histopathology,192,"Benign, Malignant (IDC)",True,False,CERTIFIED
+162,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+163,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+164,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+165,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+16531,Histopathology,Histopathology,249,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16532,Histopathology,Histopathology,467,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16533,Histopathology,Histopathology,367,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16534,Histopathology,Histopathology,63,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16550,Histopathology,Histopathology,2302,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16551,Histopathology,Histopathology,2183,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16552,Histopathology,Histopathology,187,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16553,Histopathology,Histopathology,680,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16554,Histopathology,Histopathology,717,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16555,Histopathology,Histopathology,400,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16568,Histopathology,Histopathology,828,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16569,Histopathology,Histopathology,337,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16570,Histopathology,Histopathology,917,"Benign, Malignant (IDC)",True,False,CERTIFIED
+166,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+167,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+168,Genomic,Genomic,1,cell_line,True,False,CERTIFIED
+16895,Histopathology,Histopathology,151,"Benign, Malignant (IDC)",True,False,CERTIFIED
+16896,Histopathology,Histopathology,1127,"Benign, Malignant (IDC)",True,False,CERTIFIED
+171,Genomic,Genomic,1,normal,True,False,CERTIFIED
+172,Genomic,Genomic,1,normal,True,False,CERTIFIED
+173,Genomic,Genomic,1,normal,True,False,CERTIFIED
+174,Genomic,Genomic,1,normal,True,False,CERTIFIED
+175,Genomic,Genomic,1,normal,True,False,CERTIFIED
+177,Genomic,Genomic,1,normal,True,False,CERTIFIED
+178,Genomic,Genomic,1,normal,True,False,CERTIFIED
+180,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+181,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+182,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+183,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+184,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+185,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+186,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+187,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+188,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+189,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+190,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+191,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+192,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+193,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+194,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+195,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+196,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+197,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+198,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+199,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+200,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+201,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+202,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+203,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+204,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+205,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+206,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+207,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+208,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+209,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+210,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+211,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+212,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+213,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+214,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+215,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+216,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+217,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+218,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+219,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+220,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+221,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+222,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+223,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+224,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+225,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+226,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+227,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+228,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+229,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+230,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+231,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+232,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+233,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+234,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+235,Genomic,Genomic,1,luminal_A,True,False,CERTIFIED
+236,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+237,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+238,Genomic,Genomic,1,luminal_B,True,False,CERTIFIED
+84,Genomic,Genomic,1,basal,True,False,CERTIFIED
+842302,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+842517,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84300903,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84348301,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84358402,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+843786,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+844359,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84458202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+844981,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84501001,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+845636,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84610002,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+846226,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+846381,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84667401,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84799002,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+848406,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+84862001,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+849014,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+85,Genomic,Genomic,1,basal,True,False,CERTIFIED
+8510426,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8510653,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8510824,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8511133,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+851509,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+852552,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+852631,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+852763,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+852781,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+852973,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+853201,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+853401,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+853612,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+85382601,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+854002,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+854039,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+854253,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+854268,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+854941,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+855133,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+855138,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+855167,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+855563,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+855625,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+856106,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+85638502,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+857010,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+85713702,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+85715,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+857155,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857156,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857343,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857373,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857374,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857392,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+857438,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+85759902,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+857637,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+857793,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+857810,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+858477,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+858970,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+858981,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+858986,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+859196,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+85922302,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+859283,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+859464,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+859465,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+859471,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+859487,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+859575,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+859711,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+859717,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+859983,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86,Genomic,Genomic,1,HER,True,False,CERTIFIED
+8610175,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8610404,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8610629,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8610637,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8610862,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8610908,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+861103,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8611161,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8611555,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8611792,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8612080,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8612399,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86135501,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86135502,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+861597,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+861598,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+861648,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+861799,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+861853,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862009,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862028,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86208,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86211,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862261,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862485,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862548,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+862717,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+862722,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862965,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862980,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+862989,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+863030,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+863031,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+863270,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86355,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+864018,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864033,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86408,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86409,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864292,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864496,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864685,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864726,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+864729,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+864877,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+865128,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+865137,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86517,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+865423,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+865432,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+865468,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86561,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+866083,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+866203,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+866458,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+866674,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+866714,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8670,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86730502,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+867387,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+867739,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+868202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+868223,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+868682,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+868826,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+868871,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+868999,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869104,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+869218,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869224,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869254,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869476,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869691,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+86973701,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+86973702,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+869931,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87,Genomic,Genomic,1,basal,True,False,CERTIFIED
+871001501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+871001502,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8710441,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87106,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8711002,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8711003,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8711202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8711216,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+871122,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+871149,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8711561,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8711803,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+871201,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8712064,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8712289,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8712291,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87127,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8712729,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8712766,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8712853,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87139402,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87163,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+87164,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+871641,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+871642,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+872113,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+872608,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+87281702,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+873357,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+873586,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+873592,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+873593,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+873701,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+873843,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+873885,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+874158,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+874217,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+874373,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+874662,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+874839,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+874858,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+875093,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+875099,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+875263,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+87556202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+875878,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+875938,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+877159,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+877486,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+877500,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+877501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+877989,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+878796,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+87880,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+87930,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+879523,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+879804,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+879830,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88,Genomic,Genomic,1,HER,True,False,CERTIFIED
+8810158,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8810436,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+881046502,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8810528,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8810703,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+881094802,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8810955,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8810987,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8811523,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8811779,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8811842,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88119002,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8812816,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8812818,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8812844,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8812877,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8813129,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88143502,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88147101,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88147102,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88147202,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+881861,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+881972,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88199202,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88203002,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88206102,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+882488,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88249602,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88299702,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+883263,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+883270,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88330202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88350402,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+883539,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+883852,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88411702,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+884180,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+884437,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+884448,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+884626,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+88466802,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+884689,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+884948,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88518501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+885429,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8860702,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+886226,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8863,Histopathology,Histopathology,979,"Benign, Malignant (IDC)",True,False,CERTIFIED
+8864,Histopathology,Histopathology,1133,"Benign, Malignant (IDC)",True,False,CERTIFIED
+886452,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88649001,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8865,Histopathology,Histopathology,712,"Benign, Malignant (IDC)",True,False,CERTIFIED
+8867,Histopathology,Histopathology,1642,"Benign, Malignant (IDC)",True,False,CERTIFIED
+886776,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+887181,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88725602,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+887549,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+888264,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+888570,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+889403,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+889719,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+88995002,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+89,Genomic,Genomic,1,HER,True,False,CERTIFIED
+8910251,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910499,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910506,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910720,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910721,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910748,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8910988,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8910996,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8911163,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8911164,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8911230,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8911670,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8911800,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8911834,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8912049,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8912055,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89122,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8912280,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8912284,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8912521,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8912909,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8913,"Clinical, Histopathology","Clinical, Histopathology",956,"Benign, Malignant (IDC)",True,True,CERTIFIED
+8913049,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8914,Histopathology,Histopathology,1053,"Benign, Malignant (IDC)",True,False,CERTIFIED
+89143601,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89143602,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8915,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8916,Histopathology,Histopathology,171,"Benign, Malignant (IDC)",True,False,CERTIFIED
+891670,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8917,Histopathology,Histopathology,975,"Benign, Malignant (IDC)",True,False,CERTIFIED
+891703,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+891716,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8918,Histopathology,Histopathology,1541,"Benign, Malignant (IDC)",True,False,CERTIFIED
+891923,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+891936,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+892189,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+892214,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+892399,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+892438,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+892604,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89263202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+892657,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89296,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+893061,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89344,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89346,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+893526,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+893548,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+893783,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89382601,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89382602,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+893988,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894047,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894089,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894090,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894326,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+894329,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894335,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894604,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+894618,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+894855,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8950,Histopathology,Histopathology,610,"Benign, Malignant (IDC)",True,False,CERTIFIED
+8951,Histopathology,Histopathology,613,"Benign, Malignant (IDC)",True,False,CERTIFIED
+895100,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+89511501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89511502,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89524,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+895299,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8953902,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8955,Histopathology,Histopathology,495,"Benign, Malignant (IDC)",True,False,CERTIFIED
+8956,Histopathology,Histopathology,1825,"Benign, Malignant (IDC)",True,False,CERTIFIED
+895633,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8957,Histopathology,Histopathology,111,"Benign, Malignant (IDC)",True,False,CERTIFIED
+8959,Histopathology,Histopathology,356,"Benign, Malignant (IDC)",True,False,CERTIFIED
+896839,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+896864,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+897132,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+897137,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+897374,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8974,Histopathology,Histopathology,1741,"Benign, Malignant (IDC)",True,False,CERTIFIED
+89742801,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+8975,Histopathology,Histopathology,2212,"Benign, Malignant (IDC)",True,False,CERTIFIED
+897604,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+897630,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+897880,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8980,Histopathology,Histopathology,696,"Benign, Malignant (IDC)",True,False,CERTIFIED
+89812,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+89813,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+898143,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89827,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+8984,Histopathology,Histopathology,1118,"Benign, Malignant (IDC)",True,False,CERTIFIED
+898431,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+89864002,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+898677,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+898678,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+89869,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+898690,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+899147,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+899187,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+899667,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+899987,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+90,Genomic,Genomic,1,basal,True,False,CERTIFIED
+9010018,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+901011,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010258,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010259,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901028,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010333,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901034301,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901034302,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901041,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010598,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010872,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9010877,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901088,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9011494,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9011495,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9011971,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9012000,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9012315,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9012568,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9012795,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+901288,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9013005,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901303,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901315,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9013579,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9013594,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9013838,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+901549,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+901836,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9022,Histopathology,Histopathology,517,"Benign, Malignant (IDC)",True,False,CERTIFIED
+9023,Histopathology,Histopathology,871,"Benign, Malignant (IDC)",True,False,CERTIFIED
+90250,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90251,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+902727,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9029,Histopathology,Histopathology,1634,"Benign, Malignant (IDC)",True,False,CERTIFIED
+90291,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+902975,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+902976,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+903011,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90312,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+90317302,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+903483,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9035,Histopathology,Histopathology,236,"Benign, Malignant (IDC)",True,False,CERTIFIED
+903507,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+903516,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+903554,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9036,Histopathology,Histopathology,1306,"Benign, Malignant (IDC)",True,False,CERTIFIED
+9037,Histopathology,Histopathology,1112,"Benign, Malignant (IDC)",True,False,CERTIFIED
+903811,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90401601,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90401602,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9041,Histopathology,Histopathology,1035,"Benign, Malignant (IDC)",True,False,CERTIFIED
+9043,Histopathology,Histopathology,836,"Benign, Malignant (IDC)",True,False,CERTIFIED
+904302,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+904357,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90439701,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9044,Histopathology,Histopathology,158,"Benign, Malignant (IDC)",True,False,CERTIFIED
+904647,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+904689,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9047,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+904969,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+904971,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905189,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905190,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90524101,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+905501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905502,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905520,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905539,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905557,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905680,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+905686,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+905978,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90602302,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+906024,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+906290,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+906539,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+906564,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+906616,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+906878,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+907145,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9073,Histopathology,Histopathology,834,"Benign, Malignant (IDC)",True,False,CERTIFIED
+907367,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+907409,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90745,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9075,Histopathology,Histopathology,1012,Benign,True,False,CERTIFIED
+90769601,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+90769602,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+907914,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+907915,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+908194,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+908445,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+908469,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+908489,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+908916,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909220,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909231,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909410,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909411,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909445,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+90944601,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+909777,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91,Genomic,Genomic,1,basal,True,False,CERTIFIED
+9110127,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9110720,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9110732,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9110944,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911150,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911157302,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9111596,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9111805,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9111843,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911201,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911202,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9112085,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9112366,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9112367,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9112594,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9112712,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911296201,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+911296202,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+9113156,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911320501,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911320502,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113239,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113455,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113514,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113538,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+911366,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113778,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113816,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911384,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+9113846,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911391,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911408,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911654,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911673,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911685,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+911916,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+912193,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91227,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+912519,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+912558,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+912600,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+913063,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+913102,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+913505,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+913512,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+913535,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91376701,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91376702,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914062,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+914101,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914102,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914333,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914366,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914580,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+914769,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91485,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+914862,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91504,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91505,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915143,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+915186,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915276,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91544001,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91544002,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915452,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915460,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91550,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915664,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+915691,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+915940,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91594602,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+916221,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+916799,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+916838,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+917062,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+917080,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+917092,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91762702,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91789,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+917896,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+917897,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91805,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91813701,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91813702,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+918192,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+918465,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91858,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91903901,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91903902,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+91930402,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+919537,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+919555,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+91979701,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+919812,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+92,Genomic,Genomic,1,basal,True,False,CERTIFIED
+921092,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+921362,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+921385,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+921386,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+921644,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+922296,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+922297,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+922576,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+922577,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+922840,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+923169,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+923465,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+923748,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+923780,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+924084,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+924342,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+924632,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+924934,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+924964,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925236,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925277,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925291,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925292,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925311,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+925622,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+926125,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+926424,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+926682,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+926954,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+927241,Clinical,Clinical,1,Malignant,True,False,CERTIFIED
+92751,Clinical,Clinical,1,Benign,True,False,CERTIFIED
+93,Genomic,Genomic,1,basal,True,False,CERTIFIED
+94,Genomic,Genomic,1,basal,True,False,CERTIFIED
+95,Genomic,Genomic,1,HER,True,False,CERTIFIED
+96,Genomic,Genomic,1,HER,True,False,CERTIFIED
+97,Genomic,Genomic,1,HER,True,False,CERTIFIED
+98,Genomic,Genomic,1,HER,True,False,CERTIFIED
+99,Genomic,Genomic,1,basal,True,False,CERTIFIED
+P_00005,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00016,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00017,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00018,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00019,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00021,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00026,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00032,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00037,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00038,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00039,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00041,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00046,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00056,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00059,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00061,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00066,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00074,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00076,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00077,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00088,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00091,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00095,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00099,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00100,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00105,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00106,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00107,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00114,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00116,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00117,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00118,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00124,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00126,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00127,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00131,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00132,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00140,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00141,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00145,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00147,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00150,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00156,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00158,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00159,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00160,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00162,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00163,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00164,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00166,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00171,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00173,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00174,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00177,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00180,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00185,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00192,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00194,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00195,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00198,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00200,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00202,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00203,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00209,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00212,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00214,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_00223,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00229,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00230,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00231,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00232,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00235,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00238,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00242,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00243,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00244,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00246,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00247,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00257,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00264,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00270,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00276,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00278,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00296,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00299,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_00304,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00315,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00319,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00324,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00325,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00328,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00331,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00333,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00340,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00343,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00344,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00347,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00352,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00353,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00358,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00359,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00363,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00366,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00368,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00369,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00372,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00375,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00379,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00380,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00381,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00387,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00390,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00391,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00394,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00396,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00397,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00402,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00403,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00405,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00409,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00411,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00412,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00414,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00419,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_00421,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00425,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00426,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00428,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00429,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00433,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00436,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00439,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00443,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00457,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00460,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00464,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00465,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00466,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00467,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00470,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00473,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00474,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00475,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00476,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00481,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00482,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00485,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00490,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00493,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00494,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00495,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00496,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00497,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00498,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00500,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00508,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00510,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00514,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00516,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00518,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00524,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00529,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00531,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00533,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00537,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00544,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00558,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00559,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00562,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00570,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00576,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00577,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00578,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00579,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00583,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00584,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00585,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00587,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00589,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00591,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00598,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00600,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00601,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_00608,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00612,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00615,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00620,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00622,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00623,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00629,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00636,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00638,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00639,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00641,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00642,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00643,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00646,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00649,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00652,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00656,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00661,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00662,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00663,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00666,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00670,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00671,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00677,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00678,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00679,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00681,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00682,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00686,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00694,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00698,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00699,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00700,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00701,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00705,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00707,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00710,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00711,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00713,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00718,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00719,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00723,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00735,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00738,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00739,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00741,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00747,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00753,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00758,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00766,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00772,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00773,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00774,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00776,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00778,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00784,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00788,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00789,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00790,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00795,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00799,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00811,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00813,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00816,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00820,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_00827,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00834,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00837,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00843,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00849,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00857,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00859,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00866,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00868,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00869,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00875,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00876,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00879,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00882,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00893,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00896,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00905,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00906,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00914,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00919,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00922,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00923,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00924,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00928,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00932,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00937,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00942,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00947,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00951,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_00952,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00954,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00960,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00962,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00963,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00966,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00969,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00974,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00978,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00979,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00980,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00985,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00986,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00987,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_00990,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00991,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00992,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00997,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_00999,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01003,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01004,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01006,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01010,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01014,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01022,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01029,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01030,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01033,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01041,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01042,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01044,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01045,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01050,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01051,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01056,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01058,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01067,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01068,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01071,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01084,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01090,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01091,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01092,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01101,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01103,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01106,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01108,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01110,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01114,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01119,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01127,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01132,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01136,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01140,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01143,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01145,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01148,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01152,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01153,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01154,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01156,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01157,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01158,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01164,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01167,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01175,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01179,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01183,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01187,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01190,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01192,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01204,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01210,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01211,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01213,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01217,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01221,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01224,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01227,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01231,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01233,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01235,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01237,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01248,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01251,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01253,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01254,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01256,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01257,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01262,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01265,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01272,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01277,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01286,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01293,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01294,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01298,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01303,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01305,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01307,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01308,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01313,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01316,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01318,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01320,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01322,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01323,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01331,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01333,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01334,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01336,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01337,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01347,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01348,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01351,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01352,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01353,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01355,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01358,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01362,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01365,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01369,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01370,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01378,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01379,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01381,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01389,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01390,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01391,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01392,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01395,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01399,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01401,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01402,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01407,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01414,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01415,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01416,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01419,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01425,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01426,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01433,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01441,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01444,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01446,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01451,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01454,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01456,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01460,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01461,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01465,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01467,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01471,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01476,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01477,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01482,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01483,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01489,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01490,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01502,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01510,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01512,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01518,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01523,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01529,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01534,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01535,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01536,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01538,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01539,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01546,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01547,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01551,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01556,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01558,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01562,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01565,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01566,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01569,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01576,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01578,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01581,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01582,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01589,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01590,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01595,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01599,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01602,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01605,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01614,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01617,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01621,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01623,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01626,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01629,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01635,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01638,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01640,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01642,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01643,CBIS-DDSM,Mammography,4,Abnormal (Screening),True,False,CERTIFIED
+P_01645,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01651,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01661,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01664,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01666,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01668,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01669,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01670,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01673,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01677,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01684,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01687,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01690,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01697,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01700,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01711,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01713,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01716,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01717,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01719,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01720,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01726,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01728,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01740,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01741,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01743,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01752,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01753,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01759,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01760,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01765,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01769,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01773,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01778,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01787,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01791,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01795,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01796,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01797,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01800,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01803,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01807,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01815,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01820,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01825,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01830,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01833,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01834,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01842,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01844,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01845,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01861,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01864,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01865,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01866,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01867,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01868,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01872,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01878,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01882,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_01883,CBIS-DDSM,Mammography,3,Abnormal (Screening),True,False,CERTIFIED
+P_01890,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_01912,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02079,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02092,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02102,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02105,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02133,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02139,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02153,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02159,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02176,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02190,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02198,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02275,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02313,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02418,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02420,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02432,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02434,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+P_02464,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02498,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02501,CBIS-DDSM,Mammography,2,Abnormal (Screening),True,False,CERTIFIED
+P_02584,CBIS-DDSM,Mammography,1,Abnormal (Screening),True,False,CERTIFIED
+TCGA-3C-AAAU,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-5L-AAT0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SD,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SE,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SF,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SG,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SI,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A1-A0SQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A04Y,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CK,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CL,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CV,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CY,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0CZ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0D3,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0D4,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0ES,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0EU,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0EV,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0EW,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0EX,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0SU,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0T5,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0T6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0T7,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0YH,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0YI,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-A2-A0YL,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A1FV,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A1FZ,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A1G4,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A25C,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A3KD,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4RW,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4RX,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4RY,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4S0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4S2,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A2-A4S3,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A0CJ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A13G,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A7-A26E,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A26J,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A7-A3J0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A3J1,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A3RF,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A426,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A4SB,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A56D,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A7-A5ZW,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-A7-A6VX,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A06O,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A06P,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A06Q,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A06Y,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A079,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07E,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07F,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07G,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07J,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07L,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07W,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A07Z,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A081,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A082,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A083,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A085,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A086,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A08A,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A08F,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A08I,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A08O,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A08Z,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A092,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A093,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A095,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A096,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09A,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09B,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09D,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09K,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09M,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09Q,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09R,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09T,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A09V,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0A1,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0A2,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0A4,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0A6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0A9,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-A8-A0AD,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A2B8,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A3BB,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A3HN,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A3OD,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A3W6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A5EI,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A5XS,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A5XU,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AC-A62Y,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-AC-A6NO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AC-A8OR,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AN-A03Y,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AN-A046,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AN-A049,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AN-A04A,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AN-A0FF,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AN-A0FY,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A03M,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1181,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AO-A03N,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-AO-A03O,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A03R,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A03T,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A03V,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",873,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AO-A0J7,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A0J8,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2062,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AO-A0J9,Vision_Genomic_Fusion,"Histopathology, MRI",1326,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AO-A0JA,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A0JB,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1347,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AO-A0JC,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A0JD,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A0JF,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1572,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AO-A0JI,Vision_Genomic_Fusion,"Histopathology, MRI",580,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AO-A0JJ,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A0JM,Vision_Genomic_Fusion,"Histopathology, MRI",1089,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AO-A125,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A126,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AO-A12B,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A12D,Vision_Genomic_Fusion,"Histopathology, MRI",1174,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AO-A12E,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A12F,Vision_Genomic_Fusion,"Histopathology, MRI",786,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AO-A12H,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A1KO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A1KP,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AO-A1KQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AQ-A04H,Vision_Genomic_Fusion,"Histopathology, MRI",614,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AQ-A1H3,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AQ-A54O,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AQ-A7U7,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AR-A0U2,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AR-A0U3,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A1AK,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A1AL,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A1AN,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1362,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AR-A1AQ,Vision_Genomic_Fusion,"Histopathology, MRI",2786,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AR-A1AS,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A1AV,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A1AX,Vision_Genomic_Fusion,"Histopathology, MRI",2841,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AR-A24H,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AR-A24M,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2393,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AR-A24O,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-AR-A24R,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2048,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AR-A24S,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1828,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AR-A24U,Vision_Genomic_Fusion,"Histopathology, MRI",2271,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AR-A24V,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A24W,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1811,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-AR-A24X,Vision_Genomic_Fusion,"Histopathology, MRI",1220,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AR-A24Z,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A252,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A254,Vision_Genomic_Fusion,"Histopathology, MRI",1959,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-AR-A2LN,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-AR-A2LQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-B6-A401,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-B6-A40B,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-B6-A40C,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0AW,Vision_Genomic_Fusion,"Histopathology, MRI",2124,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0AY,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0AZ,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2154,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0B0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0B1,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0B3,Vision_Genomic_Fusion,"Histopathology, MRI",2283,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0B5,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2164,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0B6,Vision_Genomic_Fusion,"Histopathology, MRI",2921,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0BA,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BC,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BD,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BF,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BJ,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2076,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0BM,Vision_Genomic_Fusion,"Histopathology, MRI",1660,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0BO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BP,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BQ,Vision_Genomic_Fusion,"Histopathology, MRI",2723,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0BR,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BT,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2220,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0BV,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0BZ,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0C0,Vision_Genomic_Fusion,"Histopathology, MRI",2290,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0C1,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0DE,"EHR, Vision_Genomic_Fusion","EHR, MRI",1327,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DG,Vision_Genomic_Fusion,"Histopathology, MRI",2433,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0DH,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2198,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DI,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1830,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DK,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2839,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0DP,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0DQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0DS,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0DT,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2250,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DV,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2653,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DX,"EHR, Vision_Genomic_Fusion","EHR, MRI",2142,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0DZ,Vision_Genomic_Fusion,"Histopathology, MRI",2476,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0E0,Vision_Genomic_Fusion,"Histopathology, MRI",2332,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0E1,Vision_Genomic_Fusion,"Histopathology, MRI",2426,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0E2,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2380,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0E7,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0E9,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2734,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0EA,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0EI,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2529,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0GY,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2348,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0GZ,Vision_Genomic_Fusion,"Histopathology, MRI",2220,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0H0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0H3,Vision_Genomic_Fusion,"Histopathology, MRI",2015,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0H6,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1480,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0H7,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2056,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0H9,Vision_Genomic_Fusion,"Histopathology, MRI",1900,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0HA,Vision_Genomic_Fusion,"Histopathology, MRI",2829,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0HF,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0HI,"EHR, Vision_Genomic_Fusion","EHR, MRI",1290,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0HO,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0HQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0HU,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A0HX,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2500,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A0HY,Vision_Genomic_Fusion,"Histopathology, MRI",2377,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0RX,Vision_Genomic_Fusion,"Histopathology, MRI",3091,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0W3,Vision_Genomic_Fusion,"Histopathology, MRI",2299,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0W5,Vision_Genomic_Fusion,"Histopathology, MRI",2029,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A0W7,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A18F,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1957,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-BH-A18H,Vision_Genomic_Fusion,"Histopathology, MRI",2149,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A18I,Vision_Genomic_Fusion,"Histopathology, MRI",2286,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A18J,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A18K,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A18L,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A18N,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A18S,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A201,Vision_Genomic_Fusion,"Histopathology, MRI",2330,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A202,Vision_Genomic_Fusion,"Histopathology, MRI",2428,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A28O,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A28Q,Vision_Genomic_Fusion,"Histopathology, MRI",2605,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-BH-A2L8,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-BH-A42V,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A5J0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A8FY,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-A8G0,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-BH-AB28,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A12N,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A12O,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A12U,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A12W,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A12X,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A1HG,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A1HI,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A1HM,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A26V,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A26Z,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A273,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A274,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-C8-A27A,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-C8-A8HQ,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-D8-A13Y,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A141,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A146,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1J8,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JC,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JD,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JE,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JH,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JI,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JJ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JP,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JS,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1JU,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1X6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1X7,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XB,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XC,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XD,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XM,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XR,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A1XU,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27I,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27K,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27L,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27P,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27T,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A27V,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A3Z5,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A3Z6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A4Z1,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A73U,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-D8-A73X,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A108,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A10C,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-E2-A14N,Vision_Genomic_Fusion,"Histopathology, MRI",1643,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A14P,Vision_Genomic_Fusion,"Histopathology, MRI",1632,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A14Q,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1529,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A14T,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1467,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A14V,Vision_Genomic_Fusion,"Histopathology, MRI",1176,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A14X,Vision_Genomic_Fusion,"Histopathology, MRI",1809,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A14Y,Vision_Genomic_Fusion,"Histopathology, MRI",1825,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A14Z,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A150,Vision_Genomic_Fusion,"Histopathology, MRI",1629,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A152,Vision_Genomic_Fusion,"Histopathology, MRI",1979,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A153,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A154,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A156,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A159,Vision_Genomic_Fusion,"Histopathology, MRI",1508,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15A,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1952,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A15E,Vision_Genomic_Fusion,"Histopathology, MRI",1581,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15F,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-E2-A15G,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A15H,Vision_Genomic_Fusion,"Histopathology, MRI",1285,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15I,Vision_Genomic_Fusion,"Histopathology, MRI",555,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15J,Vision_Genomic_Fusion,"Histopathology, MRI",1321,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15K,Vision_Genomic_Fusion,"Histopathology, MRI",1267,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15L,Vision_Genomic_Fusion,"Histopathology, MRI",1090,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A15M,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",723,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A15P,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1B1,Vision_Genomic_Fusion,"Histopathology, MRI",1005,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1B4,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1B5,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1319,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A1B6,Vision_Genomic_Fusion,"Histopathology, MRI",1200,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1BC,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1IE,Vision_Genomic_Fusion,"Histopathology, MRI",1187,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1IF,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1IG,"EHR, Vision_Genomic_Fusion","EHR, MRI",477,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A1II,Vision_Genomic_Fusion,"Histopathology, MRI",1183,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1IJ,Vision_Genomic_Fusion,"Histopathology, MRI",922,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1IK,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1399,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A1IL,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1IN,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",567,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A1IU,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1L6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E2-A1L7,Vision_Genomic_Fusion,"Histopathology, MRI",898,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E2-A1L9,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1002,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-E2-A1LG,Vision_Genomic_Fusion,"Histopathology, MRI",959,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-E9-A1NH,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-E9-A227,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E9-A54X,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-E9-A54Y,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E9-A5FK,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-E9-A6HE,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1IX,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1IY,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2996,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1IZ,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1603,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1J1,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1J2,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",305,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1J5,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1J6,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",2673,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1OX,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1OY,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",1899,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1OZ,Vision_Genomic_Fusion,"Histopathology, MRI",2642,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-EW-A1P0,Vision_Genomic_Fusion,"Histopathology, MRI",2154,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-EW-A1P3,"EHR, Vision_Genomic_Fusion","EHR, Histopathology, MRI",3365,"Mucinous Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1P4,Vision_Genomic_Fusion,MRI,1201,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-EW-A1P5,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1PA,"EHR, Vision_Genomic_Fusion","EHR, MRI",1254,"Infiltrating Ductal Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-EW-A1PC,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1PE,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A1PF,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A2FS,Vision_Genomic_Fusion,"Histopathology, MRI",2338,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-EW-A2FV,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-EW-A2FW,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-EW-A423,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-EW-A6SC,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-GI-A2C8,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A2DL,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A2DM,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-GM-A2DN,EHR,EHR,1,Mucinous Carcinoma,True,False,CERTIFIED
+TCGA-GM-A2DO,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A3NY,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A3XG,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A3XN,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-GM-A5PX,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-HN-A2OB,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-LD-A66U,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-LD-A7W5,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-LD-A7W6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-LL-A6FQ,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-LL-A7SZ,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-MS-A51U,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-OK-A5Q2,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-OL-A5D6,Vision_Genomic_Fusion,"Histopathology, MRI",2990,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5D7,Vision_Genomic_Fusion,"Histopathology, MRI",2008,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5D8,Vision_Genomic_Fusion,"Histopathology, MRI",2795,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5DA,Vision_Genomic_Fusion,"Histopathology, MRI",1729,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5RU,Vision_Genomic_Fusion,"Histopathology, MRI",1896,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5RV,Vision_Genomic_Fusion,"Histopathology, MRI",3464,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5RW,Vision_Genomic_Fusion,"Histopathology, MRI",2504,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5RX,Vision_Genomic_Fusion,"Histopathology, MRI",3150,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A5RZ,Vision_Genomic_Fusion,"Histopathology, MRI",4619,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66I,Vision_Genomic_Fusion,"Histopathology, MRI",2298,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66J,Vision_Genomic_Fusion,"Histopathology, MRI",2111,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66K,Vision_Genomic_Fusion,"Histopathology, MRI",4387,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66L,Vision_Genomic_Fusion,"Histopathology, MRI",6567,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66N,Vision_Genomic_Fusion,"Histopathology, MRI",5514,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A66O,Vision_Genomic_Fusion,"Histopathology, MRI",3350,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A6VO,Vision_Genomic_Fusion,"Histopathology, MRI",4775,Malignant (Invasive Carcinoma),True,False,CERTIFIED
+TCGA-OL-A6VR,"EHR, Vision_Genomic_Fusion","EHR, MRI",5220,"Infiltrating Lobular Carcinoma, Malignant (Invasive Carcinoma)",True,False,CERTIFIED
+TCGA-S3-A6ZG,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-W8-A86G,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-WT-AB44,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-XX-A899,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-XX-A89A,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED
+TCGA-Z7-A8R5,EHR,EHR,1,Infiltrating Lobular Carcinoma,True,False,CERTIFIED
+TCGA-Z7-A8R6,EHR,EHR,1,Infiltrating Ductal Carcinoma,True,False,CERTIFIED

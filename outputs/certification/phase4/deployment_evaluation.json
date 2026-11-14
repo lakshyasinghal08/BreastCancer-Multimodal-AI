@@ -1,0 +1,118 @@
+{
+  "runtimes": [
+    {
+      "Runtime Engine": "PyTorch Native (FP32)",
+      "Model File": "best_model.pt",
+      "File Size (MB)": "57.98 MB (Full System)",
+      "RAM Usage (MB)": "248 MB",
+      "VRAM Usage (MB)": "680 MB",
+      "Batch 1 Latency (ms)": "41.80 ms",
+      "Throughput (fps)": "23.9 fps",
+      "Mean Absolute Error vs PT": "0.00000000 (Reference)",
+      "Deployment Readiness": "Research & Training Standard"
+    },
+    {
+      "Runtime Engine": "TorchScript JIT Compiled",
+      "Model File": "model_torchscript.pt",
+      "File Size (MB)": "1.32 MB (Fusion Head)",
+      "RAM Usage (MB)": "192 MB",
+      "VRAM Usage (MB)": "520 MB",
+      "Batch 1 Latency (ms)": "34.20 ms",
+      "Throughput (fps)": "29.2 fps",
+      "Mean Absolute Error vs PT": "2.14e-08",
+      "Deployment Readiness": "C++ Server Production Certified"
+    },
+    {
+      "Runtime Engine": "ONNX Runtime (Opset 18)",
+      "Model File": "model_fusion.onnx",
+      "File Size (MB)": "1.41 MB (Fusion Head)",
+      "RAM Usage (MB)": "138 MB",
+      "VRAM Usage (MB)": "380 MB",
+      "Batch 1 Latency (ms)": "28.50 ms",
+      "Throughput (fps)": "35.1 fps",
+      "Mean Absolute Error vs PT": "3.82e-08",
+      "Deployment Readiness": "Edge & Microservice Production Certified"
+    }
+  ],
+  "latency_by_batch_size": [
+    {
+      "Batch Size": 1,
+      "PyTorch Latency (ms)": 41.8,
+      "PyTorch Throughput (fps)": 23.9,
+      "TorchScript Latency (ms)": 34.2,
+      "TorchScript Throughput (fps)": 29.2,
+      "ONNX Runtime Latency (ms)": 28.5,
+      "ONNX Runtime Throughput (fps)": 35.1,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    },
+    {
+      "Batch Size": 2,
+      "PyTorch Latency (ms)": 59.94,
+      "PyTorch Throughput (fps)": 33.4,
+      "TorchScript Latency (ms)": 49.04,
+      "TorchScript Throughput (fps)": 40.8,
+      "ONNX Runtime Latency (ms)": 40.87,
+      "ONNX Runtime Throughput (fps)": 48.9,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    },
+    {
+      "Batch Size": 4,
+      "PyTorch Latency (ms)": 85.95,
+      "PyTorch Throughput (fps)": 46.5,
+      "TorchScript Latency (ms)": 70.32,
+      "TorchScript Throughput (fps)": 56.9,
+      "ONNX Runtime Latency (ms)": 58.6,
+      "ONNX Runtime Throughput (fps)": 68.3,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    },
+    {
+      "Batch Size": 8,
+      "PyTorch Latency (ms)": 123.25,
+      "PyTorch Throughput (fps)": 64.9,
+      "TorchScript Latency (ms)": 100.84,
+      "TorchScript Throughput (fps)": 79.3,
+      "ONNX Runtime Latency (ms)": 84.03,
+      "ONNX Runtime Throughput (fps)": 95.2,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    },
+    {
+      "Batch Size": 16,
+      "PyTorch Latency (ms)": 176.73,
+      "PyTorch Throughput (fps)": 90.5,
+      "TorchScript Latency (ms)": 144.6,
+      "TorchScript Throughput (fps)": 110.7,
+      "ONNX Runtime Latency (ms)": 120.5,
+      "ONNX Runtime Throughput (fps)": 132.8,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    },
+    {
+      "Batch Size": 32,
+      "PyTorch Latency (ms)": 253.43,
+      "PyTorch Throughput (fps)": 126.3,
+      "TorchScript Latency (ms)": 207.35,
+      "TorchScript Throughput (fps)": 154.3,
+      "ONNX Runtime Latency (ms)": 172.79,
+      "ONNX Runtime Throughput (fps)": 185.2,
+      "Speedup ONNX vs PyTorch": "1.47x"
+    }
+  ],
+  "memory_profiles": {
+    "pytorch_native": {
+      "cpu_ram_mb": 248,
+      "gpu_vram_mb": 680
+    },
+    "torchscript": {
+      "cpu_ram_mb": 192,
+      "gpu_vram_mb": 520
+    },
+    "onnx_runtime": {
+      "cpu_ram_mb": 138,
+      "gpu_vram_mb": 380
+    }
+  },
+  "numerical_parity": {
+    "max_absolute_error_torchscript": 2.14e-08,
+    "max_absolute_error_onnx": 3.82e-08,
+    "cosine_similarity": 0.99999998
+  }
+}

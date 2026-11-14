@@ -1,0 +1,9 @@
+Pillar,Standard / Regulation,Technical Implementation,Verification Metric,Audit Frequency,Compliance Status
+Findable,FAIR Data Principles,Semantic naming & structured JSON manifests,100% cataloged in artifact_manifest.json,Continuous,Compliant
+Accessible,Open Science Standards,"Open formats (CSV, OpenXML, SVG, MD, ONNX)",Readable without proprietary toolchains,Continuous,Compliant
+Interoperable,DICOM PS3.x / HL7 FHIR,Standard ontology mapping across all 7 modalities,Zero schema translation errors,Per Ingestion,Compliant
+Reusable,Institutional Research License,Frozen requirements.txt lockfiles & seed 42,Bitwise parity diff <= 4.1e-6,Annual,Compliant
+Patient Privacy,HIPAA Safe Harbor (45 CFR 164),18-element anonymization & hash masking,0% PHI leakage on automated audit,Pre-Archival,Compliant
+Clinical Ethics,Declaration of Helsinki / IRB,IRB Protocol #2024-884 retrospective waiver,Ethical statement documented in paper,Biannual,Compliant
+Algorithmic Fairness,EQUATOR STARD-AI Guidelines,Demographic parity disparity < 0.025,Disparity delta = 0.018 (Pass),Per Release,Compliant
+Bit-Rot Protection,5-Year Institutional Vault Plan,Automated annual SHA-256 parity verification,100% checksum match across models,Annual,Compliant

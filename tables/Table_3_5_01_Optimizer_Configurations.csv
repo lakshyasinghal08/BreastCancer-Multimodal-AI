@@ -1,0 +1,5 @@
+Optimizer,Learning Rate,Betas / Momentum,Weight Decay,Epsilon,Parameter Grouping,Decay Exclusion
+AdamW (Default),1e-3,"(0.9, 0.999)",1e-4,1e-8,"Differential (0.5x, 1.0x, 1.5x)",Bias & Norm
+Adam,1e-3,"(0.9, 0.999)",1e-4,1e-8,Uniform / Differential,Optional
+SGD with Momentum,1e-2,0.90 (Nesterov),1e-4,N/A,Supported,Bias & Norm
+RMSprop,1e-3,0.99 (Alpha),1e-4,1e-8,Supported,Bias & Norm

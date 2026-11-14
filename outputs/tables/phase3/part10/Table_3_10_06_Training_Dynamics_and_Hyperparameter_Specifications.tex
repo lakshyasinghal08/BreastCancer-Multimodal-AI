@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lccccccc}
+\hline
+Modality & Total\_Epochs & Optimal\_Epoch & Optimizer & Peak\_Learning\_Rate & Weight\_Decay & Scheduler & Loss\_Objective \\
+\hline
+Mammography & 50 & 38 & AdamW & 1.0e-4 & 1.0e-2 & CosineAnnealingLR & Focal Loss (gamma=2.0) \\
+Ultrasound & 50 & 41 & AdamW & 1.0e-4 & 1.0e-2 & CosineAnnealingLR & Focal Loss (gamma=2.0) \\
+Histopathology & 50 & 44 & AdamW & 1.0e-4 & 1.0e-2 & CosineAnnealingLR & Cross-Entropy + Label Smoothing \\
+Breast MRI & 50 & 39 & AdamW & 1.0e-4 & 1.0e-2 & CosineAnnealingLR & Weighted Cross-Entropy \\
+Clinical Tabular & 35 & 10 & AdamW & 3.0e-4 & 1.0e-2 & WarmupCosineAnnealing & Label-Smoothed Weighted CE \\
+Electronic Health Record & 35 & 4 & AdamW & 2.0e-4 & 1.0e-2 & WarmupCosineAnnealing & Class-Weighted Focal Loss \\
+Genomic Microarray & 25 & 11 & AdamW & 5.0e-5 & 1.0e-3 & CosineAnnealingLR & Multi-Task Weighted CE \\
+\hline
+\end{tabular}
+\caption{Table 3 10 06 Training Dynamics and Hyperparameter Specifications}
+\label{tab:table_3_10_06_training_dynamics_and_hyperparameter_specifications}
+\end{table}

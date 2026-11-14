@@ -1,0 +1,77 @@
+{
+  "manuscript_diagrams": [
+    {
+      "id": "Diagram_1",
+      "file": "Diagram_1_Complete_Project_Workflow",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    {
+      "id": "Diagram_2",
+      "file": "Diagram_2_Overall_Multimodal_Framework",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    {
+      "id": "Diagram_3",
+      "file": "Diagram_3_Training_Lifecycle",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    {
+      "id": "Diagram_4",
+      "file": "Diagram_4_Evaluation_Workflow",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    {
+      "id": "Diagram_5",
+      "file": "Diagram_5_Research_Timeline",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    {
+      "id": "Diagram_6",
+      "file": "Diagram_6_Publication_Roadmap",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    }
+  ],
+  "phase5_publication_figures": [
+    "Fig_5_00_01",
+    "Fig_5_00_02",
+    "Fig_5_00_03",
+    "Fig_5_00_04",
+    "Fig_5_00_05",
+    "Fig_5_00_06",
+    "Fig_5_00_07",
+    "Fig_5_00_08",
+    "Fig_5_00_09",
+    "Fig_5_01_00",
+    "Fig_5_01_01",
+    "Fig_5_01_02",
+    "Fig_5_01_03",
+    "Fig_5_01_04",
+    "Fig_5_01_05",
+    "Fig_5_01_06"
+  ],
+  "total_figure_files_in_project": 18
+}

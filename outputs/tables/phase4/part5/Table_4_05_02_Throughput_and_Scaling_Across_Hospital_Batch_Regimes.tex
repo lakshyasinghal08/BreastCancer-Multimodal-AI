@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrrrl}
+\toprule
+Deployment Regime & Batch Size & PyTorch Latency (ms) & ONNX Latency (ms) & End-to-End Response (ms) & Throughput (pts/sec) & RAM (MB) & Clinical Workflow \\
+\midrule
+Urgent Triage (Point-of-Care) & 1 & 41.800000 & 28.500000 & 76.900000 & 13.000000 & 248 & Emergency Dept / Urgent Same-Day Clinic \\
+Sequential Outpatient Intake & 1 & 41.800000 & 28.500000 & 76.900000 & 13.000000 & 248 & Routine Outpatient Consultation Room \\
+Outpatient Clinic Batch Session & 4 & 86.200000 & 58.770000 & 145.200000 & 27.500000 & 285 & Mid-Day Clinic Multi-Patient Review \\
+Daily Oncology Clinic Roster & 8 & 123.770000 & 84.390000 & 215.400000 & 37.100000 & 340 & Morning Surgical Oncology Patient Queue \\
+Regional Screening Queue & 16 & 177.740000 & 121.180000 & 312.000000 & 51.300000 & 420 & Overnight Population Screening Queue \\
+High-Throughput Hospital Batch & 32 & 255.240000 & 174.010000 & 468.500000 & 68.300000 & 580 & Central Academic Medical Center PACS Batch \\
+Large Hospital Cloud Batch & 64 & 395.400000 & 268.500000 & 720.000000 & 88.900000 & 890 & Multi-Hospital Cloud AI Aggregator \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,10 @@
+Modality Branch,Input Tensor Shape,FLOPs (M),Parameters,Latency (ms)
+Mammography Encoder,"(1, 224, 224)",142.5 MFLOPs,"180,688",14.2 ms
+Ultrasound Encoder,"(1, 224, 224)",142.5 MFLOPs,"180,688",14.2 ms
+Histopathology Encoder,"(3, 224, 224)",144.1 MFLOPs,"180,976",14.8 ms
+Breast MRI Encoder,"(1, 224, 224)",142.5 MFLOPs,"180,688",14.2 ms
+Clinical FNA Encoder,"(30,)",0.02 MFLOPs,"16,896",0.1 ms
+TCGA EHR Encoder,"(16,)",0.01 MFLOPs,"15,104",0.1 ms
+Genomic Microarray Encoder,"(331,)",0.04 MFLOPs,"35,328",0.2 ms
+Cross-Modal Attention Fusion,"(7, 128)",0.18 MFLOPs,"18,432",0.5 ms
+Diagnostic Classifier Head,"(128,)",0.01 MFLOPs,"7,493",0.1 ms

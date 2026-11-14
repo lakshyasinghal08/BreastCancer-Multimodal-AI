@@ -1,0 +1,100 @@
+{
+  "faithfulness_metrics": [
+    {
+      "Explanation Method": "Integrated Gradients",
+      "Deletion AUC (Lower = Better)": "0.2892",
+      "Insertion AUC (Higher = Better)": "0.5220",
+      "Fidelity Score (Ins - Del)": "0.2328",
+      "Sparsity Gini Index": "0.842",
+      "Faithfulness Rank": "1 (Highest Overall Faithfulness)"
+    },
+    {
+      "Explanation Method": "Score-CAM",
+      "Deletion AUC (Lower = Better)": "0.3084",
+      "Insertion AUC (Higher = Better)": "0.5122",
+      "Fidelity Score (Ins - Del)": "0.2038",
+      "Sparsity Gini Index": "0.815",
+      "Faithfulness Rank": "2"
+    },
+    {
+      "Explanation Method": "Grad-CAM++",
+      "Deletion AUC (Lower = Better)": "0.3221",
+      "Insertion AUC (Higher = Better)": "0.5116",
+      "Fidelity Score (Ins - Del)": "0.1896",
+      "Sparsity Gini Index": "0.795",
+      "Faithfulness Rank": "3"
+    },
+    {
+      "Explanation Method": "Standard Grad-CAM",
+      "Deletion AUC (Lower = Better)": "0.3286",
+      "Insertion AUC (Higher = Better)": "0.5016",
+      "Fidelity Score (Ins - Del)": "0.1729",
+      "Sparsity Gini Index": "0.768",
+      "Faithfulness Rank": "4"
+    },
+    {
+      "Explanation Method": "KernelSHAP (Tabular/Geno)",
+      "Deletion AUC (Lower = Better)": "0.1982",
+      "Insertion AUC (Higher = Better)": "0.6845",
+      "Fidelity Score (Ins - Del)": "0.4863",
+      "Sparsity Gini Index": "0.825",
+      "Faithfulness Rank": "1 (Tabular Gold Standard)"
+    },
+    {
+      "Explanation Method": "Random Baseline Attribution",
+      "Deletion AUC (Lower = Better)": "0.5460",
+      "Insertion AUC (Higher = Better)": "0.2700",
+      "Fidelity Score (Ins - Del)": "-0.2760",
+      "Sparsity Gini Index": "0.112",
+      "Faithfulness Rank": "Null Baseline"
+    }
+  ],
+  "stability_metrics": [
+    {
+      "XAI Method": "SmoothGrad (N=25)",
+      "Mean Lipschitz Constant (Lower = More Stable)": "0.142",
+      "Std Dev": "0.018",
+      "Noise Sensitivity (sigma=0.05)": "0.048",
+      "Top-10 Feature Jaccard Stability": "0.942",
+      "Robustness Grade": "A+ (Ultra Stable)"
+    },
+    {
+      "XAI Method": "Integrated Gradients",
+      "Mean Lipschitz Constant (Lower = More Stable)": "0.165",
+      "Std Dev": "0.021",
+      "Noise Sensitivity (sigma=0.05)": "0.056",
+      "Top-10 Feature Jaccard Stability": "0.925",
+      "Robustness Grade": "A (Highly Stable)"
+    },
+    {
+      "XAI Method": "Score-CAM",
+      "Mean Lipschitz Constant (Lower = More Stable)": "0.188",
+      "Std Dev": "0.024",
+      "Noise Sensitivity (sigma=0.05)": "0.062",
+      "Top-10 Feature Jaccard Stability": "0.912",
+      "Robustness Grade": "A (Highly Stable)"
+    },
+    {
+      "XAI Method": "Grad-CAM",
+      "Mean Lipschitz Constant (Lower = More Stable)": "0.235",
+      "Std Dev": "0.032",
+      "Noise Sensitivity (sigma=0.05)": "0.088",
+      "Top-10 Feature Jaccard Stability": "0.864",
+      "Robustness Grade": "B+ (Good Stability)"
+    },
+    {
+      "XAI Method": "Raw Gradient Saliency",
+      "Mean Lipschitz Constant (Lower = More Stable)": "0.642",
+      "Std Dev": "0.095",
+      "Noise Sensitivity (sigma=0.05)": "0.245",
+      "Top-10 Feature Jaccard Stability": "0.582",
+      "Robustness Grade": "D (Fragile / Noisy)"
+    }
+  ],
+  "pointing_game_accuracy": {
+    "Grad-CAM": 0.884,
+    "Grad-CAM++": 0.896,
+    "Score-CAM": 0.908,
+    "Integrated Gradients": 0.912
+  }
+}

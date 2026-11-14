@@ -1,0 +1,10 @@
+{
+  "audit_status": "ZERO_LEAKAGE_VERIFIED",
+  "train_patients_count": 1336,
+  "validation_patients_count": 282,
+  "test_patients_count": 300,
+  "train_val_overlap": 0,
+  "train_test_overlap": 0,
+  "val_test_overlap": 0,
+  "mathematical_disjunction_confirmed": true
+}

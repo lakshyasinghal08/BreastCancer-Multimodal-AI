@@ -1,0 +1,42 @@
+{
+  "standardized_dimension": 128,
+  "normalization_layer": "LayerNorm(128)",
+  "compatibility_matrix": {
+    "mammography": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "ultrasound": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "histopathology": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "mri": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "clinical": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "ehr": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    },
+    "genomic": {
+      "dim": 128,
+      "dtype": "float32",
+      "aligned": true
+    }
+  },
+  "fusion_module_ready": true
+}

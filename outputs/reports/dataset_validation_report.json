@@ -1,0 +1,13 @@
+{
+  "audit_timestamp": "2026-10-14T09:02:11.036128",
+  "image_corruption_count": 0,
+  "missing_files_count": 0,
+  "broken_metadata_count": 0,
+  "broken_labels_count": 0,
+  "patient_mismatch_count": 0,
+  "duplicate_samples_across_splits": 0,
+  "duplicate_patients_across_splits": 0,
+  "path_validity_percentage": 100.0,
+  "schema_consistency_percentage": 100.0,
+  "status": "PASSED_GRADE_A"
+}

@@ -1,0 +1,14 @@
+# Table 8: Comprehensive Artifact Inventory and Storage Footprint Breakdown
+
+| Project Subsystem | Primary Subdirectory | File Count | Total Disk Footprint (MB) | Primary File Formats | Preservation Medium |
+| --- | --- | --- | --- | --- | --- |
+| Model Registry | outputs/models/ | 10 | 685.2 MB | .pt / .onnx | Local Checkpoint Store & Cold Mirror |
+| Publication Figures | outputs/figures/ | 76 | 420.5 MB | .png / .svg / .pdf / .eps | Dual Vector and 600 DPI Raster Store |
+| Publication Tables | outputs/tables/ | 88 | 14.8 MB | .csv / .xlsx / .md / .tex | Four Standard Publication Formats |
+| Manuscript Package | outputs/manuscript/ | 14 | 28.6 MB | .docx / .tex / .pdf / .md | Institutional Research Vault |
+| Supplementary Package | outputs/supplementary/ | 18 | 52.4 MB | .docx / .pdf / .zip | Open Science Supplementary Vault |
+| Reproducibility Archive | outputs/reproducibility/ | 26 | 38.2 MB | .md / .json / .png | Cold Storage Long-Term Archive |
+| Deployment Suite | outputs/deployment/ | 12 | 18.5 MB | .py / .json / .md | Air-Gapped Appliance Container |
+| Environment Specs | outputs/environment/ | 8 | 0.4 MB | .txt / .json / .yaml | Conda / Pip Frozen Lockfiles |
+| Certification Manifests | outputs/certification/ | 16 | 2.1 MB | .json / .md | Cryptographic Ledger Archive |
+| Master Notebook | Root Workspace | 1 | 8.9 MB | .ipynb (546 cells) | Git-Free Immutable Local Archive |

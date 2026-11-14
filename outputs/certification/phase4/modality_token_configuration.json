@@ -1,0 +1,16 @@
+{
+  "token_dimension": 128,
+  "sequence_length": 8,
+  "token_layout": {
+    "0": "Global Classification [CLS] Token",
+    "1": "Mammography Latent Token",
+    "2": "Ultrasound Latent Token",
+    "3": "Histopathology Latent Token",
+    "4": "Breast MRI Latent Token",
+    "5": "Clinical FNA Tabular Token",
+    "6": "EHR Longitudinal Token",
+    "7": "Genomic Microarray Token"
+  },
+  "normalization": "LayerNorm(128)",
+  "identity_injection": "Element-wise Addition (z + id + pos)"
+}

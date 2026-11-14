@@ -1,0 +1,44 @@
+[
+  {
+    "author": "Multimodal AI Architect & Lead Scientist",
+    "affiliation": "Department of Medical Artificial Intelligence, Institute for Precision Oncology",
+    "orcid": "0000-0002-1825-0001",
+    "email": "lead.architect@consortium.org",
+    "roles": "Conceptualization, Methodology, Software, Formal Analysis, Validation, Writing - Original Draft, Visualization"
+  },
+  {
+    "author": "Senior Diagnostic Radiologist & Imaging Lead",
+    "affiliation": "Division of Breast Imaging, Comprehensive Cancer Center",
+    "orcid": "0000-0003-4920-1122",
+    "email": "clinical.radiology@consortium.org",
+    "roles": "Conceptualization, Resources, Data Curation, Investigation, Writing - Review & Editing, Supervision"
+  },
+  {
+    "author": "Director of Molecular Diagnostic Pathology",
+    "affiliation": "Department of Pathology & Genomic Medicine, Medical University Hospital",
+    "orcid": "0000-0001-8392-7481",
+    "email": "pathology.director@consortium.org",
+    "roles": "Data Curation, Validation, Resources, Investigation, Writing - Review & Editing"
+  },
+  {
+    "author": "Lead Computational Biologist & Omics Scientist",
+    "affiliation": "Laboratory of Cancer Bioinformatics & Translational Systems Biology",
+    "orcid": "0000-0002-9381-447X",
+    "email": "omics.bioinformatics@consortium.org",
+    "roles": "Methodology, Software, Formal Analysis, Data Curation, Writing - Review & Editing"
+  },
+  {
+    "author": "Chief Biostatistician & Clinical Epidemiologist",
+    "affiliation": "Department of Biostatistics & Data Science, School of Public Health",
+    "orcid": "0000-0003-1204-5599",
+    "email": "biostat.lead@consortium.org",
+    "roles": "Formal Analysis, Methodology, Validation, Writing - Review & Editing"
+  },
+  {
+    "author": "Principal Investigator & Senior Director of AI Oncology",
+    "affiliation": "Cancer Research Institute & Department of Oncology, University School of Medicine",
+    "orcid": "0000-0002-7744-8890",
+    "email": "principal.investigator@consortium.org",
+    "roles": "Conceptualization, Funding Acquisition, Project Administration, Resources, Supervision, Writing - Review & Editing"
+  }
+]

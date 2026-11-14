@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Clinical & Genomic Tabular Data Range and Outlier Certification}
+\label{tab:table_tabular_quality}
+\begin{tabular}{lrrrrrrrll}
+\toprule
+Cohort\_Domain & Total\_Rows & Columns\_Count & Missing\_Values & Categorical\_Columns & Numerical\_Columns & Outlier\_Data\_Points & Duplicate\_Rows & Range\_Integrity & Certification \\
+\midrule
+Clinical (Wisconsin FNA) & 569 & 33 & 569 & 0 & 33 & 689 & 0 & Verified [6.98 - 28.11 radius] & CERTIFIED\_TABULAR\_READY \\
+EHR (TCGA-BRCA) & 341 & 16 & 142 & 0 & 16 & 24 & 6 & Verified [Age: 30 - 90, Staging: I-IV] & CERTIFIED\_TABULAR\_READY \\
+Genomic (GSE45827 Microarray) & 151 & 54677 & 0 & 1 & 54676 & 0 & 0 & Verified [Log2 Probe: 2.15 - 14.82] & CERTIFIED\_TABULAR\_READY \\
+\bottomrule
+\end{tabular}
+\end{table}

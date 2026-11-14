@@ -1,0 +1,17 @@
+\begin{tabular}{lll}
+\toprule
+Hyperparameter & Configured_Value & Mathematical_Role \\
+\midrule
+Base Optimizer & AdamW (Decoupled Weight Decay) & Adaptive moment estimation with L2 weight shrinkage \\
+Initial Learning Rate (eta_0) & 1.00e-03 & Base step size for parameter updates \\
+Weight Decay Coefficient (lambda) & 0.010 & L2 regularization penalty preventing co-adaptation \\
+Momentum Betas (beta_1, beta_2) & (0.90, 0.999) & First and second raw moment running averages \\
+Numerical Epsilon (eps) & 1.00e-08 & Denominator stabilization term \\
+Learning Rate Schedule & Linear Warmup + Cosine Annealing & 3-epoch warm start followed by half-period cosine decay \\
+Warmup Epochs & 3 Epochs & Gradual step size ramp to prevent early divergence \\
+Maximum Training Epochs & 25 Epochs & Empirical convergence window based on loss plateau \\
+Gradient Clipping Norm & 1.00 & L2 global gradient norm truncation \\
+Binary Loss Function & Weighted Cross-Entropy (Label Smoothing 0.05) & Inverses class frequency reweighting for 4 normal vs 99 tumor \\
+Subtype Loss Function & Cross-Entropy (Smoothing 0.05, Weight 0.30) & Auxiliary biological regularization over 6 PAM50 subtypes \\
+\bottomrule
+\end{tabular}

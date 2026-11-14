@@ -1,0 +1,11 @@
+\begin{tabular}{llllllll}
+\toprule
+AMP Component & Specification & Target Dtype & Verified Status & Initial Scale & Purpose & Backoff Factor & Reduction Factor \\
+\midrule
+Autocast Manager & torch.amp.autocast & FP16 (CUDA) / BFloat16 (CPU) & PASS (Zero NaN/Inf) & NaN & NaN & NaN & NaN \\
+GradScaler Engine & torch.cuda.amp.GradScaler & NaN & PASS (Dynamic Scaling Active) & 65536.0 & NaN & NaN & NaN \\
+Gradient Unscaling & scaler.unscale\_(optimizer) & NaN & PASS (Unscaling Verified) & NaN & Accurate gradient norm clipping & NaN & NaN \\
+Overflow Recovery & scaler.update() Backoff & NaN & PASS (Automatic Recovery Ready) & NaN & NaN & 0.5 on overflow detection & NaN \\
+Memory Efficiency & Activation memory footprint & NaN & PASS (High-Throughput Mode) & NaN & NaN & NaN & \textasciitilde 45\% reduction in tensor bytes \\
+\bottomrule
+\end{tabular}

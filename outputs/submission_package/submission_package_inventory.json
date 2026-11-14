@@ -1,0 +1,36 @@
+{
+  "package_name": "Q1 Journal Submission Package",
+  "manuscript_title": "A Unified Seven-Modality Cross-Attention Transformer for Clinically Robust, Uncertainty-Aware Breast Cancer Diagnosis and Molecular Phenotyping",
+  "target_journals": [
+    "IEEE_TMI",
+    "Medical_Image_Analysis",
+    "Lancet_Digital_Health",
+    "Nature_Scientific_Reports",
+    "Artificial_Intelligence_in_Medicine",
+    "Computers_in_Biology_and_Medicine",
+    "Computer_Methods_and_Programs_in_Biomedicine"
+  ],
+  "total_cover_letters": 7,
+  "total_editorial_figures": 4,
+  "editorial_figure_formats": [
+    "PNG_600DPI",
+    "SVG",
+    "PDF",
+    "EPS"
+  ],
+  "total_submission_tables": 10,
+  "table_formats": [
+    "CSV",
+    "XLSX",
+    "MD",
+    "LATEX"
+  ],
+  "submission_forms": [
+    "Copyright_Transfer_Agreement_Template",
+    "Author_Declaration_and_Originality_Form",
+    "AI_Usage_in_Research_Disclosure",
+    "Competing_Interests_Declaration",
+    "Data_and_Code_Sharing_Agreement"
+  ],
+  "status": "COMPLETE_AND_CERTIFIED"
+}

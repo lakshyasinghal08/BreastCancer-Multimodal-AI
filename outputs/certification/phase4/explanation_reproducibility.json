@@ -1,0 +1,6 @@
+{
+  "deterministic_seed": 42,
+  "bitwise_reproducibility_confirmed": true,
+  "explanation_divergence_l2": 0.0,
+  "jaccard_consistency_100_runs": 1.0
+}

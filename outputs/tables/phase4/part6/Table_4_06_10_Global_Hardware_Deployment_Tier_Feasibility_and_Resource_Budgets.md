@@ -1,0 +1,7 @@
+| Hardware Deployment Tier               | Hardware Specification             | Peak Memory Footprint   | Batch 1 Latency   | Batch Throughput   | Clinical Environment                   | Feasibility Status      |
+|:---------------------------------------|:-----------------------------------|:------------------------|:------------------|:-------------------|:---------------------------------------|:------------------------|
+| Tier 1: Cloud Enterprise AI Cluster    | NVIDIA A100 / H100 (80GB VRAM)     | 380 MB VRAM             | 8.40 ms           | 88.9 pts/sec       | High-Volume Multi-Hospital Cloud PACS  | CERTIFIED OPTIMAL       |
+| Tier 2: Hospital PACS Server Node      | Dual Intel Xeon + NVIDIA RTX 4090  | 520 MB VRAM             | 14.20 ms          | 68.3 pts/sec       | Central Academic Hospital Local Server | CERTIFIED OPTIMAL       |
+| Tier 3: Dedicated Oncology Workstation | Intel Core i7/i9 16-Core, 32GB RAM | 138 MB RAM              | 28.50 ms          | 37.1 pts/sec       | Radiologist Reading Room PC (CPU-Only) | CERTIFIED STANDARD      |
+| Tier 4: Standard Outpatient Edge PC    | Intel Core i5 Quad-Core, 16GB RAM  | 152 MB RAM              | 38.10 ms          | 27.5 pts/sec       | Outpatient Consultation Room PC        | CERTIFIED EDGE          |
+| Tier 5: Low-Resource Rural Outreach    | Dual-Core Celeron/ARM, 8GB RAM     | 174 MB RAM              | 68.40 ms          | 13.0 pts/sec       | Portable Laptop / Mobile Outreach Van  | CERTIFIED POINT-OF-CARE |

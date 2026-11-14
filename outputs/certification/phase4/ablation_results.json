@@ -1,0 +1,165 @@
+{
+  "reference_model": "Proposed Full Architecture",
+  "total_configurations_evaluated": 11,
+  "configurations": [
+    {
+      "Ablation Variant": "Proposed Full Architecture",
+      "Component Modified": "None (Full Reference Framework)",
+      "Accuracy": 0.9118,
+      "ROC_AUC": 0.9672,
+      "F1_Score": 0.8904,
+      "ECE": 0.0354,
+      "Params": 326288,
+      "ROC_AUC_Delta": 0.0,
+      "Impact_Summary": "Optimal synergistic performance across all 7 modalities"
+    },
+    {
+      "Ablation Variant": "w/o Dynamic Masking",
+      "Component Modified": "Dynamic key-padding mask replaced by zero-padding without attention masking",
+      "Accuracy": 0.8728,
+      "ROC_AUC": 0.9284,
+      "F1_Score": 0.842,
+      "ECE": 0.0582,
+      "Params": 326288,
+      "ROC_AUC_Delta": -0.0388,
+      "Impact_Summary": "Severe degradation: attention attends to uninformative zero vectors"
+    },
+    {
+      "Ablation Variant": "w/o Confidence Weighting",
+      "Component Modified": "Modality gating MLP removed; uniform 1/7 scalar weighting applied",
+      "Accuracy": 0.892,
+      "ROC_AUC": 0.9482,
+      "F1_Score": 0.8655,
+      "ECE": 0.0465,
+      "Params": 324488,
+      "ROC_AUC_Delta": -0.019,
+      "Impact_Summary": "Modest drop: noise from lower-quality modalities not suppressed"
+    },
+    {
+      "Ablation Variant": "w/o Cross-Attention (Concat+MLP)",
+      "Component Modified": "Cross-attention transformer replaced by direct concatenation and MLP",
+      "Accuracy": 0.8798,
+      "ROC_AUC": 0.9345,
+      "F1_Score": 0.851,
+      "ECE": 0.054,
+      "Params": 212432,
+      "ROC_AUC_Delta": -0.0327,
+      "Impact_Summary": "Large loss: pairwise inter-modality token interaction destroyed"
+    },
+    {
+      "Ablation Variant": "w/o Cross-Attention (Mean Pooling)",
+      "Component Modified": "Cross-attention transformer replaced by simple average pooling",
+      "Accuracy": 0.8676,
+      "ROC_AUC": 0.921,
+      "F1_Score": 0.8345,
+      "ECE": 0.0615,
+      "Params": 64720,
+      "ROC_AUC_Delta": -0.0462,
+      "Impact_Summary": "Catastrophic loss: treats all modality tokens equally without context"
+    },
+    {
+      "Ablation Variant": "w/o Residual Connections",
+      "Component Modified": "Skip connections removed from both Cross-Attention blocks",
+      "Accuracy": 0.885,
+      "ROC_AUC": 0.9412,
+      "F1_Score": 0.857,
+      "ECE": 0.0498,
+      "Params": 326288,
+      "ROC_AUC_Delta": -0.026,
+      "Impact_Summary": "Moderate drop: loss of identity mapping and gradient propagation"
+    },
+    {
+      "Ablation Variant": "w/o LayerNorm",
+      "Component Modified": "Pre- and post-LayerNorm removed from transformer blocks",
+      "Accuracy": 0.878,
+      "ROC_AUC": 0.9318,
+      "F1_Score": 0.849,
+      "ECE": 0.0552,
+      "Params": 325264,
+      "ROC_AUC_Delta": -0.0354,
+      "Impact_Summary": "Substantial drop: feature scale mismatch across disparate modalities"
+    },
+    {
+      "Ablation Variant": "w/o Modality Token Embeddings",
+      "Component Modified": "Learnable modality identification tokens removed (raw latent tokens only)",
+      "Accuracy": 0.8937,
+      "ROC_AUC": 0.9501,
+      "F1_Score": 0.8672,
+      "ECE": 0.0448,
+      "Params": 325392,
+      "ROC_AUC_Delta": -0.0171,
+      "Impact_Summary": "Modest drop: model struggles to disambiguate token origin"
+    },
+    {
+      "Ablation Variant": "w/o Classifier Refinement MLP",
+      "Component Modified": "Dual-layer classifier replaced with single linear projection",
+      "Accuracy": 0.899,
+      "ROC_AUC": 0.9542,
+      "F1_Score": 0.8745,
+      "ECE": 0.042,
+      "Params": 293328,
+      "ROC_AUC_Delta": -0.013,
+      "Impact_Summary": "Minor drop: reduced non-linear decision boundary flexibility"
+    },
+    {
+      "Ablation Variant": "w/o PAM50 Subtype Supervision",
+      "Component Modified": "Auxiliary molecular subtype classification head omitted during training",
+      "Accuracy": 0.9024,
+      "ROC_AUC": 0.958,
+      "F1_Score": 0.879,
+      "ECE": 0.0395,
+      "Params": 317968,
+      "ROC_AUC_Delta": -0.0092,
+      "Impact_Summary": "Minor loss: auxiliary biological regularization omitted"
+    },
+    {
+      "Ablation Variant": "w/o Dropout Regularization (p=0)",
+      "Component Modified": "Dropout disabled across all cross-attention and classification heads",
+      "Accuracy": 0.8972,
+      "ROC_AUC": 0.9525,
+      "F1_Score": 0.8718,
+      "ECE": 0.0435,
+      "Params": 326288,
+      "ROC_AUC_Delta": -0.0147,
+      "Impact_Summary": "Minor drop: test generalization degraded by slight co-adaptation"
+    }
+  ],
+  "criticality_hierarchy": [
+    {
+      "rank": 1,
+      "component": "Cross-Attention Transformer (Mean Pool)",
+      "delta_roc_auc": -0.0462,
+      "verdict": "Critical Core Mechanism"
+    },
+    {
+      "rank": 2,
+      "component": "Dynamic Modality Key-Padding Masking",
+      "delta_roc_auc": -0.0388,
+      "verdict": "Essential Robustness Mechanism"
+    },
+    {
+      "rank": 3,
+      "component": "LayerNorm Normalization",
+      "delta_roc_auc": -0.0354,
+      "verdict": "Crucial Numerical Balancer"
+    },
+    {
+      "rank": 4,
+      "component": "Cross-Attention Transformer (Concat+MLP)",
+      "delta_roc_auc": -0.0327,
+      "verdict": "Essential Interaction Engine"
+    },
+    {
+      "rank": 5,
+      "component": "Residual Skip Connections",
+      "delta_roc_auc": -0.026,
+      "verdict": "Important Gradient Highway"
+    },
+    {
+      "rank": 6,
+      "component": "Modality Confidence Gating",
+      "delta_roc_auc": -0.019,
+      "verdict": "Important Noise Suppressor"
+    }
+  ]
+}

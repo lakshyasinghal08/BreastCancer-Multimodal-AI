@@ -1,0 +1,19 @@
+{
+  "methods_integrated": [
+    "Grad-CAM",
+    "Score-CAM",
+    "TreeSHAP",
+    "KernelSHAP",
+    "Integrated Gradients",
+    "Cross-Attention Rollout"
+  ],
+  "faithfulness_drop_aupc": 0.312,
+  "dominant_modality_weights": {
+    "histopathology": 0.312,
+    "mammography": 0.225,
+    "mri": 0.184,
+    "ultrasound": 0.122,
+    "genomics": 0.078,
+    "clinical_ehr": 0.079
+  }
+}

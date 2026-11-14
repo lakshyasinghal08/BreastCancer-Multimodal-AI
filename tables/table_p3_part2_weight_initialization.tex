@@ -1,0 +1,11 @@
+\begin{tabular}{lllllllllll}
+\toprule
+Module Category & Initialization Method & Nonlinearity & Mode & Variance Formula & Status & Gain & Weight Init & Bias Init & Mean & Std Dev \\
+\midrule
+Convolutional 2D Layers & Kaiming Normal (He) & GELU / ReLU & fan\_out & 2.0 / fan\_out & VERIFIED & NaN & NaN & NaN & NaN & NaN \\
+Linear Projection Layers & Xavier Uniform (Glorot) & NaN & fan\_in + fan\_out & 6.0 / (fan\_in + fan\_out) & VERIFIED & 1.0 & NaN & NaN & NaN & NaN \\
+Normalization Layers (LayerNorm/BN) & Constant Scaling & NaN & NaN & N/A & VERIFIED & NaN & 1.0 (Ones) & 0.0 (Zeros) & NaN & NaN \\
+Learnable Modality Tokens & Truncated Normal & NaN & NaN & 0.0004 & VERIFIED & NaN & NaN & NaN & 0.0 & 0.02 \\
+Classification Logit Heads & Xavier Normal & NaN & fan\_in + fan\_out & 2.0 / (fan\_in + fan\_out) & VERIFIED & 0.1 (Small output init) & NaN & NaN & NaN & NaN \\
+\bottomrule
+\end{tabular}

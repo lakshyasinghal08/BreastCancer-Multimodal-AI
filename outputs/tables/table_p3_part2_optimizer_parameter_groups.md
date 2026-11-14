@@ -1,0 +1,8 @@
+| Parameter Group                 | Target Modules                             | Learning Rate          |   Weight Decay | Rationale                                      |
+|:--------------------------------|:-------------------------------------------|:-----------------------|---------------:|:-----------------------------------------------|
+| Encoder Vision & Tabular        | All 7 Modality Encoders                    | 0.5 * base_lr (5e-4)   |         0.0001 | Preserves feature extraction stability         |
+| Encoder Bias & Normalization    | Encoder BatchNorm/LayerNorm & Biases       | 0.5 * base_lr (5e-4)   |         0      | Excludes scale/shift from regularization decay |
+| Harmonizer & Cross-Modal Fusion | EmbeddingHarmonizer & Multi-Head Self-Attn | 1.0 * base_lr (1e-3)   |         0.0001 | Optimizes inter-modal attention dynamics       |
+| Fusion Normalization & Biases   | Fusion LayerNorms & Linear Biases          | 1.0 * base_lr (1e-3)   |         0      | Preserves attention score normalization        |
+| Multimodal Classifier Head      | MultimodalClassifierHead & Uncertainty     | 1.5 * base_lr (1.5e-3) |         0.0001 | Agile decision boundary adaptation             |
+| Classifier Head Biases          | Classification Linear Biases               | 1.5 * base_lr (1.5e-3) |         0      | Preserves prior class logit balance            |

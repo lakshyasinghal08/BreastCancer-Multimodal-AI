@@ -1,0 +1,16 @@
+{
+  "total_epochs": 10,
+  "initial_loss": 0.7241,
+  "final_loss": 0.221,
+  "loss_reduction_pct": 69.48,
+  "initial_val_roc_auc": 0.8415,
+  "peak_val_roc_auc": 0.9685,
+  "roc_auc_gain": 0.127,
+  "initial_val_accuracy": 0.763,
+  "peak_val_accuracy": 0.9136,
+  "accuracy_gain_pct": 15.06,
+  "mean_epoch_time_s": 24.01,
+  "total_training_time_s": 240.1,
+  "average_throughput_fps": 78.68,
+  "convergence_status": "CONVERGED_OPTIMAL"
+}

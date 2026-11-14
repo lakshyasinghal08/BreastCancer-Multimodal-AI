@@ -1,0 +1,16 @@
+\begin{tabular}{llrrl}
+\toprule
+Stage ID & Pipeline Subsystem & Execution Time (ms) & Memory RSS (MB) & Verification Status \\
+\midrule
+STG-01 & Cohort Registration \& Verification & 42.100000 & 182.400000 & PASS \\
+STG-02 & Patient Namespace Collision Isolation & 68.500000 & 185.000000 & PASS \\
+STG-03 & Master Manifest Parquet Read & 189.200000 & 194.200000 & PASS \\
+STG-04 & Patient-Wise Stratified Partitioning & 315.600000 & 204.800000 & PASS \\
+STG-05 & Dataset Classes Instantiation & 12.800000 & 206.100000 & PASS \\
+STG-06 & Multi-Tier Cache Warm-up \& Hit Test & 45.200000 & 210.500000 & PASS \\
+STG-07 & DataLoader Batch Assembly (BS=16) & 88.400000 & 215.300000 & PASS \\
+STG-08 & Full QA Audit \& Integrity Sweep & 520.100000 & 218.000000 & PASS \\
+STG-09 & Reproducibility Fixed-Seed Verification & 185.000000 & 219.400000 & PASS \\
+STG-10 & RC-2 Certification \& Configuration Freeze & 35.000000 & 220.100000 & PASS \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,28 @@
+{
+  "title": "A Unified Seven-Modality Cross-Attention Transformer for Clinically Robust, Uncertainty-Aware Breast Cancer Diagnosis and Molecular Phenotyping",
+  "running_title": "Unified Seven-Modality Cross-Attention for Breast Cancer AI",
+  "authors": [
+    "First Author",
+    "Second Author",
+    "Clinical Co-Author",
+    "Radiologist Co-Author",
+    "Senior Author"
+  ],
+  "affiliations": [
+    "Department of Biomedical Engineering and Artificial Intelligence, Institute of Advanced Technology",
+    "Department of Radiology and Biomedical Imaging, Comprehensive Cancer Center",
+    "Division of Surgical Oncology and Molecular Pathology, University Medical Center"
+  ],
+  "corresponding_author": "senior.author@institution.edu",
+  "target_journals": [
+    "IEEE Transactions on Medical Imaging",
+    "Medical Image Analysis",
+    "Lancet Digital Health",
+    "Nature Scientific Reports"
+  ],
+  "word_count": 15420,
+  "figures_count": 16,
+  "tables_count": 12,
+  "diagrams_count": 6,
+  "references_count": 52
+}

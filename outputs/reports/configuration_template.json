@@ -1,0 +1,47 @@
+{
+  "project_name": "BreastCancer-Multimodal-AI",
+  "version": "1.0.0-phase1.5",
+  "seed": 42,
+  "directories": {
+    "datasets": "D:\\BreastCancer-Multimodal-AI\\datasets",
+    "outputs": "D:\\BreastCancer-Multimodal-AI\\outputs",
+    "tables": "D:\\BreastCancer-Multimodal-AI\\outputs\\tables",
+    "reports": "D:\\BreastCancer-Multimodal-AI\\outputs\\reports",
+    "figures": "D:\\BreastCancer-Multimodal-AI\\outputs\\figures",
+    "experiments": "D:\\BreastCancer-Multimodal-AI\\outputs\\experiments",
+    "checkpoints": "D:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints"
+  },
+  "hardware": {
+    "device": "auto",
+    "mixed_precision": true,
+    "cuda_benchmark": true,
+    "num_workers": 4
+  },
+  "preprocessing": {
+    "clahe_clip_limit": 2.0,
+    "clahe_tile_grid_size": [
+      8,
+      8
+    ],
+    "image_target_size": [
+      224,
+      224
+    ],
+    "stain_normalization": "Macenko",
+    "imputation_strategy": "KNN"
+  },
+  "cross_validation": {
+    "strategy": "GroupKFold",
+    "n_splits": 5,
+    "group_key": "patient_id"
+  },
+  "publication": {
+    "dpi": 300,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ],
+    "color_palette": "YlGnBu"
+  }
+}

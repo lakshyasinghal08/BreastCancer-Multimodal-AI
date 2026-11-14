@@ -1,0 +1,13 @@
+{
+  "architecture": "Dynamic Mask-Aware Cross-Attention Transformer",
+  "latent_dimension": 128,
+  "attention_heads": 4,
+  "transformer_layers": 2,
+  "feedforward_dim": 512,
+  "dropout": 0.1,
+  "total_modalities_supported": 7,
+  "diagnostic_tasks": [
+    "Binary Malignancy",
+    "Molecular PAM50 Subtyping"
+  ]
+}

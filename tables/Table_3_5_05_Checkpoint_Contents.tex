@@ -1,0 +1,13 @@
+\begin{tabular}{llll}
+\toprule
+Component & Data Structure & Format & Purpose \\
+\midrule
+Model Parameters & OrderedDict (state\_dict) & PyTorch Tensor Binary (.pt) & Restores Neural Weights \& Biases \\
+Optimizer State & state\_dict (momentum, variance) & PyTorch State Binary (.pt) & Preserves Parameter Trajectory \\
+Scheduler State & state\_dict (step count, last\_lr) & PyTorch State Binary (.pt) & Maintains Annealing Position \\
+AMP Scaler State & GradScaler state\_dict & PyTorch State Binary (.pt) & Preserves Dynamic Scale Factor \\
+Epoch \& Step Counters & Integer Values & Embedded \& JSON Sidecar & Ensures Exact Resumption Point \\
+Random Seeds \& RNG & torch.get\_rng\_state() + numpy & Binary Tensor Tuple & Bitwise Reproducibility Guarantee \\
+Cryptographic Checksum & SHA-256 Digest (64 hex characters) & JSON Metadata Sidecar & Prevents Bitrot \& File Corruption \\
+\bottomrule
+\end{tabular}

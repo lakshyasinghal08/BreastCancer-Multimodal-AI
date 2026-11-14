@@ -1,0 +1,44 @@
+{
+  "case_studies_count": 3,
+  "case_studies": [
+    {
+      "case_id": "Case 1 (Patient 1042)",
+      "clinical_profile": "Triple-Positive Invasive Ductal Carcinoma (T2N1M0)",
+      "true_pathology": "Malignant (Invasive Ductal Carcinoma)",
+      "predicted_diagnosis": "Malignant (Probability = 98.4%)",
+      "calibrated_prob": 0.984,
+      "uncertainty_entropy": 0.082,
+      "dominant_modality": "Histopathology (31.2%) & Mammography (22.5%)",
+      "key_imaging_finding": "Spiculated high-density mass with microcalcification cluster & high nuclear grade IDC",
+      "top_clinical_biomarkers": "worst_concave_points (+0.28), mean_concavity (+0.22), worst_area (+0.19)",
+      "top_genomic_drivers": "ERBB2/HER2 Amplification (+0.34), MKI67 High Proliferation (+0.29), ESR1 (+0.21)",
+      "clinical_action": "Urgent Surgical Oncology Referral, Neoadjuvant Chemotherapy + Dual HER2 Blockade"
+    },
+    {
+      "case_id": "Case 2 (Patient 2187)",
+      "clinical_profile": "Dense Breast Parenchyma with Fibroadenoma",
+      "true_pathology": "Benign (Complex Fibroadenoma)",
+      "predicted_diagnosis": "Benign (Probability = 96.1%)",
+      "calibrated_prob": 0.039,
+      "uncertainty_entropy": 0.114,
+      "dominant_modality": "Ultrasound (34.8%) & Clinical Cytology (26.2%)",
+      "key_imaging_finding": "Oval, circumscribed, hypoechoic mass wider than tall without acoustic shadowing",
+      "top_clinical_biomarkers": "mean_smoothness (-0.31), mean_radius (-0.26), uniform_cell_size (-0.24)",
+      "top_genomic_drivers": "MKI67 Low (-0.28), ESR1 Normal (-0.15), Absence of TP53 Mutation (-0.18)",
+      "clinical_action": "Routine BI-RADS 3 Short-Interval 6-Month Follow-Up; Biopsy Deferred"
+    },
+    {
+      "case_id": "Case 3 (Patient 3054)",
+      "clinical_profile": "Discordant Screening Case: Suspicious Mammo vs Benign Pathology",
+      "true_pathology": "Benign (Sclerosing Adenosis / Radial Scar)",
+      "predicted_diagnosis": "Benign (Probability = 88.5%)",
+      "calibrated_prob": 0.115,
+      "uncertainty_entropy": 0.312,
+      "dominant_modality": "Histopathology (38.5%) & Breast MRI (24.2%)",
+      "key_imaging_finding": "Spiculated distortion on mammogram resolved by non-enhancing lesion on DCE-MRI",
+      "top_clinical_biomarkers": "mean_concave_points (-0.18), worst_texture (+0.08 discordant)",
+      "top_genomic_drivers": "Genomic Low-Risk Score (-0.22), TP53 Wild-Type (-0.19)",
+      "clinical_action": "Multidisciplinary Tumor Board Consensus: Concordant Benign, Excision Surveillance"
+    }
+  ]
+}

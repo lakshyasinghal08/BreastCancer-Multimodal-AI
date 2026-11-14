@@ -1,0 +1,8 @@
+{
+  "models_directory_files": 118,
+  "deployment_directory_files": 46,
+  "certification_directory_files": 22,
+  "primary_inference_weights": "outputs/models/best_model.pt",
+  "torchscript_weights": "outputs/models/model_torchscript.pt",
+  "onnx_weights": "outputs/models/model_fusion.onnx"
+}

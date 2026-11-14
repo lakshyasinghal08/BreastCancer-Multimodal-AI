@@ -1,0 +1,14 @@
+| filename                      |   size_kb |   size_mb | sha256                                                           |
+|:------------------------------|----------:|----------:|:-----------------------------------------------------------------|
+| best_model.pt                 |  55143.1  |     53.85 | 83a3d4fdda215af4ea1132af535c611c49dc533a01e24a1b7f4976026d10fb23 |
+| genomic_metrics.json          |      1.66 |      0    | bdd50c31a51033384cb2f4c84c07e2bf5afac755f77a1fbe59c950c008d78ed0 |
+| genomic_model.onnx            |     48.63 |      0.05 | 76fde4c4503b36f7ca33649aaf049860d0906e0e73ed36cf239b76bd8f8bb432 |
+| genomic_model.onnx.data       |  55187    |     53.89 | 69daf63ee99d3166138307ea12a1f993d334455460a8825b69863dc82d84f151 |
+| genomic_model_best.pt         |  55143.4  |     53.85 | 1ad560cb93d31cdecb7fad9af2d8d9df4900adaaeda25b9fa88240ddfc9b44bf |
+| genomic_model_config.json     |      0.43 |      0    | 864921569db33b3469a2b681fa4d91a1906cb22a8f75cb70886f77f7d5f7bf6b |
+| genomic_model_final.pt        |  55144.1  |     53.85 | e23e55658e957afd8e5a8c97a9c8bd1a04f0513ff7289de31a394fc8fdfb56f1 |
+| genomic_model_torchscript.pt  |  55175.4  |     53.88 | 3eaddef282666c3d818aa1701303d80dc8e2884e22cbddc032288ffc469fcc1f |
+| genomic_training_config.json  |      0.43 |      0    | d888958be2f3623fb6b73f529ab082c2e68bcf8c950cafcd138a05544c4f881e |
+| genomic_training_history.csv  |      2.12 |      0    | 77ae46a3c2b177b52dec9a7e214d73d80936045f1f3f6a076cb80784f9fe1f1c |
+| genomic_training_history.json |      8.29 |      0.01 | d0f3e79cc3ef0c29ea36b7c9eda1c94d3a12d6131de6674e8f1283ca710ca304 |
+| normalization_stats.json      |      0.74 |      0    | 674359589c743ab11cc2066a6dfcc1d5ad76fef583fd5b93048dd5b9b5f56349 |

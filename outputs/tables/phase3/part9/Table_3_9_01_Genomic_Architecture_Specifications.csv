@@ -1,0 +1,9 @@
+Layer_Component,Input_Dimension,Output_Dimension,Activation,Regularization,Parameter_Count
+Input Layer,151 Patients,"54,675 Gene Probes",None,Zero-Leakage Z-Score Normalization,0
+Bottleneck Projection,"54,675 Features",256 Latent Channels,GELU,LayerNorm + Dropout (p=0.30),13997312
+Residual Block: FC1,256 Channels,128 Channels,GELU,LayerNorm + Dropout (p=0.20),33024
+Residual Block: FC2,128 Channels,256 Channels,Linear + Residual Add,LayerNorm,33280
+Latent Embedding Proj,256 Channels,128 Multimodal Latent Dim,None,LayerNorm,33024
+Primary Diagnostic Head,128 Channels,64 -> 2 Classes (Tumor/Normal),GELU -> Softmax,LayerNorm + Dropout (p=0.20),8450
+Auxiliary Subtype Head,128 Channels,64 -> 6 PAM50 Subtypes,GELU -> Softmax,Dropout (p=0.10),8710
+Complete Network,"54,675 Probes",128-D Latent + 2/6 Logits,Composite,Weight Decay (0.01) + Label Smooth,14114568

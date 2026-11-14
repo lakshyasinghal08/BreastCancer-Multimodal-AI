@@ -1,0 +1,11 @@
+{
+  "uncalibrated_ece": 0.0845,
+  "uncalibrated_mce": 0.124,
+  "uncalibrated_ace": 0.0812,
+  "calibrated_ece": 0.0367,
+  "calibrated_mce": 0.062,
+  "calibrated_ace": 0.0345,
+  "optimal_temperature_t": 1.18,
+  "brier_score": 0.0682,
+  "nll": 0.2315
+}

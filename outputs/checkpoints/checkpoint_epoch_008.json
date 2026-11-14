@@ -1,0 +1,12 @@
+{
+  "filepath": "checkpoint_epoch_008.pt",
+  "sha256": "bfbee54787a1c8fac89ec71aa94970b5b3577a7d762633f0c231524b0669c79d",
+  "epoch": 8,
+  "global_step": 480,
+  "metrics": {
+    "val_roc_auc": 0.9332,
+    "val_loss": 0.38728,
+    "val_f1": 0.8348
+  },
+  "timestamp": "2026-10-19T15:10:11.769019"
+}

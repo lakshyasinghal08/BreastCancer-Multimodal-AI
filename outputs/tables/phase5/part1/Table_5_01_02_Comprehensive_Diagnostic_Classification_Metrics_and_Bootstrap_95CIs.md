@@ -1,0 +1,17 @@
+| Performance Metric                    |   Observed Value |   95% CI Lower |   95% CI Upper | Clinical Diagnostic Interpretation           | Mathematical Definition    |
+|:--------------------------------------|-----------------:|---------------:|---------------:|:---------------------------------------------|:---------------------------|
+| Diagnostic Accuracy                   |           0.9111 |         0.8852 |         0.9338 | Overall fraction of correct diagnoses        | (TP+TN)/(TP+FP+TN+FN)      |
+| Sensitivity / Recall (Malignant)      |           0.8834 |         0.8342 |         0.922  | Ability to detect true malignancies          | TP / (TP + FN)             |
+| Specificity (Benign)                  |           0.9288 |         0.8958 |         0.9534 | Ability to identify benign conditions        | TN / (TN + FP)             |
+| Positive Predictive Value (Precision) |           0.8874 |         0.8402 |         0.9268 | Likelihood that a positive call is malignant | TP / (TP + FP)             |
+| Negative Predictive Value (NPV)       |           0.9261 |         0.8942 |         0.9515 | Likelihood that a negative call is benign    | TN / (TN + FN)             |
+| Balanced Accuracy                     |           0.9061 |         0.8785 |         0.9312 | Mean of Sensitivity and Specificity          | (Sens + Spec) / 2          |
+| F1-Score (Harmonic Mean)              |           0.8898 |         0.8582 |         0.9175 | Harmonic balance between Sens and PPV        | 2*(P*R)/(P+R)              |
+| Matthews Correlation Coeff (MCC)      |           0.8145 |         0.761  |         0.8625 | Balanced correlation coefficient (-1 to +1)  | Standard Confusion MCC     |
+| Cohen's Kappa Agreement (κ)           |           0.814  |         0.7595 |         0.8618 | Inter-rater agreement above chance           | Standard Chance Adjusted   |
+| Area Under ROC Curve (ROC-AUC)        |           0.9671 |         0.9528 |         0.9794 | Threshold-independent discrimination         | Trapezoidal Integration    |
+| Area Under PR Curve (PR-AUC)          |           0.9542 |         0.936  |         0.9698 | Precision-Recall trade-off curve area        | Average Precision Area     |
+| Logarithmic Loss (Binary Cross-Ent)   |           0.2315 |         0.1982 |         0.274  | Penalizes confident misclassifications       | -[y*log(p)+(1-y)*log(1-p)] |
+| Brier Probability Score               |           0.0682 |         0.0545 |         0.0832 | Mean squared error of probabilities          | mean((p - y)^2)            |
+| Expected Calibration Error (ECE)      |           0.0367 |         0.0245 |         0.051  | Discrepancy between conf and accuracy        | 10-Bin Uniform Calibration |
+| Maximum Calibration Error (MCE)       |           0.062  |         0.041  |         0.089  | Worst-bin calibration error                  | max(|acc_b - conf_b|)      |

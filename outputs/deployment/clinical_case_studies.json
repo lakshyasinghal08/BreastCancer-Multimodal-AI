@@ -1,0 +1,130 @@
+{
+  "total_cases_cataloged": 8,
+  "case_identifiers": [
+    "CASE-BC-01",
+    "CASE-BC-02",
+    "CASE-BC-03",
+    "CASE-BC-04",
+    "CASE-BC-05",
+    "CASE-BC-06",
+    "CASE-BC-07",
+    "CASE-BC-08"
+  ],
+  "archetypes": [
+    "Concordant True Negative (Benign)",
+    "Concordant True Positive (Malignant)",
+    "Challenging Borderline Case (MDT Routed)",
+    "False Positive (High Suspicion Benign Mimic)",
+    "False Negative (Occult Carcinoma Rescued)",
+    "High Epistemic Uncertainty (Data Conflict)",
+    "Missing Modalities: Imaging Only (No MRI/Genomics)",
+    "Missing Modalities: Non-Imaging Only (EHR + Genomics)"
+  ],
+  "patient_anonymity_audit": "100% De-identified (HIPAA Compliant)",
+  "cases": [
+    {
+      "Case ID": "CASE-BC-01",
+      "Case Archetype": "Concordant True Negative (Benign)",
+      "Patient Profile": "48yo Female, Pre-Menopausal, Dense Breast (BI-RADS c)",
+      "Confirmed Pathology": "Fibroadenoma (Benign)",
+      "Model Prob P(Malignant)": 0.042,
+      "Predicted Class": "Benign",
+      "Shannon Entropy H(p)": 0.048,
+      "MC Predictive Variance": 0.0028,
+      "Dominant Modality": "Ultrasound (42.5%)",
+      "Cross-Attention Saliency": "Well-circumscribed oval mass with parallel orientation",
+      "Clinical MDT Decision": "Routine 12-Month Annual Follow-up; Avoid Unnecessary Biopsy"
+    },
+    {
+      "Case ID": "CASE-BC-02",
+      "Case Archetype": "Concordant True Positive (Malignant)",
+      "Patient Profile": "62yo Female, Post-Menopausal, Fatty Breast (BI-RADS b)",
+      "Confirmed Pathology": "Invasive Ductal Carcinoma (Grade 3)",
+      "Model Prob P(Malignant)": 0.985,
+      "Predicted Class": "Malignant",
+      "Shannon Entropy H(p)": 0.035,
+      "MC Predictive Variance": 0.0019,
+      "Dominant Modality": "Mammography (38.2%) + MRI (34.1%)",
+      "Cross-Attention Saliency": "Spiculated mass with intense wash-out kinetics & TP53 mutation",
+      "Clinical MDT Decision": "Immediate Surgical Oncology & Neoadjuvant Chemotherapy Referral"
+    },
+    {
+      "Case ID": "CASE-BC-03",
+      "Case Archetype": "Challenging Borderline Case (MDT Routed)",
+      "Patient Profile": "54yo Female, Perimenopausal, Heterogeneously Dense (BI-RADS c)",
+      "Confirmed Pathology": "Atypical Ductal Hyperplasia (Borderline)",
+      "Model Prob P(Malignant)": 0.518,
+      "Predicted Class": "Equivocal (MDT Flagged)",
+      "Shannon Entropy H(p)": 0.582,
+      "MC Predictive Variance": 0.0195,
+      "Dominant Modality": "Discordant: MG (0.72) vs US (0.35) vs Histo (0.54)",
+      "Cross-Attention Saliency": "Microcalcification cluster without definite acoustic shadowing",
+      "Clinical MDT Decision": "Vacuum-Assisted Large-Core Biopsy & 6-Month Targeted Surveillance"
+    },
+    {
+      "Case ID": "CASE-BC-04",
+      "Case Archetype": "False Positive (High Suspicion Benign Mimic)",
+      "Patient Profile": "51yo Female, Post-Menopausal, Prior Surgery (Fat Necrosis)",
+      "Confirmed Pathology": "Complex Sclerosing Lesion / Radial Scar",
+      "Model Prob P(Malignant)": 0.742,
+      "Predicted Class": "Malignant (FP)",
+      "Shannon Entropy H(p)": 0.385,
+      "MC Predictive Variance": 0.0142,
+      "Dominant Modality": "Mammography (48.1%)",
+      "Cross-Attention Saliency": "Architectural distortion with radiating spicules mimicking carcinoma",
+      "Clinical MDT Decision": "Excisional Biopsy to Rule Out Underlying Tubular Carcinoma"
+    },
+    {
+      "Case ID": "CASE-BC-05",
+      "Case Archetype": "False Negative (Occult Carcinoma Rescued)",
+      "Patient Profile": "59yo Female, Post-Menopausal, Extremely Dense (BI-RADS d)",
+      "Confirmed Pathology": "Invasive Lobular Carcinoma (Grade 2)",
+      "Model Prob P(Malignant)": 0.415,
+      "Predicted Class": "Benign (FN; Uncertainty Triggered)",
+      "Shannon Entropy H(p)": 0.542,
+      "MC Predictive Variance": 0.0188,
+      "Dominant Modality": "Genomics (CDH1 loss) & MRI MIP Washout",
+      "Cross-Attention Saliency": "Single-file infiltrative cells lacking desmoplasia; masked on MG",
+      "Clinical MDT Decision": "Entropy Gating (H=0.54) Triggered Secondary MRI, Catching Malignancy"
+    },
+    {
+      "Case ID": "CASE-BC-06",
+      "Case Archetype": "High Epistemic Uncertainty (Data Conflict)",
+      "Patient Profile": "44yo Female, Pre-Menopausal, Strong Family History (BRCA1)",
+      "Confirmed Pathology": "Triple-Negative Metaplastic Carcinoma",
+      "Model Prob P(Malignant)": 0.635,
+      "Predicted Class": "Malignant (High Uncertainty)",
+      "Shannon Entropy H(p)": 0.615,
+      "MC Predictive Variance": 0.0245,
+      "Dominant Modality": "Genomics (44.2%) vs Clinical EHR (35.8%)",
+      "Cross-Attention Saliency": "Benign-appearing circumscribed ultrasound mass but high genomic risk",
+      "Clinical MDT Decision": "Fast-Track Genetic Oncology & Comprehensive Core Biopsy"
+    },
+    {
+      "Case ID": "CASE-BC-07",
+      "Case Archetype": "Missing Modalities: Imaging Only (No MRI/Genomics)",
+      "Patient Profile": "67yo Female, Community Clinic, Standard Screening",
+      "Confirmed Pathology": "Invasive Ductal Carcinoma (Grade 2)",
+      "Model Prob P(Malignant)": 0.942,
+      "Predicted Class": "Malignant",
+      "Shannon Entropy H(p)": 0.082,
+      "MC Predictive Variance": 0.0051,
+      "Dominant Modality": "Mammography (52.4%) + Ultrasound (47.6%)",
+      "Cross-Attention Saliency": "Dynamic binary attention masking cleanly bypassed missing MRI/Genomics",
+      "Clinical MDT Decision": "Diagnostic Confidence Sustained; Routine Surgical Planning"
+    },
+    {
+      "Case ID": "CASE-BC-08",
+      "Case Archetype": "Missing Modalities: Non-Imaging Only (EHR + Genomics)",
+      "Patient Profile": "39yo Female, Remote Telehealth Consultation",
+      "Confirmed Pathology": "Familial High-Risk BRCA2 Mutation Carrier",
+      "Model Prob P(Malignant)": 0.812,
+      "Predicted Class": "High Risk Malignant",
+      "Shannon Entropy H(p)": 0.165,
+      "MC Predictive Variance": 0.0092,
+      "Dominant Modality": "Genomics (64.5%) + EHR Vitals/History (35.5%)",
+      "Cross-Attention Saliency": "High pathogenic transcriptomic score with early-onset family history",
+      "Clinical MDT Decision": "Urgent In-Person Diagnostic Imaging & Prophylactic Counseling"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "mammography": "#0072B2",
+  "ultrasound": "#009E73",
+  "mri": "#D55E00",
+  "histopathology": "#CC79A7",
+  "genomics": "#E69F00",
+  "proteomics": "#56B4E9",
+  "clinical": "#F0E442",
+  "multimodal": "#332288",
+  "benign": "#117733",
+  "malignant": "#882255",
+  "uncertainty": "#AA4499",
+  "triage_auto": "#44AA99",
+  "triage_mdt": "#999933",
+  "background_card": "#F8F9FA",
+  "border": "#D1D5DB",
+  "text_dark": "#1F2937",
+  "text_muted": "#4B5563",
+  "accent": "#2563EB"
+}

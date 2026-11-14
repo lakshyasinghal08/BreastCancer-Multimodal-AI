@@ -1,0 +1,16 @@
+{
+  "version": "v2.5.0-modality-mask",
+  "mask_length": 7,
+  "modality_indices": {
+    "mammography": 0,
+    "ultrasound": 1,
+    "histopathology": 2,
+    "mri": 3,
+    "clinical": 4,
+    "ehr": 5,
+    "genomic": 6
+  },
+  "policy": "clinical_truth_preservation",
+  "missing_value_tensor": null,
+  "allow_synthetic_fallback": false
+}

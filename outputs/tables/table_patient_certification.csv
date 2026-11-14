@@ -1,0 +1,21 @@
+Patient_ID,Dataset_Sources,Modalities_Enrolled,Total_Samples,Diagnostic_Labels,Cross_Modality_Consistent,Namespace_Collision_Isolated,Patient_Certification
+100,Genomic,Genomic,1,HER,True,False,CERTIFIED
+101,Genomic,Genomic,1,basal,True,False,CERTIFIED
+102,Genomic,Genomic,1,basal,True,False,CERTIFIED
+10253,Histopathology,Histopathology,549,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10254,Histopathology,Histopathology,848,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10255,Histopathology,Histopathology,272,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10256,Histopathology,Histopathology,468,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10257,Histopathology,Histopathology,635,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10258,Histopathology,Histopathology,530,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10259,Histopathology,Histopathology,1465,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10260,Histopathology,Histopathology,1289,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10261,Histopathology,Histopathology,646,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10262,Histopathology,Histopathology,1807,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10264,Histopathology,Histopathology,1204,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10268,Histopathology,Histopathology,2109,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10269,Histopathology,Histopathology,1154,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10272,Histopathology,Histopathology,2175,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10273,Histopathology,Histopathology,2022,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10274,Histopathology,Histopathology,878,"Benign, Malignant (IDC)",True,False,CERTIFIED
+10275,Histopathology,Histopathology,1057,"Benign, Malignant (IDC)",True,False,CERTIFIED

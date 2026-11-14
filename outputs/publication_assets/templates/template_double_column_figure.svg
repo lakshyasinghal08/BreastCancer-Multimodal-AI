@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" width="180mm" height="90mm">
+  <rect x="0" y="0" width="1800" height="900" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1E293B">Fig. Y: Double-Column Full Width Journal Layout (180 mm Width)</text>
+  <rect x="60" y="100" width="800" height="720" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="940" y="100" width="800" height="720" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="460" y="470" font-family="Arial, sans-serif" font-size="26" fill="#64748B" text-anchor="middle">[Panel A: Architecture / Workflow]</text>
+  <text x="1340" y="470" font-family="Arial, sans-serif" font-size="26" fill="#64748B" text-anchor="middle">[Panel B: ROC / Calibration Dashboard]</text>
+  <text x="60" y="865" font-family="Arial, sans-serif" font-size="20" fill="#94A3B8">High-Resolution Multi-Panel Template | Vector SVG / PDF Master</text>
+</svg>

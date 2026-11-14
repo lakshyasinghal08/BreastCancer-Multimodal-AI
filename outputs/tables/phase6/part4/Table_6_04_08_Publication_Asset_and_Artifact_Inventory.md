@@ -1,0 +1,12 @@
+# Complete Publication Asset & Artifact File Inventory
+
+| Asset Category | Directory Location | File Formats Available | Total Files Count |
+| :--- | :--- | :--- | :--- |
+| Primary Manuscript | outputs/paper/ | DOCX, PDF, TEX, MD, HTML | 5 Files |
+| Supplementary Package | outputs/supplementary/ | DOCX, PDF, TEX, MD + JSONs | 15 Files |
+| Supplementary Figures | outputs/supplementary/figures/ | PNG (300 DPI), SVG, PDF | 36 Files |
+| Supplementary Tables | outputs/tables/phase6/part2/ | CSV, XLSX, MD, LaTeX | 48 Files |
+| Publication Graphics | outputs/publication_assets/ | PNG (600 DPI), SVG, PDF, EPS, PPTX | 170 Files |
+| Reusable Icons & Templates | outputs/publication_assets/icons|templates | SVG Vector Icons & Templates | 15 Files |
+| Submission Package | outputs/submission_package/ | DOCX, PDF, TEX, MD, CSV, XLSX | 68 Files |
+| Certification Reports | outputs/certification/phase6/ | JSON Formal Certification Audits | 22 Files |

@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "Phase_1",
+      "label": "Dataset Discovery & Harmonization",
+      "type": "data_phase"
+    },
+    {
+      "id": "Phase_2",
+      "label": "Patient-Level Data Engineering",
+      "type": "pipeline_phase"
+    },
+    {
+      "id": "Phase_3",
+      "label": "Seven Unimodal Expert Networks",
+      "type": "model_phase"
+    },
+    {
+      "id": "Phase_4",
+      "label": "Dynamic Mask-Aware Cross-Attention Fusion",
+      "type": "fusion_phase"
+    },
+    {
+      "id": "Phase_5",
+      "label": "Scientific Evaluation & Statistical Rigor",
+      "type": "eval_phase"
+    },
+    {
+      "id": "Phase_6_Part1",
+      "label": "Primary Research Manuscript",
+      "type": "dissemination"
+    },
+    {
+      "id": "Phase_6_Part2",
+      "label": "Supplementary Material Package",
+      "type": "dissemination"
+    },
+    {
+      "id": "Phase_6_Part3",
+      "label": "Publication Graphics Package",
+      "type": "dissemination"
+    },
+    {
+      "id": "Phase_6_Part4",
+      "label": "Journal Submission Package",
+      "type": "submission"
+    },
+    {
+      "id": "Phase_6_Part5",
+      "label": "Reproducibility Archive & Offline Deployment",
+      "type": "preservation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Phase_1",
+      "target": "Phase_2",
+      "relationship": "provides_harmonized_cohort"
+    },
+    {
+      "source": "Phase_2",
+      "target": "Phase_3",
+      "relationship": "provides_preprocessed_dataloaders"
+    },
+    {
+      "source": "Phase_3",
+      "target": "Phase_4",
+      "relationship": "provides_frozen_expert_weights"
+    },
+    {
+      "source": "Phase_4",
+      "target": "Phase_5",
+      "relationship": "provides_multimodal_checkpoints"
+    },
+    {
+      "source": "Phase_5",
+      "target": "Phase_6_Part1",
+      "relationship": "provides_scientific_evidence"
+    },
+    {
+      "source": "Phase_5",
+      "target": "Phase_6_Part2",
+      "relationship": "provides_extended_analyses"
+    },
+    {
+      "source": "Phase_5",
+      "target": "Phase_6_Part3",
+      "relationship": "provides_raw_visualizations"
+    },
+    {
+      "source": "Phase_6_Part1",
+      "target": "Phase_6_Part4",
+      "relationship": "packaged_for_submission"
+    },
+    {
+      "source": "Phase_6_Part2",
+      "target": "Phase_6_Part4",
+      "relationship": "appended_to_submission"
+    },
+    {
+      "source": "Phase_6_Part3",
+      "target": "Phase_6_Part4",
+      "relationship": "figure_assets_linked"
+    },
+    {
+      "source": "Phase_4",
+      "target": "Phase_6_Part5",
+      "relationship": "exported_to_offline_engine"
+    },
+    {
+      "source": "Phase_6_Part4",
+      "target": "Phase_6_Part5",
+      "relationship": "preserved_in_archive"
+    }
+  ]
+}

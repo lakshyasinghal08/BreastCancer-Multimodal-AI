@@ -1,0 +1,5 @@
+Modality_Key,Modality_Name,Target_Resolution,Channels,Supported_Transforms,Active_Transforms,Normalization
+CBIS-DDSM,Mammography,"[224, 224]",1,18,12,MinMax
+BUSI,Ultrasound,"[256, 256]",3,18,12,ImageNet
+BreakHis,Histopathology,"[224, 224]",3,18,11,ImageNet
+MRI,Magnetic Resonance Imaging,"[256, 256]",1,18,12,ZScore

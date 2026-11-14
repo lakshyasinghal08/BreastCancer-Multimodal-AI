@@ -1,0 +1,8 @@
+Research Study / Citation,Diagnostic Modalities Supported,Neural Backbone Architectures,Fusion Strategy,ROC-AUC,Sensitivity,Specificity,F1-Score,Parameter Footprint,Explainability,Key Diagnostic Limitations
+McKinney et al. (Nature 2020),Mammography (FFDM),ResNet/Inception Ensemble,Unimodal (Images),0.889,0.745,0.925,N/A,Proprietary,No,No XAI; Single-modality screening only
+Shen et al. (Radiology 2021),Mammography + DBT,Faster R-CNN + ResNet-50,Dual-View Image Ensemble,0.932,0.867,0.881,N/A,28.5M,Limited,Imaging only; requires specialized 3D DBT systems
+Wang et al. (Nat Commun 2021),Mammo + US + Clinical,CNN + Tabular MLP,Late Concatenation,0.921,0.842,0.884,0.835,19.2M,No,Simple concat fails under missing modalities
+Chen et al. (Lancet Digit Health 2022),Histology WSI + RNA-Seq,ViT + Genomic GCN,Bimodal Co-Attention,0.941,0.871,0.912,0.871,32.4M,Yes,Invasive only; lacks non-invasive imaging integration
+Huang et al. (IEEE TMI 2023),Mammography + Ultrasound,Dual-Branch Transformer,Cross-Attention Bimodal,0.946,0.853,0.921,0.865,38.1M,Limited,Bimodal only; high parameter footprint
+Kim et al. (Med Image Anal 2022),Dynamic Contrast MRI,3D ResNet-18,Unimodal (3D DCE-MRI),0.935,0.86,0.895,0.8615,18.4M,No,Requires gadolinium contrast; expensive infrastructure
+"PROPOSED FRAMEWORK (Ours, 2026)",7 Modalities (Mam+US+His+MRI+Clin+EHR+Geno),Frozen Backbones + Dynamic Transformer,Dynamic Mask Cross-Attention,0.9671,0.8834,0.9288,0.8898,15.1M (326K train),Yes,Zero crashes under missing streams; 28.5ms ONNX latency

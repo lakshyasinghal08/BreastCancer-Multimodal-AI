@@ -1,0 +1,27 @@
+{
+  "metrics_tracked": [
+    "loss",
+    "accuracy",
+    "f1_score",
+    "roc_auc",
+    "pr_auc",
+    "mcc",
+    "ece",
+    "grad_norm",
+    "lr"
+  ],
+  "hardware_telemetry": [
+    "cpu_percent",
+    "ram_used_gb",
+    "vram_allocated_gb",
+    "throughput_samples_per_s"
+  ],
+  "formats_supported": [
+    "JSON",
+    "CSV",
+    "Markdown",
+    "LaTeX",
+    "HTML"
+  ],
+  "sampling_rate": "per_batch_and_epoch"
+}

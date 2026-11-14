@@ -1,0 +1,22 @@
+{
+  "clinical_augmentation": {
+    "status": "DISABLED",
+    "supported_experimental_methods": [
+      "GaussianNoiseInjection",
+      "SMOTE",
+      "FeaturePerturbation",
+      "Mixup"
+    ],
+    "policy_rationale": "Clinical FNA biomarkers (Wisconsin dataset) represent verified empirical measurements (radius, perimeter, area, concave points). SMOTE or synthetic noise injection creates anatomically impossible cytology records that corrupt biomarker correlations and violate FDA SaMD clinical reproducibility standards."
+  },
+  "genomic_augmentation": {
+    "status": "DISABLED",
+    "supported_experimental_methods": [
+      "PerturbationDropout",
+      "ManifoldMixup",
+      "LatentGaussianJitter"
+    ],
+    "policy_rationale": "Genomic microarray expressions (GSE45827) contain 54,675 probe measurements across 151 patients. Synthetic vector fabrication generates ungrounded gene regulatory dynamics that destroy true co-expression networks and induce false-positive pathway associations."
+  },
+  "compliance_certification": "ISO-13485_Medical_AI_Integrity_PASS"
+}

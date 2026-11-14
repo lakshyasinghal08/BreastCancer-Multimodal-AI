@@ -1,0 +1,29 @@
+{
+  "model_name": "LightweightMultimodalNet",
+  "total_parameters": 817189,
+  "trainable_parameters": 817189,
+  "frozen_parameters": 0,
+  "architecture_type": "7-Modality Dynamic Mask-Aware Cross-Modal Attention",
+  "latent_dimension": 128,
+  "attention_heads": 4,
+  "classifier_classes": 2,
+  "best_epoch": 4,
+  "best_val_roc_auc": 0.947,
+  "best_val_accuracy": 0.8741,
+  "best_val_f1": 0.8459,
+  "best_val_mcc": 0.7414,
+  "best_val_ece": 0.049,
+  "serialization_formats": [
+    "PyTorch State Dict (.pt)",
+    "Full Package (.pt)",
+    "TorchScript Traced (.pt)"
+  ],
+  "integrity_audit": {
+    "checkpoint_file": "best_model.pt",
+    "max_inference_difference": 0.0,
+    "bitwise_identical": true,
+    "parameter_sha256": "e0ff38774e0ecb246f9727a6849a2daaa777f383fa3d9e164e11f76682bf1c80",
+    "num_parameters": 817189,
+    "status": "BITWISE_VERIFIED_PASS"
+  }
+}

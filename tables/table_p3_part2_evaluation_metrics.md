@@ -1,0 +1,9 @@
+| Metric Name                      | Category               | Mathematical Form                                    | Target Threshold   | Primary/Secondary              |
+|:---------------------------------|:-----------------------|:-----------------------------------------------------|:-------------------|:-------------------------------|
+| Area Under ROC (ROC-AUC)         | Discrimination         | Integral of TPR vs FPR over all thresholds           | >= 0.85            | Primary Optimization Criterion |
+| F1-Score (Harmonic Mean)         | Clinical Balance       | 2 * (Precision * Recall) / (Precision + Recall)      | >= 0.80            | Primary Clinical Metric        |
+| Balanced Accuracy                | Imbalance Robustness   | 0.5 * (Sensitivity + Specificity)                    | >= 0.80            | Secondary                      |
+| Matthews Correlation (MCC)       | Binary Correlation     | (TP*TN - FP*FN) / sqrt((TP+FP)(TP+FN)(TN+FP)(TN+FN)) | >= 0.65            | Secondary                      |
+| Expected Calibration Error (ECE) | Calibration Quality    | Sum_m (B_m / N) * |acc(B_m) - conf(B_m)|             | <= 0.08            | Reliability Audit              |
+| Brier Score                      | Probabilistic Accuracy | (1 / N) * Sum_i (prob_i - y_i)^2                     | <= 0.12            | Reliability Audit              |
+| Cohen's Kappa                    | Inter-Rater Agreement  | (p_o - p_e) / (1 - p_e)                              | >= 0.70            | Secondary                      |

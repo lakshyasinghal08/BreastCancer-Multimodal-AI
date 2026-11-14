@@ -1,0 +1,9 @@
+| Modality           | Cohort           |   Patients Available |   Patient Coverage (%) |   Sample Count | Tensor Ready   |
+|:-------------------|:-----------------|---------------------:|-----------------------:|---------------:|:---------------|
+| Mammography        | CBIS-DDSM        |                 1566 |                  81.65 |           3568 | YES            |
+| Ultrasound         | Dataset_BUSI     |                  780 |                  40.67 |            780 | YES            |
+| Histopathology     | BreakHis / IDC   |                  229 |                  11.94 |         470000 | YES            |
+| Magnetic Resonance | TCGA-BRCA MRI    |                  138 |                   7.2  |           1420 | YES            |
+| Clinical FNA       | Wisconsin (WDBC) |                  569 |                  29.67 |            569 | YES            |
+| EHR                | TCGA-BRCA EHR    |                 1097 |                  57.2  |           1097 | YES            |
+| Genomics           | GSE45827 / TCGA  |                  247 |                  12.88 |            247 | YES            |

@@ -1,0 +1,9 @@
+Compute Platform,Hardware Specs,Operational Mode,Batch Size,Latency (ms),Peak Memory (MB),Throughput (cases/sec)
+Server Accelerator,NVIDIA A100-SXM4 (80GB),High-Volume Screening,1,8.4,"1,420",119.0
+Server Accelerator,NVIDIA A100-SXM4 (80GB),High-Volume Batch,32,48.2,"3,850",663.9
+Workstation GPU,NVIDIA RTX 4090 (24GB),Departmental Reading,1,9.1,"1,380",109.9
+Workstation GPU,NVIDIA RTX 4090 (24GB),Departmental Batch,32,54.6,"3,620",586.1
+Enterprise Host CPU,Intel Xeon Platinum 8380,PACS Server Pipeline,1,42.5,880,23.5
+Enterprise Host CPU,Intel Xeon Platinum 8380,PACS Server Batch,16,298.4,"1,840",53.6
+Clinical Desktop CPU,Intel Core i7-12700K,Local Clinic Workstation,1,58.2,750,17.2
+Edge Workstation,Apple M2 Max (Metal),Mobile Ultrasound Unit,1,18.7,"1,120",53.5

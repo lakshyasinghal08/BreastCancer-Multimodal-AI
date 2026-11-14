@@ -1,0 +1,71 @@
+{
+  "deployment_target": "Phase 4 Multimodal Fusion Engine & Clinical Decision Support System",
+  "supported_inference_engines": [
+    "PyTorch 2.x",
+    "TorchScript JIT",
+    "ONNX Runtime 1.23+"
+  ],
+  "required_env_variables": {
+    "KMP_DUPLICATE_LIB_OK": "TRUE",
+    "MPMATH_NOGMPY": "1",
+    "SYMPY_GROUND_TYPES": "python"
+  },
+  "modalities": {
+    "mammography": {
+      "pt_checkpoint": "outputs/models/mammography/mammography_model_best.pt",
+      "torchscript": "outputs/models/mammography/mammography_model_torchscript.pt",
+      "onnx": "outputs/models/mammography/mammography_model.onnx",
+      "config": "outputs/models/mammography/mammography_model_config.json",
+      "metrics": "outputs/models/mammography/mammography_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "ultrasound": {
+      "pt_checkpoint": "outputs/models/ultrasound/ultrasound_model_best.pt",
+      "torchscript": "outputs/models/ultrasound/ultrasound_model_torchscript.pt",
+      "onnx": "outputs/models/ultrasound/ultrasound_model.onnx",
+      "config": "outputs/models/ultrasound/ultrasound_model_config.json",
+      "metrics": "outputs/models/ultrasound/ultrasound_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "histopathology": {
+      "pt_checkpoint": "outputs/models/histopathology/histopathology_model_best.pt",
+      "torchscript": "outputs/models/histopathology/histopathology_model_torchscript.pt",
+      "onnx": "outputs/models/histopathology/histopathology_model.onnx",
+      "config": "outputs/models/histopathology/histopathology_model_config.json",
+      "metrics": "outputs/models/histopathology/histopathology_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "mri": {
+      "pt_checkpoint": "outputs/models/mri/mri_model_best.pt",
+      "torchscript": "outputs/models/mri/mri_model_torchscript.pt",
+      "onnx": "outputs/models/mri/mri_model.onnx",
+      "config": "outputs/models/mri/mri_model_config.json",
+      "metrics": "outputs/models/mri/mri_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "clinical": {
+      "pt_checkpoint": "outputs/models/clinical/clinical_model_best.pt",
+      "torchscript": "outputs/models/clinical/clinical_model_torchscript.pt",
+      "onnx": "outputs/models/clinical/clinical_model.onnx",
+      "config": "outputs/models/clinical/clinical_model_config.json",
+      "metrics": "outputs/models/clinical/clinical_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "ehr": {
+      "pt_checkpoint": "outputs/models/ehr/ehr_model_best.pt",
+      "torchscript": "outputs/models/ehr/ehr_model_torchscript.pt",
+      "onnx": "outputs/models/ehr/ehr_model.onnx",
+      "config": "outputs/models/ehr/ehr_model_config.json",
+      "metrics": "outputs/models/ehr/ehr_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    },
+    "genomic": {
+      "pt_checkpoint": "outputs/models/genomic/genomic_model_best.pt",
+      "torchscript": "outputs/models/genomic/genomic_model_torchscript.pt",
+      "onnx": "outputs/models/genomic/genomic_model.onnx",
+      "config": "outputs/models/genomic/genomic_model_config.json",
+      "metrics": "outputs/models/genomic/genomic_metrics.json",
+      "status": "READY_FOR_DEPLOYMENT"
+    }
+  }
+}

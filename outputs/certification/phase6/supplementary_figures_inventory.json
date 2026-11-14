@@ -1,0 +1,23 @@
+{
+  "figures": [
+    "Supp_Fig_01",
+    "Supp_Fig_02",
+    "Supp_Fig_03",
+    "Supp_Fig_04",
+    "Supp_Fig_05",
+    "Supp_Fig_06",
+    "Supp_Fig_07",
+    "Supp_Fig_08",
+    "Supp_Fig_09",
+    "Supp_Fig_10",
+    "Supp_Fig_11",
+    "Supp_Fig_12"
+  ],
+  "formats_exported": [
+    "PNG_300DPI",
+    "SVG",
+    "PDF"
+  ],
+  "total_figure_files": 36,
+  "status": "ALL_EXPORTED"
+}

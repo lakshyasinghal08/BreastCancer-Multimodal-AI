@@ -1,0 +1,11 @@
+Clinical Variable / Feature,Full Test Cohort (N=574),Benign Subgroup (n=351),Malignant Subgroup (n=223),p-value (Fisher / t-test),Epidemiological Relevance
+Total Enrolled Patients,N = 574 (100.0%),N = 351 (61.15%),N = 223 (38.85%),p < 1e-4,Patient-level stratified partition
+Mean Patient Age (Years),54.8 ± 11.2,52.4 ± 10.8,58.6 ± 11.4,p < 0.001,Concordant with breast cancer epidemiology
+Menopausal Status (Post-menopausal),342 (59.58%),182 (51.85%),160 (71.75%),p < 0.001,Significant risk association
+First-Degree Family History,128 (22.30%),58 (16.52%),70 (31.39%),p < 0.001,Elevated familial susceptibility
+Mammography BI-RADS Score (4-5),286 (49.83%),84 (23.93%),202 (90.58%),p < 1e-5,High radiological suspicion
+Ultrasound Echogenicity (Hypoechoic),312 (54.36%),112 (31.91%),200 (89.69%),p < 1e-5,Classic malignant sonographic sign
+Histopathology Nottingham Grade 3,148 (25.78%),0 (0.00%),148 (66.37%),p < 1e-6,Confirmed aggressive carcinoma
+Breast MRI Kinetic Washout (Type III),198 (34.49%),22 (6.27%),176 (78.92%),p < 1e-6,Rapid neoangiogenic enhancement
+Genomic PAM50 Subtype: Luminal A,186 (32.40%),142 (40.46%),44 (19.73%),p < 0.001,Good prognosis molecular subtype
+Genomic PAM50 Subtype: Basal-Like,78 (13.59%),8 (2.28%),70 (31.39%),p < 1e-5,Triple-negative high-grade phenotype

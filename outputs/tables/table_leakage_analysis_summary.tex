@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Summary of Patient Leakage Audit and Protective Mitigation Policies}
+\label{tab:table_leakage_analysis_summary}
+\begin{tabular}{llll}
+\toprule
+Threat\_Vector & Observed\_Frequency & Risk\_Level & Mitigation\_Policy \\
+\midrule
+Intra-Dataset Multi-Tile Inflation & 229 IDC pts, 122 VGF pts & Severe (Cross-split tile contamination) & Enforce Patient-Level GroupKFold CV \\
+Cross-Dataset Patient Linkage & 47 TCGA patients & Benign (Authentic multimodal co-occurrence) & Integrate in joint multimodal evaluation \\
+Institutional Identifier Collision & 1 patient (8913) & Moderate (False linkage of distinct cases) & Enforce Cohort Prefix (CLIN\_8913 vs HIST\_8913) \\
+Duplicate Image References & 0 duplicates & None & Verified SHA-256 fingerprinting \\
+Repeated Genomic / Clinical Samples & 0 unaligned duplications & None & Manifest sample indexing \\
+\bottomrule
+\end{tabular}
+\end{table}

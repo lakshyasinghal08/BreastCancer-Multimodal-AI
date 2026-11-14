@@ -1,0 +1,9 @@
+\begin{tabular}{lrll}
+\toprule
+Cache\_Tier & Latency\_ms & Speedup\_vs\_Cold & Storage\_Type \\
+\midrule
+Cold Disk Read & 412.921000 & 1.0x & Raw Image File \\
+Disk Cache (.npy) & 22.727000 & 18.2x & Pre-converted Numpy \\
+Memory Cache (LRU) & 0.365000 & 1131.6x & RAM Buffer \\
+\bottomrule
+\end{tabular}

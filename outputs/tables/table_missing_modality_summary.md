@@ -1,0 +1,11 @@
+# Modality-Specific Missingness and Latent Imputation Policies
+
+| Modality       |   Present_Patients |   Missing_Patients | Missing_Rate_Pct   | Downstream_Strategy                                     |
+|:---------------|-------------------:|-------------------:|:-------------------|:--------------------------------------------------------|
+| Mammography    |                561 |               1358 | 70.77%             | Unimodal Feature Extractor / Learned Missing Mask Token |
+| Ultrasound     |                  0 |               1919 | 100.00%            | Unimodal Feature Extractor / Learned Missing Mask Token |
+| Histopathology |                344 |               1575 | 82.07%             | Unimodal Feature Extractor / Learned Missing Mask Token |
+| MRI            |                122 |               1797 | 93.64%             | Unimodal Feature Extractor / Learned Missing Mask Token |
+| Clinical       |                569 |               1350 | 70.35%             | Unimodal Feature Extractor / Learned Missing Mask Token |
+| EHR            |                335 |               1584 | 82.54%             | Unimodal Feature Extractor / Learned Missing Mask Token |
+| Genomic        |                273 |               1646 | 85.77%             | Unimodal Feature Extractor / Learned Missing Mask Token |

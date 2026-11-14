@@ -1,0 +1,10 @@
+| Checkpoint File         | File Size (MB)   | SHA-256 Bitwise Digest   | Integrity Status   |
+|:------------------------|:-----------------|:-------------------------|:-------------------|
+| checkpoint_epoch_001.pt | 9.82 MB          | 802f7aff14b5ded59e25...  | VERIFIED_VALID     |
+| checkpoint_epoch_003.pt | 9.82 MB          | b6cbace6279b9a526dbc...  | VERIFIED_VALID     |
+| checkpoint_epoch_005.pt | 9.82 MB          | 57894d7216ed29c0db73...  | VERIFIED_VALID     |
+| checkpoint_epoch_006.pt | 9.82 MB          | dcfed8bfabc74dd7b994...  | VERIFIED_VALID     |
+| checkpoint_epoch_007.pt | 9.82 MB          | dafc7a9c43950259fe49...  | VERIFIED_VALID     |
+| checkpoint_epoch_008.pt | 9.82 MB          | bfbee54787a1c8fac89e...  | VERIFIED_VALID     |
+| checkpoint_epoch_009.pt | 9.82 MB          | d309ca2b1419459faa90...  | VERIFIED_VALID     |
+| checkpoint_epoch_010.pt | 9.82 MB          | f8531ecaee2632b50c0f...  | VERIFIED_VALID     |

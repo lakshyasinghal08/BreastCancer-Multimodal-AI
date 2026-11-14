@@ -1,0 +1,88 @@
+{
+  "failure_modes_evaluated": 8,
+  "failure_scenarios": [
+    {
+      "Failure Scenario": "Baseline Gold Standard (All 7 Present)",
+      "Active Diagnostic Streams": "Mammo + US + Histo + MRI + Clin + EHR + Geno",
+      "Accuracy": 0.9111,
+      "ROC_AUC": 0.9671,
+      "F1_Score": 0.8898,
+      "AUC Retained (%)": 100.0,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Optimal Comprehensive Diagnostic Decision"
+    },
+    {
+      "Failure Scenario": "Missing Breast MRI (Allergy / Pacemaker)",
+      "Active Diagnostic Streams": "Mammo + US + Histo + Clin + EHR + Geno",
+      "Accuracy": 0.9094,
+      "ROC_AUC": 0.9658,
+      "F1_Score": 0.8875,
+      "AUC Retained (%)": 99.87,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Fully Acceptable; Histology compensates"
+    },
+    {
+      "Failure Scenario": "Missing Histopathology (Pre-Biopsy Screen)",
+      "Active Diagnostic Streams": "Mammo + US + MRI + Clin + EHR + Geno",
+      "Accuracy": 0.8902,
+      "ROC_AUC": 0.953,
+      "F1_Score": 0.8722,
+      "AUC Retained (%)": 98.54,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "High-Risk Screening Indication"
+    },
+    {
+      "Failure Scenario": "Missing Genomics (14-day Turnaround)",
+      "Active Diagnostic Streams": "Mammo + US + Histo + MRI + Clin + EHR",
+      "Accuracy": 0.9085,
+      "ROC_AUC": 0.9652,
+      "F1_Score": 0.8885,
+      "AUC Retained (%)": 99.8,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Standard Surgical Oncology Triage"
+    },
+    {
+      "Failure Scenario": "Missing EHR (Outside Referral Patient)",
+      "Active Diagnostic Streams": "Mammo + US + Histo + MRI + Clin + Geno",
+      "Accuracy": 0.9115,
+      "ROC_AUC": 0.9671,
+      "F1_Score": 0.8922,
+      "AUC Retained (%)": 100.0,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Zero Impact; Model immune to missing EHR"
+    },
+    {
+      "Failure Scenario": "Acellular FNA Cytology (Dry Tap)",
+      "Active Diagnostic Streams": "Mammo + US + Histo + MRI + EHR + Geno",
+      "Accuracy": 0.9103,
+      "ROC_AUC": 0.9664,
+      "F1_Score": 0.8902,
+      "AUC Retained (%)": 99.93,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Core Biopsy & Imaging resolve cytology void"
+    },
+    {
+      "Failure Scenario": "Non-Invasive Diagnostic Screen Only",
+      "Active Diagnostic Streams": "Mammo + US + Clin + EHR",
+      "Accuracy": 0.887,
+      "ROC_AUC": 0.9495,
+      "F1_Score": 0.869,
+      "AUC Retained (%)": 98.18,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Safe for Biopsy Triage Decision"
+    },
+    {
+      "Failure Scenario": "Severe Outage (Point-of-Care US Only)",
+      "Active Diagnostic Streams": "Ultrasound Only",
+      "Accuracy": 0.8502,
+      "ROC_AUC": 0.9185,
+      "F1_Score": 0.831,
+      "AUC Retained (%)": 94.97,
+      "Crash / NaN Status": "0 Crashes (Clean)",
+      "Clinical Safety": "Satisfies Minimum Feasibility Baseline (AUC >= 0.90)"
+    }
+  ],
+  "crashes_observed": 0,
+  "nan_values_observed": 0,
+  "graceful_degradation_verified": true
+}

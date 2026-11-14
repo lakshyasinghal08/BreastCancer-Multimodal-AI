@@ -1,0 +1,23 @@
+{
+  "phase6_tables": [
+    "Table_6_01_01_Manuscript_Metadata_and_Journal_Submission_Profile",
+    "Table_6_01_02_Manuscript_Structural_Sections_and_Completeness_Audit",
+    "Table_6_01_03_Key_Diagnostic_Performance_Metrics_Consistency_Matrix",
+    "Table_6_01_04_Multimodal_Dataset_Manifest_and_Cohort_Demographics",
+    "Table_6_01_05_Seven_Expert_Encoder_Architectural_Specifications",
+    "Table_6_01_06_Dynamic_Mask_Aware_Cross_Attention_Hyperparameters",
+    "Table_6_01_07_Ablation_Study_Statistical_Significance_Summary",
+    "Table_6_01_08_Benchmark_Comparison_Against_Published_Literature",
+    "Table_6_01_09_Clinical_Diagnostic_Workflow_and_Turnaround_Metrics",
+    "Table_6_01_10_Multi_Hardware_Inference_Latency_and_Throughput",
+    "Table_6_01_11_Peer_Reviewed_Literature_Reference_Taxonomy",
+    "Table_6_01_12_Phase_6_Part_1_Manuscript_Readiness_Scorecard"
+  ],
+  "formats_exported": [
+    "CSV",
+    "XLSX",
+    "MD",
+    "LATEX"
+  ],
+  "total_table_files": 48
+}

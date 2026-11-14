@@ -1,0 +1,16 @@
+{
+  "input_dimension": 128,
+  "hidden_dimension": 64,
+  "primary_head": {
+    "name": "Diagnostic Malignancy Head",
+    "classes": 2,
+    "activation": "Softmax"
+  },
+  "auxiliary_head": {
+    "name": "Molecular PAM50 Subtype Head",
+    "classes": 6,
+    "activation": "Softmax"
+  },
+  "uncertainty_metric": "Shannon Predictive Entropy H(p)",
+  "confidence_metric": "Maximum Class Probability max(p)"
+}

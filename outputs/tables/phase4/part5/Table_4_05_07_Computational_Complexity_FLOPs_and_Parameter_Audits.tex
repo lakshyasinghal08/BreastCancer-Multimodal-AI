@@ -1,0 +1,14 @@
+\begin{tabular}{lllll}
+\toprule
+Subsystem Module & Parameters & FLOPs (M) & Share of Total FLOPs (%) & Computational Role \\
+\midrule
+4 Vision Expert Backbones (Mammo, US, Histo, MRI) & 579,680 (Frozen) & 341.80 M & 92.03% & High-Resolution Spatial Feature Extraction \\
+Genomic Expert Network (54,675 Probes) & 14,114,568 (Frozen) & 28.20 M & 7.59% & Microarray Probe Embedding Projection \\
+Clinical FNA Cytology MLP (30 Features) & 43,490 (Frozen) & 0.08 M & 0.02% & Cytological Morphometric Embedding \\
+Electronic Health Record MLP (14 Features) & 61,442 (Frozen) & 0.12 M & 0.03% & Epidemiological Risk Encoding \\
+Modality Token Embedding & Gating Layers & 3,584 (Trainable) & 0.01 M & 0.00% & Learnable Token ID & Confidence Gating \\
+Cross-Attention Transformer (2 Layers, 4 Heads) & 264,192 (Trainable) & 1.06 M & 0.29% & Deep Inter-Modality Latent Exchange \\
+Dual-Head Classifier & Subtyping Heads & 58,512 (Trainable) & 0.12 M & 0.03% & Diagnostic Logits & PAM50 Subtypes \\
+TOTAL MULTIMODAL SYSTEM & 15,125,468 (326K Trainable) & 371.39 M & 100.00% & Full Multimodal Breast Cancer AI Engine \\
+\bottomrule
+\end{tabular}

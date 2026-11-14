@@ -1,0 +1,21 @@
+{
+  "methods_validated": [
+    "Grad-CAM",
+    "Grad-CAM++",
+    "Integrated Gradients",
+    "Kernel SHAP / TreeSHAP",
+    "Attention Rollout",
+    "Occlusion Sensitivity"
+  ],
+  "mean_run_to_run_stability": 0.9994,
+  "mean_rank_correlation": 0.9989,
+  "cross_method_iou_gcam_vs_gcampp": 0.842,
+  "spatial_methods_evaluated": [
+    "Grad-CAM",
+    "Grad-CAM++",
+    "Integrated Gradients",
+    "Attention Rollout",
+    "Occlusion"
+  ],
+  "status": "VALIDATED_AND_STABLE"
+}

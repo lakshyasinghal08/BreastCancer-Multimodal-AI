@@ -1,0 +1,38 @@
+{
+  "modalities_evaluated": [
+    "Mammography",
+    "Ultrasound",
+    "Histopathology",
+    "Breast MRI",
+    "Clinical",
+    "EHR",
+    "Genomics"
+  ],
+  "mean_gating_weights": {
+    "Histopathology": 0.242,
+    "Mammography": 0.198,
+    "Breast MRI": 0.171,
+    "Ultrasound": 0.165,
+    "Genomic Microarray": 0.121,
+    "Clinical Tabular": 0.075,
+    "Electronic Health Record": 0.068
+  },
+  "attention_entropy": {
+    "Histopathology": 1.482,
+    "Mammography": 1.514,
+    "Breast MRI": 1.538,
+    "Ultrasound": 1.545,
+    "Genomic Microarray": 1.612,
+    "Clinical Tabular": 1.685,
+    "Electronic Health Record": 1.71
+  },
+  "modality_ranking": [
+    "Histopathology",
+    "Mammography",
+    "Breast MRI",
+    "Ultrasound",
+    "Genomic Microarray",
+    "Clinical Tabular",
+    "Electronic Health Record"
+  ]
+}

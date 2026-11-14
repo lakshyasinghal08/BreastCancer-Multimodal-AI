@@ -1,0 +1,17 @@
+{
+  "total_citations": 52,
+  "landmark_journals": [
+    "Nature",
+    "Lancet",
+    "NEJM",
+    "Radiology",
+    "IEEE TMI",
+    "JAMA",
+    "MedIA",
+    "NeurIPS",
+    "ICML"
+  ],
+  "years_covered": "1950 - 2026",
+  "median_publication_year": 2020,
+  "citation_style": "IEEE Numerical / Vancouver Format"
+}

@@ -1,0 +1,9 @@
+| detected_modality   |   Total_Samples |   Unique_Patients |
+|:--------------------|----------------:|------------------:|
+| Clinical            |             569 |               569 |
+| EHR                 |             334 |               334 |
+| Genomic             |             151 |               151 |
+| Histopathology      |          301627 |               344 |
+| MRI                 |          173570 |               122 |
+| Mammography         |             882 |               561 |
+| Ultrasound          |             780 |                 0 |

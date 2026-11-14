@@ -1,0 +1,8 @@
+Pipeline_Stage,Tensor_Shape,Dtype,Memory_Footprint_per_Sample
+Raw Input Tensors,Heterogeneous [Images + Vectors],torch.float32,"1,205.6 KB"
+Encoder Latent Projections,"7x (B, 128)",torch.float32,3.5 KB
+Harmonized Sequence,"(B, 7, 128)",torch.float32,3.5 KB
+Cross-Modal Fused Vector,"(B, 128)",torch.float32,0.5 KB
+Diagnostic Output Logits,"(B, 2)",torch.float32,0.01 KB
+Uncertainty Output,"(B, 1)",torch.float32,0.005 KB
+Modality Attention Weights,"(B, 7)",torch.float32,0.03 KB

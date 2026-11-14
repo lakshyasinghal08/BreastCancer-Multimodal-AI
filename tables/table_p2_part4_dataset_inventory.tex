@@ -1,0 +1,13 @@
+\begin{tabular}{llrrlll}
+\toprule
+Dataset Name & Modality & Patient Count & Sample Count & Input Shape & Diagnostic Balance & Format \\
+\midrule
+CBIS-DDSM & Mammography & 891 & 10239 & (1, 224, 224) & Benign: 4,812 / Malignant: 5,427 & DICOM / PNG \\
+BUSI & Ultrasound & 600 & 780 & (3, 256, 256) & Benign: 437 / Malignant: 210 / Normal: 133 & PNG \\
+BreakHis & Histopathology & 82 & 7909 & (3, 224, 224) & Benign: 2,480 / Malignant: 5,429 & PNG (40x, 100x, 200x, 400x) \\
+TCGA-BRCA MRI & MRI & 139 & 456200 & (1, 256, 256) & Malignant: 456,200 (Invasive Ductal) & DICOM / PNG Slices \\
+Wisconsin Diagnostic FNA & Clinical & 569 & 569 & (30,) & Benign: 357 / Malignant: 212 & Tabular CSV \\
+TCGA-BRCA EHR & EHR & 1097 & 1097 & (11,) & Infiltrating Ductal / Lobular Carcinoma & Tabular Clinical XML/CSV \\
+GSE45827 Genomic & Genomic & 151 & 151 & (54675,) & Basal: 41, HER2: 30, LumA: 40, LumB: 30, Normal: 10 & Microarray Expression Matrix \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,35 @@
+{
+  "experiment_id": "Phase3_Part3.6_Real_Multimodal_Training",
+  "timestamp": "2026-10-19T17:03:19.854556",
+  "status": "COMPLETED_AND_CERTIFIED",
+  "patient_cohorts": {
+    "train": 1889,
+    "validation": 405,
+    "test": 574
+  },
+  "modalities_evaluated": [
+    "mammography",
+    "ultrasound",
+    "histopathology",
+    "mri",
+    "clinical",
+    "ehr",
+    "genomic"
+  ],
+  "training_epochs": 10,
+  "peak_metrics": {
+    "val_roc_auc": 0.947,
+    "val_acc": 0.8741,
+    "val_f1": 0.8459,
+    "val_mcc": 0.7414,
+    "val_ece": 0.049
+  },
+  "exported_models": [
+    "model_best.pt",
+    "model_best_roc_auc.pt",
+    "model_best_f1.pt",
+    "model_best_loss.pt",
+    "model_final.pt",
+    "model_torchscript.pt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "status": "CERTIFIED",
+  "all_passed": true,
+  "modalities": {
+    "mammography": {
+      "tested": true,
+      "shape": [
+        1,
+        512,
+        512
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "ultrasound": {
+      "tested": true,
+      "shape": [
+        1,
+        256,
+        256
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "histopathology": {
+      "tested": true,
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "mri": {
+      "tested": true,
+      "shape": [
+        1,
+        256,
+        256
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "clinical": {
+      "tested": true,
+      "shape": [
+        30
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "ehr": {
+      "tested": true,
+      "shape": [
+        18
+      ],
+      "has_nan": false,
+      "has_inf": false
+    },
+    "genomic": {
+      "tested": true,
+      "shape": [
+        54675
+      ],
+      "has_nan": false,
+      "has_inf": false
+    }
+  }
+}

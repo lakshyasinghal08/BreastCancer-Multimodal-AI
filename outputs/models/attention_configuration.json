@@ -1,0 +1,15 @@
+{
+  "attention_type": "Multi-Head Scaled Dot-Product Cross-Attention",
+  "embed_dim": 128,
+  "num_heads": 4,
+  "head_dim": 32,
+  "dropout": 0.15,
+  "key_padding_mask_support": true,
+  "missing_modality_handling": "Attention Weight Softmax Exclusion (-1e9 Masking)",
+  "layers": 2,
+  "attention_matrix_shape": [
+    4,
+    8,
+    8
+  ]
+}

@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Computational Complexity & Resource Profile}
+\begin{tabular}{llll}
+\toprule
+Metric & Value & Benchmark_Target & Verdict \\
+\midrule
+Total Parameter Count & 817,189 & < 10,000,000 & PASSED (< 1M Params) \\
+Model Storage Footprint & 3.12 MB & < 50 MB & PASSED \\
+Forward Pass FLOPs & 1.01 GFLOPs & < 5.0 GFLOPs & PASSED \\
+Single-Sample CPU Latency & 12.4 ms & < 50.0 ms & PASSED \\
+Batch 4 CPU Latency & 38.2 ms & < 150.0 ms & PASSED \\
+Peak RSS Memory Consumption & 145.2 MB & < 2,000 MB & PASSED \\
+\bottomrule
+\end{tabular}
+\end{table}

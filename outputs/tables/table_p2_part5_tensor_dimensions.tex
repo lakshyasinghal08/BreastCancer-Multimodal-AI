@@ -1,0 +1,13 @@
+\begin{tabular}{lllrlrl}
+\toprule
+Modality & Raw Format & Tensor Shape & Channels & PyTorch Dtype & Memory Footprint (KB) & Normalization \\
+\midrule
+Mammography & DICOM / 16-bit PNG & [1, 512, 512] & 1 & torch.float32 & 1024.000000 & Zero-Centered [-1, 1] \\
+Ultrasound & 8-bit PNG & [1, 256, 256] & 1 & torch.float32 & 256.000000 & Zero-Centered [-1, 1] \\
+Histopathology & RGB PNG Patches & [3, 224, 224] & 3 & torch.float32 & 588.000000 & ImageNet (mean/std) \\
+Magnetic Resonance & DCE-MRI Series & [1, 256, 256] & 1 & torch.float32 & 256.000000 & Zero-Centered [-1, 1] \\
+Clinical FNA & Continuous Tabular & [30] & 30 & torch.float32 & 0.120000 & Z-Score (RobustScaler) \\
+Electronic Health Record & Mixed Tabular / Categorical & [16] & 16 & torch.float32 & 0.060000 & Z-Score + One-Hot \\
+Genomics / Transcriptomics & RNA-seq \& CNV Probes & [331] & 331 & torch.float32 & 1.320000 & Log2 + Standardized \\
+\bottomrule
+\end{tabular}

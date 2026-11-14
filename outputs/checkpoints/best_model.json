@@ -1,0 +1,12 @@
+{
+  "filepath": "best_model.pt",
+  "sha256": "95a97fb4dcbbb71d096a4306ebca9f9ab4aa701ed8c942c466cc4d9582fd1aa5",
+  "epoch": 4,
+  "global_step": 240,
+  "metrics": {
+    "val_roc_auc": 0.947,
+    "val_loss": 0.33958,
+    "val_f1": 0.8459
+  },
+  "timestamp": "2026-10-19T09:29:18.921034"
+}

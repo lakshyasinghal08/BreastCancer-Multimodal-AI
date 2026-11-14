@@ -1,0 +1,11 @@
+{
+  "type": "CrossModalAttentionFusion",
+  "d_embed": 128,
+  "num_heads": 4,
+  "head_dim": 32,
+  "ffn_expansion": 2,
+  "dropout": 0.1,
+  "mask_aware_key_masking": true,
+  "learnable_gating": true,
+  "params": 136641
+}

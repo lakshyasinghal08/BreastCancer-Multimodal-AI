@@ -1,0 +1,7 @@
+{
+  "image_perturbations_evaluated": 11,
+  "non_image_perturbations_evaluated": 6,
+  "minimum_auc_under_single_perturbation": 0.952,
+  "minimum_auc_under_severe_stress": 0.948,
+  "zero_exceptions_verified": true
+}

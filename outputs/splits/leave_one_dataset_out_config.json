@@ -1,0 +1,51 @@
+{
+  "CBIS-DDSM": {
+    "test_dataset": "CBIS-DDSM",
+    "test_patients": 561,
+    "test_samples": 882,
+    "train_patients": 1357,
+    "train_samples": 477031
+  },
+  "Dataset_BUSI_with_GT": {
+    "test_dataset": "Dataset_BUSI_with_GT",
+    "test_patients": 1,
+    "test_samples": 780,
+    "train_patients": 1917,
+    "train_samples": 477133
+  },
+  "Clinical": {
+    "test_dataset": "Clinical",
+    "test_patients": 569,
+    "test_samples": 569,
+    "train_patients": 1349,
+    "train_samples": 477344
+  },
+  "EHR": {
+    "test_dataset": "EHR",
+    "test_patients": 334,
+    "test_samples": 334,
+    "train_patients": 1584,
+    "train_samples": 477579
+  },
+  "Genomic": {
+    "test_dataset": "Genomic",
+    "test_patients": 151,
+    "test_samples": 151,
+    "train_patients": 1767,
+    "train_samples": 477762
+  },
+  "Histopathology": {
+    "test_dataset": "Histopathology",
+    "test_patients": 229,
+    "test_samples": 224872,
+    "train_patients": 1689,
+    "train_samples": 253041
+  },
+  "Vision_Genomic_Fusion": {
+    "test_dataset": "Vision_Genomic_Fusion",
+    "test_patients": 122,
+    "test_samples": 250325,
+    "train_patients": 1796,
+    "train_samples": 227588
+  }
+}

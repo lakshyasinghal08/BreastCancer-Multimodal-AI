@@ -1,0 +1,74 @@
+{
+  "audit_timestamp": "2026-10-14T09:59:48+0530",
+  "directory_structure": [
+    {
+      "directory": "outputs",
+      "exists": true,
+      "item_count": 0,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "models",
+      "exists": true,
+      "item_count": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "logs",
+      "exists": true,
+      "item_count": 0,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "tables",
+      "exists": true,
+      "item_count": 350,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "figures",
+      "exists": true,
+      "item_count": 250,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "reports",
+      "exists": true,
+      "item_count": 68,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "config",
+      "exists": true,
+      "item_count": 9,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "splits",
+      "exists": true,
+      "item_count": 20,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "cache",
+      "exists": true,
+      "item_count": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "directory": "publication",
+      "exists": true,
+      "item_count": 1,
+      "status": "VERIFIED"
+    }
+  ],
+  "artifact_summary": {
+    "total_reports": 68,
+    "total_figures": 223,
+    "total_tables": 314,
+    "total_configs": 9,
+    "total_splits": 20,
+    "total_cache_entries": 1
+  },
+  "overall_structure_status": "CERTIFIED_VALID"
+}

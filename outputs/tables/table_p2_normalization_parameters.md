@@ -1,0 +1,9 @@
+| Modality       | Input_Domain                   | Transform                      | Mean                  | Std                   | Target_Range   |
+|:---------------|:-------------------------------|:-------------------------------|:----------------------|:----------------------|:---------------|
+| Mammography    | Grayscale Pixel [0, 255]       | Scale [0, 1] -> Standardize    | 0.5000                | 0.5000                | [-1.0, 1.0]    |
+| Ultrasound     | Grayscale B-Mode [0, 255]      | Scale [0, 1] -> Standardize    | 0.5000                | 0.5000                | [-1.0, 1.0]    |
+| Histopathology | RGB 3-Channel [0, 255]         | Scale [0, 1] -> ImageNet Norm  | [0.485, 0.456, 0.406] | [0.229, 0.224, 0.225] | [-2.1, 2.6]    |
+| Breast MRI     | DCE Axial Slice [0, 255]       | Scale [0, 1] -> Contrast Norm  | 0.5000                | 0.5000                | [-1.0, 1.0]    |
+| Clinical FNA   | 30 Continuous FNA Metrics      | StandardScaler (Z-Score)       | Empirical Mean        | Empirical Std         | Z ~ N(0, 1)    |
+| TCGA EHR       | Clinical & Demographic Metrics | Median Impute + StandardScaler | Empirical Mean        | Empirical Std         | Z ~ N(0, 1)    |
+| Genomics       | Microarray Hybridization / RNA | Log2(x + 1) + Gene Z-Score     | Empirical Log2 Mean   | Empirical Log2 Std    | Z ~ N(0, 1)    |

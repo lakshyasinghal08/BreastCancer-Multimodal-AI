@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Tier-Stratified Hospital Infrastructure Specifications and Operational Requirements}
+\label{tab:table_5_03_07_tier_stratified_clinical_deployment_hardware_requirements}
+\begin{tabular}{llllll}
+\toprule
+Deployment Tier & Target Infrastructure & Minimum Memory & Network Bandwidth & PACS / EHR Integration & Expected Workload \\
+\midrule
+Tier-1: Academic Medical Center / Enterprise Cloud & Kubernetes Cluster with 2-4x NVIDIA A100/H100 GPUs & 64 GB System RAM, 24 GB VRAM per worker & 10 Gbps Ethernet / InfiniBand & HL7 v2 / FHIR REST API, DICOM C-STORE / WADO-RS & > 10,000 cases / day; Multi-Center Federated Ingestion \\
+Tier-2: Regional Hospital Radiology Department & Single On-Premises Server with 1x NVIDIA RTX 4090/A4000 GPU & 32 GB System RAM, 16 GB VRAM & 1 Gbps Local Hospital LAN & Local DICOM Node, Scheduled EHR CSV / HL7 Drop & 500 - 2,000 cases / day; Interactive Radiologist Reading \\
+Tier-3: Community Clinic / Resource-Constrained Mobile Unit & Standard Commercial Desktop / High-End Laptop (Intel/AMD CPU) & 16 GB System RAM, Integrated or Consumer Graphics & Standard Broadband or 5G Cellular & Direct USB / Local Folder Ingestion, PDF / Web UI Output & 20 - 100 cases / day; Offline-First Point-of-Care Triage \\
+\bottomrule
+\end{tabular}
+\end{table}

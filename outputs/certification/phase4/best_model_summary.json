@@ -1,0 +1,39 @@
+{
+  "model_name": "BreastCancerMultimodalFusionNetwork",
+  "best_epoch": 8,
+  "selection_rationale": "Peak Validation ROC-AUC (0.9685) & Harmonic F1-Score (0.8924)",
+  "validation_metrics": {
+    "accuracy": 0.9136,
+    "balanced_accuracy": 0.9078,
+    "precision": 0.9014,
+    "recall_sensitivity": 0.8837,
+    "specificity": 0.9318,
+    "f1_score": 0.8924,
+    "matthews_corr_coef": 0.8192,
+    "cohen_kappa": 0.8178,
+    "roc_auc": 0.9685,
+    "pr_auc": 0.9572,
+    "expected_calibration_error": 0.0348,
+    "brier_score": 0.0698,
+    "log_loss": 0.2492
+  },
+  "test_set_performance": {
+    "accuracy": 0.9118,
+    "balanced_accuracy": 0.9062,
+    "precision": 0.8995,
+    "recall_sensitivity": 0.8814,
+    "specificity": 0.931,
+    "f1_score": 0.8904,
+    "matthews_corr_coef": 0.8155,
+    "cohen_kappa": 0.8142,
+    "roc_auc": 0.9672,
+    "pr_auc": 0.9558,
+    "expected_calibration_error": 0.0354
+  },
+  "generalization_gap": {
+    "accuracy_gap": 0.0018,
+    "roc_auc_gap": 0.0013,
+    "f1_gap": 0.002,
+    "overfitting_verdict": "ZERO_MEANINGFUL_OVERFITTING"
+  }
+}

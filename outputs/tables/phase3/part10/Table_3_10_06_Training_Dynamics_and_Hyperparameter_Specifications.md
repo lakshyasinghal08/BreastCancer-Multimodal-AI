@@ -1,0 +1,9 @@
+| Modality | Total_Epochs | Optimal_Epoch | Optimizer | Peak_Learning_Rate | Weight_Decay | Scheduler | Loss_Objective |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mammography | 50 | 38 | AdamW | 1.0e-4 | 1.0e-2 | CosineAnnealingLR | Focal Loss (gamma=2.0) |
+| Ultrasound | 50 | 41 | AdamW | 1.0e-4 | 1.0e-2 | CosineAnnealingLR | Focal Loss (gamma=2.0) |
+| Histopathology | 50 | 44 | AdamW | 1.0e-4 | 1.0e-2 | CosineAnnealingLR | Cross-Entropy + Label Smoothing |
+| Breast MRI | 50 | 39 | AdamW | 1.0e-4 | 1.0e-2 | CosineAnnealingLR | Weighted Cross-Entropy |
+| Clinical Tabular | 35 | 10 | AdamW | 3.0e-4 | 1.0e-2 | WarmupCosineAnnealing | Label-Smoothed Weighted CE |
+| Electronic Health Record | 35 | 4 | AdamW | 2.0e-4 | 1.0e-2 | WarmupCosineAnnealing | Class-Weighted Focal Loss |
+| Genomic Microarray | 25 | 11 | AdamW | 5.0e-5 | 1.0e-3 | CosineAnnealingLR | Multi-Task Weighted CE |

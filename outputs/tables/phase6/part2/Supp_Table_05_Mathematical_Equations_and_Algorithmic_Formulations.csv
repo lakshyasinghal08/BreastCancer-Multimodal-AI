@@ -1,0 +1,8 @@
+Algorithmic Formulation,Mathematical Formulation,Application Context
+Standardized Latent Projection,h_m = LayerNorm(W_m * f_m(x_m) + b_m),Aligns heterogeneous modalities into unified R^128 space
+Mask-Aware Cross-Attention,softmax(Q*K^T / sqrt(d_k) + S_mask) * V,Enforces mathematical invariance under arbitrary missing modalities
+Binary Cross-Entropy Loss,L = - [y * log(p) + (1-y) * log(1-p)],Primary optimization objective during multimodal fusion training
+Parametric Temperature Scaling,"p_cal = sigma(z / T*), with T* = 1.18",Post-hoc calibration minimizing validation negative log-likelihood
+Shannon Predictive Entropy,H(p) = - [p * log2(p) + (1-p) * log2(1-p)],Measures total predictive uncertainty for autonomous clinical triage
+Monte Carlo Epistemic Variance,sigma^2_MC = (1/T) * sum((p^(t) - p_bar)^2),Isolates model uncertainty from data noise across 50 stochastic passes
+DeLong Paired ROC Test,Z = (AUC_1 - AUC_2) / sqrt(Var(AUC_1 - AUC_2)),Statistical significance testing between correlated ROC curves

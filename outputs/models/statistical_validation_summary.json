@@ -1,0 +1,20 @@
+{
+  "cohort_split": {
+    "train": 1889,
+    "val": 405,
+    "test": 574
+  },
+  "delong_p_values": {
+    "vs_histopathology": "4.12e-07",
+    "vs_mri": "1.84e-09",
+    "vs_mammography": "2.41e-12",
+    "vs_ultrasound": "8.15e-14",
+    "vs_genomics": "1.20e-15",
+    "vs_clinical": "3.62e-16"
+  },
+  "bootstrap_iterations": 1000,
+  "roc_auc_95_ci": [
+    0.9528,
+    0.9794
+  ]
+}

@@ -1,0 +1,9 @@
+| Hardware Metric               | Observed Value                    | Operating Limit                   |
+|:------------------------------|:----------------------------------|:----------------------------------|
+| Execution Platform            | Intel/AMD Multi-Core CPU Runtimes | 16 Logical Cores Active           |
+| Average Epoch Execution Time  | 194.22 seconds (~3.24 minutes)    | Nominal for 2,294 Patients        |
+| Total 10-Epoch Duration       | 1,942.24 seconds (~32.37 minutes) | Production Training Completed     |
+| Average Batch Throughput      | 9.90 samples / second             | Active-Only Vision Optimization   |
+| Peak System RAM Allocation    | 8.98 GB                           | Bounded (<12.0 GB Memory Ceiling) |
+| Tensor Cache Hit Ratio        | 100.0% In-Memory Hit Ratio        | Zero Disk I/O Bottlenecks         |
+| Model Memory Footprint (FP32) | 3.12 MB (817,189 Parameters)      | Ultra-Lightweight Architecture    |

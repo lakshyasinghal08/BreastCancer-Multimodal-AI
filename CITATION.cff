@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you utilize this framework or research artifacts in your scientific work, please cite it as below."
+title: "Multimodal Deep Learning for Breast Cancer Diagnosis, Staging, and Risk Stratification Across Seven Clinical Modalities"
+version: 1.0.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/institutional-archive/BreastCancer-Multimodal-AI"
+keywords:
+  - "breast cancer diagnosis"
+  - "multimodal deep learning"
+  - "cross-attention fusion"
+  - "explainable ai"
+  - "dense breast rescue"
+  - "medical imaging"
+authors:
+  - name: "Multimodal Breast Cancer AI Collaborative Research Consortium"
+    affiliation: "Comprehensive Cancer Center & Center for Machine Learning in Medicine"
+preferred-citation:
+  type: article
+  authors:
+    - name: "Multimodal Breast Cancer AI Collaborative Research Consortium"
+  title: "Multimodal Deep Learning for Breast Cancer Diagnosis, Staging, and Risk Stratification Across Seven Clinical Modalities"
+  year: 2026
+  status: "submitted"
+

@@ -1,0 +1,14 @@
+\begin{tabular}{lll}
+\toprule
+Benchmark Metric & Execution Mode & Measured Value \\
+\midrule
+Batch Size 1 Step Latency & Single Patient Real-time & 0.375 ms (P99: 0.569 ms) \\
+Batch Size 1 Throughput & Single Patient Real-time & 2669.0 patients/sec \\
+Batch Size 16 Step Latency & Batched Production Mode & 0.471 ms \\
+Batch Size 16 Throughput & Batched Production Mode & 34002.0 patients/sec \\
+Batch Size 32 Step Latency & High-Throughput Mode & 0.453 ms \\
+Batch Size 32 Throughput & High-Throughput Mode & 70697.6 patients/sec \\
+Total Network Parameters & In-Memory Float32 & 61,442 parameters (240.01 KB) \\
+Theoretical FLOPs per Sample & Multiply-Add Forward Pass & 119,040 FLOPs (\textasciitilde 0.12 MFLOPs) \\
+\bottomrule
+\end{tabular}

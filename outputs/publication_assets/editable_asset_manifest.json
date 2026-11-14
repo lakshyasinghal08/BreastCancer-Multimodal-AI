@@ -1,0 +1,12 @@
+{
+  "pptx_presentation": "outputs/publication_assets/editable/Publication_Graphics_Package_Editable.pptx",
+  "editable_svg_count": 34,
+  "svg_icons_count": 12,
+  "svg_templates_count": 3,
+  "software_compatibility": [
+    "Adobe Illustrator",
+    "Inkscape",
+    "Microsoft PowerPoint",
+    "LaTeX TikZ"
+  ]
+}

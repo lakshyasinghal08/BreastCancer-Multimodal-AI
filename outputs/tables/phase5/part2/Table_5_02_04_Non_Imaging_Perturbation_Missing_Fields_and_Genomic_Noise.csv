@@ -1,0 +1,7 @@
+Perturbation Scenario,Clinical Simulation Mechanism,Accuracy,ROC-AUC,PR-AUC,F1-Score,Delta ROC-AUC,AUC Retained (%),Exception Status,Clinical Safety Assessment
+Missing 20% Clinical Demographics,Simulates unrecorded BMI / parity,0.9094,0.9655,0.9522,0.8875,-0.0016,99.83%,0 Crashes,Negligible Impact
+Missing 50% Clinical Demographics,Simulates intake questionnaire gaps,0.9059,0.963,0.9495,0.8831,-0.0041,99.58%,0 Crashes,Highly Robust
+Missing Longitudinal EHR Labs,Simulates uncollected blood chemistry,0.9077,0.964,0.9508,0.8855,-0.0031,99.68%,0 Crashes,Highly Robust
+20% Random Genomic Probe Noise,Simulates microfluidic hybridization noise,0.9077,0.9648,0.9515,0.8855,-0.0023,99.76%,0 Crashes,Highly Robust
+50% Random Genomic Probe Noise,Simulates poor quality RNA extraction,0.9024,0.961,0.947,0.8788,-0.0061,99.37%,0 Crashes,Robust
+Combined Stress: Noise + Blur + EHR Loss,Simulates chaotic emergency department,0.8868,0.948,0.929,0.858,-0.0191,98.02%,0 Crashes,Certified Safe Under Multi-Fault Outage

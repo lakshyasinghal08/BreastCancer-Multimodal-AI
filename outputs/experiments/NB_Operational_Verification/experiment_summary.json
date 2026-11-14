@@ -1,0 +1,23 @@
+{
+  "experiment_id": "NB_Operational_Verification",
+  "completed_at": "2026-10-18T22:39:15.787290",
+  "total_execution_duration_sec": 0.0,
+  "hardware_summary": {
+    "cpu_utilization_percent": 0.0,
+    "system_ram_total_gb": 7.65,
+    "system_ram_available_gb": 0.45,
+    "system_ram_used_gb": 7.2,
+    "system_ram_percent": 94.1,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "cuda_device_name": "N/A"
+  },
+  "software_versions": {
+    "python": "3.13.9",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.1",
+    "pandas": "3.0.6"
+  },
+  "summary_metrics": {},
+  "total_events_logged": 1
+}

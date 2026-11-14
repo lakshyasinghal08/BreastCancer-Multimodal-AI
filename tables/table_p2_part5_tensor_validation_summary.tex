@@ -1,0 +1,14 @@
+\begin{tabular}{llrrl}
+\toprule
+Validation Check & Tolerance & Pass Rate (\%) & Failed Count & Status \\
+\midrule
+Deterministic Tensor Shapes & Exact Match to Specification & 100.000000 & 0 & PASS \\
+Data Type Uniformity (float32) & torch.float32 for all features & 100.000000 & 0 & PASS \\
+Zero NaN / Infinite Values & Zero tolerance (np.isnan | np.isinf) & 100.000000 & 0 & PASS \\
+Modality Mask Binary Alignment & m\_i in \{0, 1\}, sum(m) == count & 100.000000 & 0 & PASS \\
+Patient Identity Integrity & 100\% matched to Master Manifest & 100.000000 & 0 & PASS \\
+Diagnosis Label Validity & label in \{0, 1\} (Benign/Malignant) & 100.000000 & 0 & PASS \\
+Numerical Range Boundedness & All tensors bounded within [-50, 50] & 100.000000 & 0 & PASS \\
+Zero Synthetic Imputation & Zero artificial / dummy tensors & 100.000000 & 0 & PASS \\
+\bottomrule
+\end{tabular}

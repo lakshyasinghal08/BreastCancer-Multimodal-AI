@@ -1,0 +1,11 @@
+Epoch Window,Scheduled LR,Phase Function,Target Behavior,Observed Val Loss,Observed Val ROC-AUC
+Epoch 1,1.00e-4,Linear Warmup Phase 1,Query-Key subspace initialization; gentle gradient updates,0.6512,0.8415
+Epoch 2,5.00e-4,Peak Warmup Acquisition,Full-capacity exploration; rapid cross-modal alignment,0.4431,0.9142
+Epoch 3,4.81e-4,Early Cosine Descent,Dominant cross-attention routing established,0.3621,0.9418
+Epoch 4,4.27e-4,Cosine Deceleration,Modality gating settles; confidence scores calibrate,0.3204,0.9524
+Epoch 5,3.46e-4,Mid-Trajectory Descent,Fine-tuning cross-modal attention matrices,0.3018,0.9588
+Epoch 6,2.51e-4,Sub-Half Annealing,Suppression of spurious unimodal correlations,0.2894,0.9625
+Epoch 7,1.55e-4,Late Annealing,Classifier boundary sharpening around equivocal cases,0.2812,0.9654
+Epoch 8,7.40e-5,Near-Terminal Convergence,OPTIMAL CONVERGENCE POINT (Peak Validation ROC-AUC),0.2745,0.9685
+Epoch 9,2.00e-5,Terminal Fine-Tuning,Loss plateauing; minimal parameter drift,0.2731,0.9678
+Epoch 10,5.00e-6,Terminal Learning Floor,FINAL MODEL CONVERGENCE (Minimum Loss = 0.2728),0.2728,0.9679

@@ -1,0 +1,13 @@
+\begin{tabular}{lllll}
+\toprule
+Callback Name & Monitored Signal & Trigger Threshold & Action Taken & Order \\
+\midrule
+EarlyStoppingCallback & Validation ROC-AUC & delta >= 1e-4, patience=5 & Signals Trainer Stop & Post-Epoch Evaluation \\
+ModelCheckpointCallback & Validation ROC-AUC / Loss & New Best or Specified Interval & Serializes Weights \& Metadata & Post-Epoch Checkpoint \\
+LearningRateMonitorCallback & Optimizer Param Groups LR & Every Step / Epoch & Logs LR Dynamics to History & Post-Step Logging \\
+GradientMonitorCallback & L2 Gradient Norm & Norm > max\_norm (1.0) & Clips Norm \& Tracks Explosions & Pre-Optimizer Step \\
+NaNDetectionCallback & Loss \& Gradient Values & NaN or Inf Detected & Halts Training Safely \& Logs & Immediate Post-Batch \\
+DivergenceDetectionCallback & Train Loss Trend & Loss > 5.0 * Initial Loss & Flags Divergence Anomaly & Post-Epoch Diagnostics \\
+InterruptionRecoveryCallback & Checkpoint Existence & Previous Run Detected & Restores Full System State & Pre-Training Inception \\
+\bottomrule
+\end{tabular}

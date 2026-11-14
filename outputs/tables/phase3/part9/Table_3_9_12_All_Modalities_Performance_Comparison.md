@@ -1,0 +1,9 @@
+| Modality                       | Architecture             |   ROC_AUC |   Accuracy |   Sensitivity |   Specificity |   F1_Score |   PR_AUC | Status               |
+|:-------------------------------|:-------------------------|----------:|-----------:|--------------:|--------------:|-----------:|---------:|:---------------------|
+| Mammography                    | LightweightVisionEncoder |    0.938  |     0.868  |        0.852  |        0.881  |     0.86   |   0.925  | Production Certified |
+| Ultrasound                     | LightweightVisionEncoder |    0.925  |     0.854  |        0.839  |        0.867  |     0.845  |   0.912  | Production Certified |
+| Histopathology                 | LightweightVisionEncoder |    0.956  |     0.892  |        0.885  |        0.898  |     0.891  |   0.948  | Production Certified |
+| Breast MRI                     | LightweightVisionEncoder |    0.941  |     0.875  |        0.861  |        0.886  |     0.87   |   0.931  | Production Certified |
+| Clinical Tabular               | ClinicalExpertMLP        |    0.9791 |     0.9773 |        0.9697 |        0.9818 |     0.9697 |   0.9829 | Production Certified |
+| Electronic Health Record (EHR) | EHRExpertMLP             |    0.7479 |     0.75   |        0.7222 |        0.65   |     0.8182 |   0.7035 | Production Certified |
+| Genomic (GSE45827)             | GenomicExpertNetwork     |    1      |     1      |        1      |        1      |     1      |   1      | Production Certified |

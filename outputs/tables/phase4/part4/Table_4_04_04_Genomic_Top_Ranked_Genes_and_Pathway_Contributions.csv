@@ -1,0 +1,13 @@
+gene,entrez,pathway,weight,role
+ESR1,2099,Estrogen Receptor Signaling,0.142,Primary Hormone Dependency & Luminal Subtype Marker
+ERBB2,2064,RTK/HER2 Receptor Signaling,0.138,HER2 Amplification & Proliferation Driver
+MKI67,4288,Cell Cycle G1/S Transition,0.125,Nuclear Proliferation Antigen & Grade Correlate
+PGR,5241,Progesterone Hormone Response,0.108,Hormone Receptor Positivity & Prognostic Balance
+TP53,7157,p53 Apoptosis & DNA Damage,0.095,Master Tumor Suppressor Mutation Attributor
+BRCA1,672,Homologous Recombination Repair,0.086,Hereditary Susceptibility & Basal Marker
+BRCA2,675,Double-Strand Break DNA Repair,0.078,Homologous Repair Defect Biomarker
+GATA3,2625,Luminal Lineage Differentiation,0.065,Luminal Epithelial Maintenance Factor
+CCND1,595,Cell Cycle Progression CDK4/6,0.058,Cyclin D1 Oncogenic Overexpression Driver
+FOXA1,3169,Pioneer Transcription Chromatin,0.048,Estrogen Receptor Pioneer Transcription Factor
+EGFR,1956,MAPK/ERK Signaling Cascade,0.035,Triple-Negative/Basal Phenotype Marker
+PIK3CA,5290,PI3K-Akt Survival Pathway,0.023,Activating Oncogenic Kinase Mutation Marker

@@ -1,0 +1,13 @@
+\begin{tabular}{lll}
+\toprule
+Metadata Field & Specification & Audit Value \\
+\midrule
+experiment\_id & Phase3\_Part3.5\_Production\_Training\_Engine & CERTIFIED \\
+architecture\_name & LightweightMultimodalNet & 817,189 Parameters \\
+modalities\_supported & 7 Heterogeneous Clinical Channels & MG, US, HP, MRI, FNA, EHR, GE \\
+patient\_isolation & 5-Fold GroupKFold (Zero Leakage) & 0 Overlapping Patients \\
+random\_seed & Deterministic Seed = 42 & PyTorch + NumPy Bitwise \\
+mixed\_precision\_mode & PyTorch AMP Autocast (BFloat16 / FP16) & Active with GradScaler \\
+loss\_function & LabelSmoothingCrossEntropy (smoothing=0.05) & Regularized Objective \\
+\bottomrule
+\end{tabular}

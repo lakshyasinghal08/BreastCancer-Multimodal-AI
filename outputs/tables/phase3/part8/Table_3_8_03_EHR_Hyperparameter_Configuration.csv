@@ -1,0 +1,16 @@
+Hyperparameter,Value,Component
+Base Learning Rate,1.00e-03,Optimizer (AdamW)
+Minimum Learning Rate,1.00e-06,Cosine Annealing Schedule
+Weight Decay,1.00e-02,Decoupled L2 Regularization
+AdamW Betas,"(0.90, 0.999)",Momentum & Variance
+AdamW Epsilon,1.00e-08,Numerical Stability
+Training Epochs,35,Training Budget
+Warmup Epochs,3,Linear Warmup Phase
+Batch Size,16,Mini-Batch DataLoader
+Gradient Clipping Max Norm,1.00,L2 Norm Threshold
+Loss Objective,Cross-Entropy with Label Smoothing (0.02),Loss Function
+Non-IDC Class Weight (w0),1.6643,Imbalance Compensation
+IDC Class Weight (w1),0.7147,Imbalance Compensation
+Dropout Rate,0.15,Stochastic Regularization
+Mixed Precision (AMP),Enabled (torch.amp),Execution Acceleration
+Random Seed,42,Reproducibility Engine

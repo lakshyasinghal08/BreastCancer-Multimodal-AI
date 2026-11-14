@@ -1,0 +1,10 @@
+{
+  "Total Datasets": 7,
+  "Total Harmonized Samples": 477920,
+  "Total Cohort Patients": 1919,
+  "Multi-Modal Patients": 123,
+  "Total Detected Modalities": 7,
+  "Total Storage Footprint (GB)": 23.13,
+  "Global Fingerprint": "75c05585d558173f2cb375c713f5dec1d5ba2dbde686b2665b3b683ca60db0fb",
+  "Pipeline Status": "READY FOR PHASE 2"
+}

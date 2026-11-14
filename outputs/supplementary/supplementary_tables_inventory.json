@@ -1,0 +1,24 @@
+{
+  "tables": [
+    "Supp_Table_01",
+    "Supp_Table_02",
+    "Supp_Table_03",
+    "Supp_Table_04",
+    "Supp_Table_05",
+    "Supp_Table_06",
+    "Supp_Table_07",
+    "Supp_Table_08",
+    "Supp_Table_09",
+    "Supp_Table_10",
+    "Supp_Table_11",
+    "Supp_Table_12"
+  ],
+  "formats_exported": [
+    "CSV",
+    "XLSX",
+    "MD",
+    "LATEX"
+  ],
+  "total_table_files": 48,
+  "status": "ALL_EXPORTED"
+}

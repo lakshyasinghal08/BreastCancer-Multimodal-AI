@@ -1,0 +1,20 @@
+{
+  "figures": {
+    "phase4_part1": 36,
+    "phase4_part2": 36,
+    "phase4_part3": 42,
+    "phase4_part4": 48,
+    "phase4_part5": 48,
+    "phase4_part6": 48,
+    "total_phase4_figure_files": 258
+  },
+  "tables": {
+    "phase4_part1": 48,
+    "phase4_part2": 49,
+    "phase4_part3": 48,
+    "phase4_part4": 48,
+    "phase4_part5": 48,
+    "phase4_part6": 48,
+    "total_phase4_table_files": 289
+  }
+}

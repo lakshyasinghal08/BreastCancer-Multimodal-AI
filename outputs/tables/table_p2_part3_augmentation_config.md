@@ -1,0 +1,6 @@
+| Modality       | Target_Resolution   |   Channels |   Transform_Count | Transforms_Summary                                               | Normalization   |
+|:---------------|:--------------------|-----------:|------------------:|:-----------------------------------------------------------------|:----------------|
+| Mammography    | [224, 224]          |          1 |                 7 | HorizontalFlip, RandomRotation, RandomBrightness, RandomContrast | MinMax          |
+| Ultrasound     | [256, 256]          |          3 |                 7 | HorizontalFlip, GaussianNoise, ElasticTransform, RandomGamma     | ImageNet        |
+| Histopathology | [224, 224]          |          3 |                 7 | HorizontalFlip, VerticalFlip, RandomRotate90, ColorJitter        | ImageNet        |
+| MRI            | [256, 256]          |          1 |                 7 | HorizontalFlip, RandomRotation, RandomBrightness, GaussianBlur   | ZScore          |

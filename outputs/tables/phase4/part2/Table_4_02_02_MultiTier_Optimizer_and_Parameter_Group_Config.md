@@ -1,0 +1,8 @@
+| Parameter Group / Tier              | Included Modules                                             | Optimized Parameters          | Learning Rate   | Weight Decay   | Gradient Flow                 |
+|:------------------------------------|:-------------------------------------------------------------|:------------------------------|:----------------|:---------------|:------------------------------|
+| Tier 1: Frozen Backbones            | 7 Unimodal Encoders (Mammo, US, HP, MRI, Clin, EHR, Gen)     | 0 (14,799,180 Frozen)         | 0.00 (Frozen)   | None           | requires_grad = False         |
+| Tier 2: Modality Token Embeddings   | Modality ID [7, 128], Pos [8, 128], CLS Token [1, 128]       | 1,920 (0.59% of Trainable)    | 5.0e-4          | 1.0e-4         | Unrestricted Backprop         |
+| Tier 3: Confidence & Gating         | Modality Scorer MLP(128->64->1) + Tanh Gate Scales [1, 7, 1] | 8,513 (2.61% of Trainable)    | 5.0e-4          | 1.0e-4         | Unrestricted Backprop         |
+| Tier 4: Cross-Attention Transformer | 2x Pre-LN Cross-Attention Blocks (MHA 4H + FFN 256)          | 132,864 (40.72% of Trainable) | 5.0e-4          | 1.0e-4         | Pre-LN Residual Gradients     |
+| Tier 5: Diagnostic Classifier       | Dual Pooler Bottleneck (256->128) + 2-Class Diagnostic Head  | 174,146 (53.37% of Trainable) | 7.5e-4          | 1.0e-4         | Supervised CE Gradient        |
+| Tier 6: Auxiliary Subtype Head      | PAM50 Subtype Projection Head (128 -> 64 -> 6)               | 8,845 (2.71% of Trainable)    | 7.5e-4          | 1.0e-4         | Auxiliary CE Gradient (w=0.2) |

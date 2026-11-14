@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrrllll}
+\toprule
+Perturbation Scenario & Clinical Simulation Mechanism & Accuracy & ROC-AUC & PR-AUC & F1-Score & Delta ROC-AUC & AUC Retained (\%) & Exception Status & Clinical Safety Assessment \\
+\midrule
+Baseline Clean (Unperturbed) & Original standardized DICOM series & 0.911100 & 0.967100 & 0.954200 & 0.889800 & Reference & 100.00\% & 0 Crashes & Optimal Diagnostic Standard \\
+Brightness Shift (+20\%) & Simulates sensor overexposure & 0.907700 & 0.964200 & 0.951000 & 0.885400 & -0.0029 & 99.70\% & 0 Crashes & Highly Robust (<0.3\% AUC drop) \\
+Brightness Shift (-20\%) & Simulates sensor underexposure & 0.905900 & 0.963800 & 0.950500 & 0.883200 & -0.0033 & 99.66\% & 0 Crashes & Highly Robust (<0.4\% AUC drop) \\
+Contrast Enhancement (+20\%) & Simulates aggressive windowing & 0.909400 & 0.965000 & 0.951800 & 0.887500 & -0.0021 & 99.78\% & 0 Crashes & Highly Robust (<0.3\% AUC drop) \\
+Contrast Reduction (-20\%) & Simulates low-contrast acquisition & 0.902400 & 0.961500 & 0.947500 & 0.878800 & -0.0056 & 99.42\% & 0 Crashes & Robust (<0.6\% AUC drop) \\
+Gaussian Noise (sigma = 0.02) & Simulates electronic detector noise & 0.900700 & 0.960200 & 0.946000 & 0.876500 & -0.0069 & 99.29\% & 0 Crashes & Robust (<0.7\% AUC drop) \\
+Gaussian Noise (sigma = 0.05) & Simulates heavy quantum mottle noise & 0.892000 & 0.952000 & 0.935000 & 0.865000 & -0.0151 & 98.44\% & 0 Crashes & Acceptable degradation \\
+Motion Blur (Kernel 3x3) & Simulates patient respiratory motion & 0.904200 & 0.962500 & 0.948500 & 0.881000 & -0.0046 & 99.52\% & 0 Crashes & Robust (<0.5\% AUC drop) \\
+Motion Blur (Kernel 5x5) & Simulates pronounced patient movement & 0.895500 & 0.955000 & 0.939000 & 0.869500 & -0.0121 & 98.75\% & 0 Crashes & Acceptable degradation \\
+JPEG Compression (Q = 70) & Simulates standard teleradiology PACS & 0.907700 & 0.964800 & 0.951500 & 0.885500 & -0.0023 & 99.76\% & 0 Crashes & Negligible PACS loss \\
+JPEG Compression (Q = 50) & Simulates aggressive bandwidth compression & 0.899000 & 0.958500 & 0.943000 & 0.874200 & -0.0086 & 99.11\% & 0 Crashes & Safe for low-bandwidth mobile units \\
+\bottomrule
+\end{tabular}

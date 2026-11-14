@@ -1,0 +1,10 @@
+Diagnostic Metric,Observed Test Score,Bootstrap Mean,95% CI Range
+Classification Accuracy,97.73%,97.74%,"[94.32%, 100.00%]"
+Balanced Accuracy,97.58%,97.62%,"[93.80%, 100.00%]"
+Precision / PPV,0.9697,0.9689,"[0.9000, 1.0000]"
+Recall / Sensitivity,0.9697,0.9712,"[0.9000, 1.0000]"
+Specificity / TNR,0.9818,0.9812,"[0.9400, 1.0000]"
+Harmonized F1-Score,0.9697,0.9696,"[0.9230, 1.0000]"
+ROC-AUC Discrimination,0.9791,0.9801,"[0.9319, 1.0000]"
+PR-AUC (Avg Precision),0.9829,0.9837,"[0.9441, 1.0000]"
+Matthews Correlation (MCC),+0.9515,+0.9519,"[+0.8798, +1.0000]"

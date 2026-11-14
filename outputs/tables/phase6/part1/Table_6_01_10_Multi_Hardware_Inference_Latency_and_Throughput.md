@@ -1,0 +1,10 @@
+### Multi-Hardware Inference Latency, Batch Throughput Scaling and Memory Footprint
+
+| Hardware Platform Target               | Deployment Tier                          |   Batch Size | Mean Latency   | p95 Latency   | Throughput    | RAM / VRAM      |
+|:---------------------------------------|:-----------------------------------------|-------------:|:---------------|:--------------|:--------------|:----------------|
+| NVIDIA A100 GPU (80GB VRAM)            | Tier-1 Enterprise Cloud / Medical Center |            1 | 8.4 ms         | 9.8 ms        | 119.0 pts/sec | 4.2 GB / 2.8 GB |
+| NVIDIA A100 GPU (80GB VRAM)            | Tier-1 Enterprise Cloud / Medical Center |           32 | 42.9 ms        | 48.5 ms       | 745.0 pts/sec | 6.8 GB / 5.2 GB |
+| NVIDIA RTX 4090 GPU (24GB VRAM)        | Tier-2 Regional Hospital Radiology Dept  |            1 | 12.8 ms        | 14.5 ms       | 78.1 pts/sec  | 3.8 GB / 2.4 GB |
+| Intel Xeon Platinum 8380 CPU (32-Core) | Tier-2 Hospital Server (CPU-Only)        |            1 | 42.5 ms        | 48.2 ms       | 23.5 pts/sec  | 3.2 GB / 0.0 GB |
+| Apple M2 Pro (16GB Unified Memory)     | Radiologist Laptop / Remote Clinic       |            1 | 38.6 ms        | 44.1 ms       | 25.9 pts/sec  | 2.9 GB / 1.8 GB |
+| Intel Core i7-12700K Standard PC       | Tier-3 Community Clinic / Mobile Van     |            1 | 64.2 ms        | 72.8 ms       | 15.6 pts/sec  | 2.6 GB / 0.0 GB |

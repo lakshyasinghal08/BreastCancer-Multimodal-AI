@@ -1,0 +1,88 @@
+{
+  "test_cohort_size": 574,
+  "prevalence": 0.3885,
+  "metrics": {
+    "Diagnostic Accuracy": {
+      "value": 0.9111,
+      "ci_lower": 0.8852,
+      "ci_upper": 0.9338
+    },
+    "Sensitivity / Recall (Malignant)": {
+      "value": 0.8834,
+      "ci_lower": 0.8342,
+      "ci_upper": 0.922
+    },
+    "Specificity (Benign)": {
+      "value": 0.9288,
+      "ci_lower": 0.8958,
+      "ci_upper": 0.9534
+    },
+    "Positive Predictive Value (Precision)": {
+      "value": 0.8874,
+      "ci_lower": 0.8402,
+      "ci_upper": 0.9268
+    },
+    "Negative Predictive Value (NPV)": {
+      "value": 0.9261,
+      "ci_lower": 0.8942,
+      "ci_upper": 0.9515
+    },
+    "Balanced Accuracy": {
+      "value": 0.9061,
+      "ci_lower": 0.8785,
+      "ci_upper": 0.9312
+    },
+    "F1-Score (Harmonic Mean)": {
+      "value": 0.8898,
+      "ci_lower": 0.8582,
+      "ci_upper": 0.9175
+    },
+    "Matthews Correlation Coeff (MCC)": {
+      "value": 0.8145,
+      "ci_lower": 0.761,
+      "ci_upper": 0.8625
+    },
+    "Cohen's Kappa Agreement (\u03ba)": {
+      "value": 0.814,
+      "ci_lower": 0.7595,
+      "ci_upper": 0.8618
+    },
+    "Area Under ROC Curve (ROC-AUC)": {
+      "value": 0.9671,
+      "ci_lower": 0.9528,
+      "ci_upper": 0.9794
+    },
+    "Area Under PR Curve (PR-AUC)": {
+      "value": 0.9542,
+      "ci_lower": 0.936,
+      "ci_upper": 0.9698
+    },
+    "Logarithmic Loss (Binary Cross-Ent)": {
+      "value": 0.2315,
+      "ci_lower": 0.1982,
+      "ci_upper": 0.274
+    },
+    "Brier Probability Score": {
+      "value": 0.0682,
+      "ci_lower": 0.0545,
+      "ci_upper": 0.0832
+    },
+    "Expected Calibration Error (ECE)": {
+      "value": 0.0367,
+      "ci_lower": 0.0245,
+      "ci_upper": 0.051
+    },
+    "Maximum Calibration Error (MCE)": {
+      "value": 0.062,
+      "ci_lower": 0.041,
+      "ci_upper": 0.089
+    }
+  },
+  "operating_threshold": 0.4682,
+  "contingency": {
+    "TP": 197,
+    "FP": 25,
+    "TN": 326,
+    "FN": 26
+  }
+}

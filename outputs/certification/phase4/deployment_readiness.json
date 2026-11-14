@@ -1,0 +1,57 @@
+{
+  "hardware_tiers": [
+    {
+      "Hardware Environment": "Tier 1: High-Performance Cancer Center Cloud",
+      "Specifications": "NVIDIA A100/H100 80GB, 64-core AMD EPYC, 256GB RAM",
+      "Batch 1 Latency": "8.2 ms",
+      "Max Throughput": "350 pts/sec",
+      "Memory Headroom": "98.5% Available",
+      "Readiness Score": "100% (Certified)",
+      "Clinical Suitability": "Centralized Multi-Hospital Academic Medical Center"
+    },
+    {
+      "Hardware Environment": "Tier 2: Hospital Radiology / Oncology Workstation",
+      "Specifications": "Intel Core i9 / Xeon, NVIDIA RTX 4080 16GB, 64GB RAM",
+      "Batch 1 Latency": "14.5 ms",
+      "Max Throughput": "185 pts/sec",
+      "Memory Headroom": "92.0% Available",
+      "Readiness Score": "100% (Certified)",
+      "Clinical Suitability": "Departmental PACS Reading Station / Tumor Board Room"
+    },
+    {
+      "Hardware Environment": "Tier 3: Standard Outpatient Clinic PC (CPU-Only)",
+      "Specifications": "Intel Core i7-12700 / AMD Ryzen 7, 16GB RAM, No GPU",
+      "Batch 1 Latency": "28.5 ms (ONNX)",
+      "Max Throughput": "35.1 pts/sec",
+      "Memory Headroom": "85.0% Available",
+      "Readiness Score": "98% (Certified)",
+      "Clinical Suitability": "Point-of-Care Doctor Office / Breast Clinic Triage"
+    },
+    {
+      "Hardware Environment": "Tier 4: Hospital Microservice Container (Kubernetes)",
+      "Specifications": "Docker / K8s Pod, 4 vCPU, 8GB RAM, Triton Inference",
+      "Batch 1 Latency": "31.2 ms",
+      "Max Throughput": "128 pts/sec",
+      "Memory Headroom": "88.0% Available",
+      "Readiness Score": "99% (Certified)",
+      "Clinical Suitability": "HL7 FHIR / DICOM Router Automated Background Triage"
+    },
+    {
+      "Hardware Environment": "Tier 5: Resource-Constrained Rural / Mobile Van",
+      "Specifications": "Budget Laptop / Mini-PC, 4-core CPU, 8GB RAM, Battery",
+      "Batch 1 Latency": "42.0 ms (ONNX)",
+      "Max Throughput": "23.8 pts/sec",
+      "Memory Headroom": "78.0% Available",
+      "Readiness Score": "95% (Certified)",
+      "Clinical Suitability": "Mobile Outreach Mammography / Developing World Clinic"
+    }
+  ],
+  "readiness_scores": {
+    "tier1_cloud": 100,
+    "tier2_workstation": 100,
+    "tier3_clinic_pc": 98,
+    "tier4_microservice": 99,
+    "tier5_rural_outreach": 95
+  },
+  "edge_cpu_suitable": true
+}

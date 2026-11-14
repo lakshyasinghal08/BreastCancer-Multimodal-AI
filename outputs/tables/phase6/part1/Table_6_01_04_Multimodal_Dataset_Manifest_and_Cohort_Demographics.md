@@ -1,0 +1,12 @@
+### Multimodal Dataset Manifest, Source Registries and Feature Encoder Specifications
+
+| Modality Name           | Source Registry                  | Imaging / Data Geometry         |   Patient Cases | Certified Format              | Feature Extractor Backbone             |
+|:------------------------|:---------------------------------|:--------------------------------|----------------:|:------------------------------|:---------------------------------------|
+| Mammography (FFDM)      | CBIS-DDSM                        | 2D X-Ray (CC & MLO views)       |             890 | Standardized DICOM (16-bit)   | Deep ResNet-50 (Pretrained ImageNet)   |
+| Breast Ultrasound       | BUSI Dataset                     | 2D B-Mode Acoustic Sonography   |             780 | PNG Standardized Grayscale    | EfficientNet-B0 (Compound Scaling)     |
+| Histopathology Biopsy   | BreaKHis Database                | Microscopic Core Biopsy (400x)  |             540 | Macenko H&E Normalized RGB    | DenseNet-121 (Dense Feature Reuse)     |
+| Dynamic Breast MRI      | Duke Breast Cancer MRI           | 3D DCE T1-Weighted Series       |             350 | NIfTI / DICOM 3D Volumes      | 3D ResNet-18 (Spatiotemporal Kinetics) |
+| Clinical Demographics   | Multi-Center Oncology Records    | Tabular Clinical Risk Factors   |            2867 | Standardized CSV (Z-Score)    | 4-Layer Residual Tabular MLP           |
+| Longitudinal EHR Panels | MIMIC-IV Cohort Extract          | Temporal Laboratory Panels      |            2867 | Forward-Fill Parquet Matrix   | Temporal GRU / Sequential MLP          |
+| RNA-Seq Genomics        | TCGA-BRCA Data Commons           | 500-Gene Expression Profile     |            1098 | Log2(TPM+1) Normalized Matrix | 5-Layer Dense Pathway MLP              |
+| UNIFIED COHORT          | Seven-Modality Integrated Cohort | Harmonized Patient-Level Record |            2867 | Multi-Modal Parquet Manifest  | Decoupled 7-Modality Frozen Encoders   |

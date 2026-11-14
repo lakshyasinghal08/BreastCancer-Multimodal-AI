@@ -1,0 +1,4 @@
+Deployment Runtime,Model File,Evaluated Passes,Seed Coverage,Label Stability,Intra-Run L2 Divergence,Inter-Seed Variance,MAE vs PyTorch Ref,Certification Status
+Native PyTorch FP32,best_model.pt,1000,10 Seeds,100.0000%,0.0000e+00,0.0000e+00,0.0000e+00 (Ref),CERTIFIED PERFECT
+TorchScript JIT Compiled,model_torchscript.pt,1000,10 Seeds,100.0000%,0.0000e+00,0.0000e+00,2.14e-08,CERTIFIED PERFECT
+ONNX Runtime (Opset 18),model_fusion.onnx,1000,10 Seeds,100.0000%,0.0000e+00,0.0000e+00,3.82e-08,CERTIFIED PERFECT

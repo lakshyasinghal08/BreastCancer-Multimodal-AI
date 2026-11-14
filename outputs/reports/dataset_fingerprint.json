@@ -1,0 +1,11 @@
+{
+    "dataset_hash": "75c05585d558173f2cb375c713f5dec1d5ba2dbde686b2665b3b683ca60db0fb",
+    "hash_algorithm": "SHA-256",
+    "total_files": 480773,
+    "dataset_size_bytes": 24833581830,
+    "dataset_size_mb": 23683.15,
+    "total_datasets": 7,
+    "last_modified": "2026-10-12T22:17:37.215361",
+    "creation_date": "2026-10-18T22:54:19.213715",
+    "dataset_version": "v1.0.0-phase1.2"
+}

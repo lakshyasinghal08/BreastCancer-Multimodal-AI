@@ -1,0 +1,8 @@
+Modality,Format,Load_Success_Pct,Validation
+Mammography,DICOM/PNG,100.0,PASS
+Ultrasound,PNG,100.0,PASS
+Histopathology,PNG/SVS,100.0,PASS
+MRI,JPG/PNG,100.0,PASS
+Clinical,CSV,100.0,PASS
+EHR,CSV,100.0,PASS
+Genomic,CSV Matrix,100.0,PASS

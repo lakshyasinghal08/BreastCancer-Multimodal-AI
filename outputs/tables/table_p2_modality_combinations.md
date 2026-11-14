@@ -1,0 +1,14 @@
+# Observed Modality Combinations and Fusion Architecture Suitability
+
+| Modality Combination                 |   Modality Count |   Patient Count |   Percentage (%) |   Completeness Score | Fusion Suitability      |
+|:-------------------------------------|-----------------:|----------------:|-----------------:|---------------------:|:------------------------|
+| Clinical                             |                1 |             568 |            29.6  |                0.143 | Unimodal Pretraining    |
+| Mammography                          |                1 |             561 |            29.23 |                0.143 | Unimodal Pretraining    |
+| EHR                                  |                1 |             288 |            15.01 |                0.143 | Unimodal Pretraining    |
+| Histopathology                       |                1 |             228 |            11.88 |                0.143 | Unimodal Pretraining    |
+| Genomic                              |                1 |             151 |             7.87 |                0.143 | Unimodal Pretraining    |
+| Histopathology + MRI + Genomic       |                3 |              74 |             3.86 |                0.429 | High-Order CMCA Fusion  |
+| Histopathology + MRI + EHR + Genomic |                4 |              41 |             2.14 |                0.571 | High-Order CMCA Fusion  |
+| MRI + EHR + Genomic                  |                3 |               6 |             0.31 |                0.429 | High-Order CMCA Fusion  |
+| Histopathology + Clinical            |                2 |               1 |             0.05 |                0.286 | Bimodal Cross-Attention |
+| MRI + Genomic                        |                2 |               1 |             0.05 |                0.286 | Bimodal Cross-Attention |

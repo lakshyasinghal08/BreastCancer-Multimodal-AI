@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Comprehensive Modality Tensor Specifications & Validation}
+\begin{tabular}{lllrrrrr}
+\toprule
+Modality & Tensor_Shape & Dtype & Memory_KB & Value_Min & Value_Max & NaN_Count & Inf_Count \\
+\midrule
+Mammography & [1, 224, 224] & torch.float32 & 200.700000 & 0.000000 & 1.000000 & 0 & 0 \\
+Ultrasound & [1, 224, 224] & torch.float32 & 200.700000 & 0.000000 & 1.000000 & 0 & 0 \\
+Histopathology & [3, 224, 224] & torch.float32 & 602.100000 & -2.120000 & 2.640000 & 0 & 0 \\
+MRI & [1, 224, 224] & torch.float32 & 200.700000 & 0.000000 & 1.000000 & 0 & 0 \\
+Clinical FNA & [30] & torch.float32 & 0.120000 & -3.500000 & 4.200000 & 0 & 0 \\
+TCGA EHR & [16] & torch.float32 & 0.060000 & -2.800000 & 3.100000 & 0 & 0 \\
+Genomic RNA & [331] & torch.float32 & 1.320000 & -4.100000 & 4.800000 & 0 & 0 \\
+Modality Mask & [7] & torch.float32 & 0.030000 & 0.000000 & 1.000000 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

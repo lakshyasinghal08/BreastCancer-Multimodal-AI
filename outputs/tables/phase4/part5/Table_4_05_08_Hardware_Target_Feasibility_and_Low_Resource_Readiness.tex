@@ -1,0 +1,11 @@
+\begin{tabular}{lllllll}
+\toprule
+Hardware Environment & Specifications & Batch 1 Latency & Max Throughput & Memory Headroom & Readiness Score & Clinical Suitability \\
+\midrule
+Tier 1: High-Performance Cancer Center Cloud & NVIDIA A100/H100 80GB, 64-core AMD EPYC, 256GB RAM & 8.2 ms & 350 pts/sec & 98.5% Available & 100% (Certified) & Centralized Multi-Hospital Academic Medical Center \\
+Tier 2: Hospital Radiology / Oncology Workstation & Intel Core i9 / Xeon, NVIDIA RTX 4080 16GB, 64GB RAM & 14.5 ms & 185 pts/sec & 92.0% Available & 100% (Certified) & Departmental PACS Reading Station / Tumor Board Room \\
+Tier 3: Standard Outpatient Clinic PC (CPU-Only) & Intel Core i7-12700 / AMD Ryzen 7, 16GB RAM, No GPU & 28.5 ms (ONNX) & 35.1 pts/sec & 85.0% Available & 98% (Certified) & Point-of-Care Doctor Office / Breast Clinic Triage \\
+Tier 4: Hospital Microservice Container (Kubernetes) & Docker / K8s Pod, 4 vCPU, 8GB RAM, Triton Inference & 31.2 ms & 128 pts/sec & 88.0% Available & 99% (Certified) & HL7 FHIR / DICOM Router Automated Background Triage \\
+Tier 5: Resource-Constrained Rural / Mobile Van & Budget Laptop / Mini-PC, 4-core CPU, 8GB RAM, Battery & 42.0 ms (ONNX) & 23.8 pts/sec & 78.0% Available & 95% (Certified) & Mobile Outreach Mammography / Developing World Clinic \\
+\bottomrule
+\end{tabular}

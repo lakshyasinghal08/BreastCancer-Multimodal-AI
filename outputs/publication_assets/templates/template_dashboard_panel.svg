@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect x="0" y="0" width="1200" height="800" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="40" y="40" width="1120" height="90" rx="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1E40AF">Clinical Diagnostic Dashboard Template</text>
+  <rect x="40" y="160" width="340" height="580" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="420" y="160" width="360" height="580" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="820" y="160" width="340" height="580" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="210" y="460" font-family="Arial, sans-serif" font-size="22" fill="#64748B" text-anchor="middle">[Panel 1: Data / Features]</text>
+  <text x="600" y="460" font-family="Arial, sans-serif" font-size="22" fill="#64748B" text-anchor="middle">[Panel 2: Model Attention]</text>
+  <text x="990" y="460" font-family="Arial, sans-serif" font-size="22" fill="#64748B" text-anchor="middle">[Panel 3: Triage & Risk]</text>
+</svg>

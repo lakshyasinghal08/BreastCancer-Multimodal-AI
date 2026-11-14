@@ -1,0 +1,20 @@
+\begin{tabular}{llrrl}
+\toprule
+Subsystem Component & Execution Device & Latency (ms) & Share (%) & Overhead Type \\
+\midrule
+PACS DICOM Ingestion & Header Parse & CPU I/O & 8.400000 & 10.920000 & Network & Storage \\
+Preprocessing (Resize, Norm, Align) & CPU & 6.200000 & 8.060000 & Data Ingestion \\
+Mammography Vision Expert Forward & CPU / GPU & 10.150000 & 13.200000 & Vision Feature Extraction \\
+Ultrasound Vision Expert Forward & CPU / GPU & 8.450000 & 10.990000 & Vision Feature Extraction \\
+Histopathology Vision Expert Forward & CPU / GPU & 10.800000 & 14.040000 & Vision Feature Extraction \\
+Breast MRI 3D Vision Expert Forward & CPU / GPU & 12.500000 & 16.250000 & Vision Feature Extraction \\
+Clinical FNA Cytology MLP Forward & CPU & 0.450000 & 0.590000 & Tabular Feature Extraction \\
+EHR Tabular Transformer Forward & CPU & 0.650000 & 0.850000 & Tabular Feature Extraction \\
+Genomic Microarray MLP Forward & CPU & 1.800000 & 2.340000 & Genomic Feature Extraction \\
+Modality Token Embedding & Gating & CPU / GPU & 0.850000 & 1.110000 & Multimodal Fusion \\
+Cross-Attention Transformer (2 Layers) & CPU / GPU & 3.200000 & 4.160000 & Multimodal Fusion \\
+Dual-Head Classifier & Subtyping & CPU / GPU & 0.950000 & 1.240000 & Classification & Uncertainty \\
+Real-Time XAI (Rollout & Grad-CAM) & CPU / GPU & 12.500000 & 16.250000 & Clinical Explainability \\
+TOTAL END-TO-END DIAGNOSTIC PIPELINE & Unified System & 76.900000 & 100.000000 & Full Patient Workup \\
+\bottomrule
+\end{tabular}

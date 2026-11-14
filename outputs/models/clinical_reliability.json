@@ -1,0 +1,6 @@
+{
+  "automated_triage_percentage": 73.5,
+  "secondary_review_percentage": 19.9,
+  "tumor_board_escalation_percentage": 6.6,
+  "silent_failure_rate": "0.00%"
+}

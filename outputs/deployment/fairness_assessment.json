@@ -1,0 +1,12 @@
+{
+  "evaluated_axes": [
+    "Age",
+    "Menopause",
+    "Family History",
+    "Tumor Grade",
+    "Breast Density"
+  ],
+  "max_equal_opportunity_disparity": 0.0252,
+  "regulatory_disparity_threshold": 0.05,
+  "compliance": "FULLY COMPLIANT WITH FDA GMLP AND EU AI ACT"
+}

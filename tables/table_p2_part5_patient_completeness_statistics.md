@@ -1,0 +1,6 @@
+| Partition Split            |   Total Patients |   Mean Modalities / Pt |   Max Modalities |   Min Modalities | Mean Completeness   |   Leakage Count |
+|:---------------------------|-----------------:|-----------------------:|-----------------:|-----------------:|:--------------------|----------------:|
+| Train Partition (70%)      |             1336 |                   1.48 |                3 |                1 | 21.1%               |               0 |
+| Validation Partition (15%) |              282 |                   1.46 |                3 |                1 | 20.9%               |               0 |
+| Test Partition (15%)       |              300 |                   1.47 |                3 |                1 | 21.0%               |               0 |
+| Full Research Cohort       |             1918 |                   1.47 |                3 |                1 | 21.0%               |               0 |

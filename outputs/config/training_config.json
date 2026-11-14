@@ -1,0 +1,28 @@
+{
+  "framework_version": "v3.5.0-Production-Engine",
+  "model_architecture": "LightweightMultimodalNet",
+  "total_parameters": 817189,
+  "modalities": [
+    "mammography",
+    "ultrasound",
+    "histopathology",
+    "mri",
+    "clinical",
+    "ehr",
+    "genomic"
+  ],
+  "batch_size": 32,
+  "seed": 42,
+  "max_grad_norm": 1.0,
+  "mixed_precision": true,
+  "loss_type": "label_smoothing",
+  "smoothing_factor": 0.05,
+  "optimizer_type": "AdamW",
+  "base_lr": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler_type": "warmup_cosine",
+  "warmup_epochs": 2,
+  "total_epochs": 10,
+  "early_stopping_patience": 5,
+  "status": "INFRASTRUCTURE_CERTIFIED"
+}

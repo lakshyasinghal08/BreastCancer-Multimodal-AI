@@ -1,0 +1,18 @@
+{
+  "format": "PyTorch Binary State Dictionary (.pt)",
+  "serialization_keys": [
+    "model_state_dict",
+    "optimizer_state_dict",
+    "scheduler_state_dict",
+    "scaler_state_dict",
+    "epoch",
+    "global_step",
+    "metrics",
+    "config",
+    "rng_state"
+  ],
+  "integrity_protection": "SHA-256 Bitwise Cryptographic Hash Sidecar (.json)",
+  "top_k_retention": 5,
+  "best_model_alias": "model_best.pt",
+  "final_model_alias": "model_final.pt"
+}

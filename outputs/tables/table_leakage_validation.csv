@@ -1,0 +1,7 @@
+Audit_Target,Train_Val_Overlap,Train_Test_Overlap,Val_Test_Overlap,Audit_Status
+Patient Identifier Isolation,0,0,0,PASSED (0 Overlap)
+Sample Record Integrity,0,0,0,PASSED (0 Overlap)
+Image File Path Isolation,0,0,0,PASSED (0 Overlap)
+Genomic Feature Isolation,0,0,0,PASSED (0 Overlap)
+Clinical/EHR Record Isolation,0,0,0,PASSED (0 Overlap)
+Cross-Validation Fold Isolation,0,0,0,PASSED (0 Overlap)

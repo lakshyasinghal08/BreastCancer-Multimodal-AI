@@ -1,0 +1,19 @@
+{
+  "memory_cache": {
+    "type": "LRU",
+    "capacity": 256,
+    "status": "ACTIVE"
+  },
+  "disk_cache": {
+    "type": "SHA-256 Numpy Store",
+    "directory": "outputs/cache",
+    "status": "ACTIVE"
+  },
+  "invalidation_policy": "LRU + Checksum Verification",
+  "benchmarks": {
+    "cold_latency_ms": 412.921,
+    "memory_latency_ms": 0.365,
+    "disk_latency_ms": 22.727,
+    "speedup_factor": 1131.6
+  }
+}

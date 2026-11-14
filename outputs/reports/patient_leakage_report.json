@@ -1,0 +1,15 @@
+{
+  "audit_timestamp": "2026-10-13T11:08:28.679503",
+  "total_patients_audited": 1919,
+  "duplicate_image_references": 0,
+  "repeated_genomic_samples": 250250,
+  "cross_dataset_shared_patients": 48,
+  "tcga_cross_modal_bridge_patients": 47,
+  "institutional_namespace_collisions": 1,
+  "collision_identifiers": [
+    "8913"
+  ],
+  "collision_details": "Patient 8913 present in Clinical (1995 Wisconsin FNA, Benign) and Histopathology (2014 IDC, Malignant).",
+  "enforced_namespace_resolution": "Prefix with cohort identifier: CLIN_8913 vs HIST_8913.",
+  "cross_split_leakage_mandate": "Patient-Level GroupKFold CV is strictly required for Phase 4 to avoid tile-level train/test leakage."
+}

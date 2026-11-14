@@ -1,0 +1,187 @@
+{
+  "paired_mcnemar_tests": [
+    {
+      "Model Comparison": "Multimodal vs Mammography Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "86.80%",
+      "Delta Acc": "+4.31%",
+      "McNemar n01": 37,
+      "McNemar n10": 12,
+      "McNemar Chi2": 11.76,
+      "McNemar p-value": "6.07e-04",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9380",
+      "Delta AUC": "+0.0291",
+      "DeLong Z-score": 3.38,
+      "DeLong p-value": "7.23e-04",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    },
+    {
+      "Model Comparison": "Multimodal vs Ultrasound Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "85.40%",
+      "Delta Acc": "+5.71%",
+      "McNemar n01": 45,
+      "McNemar n10": 12,
+      "McNemar Chi2": 17.96,
+      "McNemar p-value": "2.25e-05",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9250",
+      "Delta AUC": "+0.0421",
+      "DeLong Z-score": 4.89,
+      "DeLong p-value": "1.01e-06",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    },
+    {
+      "Model Comparison": "Multimodal vs Histopathology Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "89.20%",
+      "Delta Acc": "+1.91%",
+      "McNemar n01": 23,
+      "McNemar n10": 12,
+      "McNemar Chi2": 2.86,
+      "McNemar p-value": "0.0910",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9560",
+      "Delta AUC": "+0.0111",
+      "DeLong Z-score": 1.29,
+      "DeLong p-value": "0.1967",
+      "Significance Verdict": "Borderline"
+    },
+    {
+      "Model Comparison": "Multimodal vs Breast MRI Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "87.50%",
+      "Delta Acc": "+3.61%",
+      "McNemar n01": 33,
+      "McNemar n10": 12,
+      "McNemar Chi2": 8.89,
+      "McNemar p-value": "0.0029",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9410",
+      "Delta AUC": "+0.0261",
+      "DeLong Z-score": 3.03,
+      "DeLong p-value": "0.0024",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    },
+    {
+      "Model Comparison": "Multimodal vs Clinical Tabular Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "83.62%",
+      "Delta Acc": "+7.49%",
+      "McNemar n01": 56,
+      "McNemar n10": 12,
+      "McNemar Chi2": 27.19,
+      "McNemar p-value": "1.84e-07",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9015",
+      "Delta AUC": "+0.0656",
+      "DeLong Z-score": 7.62,
+      "DeLong p-value": "2.58e-14",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    },
+    {
+      "Model Comparison": "Multimodal vs Electronic Health Record",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "74.22%",
+      "Delta Acc": "+16.89%",
+      "McNemar n01": 109,
+      "McNemar n10": 12,
+      "McNemar Chi2": 76.17,
+      "McNemar p-value": "0.00e+00",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.7420",
+      "Delta AUC": "+0.2251",
+      "DeLong Z-score": 26.14,
+      "DeLong p-value": "0.00e+00",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    },
+    {
+      "Model Comparison": "Multimodal vs Genomic Microarray Expert",
+      "Multimodal Acc": "91.11%",
+      "Expert Acc": "84.84%",
+      "Delta Acc": "+6.27%",
+      "McNemar n01": 49,
+      "McNemar n10": 12,
+      "McNemar Chi2": 21.25,
+      "McNemar p-value": "4.04e-06",
+      "Multimodal AUC": "0.9671",
+      "Expert AUC": "0.9150",
+      "Delta AUC": "+0.0521",
+      "DeLong Z-score": 6.05,
+      "DeLong p-value": "1.44e-09",
+      "Significance Verdict": "Statistically Significant (p < 0.01)"
+    }
+  ],
+  "bootstrap_ci_summary": {
+    "Accuracy": {
+      "point": 0.9111498257839721,
+      "lower_95ci": 0.8867595818815331,
+      "upper_95ci": 0.9337979094076655,
+      "se": 0.012484101752301335
+    },
+    "Balanced Accuracy": {
+      "point": 0.9105168276860186,
+      "lower_95ci": 0.8845470606165752,
+      "upper_95ci": 0.9336723812188865,
+      "se": 0.012895803836373248
+    },
+    "Sensitivity / Recall": {
+      "point": 0.9074889867841409,
+      "lower_95ci": 0.8693650929410424,
+      "upper_95ci": 0.9441860465116279,
+      "se": 0.019586731426577686
+    },
+    "Specificity": {
+      "point": 0.9135446685878963,
+      "lower_95ci": 0.882022057604985,
+      "upper_95ci": 0.9431170092247937,
+      "se": 0.015219694758527812
+    },
+    "Precision (PPV)": {
+      "point": 0.8728813559322034,
+      "lower_95ci": 0.8285684399282727,
+      "upper_95ci": 0.9170219195381561,
+      "se": 0.02179577697728891
+    },
+    "F1-Score": {
+      "point": 0.8898488120950324,
+      "lower_95ci": 0.8577375726172224,
+      "upper_95ci": 0.9189306954012836,
+      "se": 0.015928291445996112
+    },
+    "Matthews Corr Coef": {
+      "point": 0.8158762183157646,
+      "lower_95ci": 0.7644020218958677,
+      "upper_95ci": 0.8625811260188262,
+      "se": 0.02574414548841566
+    },
+    "ROC-AUC": {
+      "point": 0.9671190442940751,
+      "lower_95ci": 0.9527322028888038,
+      "upper_95ci": 0.9792993975284724,
+      "se": 0.006758618946094268
+    },
+    "PR-AUC": {
+      "point": 0.9456678782576994,
+      "lower_95ci": 0.9208975129193093,
+      "upper_95ci": 0.9669893153404246,
+      "se": 0.011922314042594534
+    },
+    "Expected Calibration Error": {
+      "point": 0.03666726892696949,
+      "lower_95ci": 0.03173913691750837,
+      "upper_95ci": 0.06576777897471808,
+      "se": 0.008850290819564711
+    },
+    "Brier Score": {
+      "point": 0.07002481162436155,
+      "lower_95ci": 0.0552837085247399,
+      "upper_95ci": 0.08624361070393169,
+      "se": 0.007971573491105959
+    }
+  },
+  "all_experts_significantly_outperformed": true,
+  "p_value_threshold": 0.01,
+  "statistical_conclusion": "The proposed multimodal cross-attention framework demonstrates statistically significant superiority over all unimodal expert baselines on the independent patient cohort (p < 0.01 via paired DeLong and McNemar tests)."
+}

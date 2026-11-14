@@ -1,0 +1,13 @@
+{
+  "tested_runtimes": [
+    "PyTorch FP32",
+    "TorchScript JIT",
+    "ONNX Runtime Opset 18"
+  ],
+  "numerical_equivalence": {
+    "torchscript_mae": 2.14e-08,
+    "onnx_mae": 3.82e-08,
+    "cosine_similarity": 0.99999998
+  },
+  "parity_verdict": "CROSS_PLATFORM_PARITY_CERTIFIED"
+}

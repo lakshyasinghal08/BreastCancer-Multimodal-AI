@@ -1,0 +1,9 @@
+Component,Verified_Files,Corrupted_Files,Checksum_Integrity,Status
+Parquet Manifest Partitions,train/val/test/master,0,SHA256 Matched,PASSED (100%)
+Histopathology Whole-Slide & Tiles,"301,627 files",0,Valid PNG / SVS headers,PASSED (100%)
+MRI Dynamic Contrast Slices,"173,570 files",0,Valid PNG headers,PASSED (100%)
+Mammography Screening Images,882 files,0,Valid DICOM/PNG headers,PASSED (100%)
+Ultrasound Images & Masks,780 files,0,Valid PNG headers,PASSED (100%)
+Clinical Tabular Data (Wisconsin),569 records,0,Valid CSV schema,PASSED (100%)
+EHR Longitudinal Data (TCGA),341 records,0,Valid CSV schema,PASSED (100%)
+Genomic Expression Matrices,151 sample vectors,0,Valid CSV matrix,PASSED (100%)

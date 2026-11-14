@@ -1,0 +1,9 @@
+| Modality | Biological_Scale | Diagnostic_Strength | Unimodal_Vulnerability | Phase4_Fusion_Synergy |
+| --- | --- | --- | --- | --- |
+| Mammography | Organ / Tissue | Early microcalcification detection | Dense breast tissue masking | Combined with MRI & Ultrasound vascularity |
+| Ultrasound | Tissue / Acoustic | Differentiating cysts vs solid tumors | Operator-dependent speckle noise | Eliminates mammographic false positives |
+| Histopathology | Cellular Microscopic | Definitive architectural atypia | Biopsy focal sampling bias | Anchored by systemic clinical staging |
+| Breast MRI | Vascular / Dynamic | Angiogenesis & spatial 3D spread | False-positive benign enhancement | Pruned by genomic & histopathologic ground truth |
+| Clinical Tabular | Cellular Nuclear | Nuclear pleomorphism measurements | No spatial tissue context | Provides numerical prior to imaging attention |
+| Electronic Health Record | Longitudinal Systemic | Patient age, staging & receptor status | Missing fields & clinical sparsity | Provides demographic context for fusion gating |
+| Genomic Microarray | Molecular Gene Level | PAM50 intrinsic subtype signature | Extreme high-dimensional p >> n | Disambiguates ambiguous borderline imaging |

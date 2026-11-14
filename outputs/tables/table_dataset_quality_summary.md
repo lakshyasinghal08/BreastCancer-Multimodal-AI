@@ -1,0 +1,11 @@
+# Dataset-Wise Data Quality Assessment and Quality Index
+
+| Dataset               |   Samples | Label_Integrity_Rate   | Metadata_Completeness_Rate   |   Quality_Score | Health_Status   |
+|:----------------------|----------:|:-----------------------|:-----------------------------|----------------:|:----------------|
+| CBIS-DDSM             |       882 | 100.0%                 | 100.0%                       |          100    | Optimal         |
+| Dataset_BUSI_with_GT  |       780 | 100.0%                 | 100.0%                       |          100    | Optimal         |
+| Clinical              |       569 | 100.0%                 | 100.0%                       |          100    | Optimal         |
+| EHR                   |       341 | 97.95%                 | 100.0%                       |           98.77 | Optimal         |
+| Genomic               |       151 | 100.0%                 | 100.0%                       |          100    | Optimal         |
+| Histopathology        |    224872 | 100.0%                 | 0.0%                         |           60    | Acceptable      |
+| Vision_Genomic_Fusion |    250325 | 100.0%                 | 100.0%                       |          100    | Optimal         |

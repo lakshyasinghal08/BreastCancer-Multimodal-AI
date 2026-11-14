@@ -1,0 +1,8 @@
+"Modality","Source_Repository","Patient_Cohort_Size","Train_Count","Val_Count","Test_Count","Data_Type"
+"Mammography","CBIS-DDSM / InBreast","3,103 images","2,172","465","466","Single-Channel DICOM Mammograms"
+"Ultrasound","BUSI Cohort","780 images","546","117","117","Single-Channel B-Mode Ultrasound"
+"Histopathology","BreakHis Whole Slide","7,909 patches","5,536","1,186","1,187","3-Channel RGB 400x Resection Patches"
+"Breast MRI","Duke Breast DCE-MRI","922 series","645","138","139","Single-Channel DCE Sagittal Subtraction"
+"Clinical Tabular","WBCD Archive","569 patients","398","83","88","30 FNA Quantitative Morphometric Features"
+"Electronic Health Record","TCGA-BRCA Project","351 patients","245","53","53","16 Staging & Pathological Clinical Features"
+"Genomic Microarray","GEO GSE45827","151 patients","103","21","27","54,675 HG-U133_Plus_2 Affymetrix Probe Sets"

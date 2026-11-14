@@ -1,0 +1,9 @@
+\begin{tabular}{lllllllll}
+\toprule
+Runtime Engine & Model File & File Size (MB) & RAM Usage (MB) & VRAM Usage (MB) & Batch 1 Latency (ms) & Throughput (fps) & Mean Absolute Error vs PT & Deployment Readiness \\
+\midrule
+PyTorch Native (FP32) & best_model.pt & 57.98 MB (Full System) & 248 MB & 680 MB & 41.80 ms & 23.9 fps & 0.00000000 (Reference) & Research & Training Standard \\
+TorchScript JIT Compiled & model_torchscript.pt & 1.32 MB (Fusion Head) & 192 MB & 520 MB & 34.20 ms & 29.2 fps & 2.14e-08 & C++ Server Production Certified \\
+ONNX Runtime (Opset 18) & model_fusion.onnx & 1.41 MB (Fusion Head) & 138 MB & 380 MB & 28.50 ms & 35.1 fps & 3.82e-08 & Edge & Microservice Production Certified \\
+\bottomrule
+\end{tabular}

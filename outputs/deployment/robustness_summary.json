@@ -1,0 +1,8 @@
+{
+  "scenarios_tested": 8,
+  "exceptions_encountered": 0,
+  "nans_encountered": 0,
+  "minimum_auc_retained_percent": 92.46,
+  "point_of_care_ultrasound_auc": 0.9185,
+  "point_of_care_auc_retained_percent": 94.97
+}

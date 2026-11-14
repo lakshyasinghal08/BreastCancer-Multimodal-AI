@@ -1,0 +1,7 @@
+{
+  "scheduler_type": "warmup_cosine",
+  "warmup_epochs": 2,
+  "total_epochs": 10,
+  "min_lr": 1e-06,
+  "final_lr": 2e-05
+}

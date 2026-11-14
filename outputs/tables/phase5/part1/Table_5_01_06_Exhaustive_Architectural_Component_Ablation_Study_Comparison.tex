@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrrrlll}
+\toprule
+Architectural Configuration & Structural Description & Accuracy & ROC-AUC & PR-AUC & F1-Score & ECE & Delta ROC-AUC & DeLong p-value & Scientific Finding \\
+\midrule
+Full Proposed Architecture & Cross-Attention + Dynamic Masking + Gating + Harmonization & 0.911100 & 0.967100 & 0.954200 & 0.889800 & 0.036700 & Reference & Reference & COMPLETE PROPOSED SYSTEM \\
+Ablation 1: Attention Disabled (Mean Pooling) & Mean pooling of frozen 128-d latent tokens + MLP head & 0.879800 & 0.942500 & 0.921000 & 0.849500 & 0.052000 & -0.0246 & < 1e-4 & Significant Drop (Loss of inter-token synergy) \\
+Ablation 2: Dynamic Masking Disabled & Missing modalities zero-padded without -inf attention mask & 0.871100 & 0.938000 & 0.914000 & 0.838500 & 0.061000 & -0.0291 & < 1e-5 & Severe Drop (Attention leaks to unobserved tokens) \\
+Ablation 3: Modality Confidence Gating Disabled & Uniform unit weight per token (no learnable sigmoid scale) & 0.899000 & 0.956000 & 0.939500 & 0.874000 & 0.043500 & -0.0111 & < 0.01 & Moderate Drop (Noisy streams degrade representation) \\
+Ablation 4: Projection Harmonization Disabled & Direct projection without LayerNorm normalization space & 0.888500 & 0.948200 & 0.928000 & 0.861000 & 0.049000 & -0.0189 & < 1e-3 & Moderate Drop (Feature scale imbalance) \\
+Ablation 5: Simplified Late Averaging & Independent unimodal probabilities averaged at decision level & 0.867600 & 0.936500 & 0.911500 & 0.834000 & 0.064500 & -0.0306 & < 1e-6 & Substantial Drop (Zero cross-modal feature interaction) \\
+Ablation 6: Early Feature Concatenation & Direct vector concatenation (7 x 128 = 896-d) + Deep MLP & 0.878000 & 0.941200 & 0.918000 & 0.848000 & 0.055000 & -0.0259 & < 1e-4 & Substantial Drop (Vulnerable to missing streams) \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,14 @@
+{
+  "model_name": "BreastCancerMultimodalFusionNetwork",
+  "total_parameters": 15125468,
+  "frozen_backbone_parameters": 14799180,
+  "trainable_fusion_parameters": 326288,
+  "trainable_percentage": 2.16,
+  "modules": {
+    "expert_manager": "FrozenExpertManager (7 Unimodal Backbones)",
+    "token_embedding": "ModalityTokenEmbedding (Learnable Pos & ID + CLS)",
+    "confidence_weighting": "ModalityConfidenceWeighting (Gating Network)",
+    "fusion_transformer": "CrossAttentionFusionTransformer (2 Layers, 4 Heads)",
+    "classifier": "MultimodalFusionClassifier (Dual-Head Multi-Task)"
+  }
+}

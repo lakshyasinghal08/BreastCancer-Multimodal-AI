@@ -1,0 +1,678 @@
+{
+  "version": "v2.3.0-MergedProductionPipeline",
+  "framework": "PyTorch / NumPy Pure Multimodal Pipeline",
+  "seed": 42,
+  "total_samples": 477913,
+  "total_patients": 1918,
+  "zero_synthetic_data": true,
+  "original_datasets_untouched": true,
+  "split_config": {
+    "primary_split": "70/15/15",
+    "ratios": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "alternative_split": "80/10/10",
+    "stratification": "dataset_name + diagnosis_label",
+    "kfold_schemes": [
+      "5_fold_stratified_group",
+      "10_fold_stratified_group"
+    ],
+    "leakage_prevented": true,
+    "patient_counts": {
+      "train": 1336,
+      "val": 282,
+      "test": 300
+    }
+  },
+  "cache_config": {
+    "memory_cache": {
+      "type": "LRU",
+      "capacity": 256,
+      "status": "ACTIVE"
+    },
+    "disk_cache": {
+      "type": "SHA-256 Numpy Store",
+      "directory": "outputs/cache",
+      "status": "ACTIVE"
+    },
+    "invalidation_policy": "LRU + Checksum Verification",
+    "benchmarks": {
+      "cold_latency_ms": 412.921,
+      "memory_latency_ms": 0.365,
+      "disk_latency_ms": 22.727,
+      "speedup_factor": 1131.6
+    }
+  },
+  "dataloader_config": {
+    "supported_batch_sizes": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "default_batch_size": 32,
+    "num_workers_default": 4,
+    "pin_memory": true,
+    "persistent_workers": true,
+    "prefetch_factor": 2,
+    "mixed_precision_compatible": true,
+    "collate_fn": "multimodal_collate_fn",
+    "device_transfer": "Automatic (CUDA / MPS / CPU)",
+    "sampling_strategies": [
+      "BalancedPatientSampling",
+      "ClassWeightedSampling",
+      "StratifiedGroupSampling"
+    ]
+  },
+  "augmentation_config": {
+    "framework_version": "v2.3.0-ProductionAugmentation",
+    "enabled_globally": false,
+    "seed": 42,
+    "modalities": {
+      "CBIS-DDSM": {
+        "modality_name": "Mammography",
+        "channels": 1,
+        "target_resolution": [
+          224,
+          224
+        ],
+        "transforms": [
+          {
+            "name": "Resize",
+            "enabled": true,
+            "size": [
+              224,
+              224
+            ]
+          },
+          {
+            "name": "CenterCrop",
+            "enabled": true,
+            "size": [
+              224,
+              224
+            ]
+          },
+          {
+            "name": "RandomCrop",
+            "enabled": false,
+            "size": [
+              200,
+              200
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "HorizontalFlip",
+            "enabled": true,
+            "probability": 0.5
+          },
+          {
+            "name": "VerticalFlip",
+            "enabled": false,
+            "probability": 0.0
+          },
+          {
+            "name": "Rotation",
+            "enabled": true,
+            "degrees": [
+              -10,
+              10
+            ],
+            "probability": 0.3
+          },
+          {
+            "name": "Affine",
+            "enabled": true,
+            "translate": [
+              0.03,
+              0.03
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "Perspective",
+            "enabled": false,
+            "scale": 0.05,
+            "probability": 0.1
+          },
+          {
+            "name": "Brightness",
+            "enabled": true,
+            "factor": [
+              0.92,
+              1.08
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "Contrast",
+            "enabled": true,
+            "factor": [
+              0.92,
+              1.08
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "CLAHE",
+            "enabled": true,
+            "clip_limit": 2.0,
+            "grid_size": [
+              8,
+              8
+            ],
+            "probability": 0.35
+          },
+          {
+            "name": "Gamma",
+            "enabled": true,
+            "gamma": [
+              0.9,
+              1.1
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "GaussianBlur",
+            "enabled": false,
+            "sigma": 0.5,
+            "probability": 0.1
+          },
+          {
+            "name": "Sharpen",
+            "enabled": true,
+            "alpha": [
+              0.1,
+              0.3
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "ElasticTransform",
+            "enabled": false,
+            "alpha": 0.5,
+            "probability": 0.1
+          },
+          {
+            "name": "RandomErasing",
+            "enabled": false,
+            "probability": 0.1
+          },
+          {
+            "name": "Normalization",
+            "enabled": true,
+            "type": "MinMax",
+            "range": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "name": "RandomNoise",
+            "enabled": true,
+            "type": "Gaussian",
+            "std": 0.005,
+            "probability": 0.15
+          }
+        ]
+      },
+      "BUSI": {
+        "modality_name": "Ultrasound",
+        "channels": 3,
+        "target_resolution": [
+          256,
+          256
+        ],
+        "transforms": [
+          {
+            "name": "Resize",
+            "enabled": true,
+            "size": [
+              256,
+              256
+            ]
+          },
+          {
+            "name": "CenterCrop",
+            "enabled": true,
+            "size": [
+              256,
+              256
+            ]
+          },
+          {
+            "name": "RandomCrop",
+            "enabled": false,
+            "size": [
+              224,
+              224
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "HorizontalFlip",
+            "enabled": true,
+            "probability": 0.5
+          },
+          {
+            "name": "VerticalFlip",
+            "enabled": false,
+            "probability": 0.0
+          },
+          {
+            "name": "Rotation",
+            "enabled": true,
+            "degrees": [
+              -15,
+              15
+            ],
+            "probability": 0.35
+          },
+          {
+            "name": "Affine",
+            "enabled": true,
+            "translate": [
+              0.05,
+              0.05
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "Perspective",
+            "enabled": false,
+            "scale": 0.05,
+            "probability": 0.1
+          },
+          {
+            "name": "Brightness",
+            "enabled": true,
+            "factor": [
+              0.85,
+              1.15
+            ],
+            "probability": 0.3
+          },
+          {
+            "name": "Contrast",
+            "enabled": true,
+            "factor": [
+              0.85,
+              1.15
+            ],
+            "probability": 0.3
+          },
+          {
+            "name": "CLAHE",
+            "enabled": false,
+            "clip_limit": 1.5,
+            "probability": 0.15
+          },
+          {
+            "name": "Gamma",
+            "enabled": true,
+            "gamma": [
+              0.85,
+              1.15
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "GaussianBlur",
+            "enabled": true,
+            "sigma": 0.8,
+            "probability": 0.2
+          },
+          {
+            "name": "Sharpen",
+            "enabled": false,
+            "alpha": 0.2,
+            "probability": 0.1
+          },
+          {
+            "name": "ElasticTransform",
+            "enabled": true,
+            "alpha": 1.0,
+            "sigma": 0.05,
+            "probability": 0.2
+          },
+          {
+            "name": "RandomErasing",
+            "enabled": false,
+            "probability": 0.1
+          },
+          {
+            "name": "Normalization",
+            "enabled": true,
+            "type": "ImageNet",
+            "mean": [
+              0.485,
+              0.456,
+              0.406
+            ],
+            "std": [
+              0.229,
+              0.224,
+              0.225
+            ]
+          },
+          {
+            "name": "RandomNoise",
+            "enabled": true,
+            "type": "Speckle",
+            "var": 0.005,
+            "probability": 0.25
+          }
+        ]
+      },
+      "BreakHis": {
+        "modality_name": "Histopathology",
+        "channels": 3,
+        "target_resolution": [
+          224,
+          224
+        ],
+        "transforms": [
+          {
+            "name": "Resize",
+            "enabled": true,
+            "size": [
+              224,
+              224
+            ]
+          },
+          {
+            "name": "CenterCrop",
+            "enabled": true,
+            "size": [
+              224,
+              224
+            ]
+          },
+          {
+            "name": "RandomCrop",
+            "enabled": true,
+            "size": [
+              200,
+              200
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "HorizontalFlip",
+            "enabled": true,
+            "probability": 0.5
+          },
+          {
+            "name": "VerticalFlip",
+            "enabled": true,
+            "probability": 0.5
+          },
+          {
+            "name": "Rotation",
+            "enabled": true,
+            "degrees": [
+              0,
+              90,
+              180,
+              270
+            ],
+            "probability": 0.5
+          },
+          {
+            "name": "Affine",
+            "enabled": true,
+            "translate": [
+              0.04,
+              0.04
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "Perspective",
+            "enabled": false,
+            "scale": 0.03,
+            "probability": 0.1
+          },
+          {
+            "name": "Brightness",
+            "enabled": true,
+            "factor": [
+              0.9,
+              1.1
+            ],
+            "probability": 0.3
+          },
+          {
+            "name": "Contrast",
+            "enabled": true,
+            "factor": [
+              0.9,
+              1.1
+            ],
+            "probability": 0.3
+          },
+          {
+            "name": "CLAHE",
+            "enabled": false,
+            "clip_limit": 1.0,
+            "probability": 0.1
+          },
+          {
+            "name": "Gamma",
+            "enabled": true,
+            "gamma": [
+              0.9,
+              1.1
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "GaussianBlur",
+            "enabled": false,
+            "sigma": 0.4,
+            "probability": 0.1
+          },
+          {
+            "name": "Sharpen",
+            "enabled": false,
+            "alpha": 0.2,
+            "probability": 0.1
+          },
+          {
+            "name": "ElasticTransform",
+            "enabled": false,
+            "alpha": 0.5,
+            "probability": 0.1
+          },
+          {
+            "name": "RandomErasing",
+            "enabled": false,
+            "probability": 0.1
+          },
+          {
+            "name": "Normalization",
+            "enabled": true,
+            "type": "ImageNet",
+            "mean": [
+              0.485,
+              0.456,
+              0.406
+            ],
+            "std": [
+              0.229,
+              0.224,
+              0.225
+            ]
+          },
+          {
+            "name": "RandomNoise",
+            "enabled": false,
+            "type": "Gaussian",
+            "probability": 0.05
+          }
+        ]
+      },
+      "MRI": {
+        "modality_name": "Magnetic Resonance Imaging",
+        "channels": 1,
+        "target_resolution": [
+          256,
+          256
+        ],
+        "transforms": [
+          {
+            "name": "Resize",
+            "enabled": true,
+            "size": [
+              256,
+              256
+            ]
+          },
+          {
+            "name": "CenterCrop",
+            "enabled": true,
+            "size": [
+              256,
+              256
+            ]
+          },
+          {
+            "name": "RandomCrop",
+            "enabled": false,
+            "size": [
+              240,
+              240
+            ],
+            "probability": 0.15
+          },
+          {
+            "name": "HorizontalFlip",
+            "enabled": true,
+            "probability": 0.5
+          },
+          {
+            "name": "VerticalFlip",
+            "enabled": false,
+            "probability": 0.0
+          },
+          {
+            "name": "Rotation",
+            "enabled": true,
+            "degrees": [
+              -7,
+              7
+            ],
+            "probability": 0.25
+          },
+          {
+            "name": "Affine",
+            "enabled": true,
+            "translate": [
+              0.03,
+              0.03
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "Perspective",
+            "enabled": false,
+            "scale": 0.03,
+            "probability": 0.1
+          },
+          {
+            "name": "Brightness",
+            "enabled": true,
+            "factor": [
+              0.92,
+              1.08
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "Contrast",
+            "enabled": true,
+            "factor": [
+              0.92,
+              1.08
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "CLAHE",
+            "enabled": false,
+            "clip_limit": 1.5,
+            "probability": 0.15
+          },
+          {
+            "name": "Gamma",
+            "enabled": true,
+            "gamma": [
+              0.92,
+              1.08
+            ],
+            "probability": 0.2
+          },
+          {
+            "name": "GaussianBlur",
+            "enabled": true,
+            "sigma": 0.5,
+            "probability": 0.15
+          },
+          {
+            "name": "Sharpen",
+            "enabled": true,
+            "alpha": 0.15,
+            "probability": 0.15
+          },
+          {
+            "name": "ElasticTransform",
+            "enabled": false,
+            "alpha": 0.5,
+            "probability": 0.1
+          },
+          {
+            "name": "RandomErasing",
+            "enabled": false,
+            "probability": 0.1
+          },
+          {
+            "name": "Normalization",
+            "enabled": true,
+            "type": "ZScore",
+            "mean": 0.0,
+            "std": 1.0
+          },
+          {
+            "name": "RandomNoise",
+            "enabled": true,
+            "type": "RicianNoise",
+            "std": 0.004,
+            "probability": 0.15
+          }
+        ]
+      }
+    }
+  },
+  "dataset_class_config": {
+    "implemented_classes": [
+      "MammographyDataset",
+      "UltrasoundDataset",
+      "HistopathologyDataset",
+      "MRIDataset",
+      "ClinicalDataset",
+      "EHRDataset",
+      "GenomicDataset",
+      "UnifiedMultimodalDataset"
+    ],
+    "unified_entrypoint": "UnifiedMultimodalDataset(manifest_df, base_dir)",
+    "lazy_loading": true,
+    "caching_supported": true,
+    "multi_worker_safe": true
+  }
+}

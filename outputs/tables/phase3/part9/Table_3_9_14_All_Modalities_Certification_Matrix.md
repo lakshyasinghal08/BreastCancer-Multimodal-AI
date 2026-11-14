@@ -1,0 +1,9 @@
+| Modality_Expert          | Zero_Leakage_Split         | Preprocessing_Freeze               | Multimodal_Latent_Dim   | Bitwise_Reload            | Production_Gate             |
+|:-------------------------|:---------------------------|:-----------------------------------|:------------------------|:--------------------------|:----------------------------|
+| Mammography Expert       | Certified (CBIS-DDSM)      | Certified (CLAHE 1x224x224)        | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Ultrasound Expert        | Certified (BUSI/UDIAT)     | Certified (B-Mode 1x224x224)       | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Histopathology Expert    | Certified (BreakHis)       | Certified (RGB 3x224x224)          | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Breast MRI Expert        | Certified (Duke-Breast)    | Certified (DCE-MRI 1x224x224)      | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Clinical FNA Expert      | Certified (Wisconsin/TCGA) | Certified (RobustScale 30-D)       | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Electronic Health Record | Certified (TCGA-BRCA)      | Certified (Standardized 16-D)      | 128-D                   | Verified (Delta=0.0)      | APPROVED FOR PHASE 4 FUSION |
+| Genomic Expert           | Certified (GSE45827)       | Certified (Frozen Z-Score 54675-D) | 128-D                   | Verified (Delta=0.00e+00) | APPROVED FOR PHASE 4 FUSION |

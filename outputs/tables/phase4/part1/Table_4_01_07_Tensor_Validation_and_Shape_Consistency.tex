@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\hline
+Pipeline\_Stage & Tensor\_Name & Tensor\_Shape & Data\_Type & NaN\_Detected & Inf\_Detected & Validation\_Result \\
+\hline
+Unimodal Expert Extraction & raw\_tokens & [B, 7, 128] & torch.float32 & False & False & PASSED (Shape Aligned) \\
+Confidence Weighting & confidence\_weights & [B, 7] & torch.float32 & False & False & PASSED (Sum=1.000) \\
+Modality Gating & gated\_tokens & [B, 7, 128] & torch.float32 & False & False & PASSED (Tanh Modulated) \\
+Token Sequence Injection & seq\_tokens & [B, 8, 128] & torch.float32 & False & False & PASSED (CLS Preprended) \\
+Sequence Mask Construction & seq\_mask & [B, 8] & torch.bool & False & False & PASSED (CLS=True) \\
+Cross-Attention Layer 1 & attn\_weights\_l1 & [B, 4, 8, 8] & torch.float32 & False & False & PASSED (Softmax Normal) \\
+Cross-Attention Layer 2 & attn\_weights\_l2 & [B, 4, 8, 8] & torch.float32 & False & False & PASSED (Softmax Normal) \\
+Dual-Pooling Layer & fused\_embedding & [B, 128] & torch.float32 & False & False & PASSED (LayerNorm Standard) \\
+Diagnostic Head & logits & [B, 2] & torch.float32 & False & False & PASSED (Binary Logits) \\
+Probability Calibration & probabilities & [B, 2] & torch.float32 & False & False & PASSED (Sum=1.000) \\
+Auxiliary Subtype Head & subtype\_logits & [B, 6] & torch.float32 & False & False & PASSED (PAM50 Logits) \\
+Diagnostic Confidence & confidence\_scores & [B] & torch.float32 & False & False & PASSED (Range [0.5, 1.0]) \\
+Predictive Uncertainty & predictive\_entropy & [B] & torch.float32 & False & False & PASSED (Entropy >= 0.0) \\
+\hline
+\end{tabular}
+\caption{Table 4 01 07 Tensor Validation and Shape Consistency}
+\label{tab:table_4_01_07_tensor_validation_and_shape_consistency}
+\end{table}

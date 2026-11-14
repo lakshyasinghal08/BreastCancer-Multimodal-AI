@@ -1,0 +1,7 @@
+Module,Dependencies,Input_Types,Output_Types,Status
+Metadata Harmonizer,Raw Manifests,Parquet/CSV,Standardized Parquet,VERIFIED_OPERATIONAL
+Stratified Splitter,Patient Registry,Patient DataFrame,3 Manifest Partitions,VERIFIED_OPERATIONAL
+Image Preprocessors,Pillow / OpenCV,Raw Images,Float32 Tensors (224x224),VERIFIED_OPERATIONAL
+Tabular Repository,Scikit-Learn Scaler,CSV Clinical Data,Z-Score Vectors,VERIFIED_OPERATIONAL
+Tensor Cache Engine,SHA-256 Hasher,Modality Package,Cached NumPy File,VERIFIED_OPERATIONAL
+DataLoader Engine,PyTorch Interface,Patient Packages,Batched Dictionary,VERIFIED_OPERATIONAL

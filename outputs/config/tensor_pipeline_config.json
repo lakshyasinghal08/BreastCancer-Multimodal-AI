@@ -1,0 +1,57 @@
+{
+  "version": "v2.5.0-tensor-pipeline",
+  "timestamp": "2026-10-18T14:58:21+0530",
+  "deterministic_seed": 42,
+  "modalities": [
+    "mammography",
+    "ultrasound",
+    "histopathology",
+    "mri",
+    "clinical",
+    "ehr",
+    "genomic"
+  ],
+  "tensor_shapes": {
+    "mammography": [
+      1,
+      512,
+      512
+    ],
+    "ultrasound": [
+      1,
+      256,
+      256
+    ],
+    "histopathology": [
+      3,
+      224,
+      224
+    ],
+    "mri": [
+      1,
+      256,
+      256
+    ],
+    "clinical": [
+      30
+    ],
+    "ehr": [
+      16
+    ],
+    "genomic": [
+      331
+    ]
+  },
+  "datatype": "torch.float32",
+  "target_label": "diagnosis (0=Benign, 1=Malignant)",
+  "synthetic_data_imputation": false,
+  "normalization": {
+    "mammography": "Letterbox 512x512, scaled to [-1, 1]",
+    "ultrasound": "Letterbox 256x256, scaled to [-1, 1]",
+    "histopathology": "Bilinear 224x224, ImageNet mean/std normalized",
+    "mri": "Letterbox 256x256, scaled to [-1, 1]",
+    "clinical": "Wisconsin FNA 30 features, robust z-score scaled",
+    "ehr": "TCGA-BRCA 16 features, median imputed + z-score scaled",
+    "genomic": "TCGA / GSE45827 331 features, log2 shifted + standardized"
+  }
+}

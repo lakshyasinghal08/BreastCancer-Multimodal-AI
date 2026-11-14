@@ -1,0 +1,10 @@
+\begin{tabular}{lllll}
+\toprule
+Phase & Start LR & End LR & Dynamics & Purpose \\
+\midrule
+Warmup Phase (Epoch 1-2) & 0.000000 & 0.001000 & Linear ramp over 2 epochs & Stabilizes early gradient variance \\
+Early Annealing (Epoch 3-4) & 0.001000 & 0.000962 & Cosine half-cycle initial descent & Explores optimal parameter basin \\
+Mid Annealing (Epoch 5-7) & 0.000962 & 0.000501 & Steepest cosine curvature region & Fine-tunes cross-modal alignment \\
+Late Convergence (Epoch 8-10) & 0.000501 & 0.000001 & Asymptotic approach to min\_lr & Final basin settling \& stabilization \\
+\bottomrule
+\end{tabular}

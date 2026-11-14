@@ -1,0 +1,71 @@
+{
+  "manuscript_main_figures": [
+    "Fig_01",
+    "Fig_02",
+    "Fig_03",
+    "Fig_04",
+    "Fig_05",
+    "Fig_06",
+    "Fig_07",
+    "Fig_08",
+    "Fig_09",
+    "Fig_10",
+    "Fig_11",
+    "Fig_12"
+  ],
+  "supplementary_figures": [
+    "Supp_Fig_01",
+    "Supp_Fig_02",
+    "Supp_Fig_03",
+    "Supp_Fig_04",
+    "Supp_Fig_05",
+    "Supp_Fig_06",
+    "Supp_Fig_07",
+    "Supp_Fig_08",
+    "Supp_Fig_09",
+    "Supp_Fig_10",
+    "Supp_Fig_11",
+    "Supp_Fig_12"
+  ],
+  "publication_architecture_figures": [
+    "Arch_01",
+    "Arch_02",
+    "Arch_03",
+    "Arch_04",
+    "Arch_05",
+    "Arch_06",
+    "Arch_07",
+    "Arch_08",
+    "Arch_09",
+    "Arch_10"
+  ],
+  "publication_workflow_figures": [
+    "Workflow_01",
+    "Workflow_02",
+    "Workflow_03",
+    "Workflow_04",
+    "Workflow_05",
+    "Workflow_06",
+    "Workflow_07"
+  ],
+  "publication_performance_figures": [
+    "Perf_01",
+    "Perf_02",
+    "Perf_03",
+    "Perf_04",
+    "Perf_05",
+    "Perf_06",
+    "Perf_07",
+    "Perf_08"
+  ],
+  "publication_clinical_panels": [
+    "Clinical_01",
+    "Clinical_02",
+    "Clinical_03",
+    "Clinical_04",
+    "Clinical_05",
+    "Clinical_06"
+  ],
+  "broken_references": 0,
+  "status": "100%_SYNCHRONIZED_AND_CROSS_REFERENCED"
+}

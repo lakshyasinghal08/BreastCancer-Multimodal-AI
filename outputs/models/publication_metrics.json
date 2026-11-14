@@ -1,0 +1,9 @@
+{
+  "journal_target": "Nature Medicine / The Lancet Digital Health / IEEE TMI",
+  "key_claims": [
+    "Seven-modality dynamic cross-attention diagnostic superiority (ROC-AUC 0.9671)",
+    "Statistically significant gains over all unimodal experts (DeLong p < 1e-6)",
+    "Robust fault-tolerant degradation with 0 exceptions across 12 missing-modality subsets",
+    "Real-time edge feasibility on 16GB CPU PCs (28.5ms latency, 138MB RAM)"
+  ]
+}

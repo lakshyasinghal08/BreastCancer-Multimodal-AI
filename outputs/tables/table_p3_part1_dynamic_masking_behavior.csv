@@ -1,0 +1,6 @@
+Modality_Scenario,Binary_Mask,Attending_Modalities,Information_Leakage,Status
+Full Multimodal (7/7 Present),"[1, 1, 1, 1, 1, 1, 1]",All 7 Modalities,0.00%,PASSED
+Imaging Absent (Clinical+EHR+Genomic),"[0, 0, 0, 0, 1, 1, 1]",Tabular & Genomic Only,0.00%,PASSED
+Omics Absent (4 Vision + Clinical),"[1, 1, 1, 1, 1, 0, 0]",Vision & Clinical Only,0.00%,PASSED
+Unimodal Mammography Only,"[1, 0, 0, 0, 0, 0, 0]",Mammography Only,0.00%,PASSED
+Unimodal Genomic Microarray Only,"[0, 0, 0, 0, 0, 0, 1]",Genomic Only,0.00%,PASSED

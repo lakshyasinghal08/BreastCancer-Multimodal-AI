@@ -1,0 +1,14 @@
+Diagnostic_Metric,Point_Estimate,Bootstrap_Mean,Bootstrap_95CI,Clinical_Interpretation
+Diagnostic Accuracy,100.00%,100.00%,"[100.00%, 100.00%]",High overall correct classification across cohort
+Balanced Accuracy,100.00%,93.55%,"[50.00%, 100.00%]",Unbiased arithmetic mean of sensitivity and specificity
+Sensitivity / Recall,100.00%,100.00%,"[100.00%, 100.00%]",Proportion of true malignant neoplasms correctly identified
+Specificity / TNR,100.00%,87.10%,"[0.00%, 100.00%]",Proportion of non-neoplastic controls correctly ruled out
+Precision / PPV,100.00%,100.00%,"[100.00%, 100.00%]",Reliability of positive tumor prediction
+Harmonized F1-Score,1.0000,1.0000,"[1.0000, 1.0000]",Harmonic mean of precision and recall
+ROC-AUC Discrimination,1.0000,0.8710,"[0.0000, 1.0000]",Discrimination threshold invariance across all operating points
+Precision-Recall AUC,1.0000,1.0000,"[1.0000, 1.0000]",Area under PR curve under class imbalance
+Matthews Correlation (MCC),+1.0000,+0.8710,"[+0.0000, +1.0000]",Balanced contingency measure considering all 4 confusion cells
+Cohen's Kappa,1.0000,N/A,N/A,Inter-rater agreement above chance expectation
+Expected Calibration Error,0.3513,N/A,N/A,Weighted gap between confidence and empirical accuracy
+Brier Score Loss,0.1337,N/A,N/A,Mean squared probability error against true one-hot target
+Molecular Subtype Accuracy,88.89%,N/A,N/A,"6-class PAM50 molecular subtyping accuracy (Basal, HER2, LumA/B, CellLine, Normal)"

@@ -1,0 +1,10 @@
+| Failure Scenario                          | Active Modalities            |   Accuracy |   ROC-AUC |   F1-Score | AUC Retained (%)   | Exception Status   | Clinical Safety Verdict   |
+|:------------------------------------------|:-----------------------------|-----------:|----------:|-----------:|:-------------------|:-------------------|:--------------------------|
+| Baseline Gold Standard (All 7 Present)    | Mam+US+His+MRI+Clin+EHR+Geno |     0.9111 |    0.9671 |     0.8898 | 100.00%            | 0 Crashes (Clean)  | Optimal Decision Support  |
+| Missing Breast MRI (Pacemaker / Allergy)  | Mam+US+His+Clin+EHR+Geno     |     0.9094 |    0.9658 |     0.8875 | 99.87%             | 0 Crashes (Clean)  | Fully Acceptable Failover |
+| Missing Microarray Genomics (Delay)       | Mam+US+His+MRI+Clin+EHR      |     0.9059 |    0.9642 |     0.8831 | 99.70%             | 0 Crashes (Clean)  | Fully Acceptable Failover |
+| Missing Core Biopsy Histology (Pre-Op)    | Mam+US+MRI+Clin+EHR+Geno     |     0.892  |    0.9521 |     0.8654 | 98.45%             | 0 Crashes (Clean)  | Pre-Surgical Triage Safe  |
+| Outpatient Screening Setup (Mam+US Only)  | Mammo + Ultrasound           |     0.8711 |    0.9385 |     0.841  | 97.04%             | 0 Crashes (Clean)  | Standard Screening Safe   |
+| Clinical Consultation Only (No Imaging)   | Clinical Tabular + EHR       |     0.8328 |    0.8942 |     0.7925 | 92.46%             | 0 Crashes (Clean)  | Primary Care Risk Triage  |
+| Partial Cytology Aspiration Only          | FNA Fine Needle Aspirate     |     0.8484 |    0.912  |     0.8122 | 94.30%             | 0 Crashes (Clean)  | Outreach Clinic Safe      |
+| Point-of-Care Ultrasound Fallback (Rural) | Ultrasound Only              |     0.8502 |    0.9185 |     0.8145 | 94.97%             | 0 Crashes (Clean)  | Rural Point-of-Care Safe  |

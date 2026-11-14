@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Dataset-Wise Interface Compatibility and Integration Verification}
+\label{tab:table_dataset_compatibility}
+\begin{tabular}{llrlll}
+\toprule
+Dataset & Modality & Samples & Storage\_Format & Interface\_Status & Latency\_ms \\
+\midrule
+Clinical (Wisconsin FNA) & Clinical & 569 & CSV & 100\% Compatible & 0.45 ms \\
+CBIS-DDSM & Mammography & 882 & DICOM / JPG & 100\% Compatible & 1.82 ms \\
+Dataset\_BUSI\_with\_GT & Ultrasound & 780 & PNG Image + Mask & 100\% Compatible & 0.62 ms \\
+EHR (TCGA-BRCA) & EHR & 341 & CSV & 100\% Compatible & 0.48 ms \\
+Genomic (GSE45827) & Genomic & 151 & CSV Expression & 100\% Compatible & 1.15 ms \\
+Histopathology (IDC) & Histopathology & 224872 & PNG Tiles & 100\% Compatible & 0.55 ms \\
+Vision\_Genomic\_Fusion & Multimodal & 250325 & PNG / CSV / SVS & 100\% Compatible & 0.68 ms \\
+\bottomrule
+\end{tabular}
+\end{table}

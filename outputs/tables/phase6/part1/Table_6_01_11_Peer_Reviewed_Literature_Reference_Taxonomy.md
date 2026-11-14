@@ -1,0 +1,10 @@
+### Taxonomic Distribution of Peer-Reviewed Literature Supporting Manuscript
+
+| Literature Domain                          |   Citations Count | Representative Journals                            | Key Thematic Contribution                                              |
+|:-------------------------------------------|------------------:|:---------------------------------------------------|:-----------------------------------------------------------------------|
+| Multimodal Deep Learning & Cross-Attention |                14 | Nature, IEEE TMI, CVPR, NeurIPS                    | Cross-modal attention, transformer fusion, representation learning     |
+| Clinical Breast Cancer Diagnosis & Imaging |                16 | Radiology, Lancet Oncology, JCO, Breast Cancer Res | BI-RADS guidelines, dense breast masking, multi-modality screening     |
+| Uncertainty Quantification & Calibration   |                 8 | ICML, Nature Machine Intelligence, MedIA           | Temperature scaling, ECE, Shannon entropy, MC-Dropout epistemic gating |
+| Explainable Artificial Intelligence (XAI)  |                 7 | IEEE TPAMI, Nature Biomedical Engineering          | Grad-CAM, Integrated Gradients, SHAP, Attention Rollout                |
+| Algorithmic Fairness & Clinical Regulation |                 7 | Lancet Digital Health, FDA SaMD Guidelines, JAMA   | Disparate impact ratio, equalized odds, ethical AI in oncology         |
+| TOTAL SYSTEMATIC BIBLIOGRAPHY              |                52 | Top-Tier High-Impact Q1 Venues                     | Comprehensive grounding across computational and clinical domains      |

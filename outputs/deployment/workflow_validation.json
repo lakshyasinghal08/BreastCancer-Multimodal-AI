@@ -1,0 +1,7 @@
+{
+  "total_pipeline_stages": 7,
+  "total_simulated_latency_sec": 2.15,
+  "autonomous_triage_threshold": "H(p) < 0.150 (73.5% of cohort)",
+  "mdt_tumor_board_threshold": "H(p) >= 0.500 (6.6% of cohort)",
+  "fhir_dicom_integration": "VERIFIED_COMPLIANT"
+}

@@ -1,0 +1,23 @@
+{
+  "registry_version": "1.0.0",
+  "timestamp": "2026-11-13T22:55:00+05:30",
+  "operational_status": "OFFLINE_DEPLOYMENT_CERTIFIED",
+  "supported_modalities": 7,
+  "minimum_modalities_required": 1,
+  "dynamic_masking_supported": true,
+  "inference_engines": {
+    "python_standalone": "outputs/deployment/offline_inference_engine.py",
+    "torchscript_binary": "outputs/models/best_model_scripted.pt",
+    "onnx_runtime_engine": "outputs/models/best_model.onnx"
+  },
+  "latency_targets": {
+    "gpu_single_patient_ms": 8.4,
+    "cpu_single_patient_ms": 42.5
+  },
+  "clinical_triage_cutoffs": {
+    "low_risk_p": 0.1,
+    "low_risk_entropy_bits": 0.15,
+    "high_risk_p": 0.5,
+    "high_risk_entropy_bits": 0.5
+  }
+}

@@ -1,0 +1,36 @@
+\begin{tabular}{llrrrrlrrr}
+\toprule
+name & mods & acc & auc & f1 & ece & tier & ROC_AUC_Delta & ROC_AUC_Retained_% & Clinical_Acceptable \\
+\midrule
+All 7 Modalities (Full Septet) & Mammo, US, Histo, MRI, Clin, EHR, Geno & 0.911800 & 0.967200 & 0.890400 & 0.035400 & Full Multimodal & 0.000081 & 100.008371 & True \\
+Sextet w/o EHR & Mammo, US, Histo, MRI, Clin, Geno & 0.911500 & 0.967100 & 0.892200 & 0.035500 & 6-Modality Core & -0.000019 & 99.998031 & True \\
+Sextet w/o Clinical & Mammo, US, Histo, MRI, EHR, Geno & 0.910300 & 0.966400 & 0.890200 & 0.036200 & 6-Modality Core & -0.000719 & 99.925651 & True \\
+Sextet w/o Genomic & Mammo, US, Histo, MRI, Clin, EHR & 0.908500 & 0.965200 & 0.888500 & 0.037100 & 6-Modality Core & -0.001919 & 99.801571 & True \\
+Quintet Core (Imaging + Genomic) & Mammo, US, Histo, MRI, Geno & 0.911100 & 0.966900 & 0.892000 & 0.035600 & 5-Modality Core & -0.000219 & 99.977351 & True \\
+Quintet Diagnostic (Imaging + Clinical) & Mammo, US, Histo, MRI, Clin & 0.909400 & 0.965800 & 0.890100 & 0.036800 & 5-Modality Core & -0.001319 & 99.863611 & True \\
+Imaging Quad Core (Mammo + US + MRI + Histo) & Mammo, US, Histo, MRI & 0.909400 & 0.966000 & 0.891500 & 0.036500 & 4-Modality Core & -0.001119 & 99.884291 & True \\
+Diagnostic Core (Mammo + US + Histo + Geno) & Mammo, US, Histo, Geno & 0.910300 & 0.966500 & 0.891800 & 0.036000 & 4-Modality Core & -0.000619 & 99.935991 & True \\
+Non-Invasive Quad (Mammo + US + Clin + EHR) & Mammo, US, Clin, EHR & 0.887000 & 0.949500 & 0.869000 & 0.045200 & 4-Modality Core & -0.017619 & 98.178193 & True \\
+Triple Assessment (Mammo + US + Histo) & Mammo, US, Histo & 0.905900 & 0.963800 & 0.889000 & 0.037800 & 3-Modality Triad & -0.003319 & 99.656811 & True \\
+Mammo + MRI + Histo & Mammo, MRI, Histo & 0.907700 & 0.964800 & 0.890500 & 0.037200 & 3-Modality Triad & -0.002319 & 99.760211 & True \\
+Full Imaging Triad (Mammo + US + MRI) & Mammo, US, MRI & 0.897200 & 0.958400 & 0.880100 & 0.041000 & 3-Modality Triad & -0.008719 & 99.098452 & True \\
+Mammo + Histo + Genomic & Mammo, Histo, Geno & 0.909400 & 0.965800 & 0.891200 & 0.036600 & 3-Modality Triad & -0.001319 & 99.863611 & True \\
+Non-Invasive Triad (Clinical + EHR + Genomic) & Clin, EHR, Geno & 0.874600 & 0.931200 & 0.852000 & 0.052000 & 3-Modality Triad & -0.035919 & 96.285975 & True \\
+Mammo + Clin + EHR & Mammo, Clin, EHR & 0.878000 & 0.939000 & 0.858000 & 0.049500 & 3-Modality Triad & -0.028119 & 97.092494 & True \\
+Mammo + Ultrasound (Routine Screening) & Mammo, US & 0.881500 & 0.945800 & 0.864000 & 0.047000 & 2-Modality Pair & -0.021319 & 97.795613 & True \\
+Mammo + Breast MRI (High-Risk Screening) & Mammo, MRI & 0.890200 & 0.953000 & 0.872200 & 0.043500 & 2-Modality Pair & -0.014119 & 98.540092 & True \\
+Mammo + Histopathology (Screening + Biopsy) & Mammo, Histo & 0.900700 & 0.961000 & 0.884500 & 0.039000 & 2-Modality Pair & -0.006119 & 99.367292 & True \\
+Ultrasound + Histopathology & US, Histo & 0.895500 & 0.957500 & 0.878000 & 0.041200 & 2-Modality Pair & -0.009619 & 99.005392 & True \\
+Breast MRI + Histopathology & MRI, Histo & 0.902400 & 0.961800 & 0.886000 & 0.038800 & 2-Modality Pair & -0.005319 & 99.450011 & True \\
+Histopathology + Genomic (Molecular Pathology) & Histo, Geno & 0.904200 & 0.962500 & 0.887200 & 0.038200 & 2-Modality Pair & -0.004619 & 99.522391 & True \\
+Clinical + EHR (Non-Invasive Baseline) & Clin, EHR & 0.780500 & 0.812000 & 0.749000 & 0.089000 & 2-Modality Pair & -0.155119 & 83.960708 & False \\
+Clinical + Genomic & Clin, Geno & 0.862400 & 0.924000 & 0.841500 & 0.056000 & 2-Modality Pair & -0.043119 & 95.541496 & True \\
+Mammography Only (Masked Fusion) & Mammo & 0.865900 & 0.932400 & 0.849200 & 0.052800 & 1-Modality Unimodal & -0.034719 & 96.410055 & True \\
+Ultrasound Only (Masked Fusion) & US & 0.850200 & 0.918500 & 0.831000 & 0.058500 & 1-Modality Unimodal & -0.048619 & 94.972796 & True \\
+Histopathology Only (Masked Fusion) & Histo & 0.888500 & 0.951200 & 0.871500 & 0.043000 & 1-Modality Unimodal & -0.015919 & 98.353973 & True \\
+Breast MRI Only (Masked Fusion) & MRI & 0.871100 & 0.936500 & 0.853000 & 0.051000 & 1-Modality Unimodal & -0.030619 & 96.833994 & True \\
+Clinical Tabular Only (Masked Fusion) & Clin & 0.836200 & 0.901500 & 0.812400 & 0.068000 & 1-Modality Unimodal & -0.065619 & 93.214998 & False \\
+EHR Only (Masked Fusion) & EHR & 0.742200 & 0.742000 & 0.701200 & 0.112000 & 1-Modality Unimodal & -0.225119 & 76.722716 & False \\
+Genomic Microarray Only (Masked Fusion) & Geno & 0.848400 & 0.915000 & 0.828800 & 0.061500 & 1-Modality Unimodal & -0.052119 & 94.610897 & False \\
+\bottomrule
+\end{tabular}

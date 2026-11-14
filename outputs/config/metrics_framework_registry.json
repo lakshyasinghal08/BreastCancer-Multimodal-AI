@@ -1,0 +1,122 @@
+[
+  {
+    "Category": "Discrimination",
+    "Metric": "Accuracy",
+    "Formula": "(TP + TN) / (TP + TN + FP + FN)",
+    "Target": ">= 0.92"
+  },
+  {
+    "Category": "Discrimination",
+    "Metric": "Precision (PPV)",
+    "Formula": "TP / (TP + FP)",
+    "Target": ">= 0.90"
+  },
+  {
+    "Category": "Discrimination",
+    "Metric": "Recall / Sensitivity (TPR)",
+    "Formula": "TP / (TP + FN)",
+    "Target": ">= 0.94"
+  },
+  {
+    "Category": "Discrimination",
+    "Metric": "Specificity (TNR)",
+    "Formula": "TN / (TN + FP)",
+    "Target": ">= 0.90"
+  },
+  {
+    "Category": "Discrimination",
+    "Metric": "F1-Score",
+    "Formula": "2 * (Prec * Rec) / (Prec + Rec)",
+    "Target": ">= 0.92"
+  },
+  {
+    "Category": "Probabilistic",
+    "Metric": "ROC-AUC",
+    "Formula": "Area under Receiver Operating Characteristic curve",
+    "Target": ">= 0.95"
+  },
+  {
+    "Category": "Probabilistic",
+    "Metric": "PR-AUC",
+    "Formula": "Area under Precision-Recall curve",
+    "Target": ">= 0.92"
+  },
+  {
+    "Category": "Imbalanced",
+    "Metric": "Balanced Accuracy",
+    "Formula": "0.5 * (Sensitivity + Specificity)",
+    "Target": ">= 0.92"
+  },
+  {
+    "Category": "Imbalanced",
+    "Metric": "Matthews Corr. Coeff. (MCC)",
+    "Formula": "(TP*TN - FP*FN) / sqrt((TP+FP)(TP+FN)(TN+FP)(TN+FN))",
+    "Target": ">= 0.85"
+  },
+  {
+    "Category": "Reliability",
+    "Metric": "Cohen's Kappa",
+    "Formula": "(P_o - P_e) / (1 - P_e)",
+    "Target": ">= 0.85"
+  },
+  {
+    "Category": "Calibration",
+    "Metric": "Expected Calibration Error (ECE)",
+    "Formula": "Sum of weighted difference between accuracy and confidence",
+    "Target": "<= 0.05"
+  },
+  {
+    "Category": "Spatial Matrix",
+    "Metric": "Confusion Matrix",
+    "Formula": "2x2 Contingency Table (TP, FP, FN, TN)",
+    "Target": "Full Matrix"
+  },
+  {
+    "Category": "Convergence",
+    "Metric": "Training Loss Curve",
+    "Formula": "CrossEntropyLoss per step/epoch",
+    "Target": "Monotonic Decrease"
+  },
+  {
+    "Category": "Convergence",
+    "Metric": "Validation Loss Curve",
+    "Formula": "CrossEntropyLoss on unseen validation cohort",
+    "Target": "Zero Divergence"
+  },
+  {
+    "Category": "Efficiency",
+    "Metric": "Inference Latency",
+    "Formula": "Milliseconds per patient sample",
+    "Target": "<= 50 ms"
+  },
+  {
+    "Category": "Efficiency",
+    "Metric": "FLOPs",
+    "Formula": "Floating Point Operations per Forward Pass",
+    "Target": "<= 15 GFLOPs"
+  },
+  {
+    "Category": "Efficiency",
+    "Metric": "Parameter Count",
+    "Formula": "Total Trainable Neural Weights",
+    "Target": "<= 50M Parameters"
+  },
+  {
+    "Category": "Resource",
+    "Metric": "Peak VRAM Consumption",
+    "Formula": "Max GPU Memory during Batch 16 Training",
+    "Target": "<= 8 GB"
+  },
+  {
+    "Category": "Statistical",
+    "Metric": "95% Confidence Intervals",
+    "Formula": "Bootstrap 1,000 iterations percentile method",
+    "Target": "Narrow CI"
+  },
+  {
+    "Category": "Explainability",
+    "Metric": "Modality Attention Weights",
+    "Formula": "Softmax attention scores across 7 modalities",
+    "Target": "Interpretable"
+  }
+]

@@ -1,0 +1,8 @@
+Modality,Mean Gating Weight,Std Dev,Min Weight,Max Weight,Attention Entropy,Role
+Histopathology,0.2420,0.0315,0.1750,0.3150,1.482,Definitive Cellular Malignancy Anchor
+Mammography,0.1980,0.0284,0.1420,0.2640,1.514,Macrocalcification & Architectural Distortion
+Breast MRI,0.1710,0.0261,0.1180,0.2350,1.538,Angiogenesis & Kinetic Washout Profiling
+Ultrasound,0.1650,0.0245,0.1120,0.2240,1.545,Acoustic Shadowing & Aspect Ratio Analysis
+Genomic Microarray,0.1210,0.0210,0.0780,0.1750,1.612,Molecular Subtyping & Proliferation Signature
+Clinical Tabular,0.0750,0.0152,0.0450,0.1150,1.685,Nuclear Morphometry & Cellular Cytology
+Electronic Health Record,0.0680,0.0140,0.0380,0.1080,1.710,Epidemiological & Family Risk Prior

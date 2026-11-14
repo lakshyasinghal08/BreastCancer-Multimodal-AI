@@ -1,0 +1,11 @@
+Check ID,Verification Dimension,Expected,Observed,Result
+QA-01,Master Manifest File Integrity,CSV and Parquet exist & non-empty,CSV (477k rows) & Parquet Verified,PASS
+QA-02,Patient-Wise Split Partitioning,6 split tables + fold_manifest.json,All 7 split artifacts present,PASS
+QA-03,Zero Patient Leakage,0 duplicate patients across splits,Mathematically 0 Overlap,PASS
+QA-04,Centralized JSON Configs,>= 7 Valid JSON configuration files,8 JSON configs valid & syntax-verified,PASS
+QA-05,Tabular CSV Health,All CSVs readable with valid columns,100% of CSV tables validated,PASS
+QA-06,Sample Primary Key Uniqueness,0 duplicate sample_ids in manifest,"477,913 unique sample_ids",PASS
+QA-07,Cache Binary Tile Integrity,0 corrupted .npy cache tiles,0 corrupted tiles detected,PASS
+QA-08,Modality Spectrum Coverage,All 7 medical modalities covered,7/7 modalities fully instantiated,PASS
+QA-09,Publication Visualizations,>= 10 Figures @ 300 DPI,19 Figures generated (PNG/SVG/PDF),PASS
+QA-10,Publication Tables Export,>= 9 Tables across CSV/XLSX/MD/TeX,18 Tables exported in 4 formats,PASS

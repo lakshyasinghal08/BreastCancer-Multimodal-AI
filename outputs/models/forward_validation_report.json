@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-10-18T18:21:19.237007",
+  "total_scenarios_tested": 11,
+  "average_inference_latency_ms": 253.69,
+  "per_sample_latency_ms": 63.42,
+  "all_scenarios_passed": true,
+  "scenarios": [
+    {
+      "scenario": "Full_7_Modalities",
+      "batch_size": 4,
+      "latency_ms": 288.68,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Mammography_Only",
+      "batch_size": 4,
+      "latency_ms": 218.99,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Ultrasound_Only",
+      "batch_size": 4,
+      "latency_ms": 212.76,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Histopathology_Only",
+      "batch_size": 4,
+      "latency_ms": 381.94,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "MRI_Only",
+      "batch_size": 4,
+      "latency_ms": 314.61,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Clinical_FNA_Only",
+      "batch_size": 4,
+      "latency_ms": 240.97,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "EHR_Only",
+      "batch_size": 4,
+      "latency_ms": 206.96,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Genomics_Only",
+      "batch_size": 4,
+      "latency_ms": 257.32,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Imaging_Only_Pair",
+      "batch_size": 4,
+      "latency_ms": 230.97,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Vision_and_Genomics",
+      "batch_size": 4,
+      "latency_ms": 224.85,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    },
+    {
+      "scenario": "Clinical_and_EHR",
+      "batch_size": 4,
+      "latency_ms": 212.55,
+      "logits_shape": [
+        4,
+        2
+      ],
+      "probs_sum_valid": true,
+      "zero_nan_inf": true,
+      "mask_leakage_prevented": true,
+      "status": "PASSED"
+    }
+  ],
+  "numerical_stability_verdict": "100% NUMERICALLY STABLE ZERO NAN/INF",
+  "dynamic_masking_verdict": "VERIFIED STRICT ZERO-LEAKAGE ATTENTION MASKING"
+}

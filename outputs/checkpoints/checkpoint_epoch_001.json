@@ -1,0 +1,10 @@
+{
+  "filepath": "checkpoint_epoch_001.pt",
+  "sha256": "802f7aff14b5ded59e25ccb99763159aeca082a2ddd8473db95e1d9c2d9c4296",
+  "epoch": 1,
+  "global_step": 1,
+  "metrics": {
+    "dry_run_loss": 0.70703125
+  },
+  "timestamp": "2026-10-19T15:37:15.616135"
+}

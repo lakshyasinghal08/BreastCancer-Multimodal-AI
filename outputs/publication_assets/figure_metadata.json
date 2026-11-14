@@ -1,0 +1,21 @@
+{
+  "graphical_abstract": {
+    "dimensions": "14x8 inches",
+    "dpi": 600,
+    "target": "Q1 Journal Online / Print Abstract"
+  },
+  "toc_figure": {
+    "dimensions": "8x4 inches",
+    "dpi": 600,
+    "target": "Elsevier / Springer / IEEE Table of Contents"
+  },
+  "infographics": {
+    "dimensions": "12x16 inches",
+    "dpi": 600,
+    "target": "Conference / Institutional Poster Dissemination"
+  },
+  "architecture_figures": 10,
+  "workflow_figures": 7,
+  "performance_dashboards": 8,
+  "clinical_cases": 6
+}

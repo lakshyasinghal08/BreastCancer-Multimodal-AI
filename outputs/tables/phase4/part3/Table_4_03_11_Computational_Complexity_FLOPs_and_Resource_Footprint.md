@@ -1,0 +1,13 @@
+| Subsystem / Modality                   |   Param Count | FLOPs (M)   | Input Dimension           | Frozen Status                 |
+|:---------------------------------------|--------------:|:------------|:--------------------------|:------------------------------|
+| Mammography Vision Expert              |       144,848 | 85.4 M      | 1 x 224 x 224             | LOCKED (Phase 3 Certified)    |
+| Ultrasound Vision Expert               |       144,848 | 85.4 M      | 1 x 224 x 224             | LOCKED (Phase 3 Certified)    |
+| Histopathology Vision Expert           |       145,136 | 85.6 M      | 3 x 224 x 224             | LOCKED (Phase 3 Certified)    |
+| Breast MRI 3D Vision Expert            |       144,848 | 85.4 M      | 3 x 224 x 224             | LOCKED (Phase 3 Certified)    |
+| Clinical Tabular Expert                |        43,490 | 0.08 M      | 30 Features               | LOCKED (Phase 3 Certified)    |
+| Electronic Health Record Expert        |        61,442 | 0.12 M      | 14 Features               | LOCKED (Phase 3 Certified)    |
+| Genomic Microarray Expert              |    14,114,568 | 28.2 M      | 54,675 Probes             | LOCKED (Phase 3 Certified)    |
+| Modality Token Embedding & Gating      |         3,584 | 0.01 M      | 7 x 128 Latents           | TRAINABLE (Optimized Phase 4) |
+| Cross-Attention Transformer (2 Layers) |       264,192 | 1.06 M      | 8 x 128 Tokens            | TRAINABLE (Optimized Phase 4) |
+| Dual-Head Classifier & Subtyping       |        58,512 | 0.12 M      | 128 Fused Latents         | TRAINABLE (Optimized Phase 4) |
+| TOTAL UNIFIED MULTIMODAL SYSTEM        |    15,125,468 | 371.39 M    | Multimodal Patient Vector | Fully Production Certified    |

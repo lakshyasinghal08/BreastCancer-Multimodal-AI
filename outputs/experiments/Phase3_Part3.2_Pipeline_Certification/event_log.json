@@ -1,0 +1,248 @@
+[
+  {
+    "timestamp": "2026-10-18T22:40:08.735328",
+    "elapsed_sec": 0.06,
+    "event": "LossFactory_Initialized",
+    "payload": {
+      "loss_type": "LabelSmoothingCrossEntropy",
+      "smoothing": 0.05
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 50.3,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.77,
+      "system_ram_used_gb": 6.88,
+      "system_ram_percent": 89.9,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:08.752227",
+    "elapsed_sec": 0.076,
+    "event": "OptimizerFactory_Initialized",
+    "payload": {
+      "optimizer": "AdamW",
+      "num_param_groups": 6,
+      "total_trainable_params": 817189
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 61.5,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.76,
+      "system_ram_used_gb": 6.89,
+      "system_ram_percent": 90.1,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:08.756160",
+    "elapsed_sec": 0.08,
+    "event": "SchedulerFactory_Initialized",
+    "payload": {
+      "scheduler": "WarmupCosineScheduler"
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 50.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.76,
+      "system_ram_used_gb": 6.89,
+      "system_ram_percent": 90.1,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:08.758266",
+    "elapsed_sec": 0.082,
+    "event": "AMP_Initialized",
+    "payload": {
+      "mode": "CPU BFloat16 Autocast (Zero Overhead)"
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 0.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.76,
+      "system_ram_used_gb": 6.89,
+      "system_ram_percent": 90.1,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:09.620129",
+    "elapsed_sec": 0.944,
+    "event": "Batch_Loaded",
+    "payload": {
+      "batch_size": 4,
+      "patients": [
+        "100",
+        "101",
+        "102",
+        "10253"
+      ],
+      "modalities": [
+        "mammography",
+        "ultrasound",
+        "histopathology",
+        "mri",
+        "clinical",
+        "ehr",
+        "genomic"
+      ]
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 40.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.78,
+      "system_ram_used_gb": 6.87,
+      "system_ram_percent": 89.8,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:13.478514",
+    "elapsed_sec": 4.803,
+    "event": "Forward_Pass_Completed",
+    "payload": {
+      "loss_value": 1.71875,
+      "logits_shape": [
+        4,
+        2
+      ]
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 58.7,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.73,
+      "system_ram_used_gb": 6.92,
+      "system_ram_percent": 90.4,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:17.211735",
+    "elapsed_sec": 8.536,
+    "event": "Backward_Pass_Completed",
+    "payload": {
+      "grad_norm": 16.848920822143555,
+      "overflow_detected": false,
+      "gradient_health": "HEALTHY"
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 47.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.89,
+      "system_ram_used_gb": 6.76,
+      "system_ram_percent": 88.4,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:17.213053",
+    "elapsed_sec": 8.537,
+    "event": "Scheduler_Stepped",
+    "payload": {
+      "current_lr": 0.0001
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 0.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.89,
+      "system_ram_used_gb": 6.76,
+      "system_ram_percent": 88.4,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:17.717026",
+    "elapsed_sec": 9.041,
+    "event": "Checkpoint_Saved",
+    "payload": {
+      "path": "D:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\best_model.pt",
+      "sha256": "4044d618a17e905630f04bb73b8c1a31a4615ce337bdf032b757e74f441f7be9"
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 44.9,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.86,
+      "system_ram_used_gb": 6.79,
+      "system_ram_percent": 88.8,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:18.078994",
+    "elapsed_sec": 9.403,
+    "event": "Checkpoint_Restored",
+    "payload": {
+      "verified_checksum": true,
+      "epoch": 1
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 48.7,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.86,
+      "system_ram_used_gb": 6.79,
+      "system_ram_percent": 88.8,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  },
+  {
+    "timestamp": "2026-10-18T22:40:18.095552",
+    "elapsed_sec": 9.42,
+    "event": "MetricEngine_Evaluated",
+    "payload": {
+      "loss": 1.71875,
+      "accuracy": 0.0,
+      "balanced_accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 0.0,
+      "ppv": 0.0,
+      "npv": 0.0,
+      "f1_score": 0.0,
+      "mcc": -1.0,
+      "cohen_kappa": -0.6,
+      "roc_auc": 0.0,
+      "pr_auc": 0.125,
+      "ece": 0.787,
+      "mce": 0.9482,
+      "brier_score": 0.6333,
+      "confusion_matrix": {
+        "tp": 0,
+        "tn": 0,
+        "fp": 3,
+        "fn": 1
+      }
+    },
+    "telemetry": {
+      "cpu_utilization_percent": 60.0,
+      "system_ram_total_gb": 7.65,
+      "system_ram_available_gb": 0.86,
+      "system_ram_used_gb": 6.79,
+      "system_ram_percent": 88.7,
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "cuda_device_name": "N/A"
+    }
+  }
+]

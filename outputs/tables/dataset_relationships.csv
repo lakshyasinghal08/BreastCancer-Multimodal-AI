@@ -1,0 +1,7 @@
+Dataset A,Dataset B,Shared Patients,Shared Modalities,Relationship Type,Status
+Vision_Genomic_Fusion,EHR,47,"Clinical, EHR, Genomic, Pathology, MRI",Direct TCGA Barcode Match,Linked (Co-occurring Multi-Modal Cohort)
+Vision_Genomic_Fusion,Histopathology,0,Histopathology,Cross-Cohort Histopathology Benchmark,Independent Cohorts (Distinct Barcodes)
+Vision_Genomic_Fusion,Genomic,0,Transcriptomics,Microarray vs RNA-Seq Comparison,Independent Cohorts (TCGA vs GSE45827)
+Clinical,Histopathology,0,Pathology / Cytology,FNA Cytology vs Whole-Slide IDC Tiles,Independent Cohorts (WDBC vs IDC; '8913' ID collision noted)
+CBIS-DDSM,Vision_Genomic_Fusion,0,Macroscopic Radiology (Mammography vs MRI),Multimodal Radiology Benchmarking,Independent Cohorts
+Dataset_BUSI_with_GT,All Other Datasets,0,Ultrasound,Anonymous Ultrasound Screening Collection,Unlinked (No Patient Identifiers Provided)

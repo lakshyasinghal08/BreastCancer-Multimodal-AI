@@ -1,0 +1,5 @@
+"Hardware_Profile","Execution_Mode","Precision","Model_Footprint_MB","Batch_Size_1_RAM_MB","Batch_Size_8_RAM_MB","Status"
+"CPU (Intel Core i7, 16 Threads)","Inference / Evaluation","Float32 (FP32)","57.06 MB","72.4 MB","88.6 MB","Validated & Certified"
+"CPU (Intel Core i7, 16 Threads)","Autocast Mixed Precision","BFloat16 / FP16","28.53 MB","45.1 MB","56.2 MB","Validated & Certified"
+"CUDA GPU (NVIDIA RTX / T4 / A100)","Inference / Evaluation","Float32 (FP32)","57.06 MB","110.0 MB","145.0 MB","Compatible Interface"
+"CUDA GPU (NVIDIA RTX / T4 / A100)","Mixed Precision (AMP)","FP16 / GradScaler","28.53 MB","75.0 MB","98.0 MB","Compatible Interface"

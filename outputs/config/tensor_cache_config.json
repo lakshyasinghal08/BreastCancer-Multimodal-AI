@@ -1,0 +1,8 @@
+{
+  "version": "v2.5.0-cache",
+  "ram_cache_capacity_packages": 1000,
+  "disk_cache_dir": "outputs/cache/tensors",
+  "disk_cache_format": ".npy / .pt",
+  "key_hashing": "SHA-256",
+  "speedup_measured": 267600.6
+}

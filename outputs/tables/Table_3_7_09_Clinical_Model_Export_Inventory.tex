@@ -1,0 +1,16 @@
+\begin{tabular}{llll}
+\toprule
+Artifact Filename & Format Specification & Target Location & Primary Utility \\
+\midrule
+best\_model.pt & Full PyTorch Checkpoint & outputs/models/clinical/ & Complete Checkpoint with StateDict, Optim \& Sched \\
+clinical\_model\_best.pt & PyTorch State Dict & outputs/models/clinical/ & Model Weights for Multimodal Fusion \& Inference \\
+clinical\_model\_final.pt & PyTorch State Dict & outputs/models/clinical/ & Epoch 35 Converged State Dict \\
+clinical\_model\_torchscript.pt & TorchScript Traced JIT & outputs/models/clinical/ & C++ \& Embedded LibTorch Runtime Execution \\
+clinical\_model.onnx & Open Neural Network Exchange & outputs/models/clinical/ & Hardware-Agnostic ONNX Runtime Deployment \\
+clinical\_model\_config.json & JSON Configuration & outputs/models/clinical/ & Model Architecture Hyperparameter Snapshot \\
+clinical\_training\_config.json & JSON Configuration & outputs/models/clinical/ & Training Pipeline \& Optimization Registry \\
+clinical\_training\_history.json & JSON Telemetry & outputs/models/clinical/ & Complete 35-Epoch Metrics \& Trajectories \\
+clinical\_metrics.json & JSON Evaluation & outputs/models/clinical/ & Independent Test Metrics \& Bootstrap 95\% CIs \\
+clinical\_benchmark.json & JSON Benchmark & outputs/models/clinical/ & Latency, Throughput, and FLOPs Profiling \\
+\bottomrule
+\end{tabular}

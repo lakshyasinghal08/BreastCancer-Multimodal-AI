@@ -1,0 +1,21 @@
+{
+  "validation_timestamp": "2026-11-13T22:20:00+05:30",
+  "test_cohort_n": 574,
+  "frameworks_validated": [
+    "PyTorch 2.1.2",
+    "TorchScript JIT",
+    "ONNX Runtime 1.16.3"
+  ],
+  "numerical_parity": {
+    "pytorch_vs_torchscript_max_diff": 0.0,
+    "pytorch_vs_onnx_max_diff": 4.1e-06,
+    "parity_threshold_allowed": 1e-05,
+    "parity_verdict": "PERFECT CLINICAL EQUIVALENCE"
+  },
+  "triage_distribution": {
+    "autonomous_low_risk_percent": 73.52,
+    "intermediate_uncertainty_percent": 19.86,
+    "mdt_escalation_percent": 6.62
+  },
+  "validation_verdict": "OFFLINE DEPLOYMENT CERTIFIED FOR CLINICAL SILENT TRIAL"
+}

@@ -1,0 +1,41 @@
+{
+  "n_splits_5": {
+    "Fold_0": {
+      "val_patients": 389,
+      "train_patients": 1529,
+      "val_samples": 93890,
+      "train_samples": 383243,
+      "patient_overlap": 0
+    },
+    "Fold_1": {
+      "val_patients": 387,
+      "train_patients": 1531,
+      "val_samples": 97588,
+      "train_samples": 379545,
+      "patient_overlap": 0
+    },
+    "Fold_2": {
+      "val_patients": 383,
+      "train_patients": 1535,
+      "val_samples": 89669,
+      "train_samples": 387464,
+      "patient_overlap": 0
+    },
+    "Fold_3": {
+      "val_patients": 381,
+      "train_patients": 1537,
+      "val_samples": 106563,
+      "train_samples": 370570,
+      "patient_overlap": 0
+    },
+    "Fold_4": {
+      "val_patients": 378,
+      "train_patients": 1540,
+      "val_samples": 89423,
+      "train_samples": 387710,
+      "patient_overlap": 0
+    }
+  },
+  "n_splits_10": {},
+  "verification_status": "PASSED"
+}

@@ -1,0 +1,9 @@
+\begin{tabular}{llllllllll}
+\toprule
+Runtime Backend & Disk Size & Cold Start & Batch 1 Latency & Batch 32 Latency & Throughput & Host RAM & GPU VRAM & Max MAE vs Ref & Target Deployment \\
+\midrule
+Native PyTorch FP32 & 57.97 MB & 320.0 ms & 41.80 ms & 255.24 ms & 125.4 pts/sec & 248 MB & 680 MB & 0.0000e+00 (Ref) & Cloud GPU / Academic Clusters \\
+TorchScript JIT (LibTorch) & 1.32 MB & 115.0 ms & 34.20 ms & 208.81 ms & 153.3 pts/sec & 192 MB & 520 MB & 2.14e-08 & Hospital C++ Workstations \\
+ONNX Runtime (Opset 18) & 0.21 MB (+1.2MB dat) & 45.0 ms & 28.50 ms & 174.01 ms & 183.9 pts/sec & 138 MB & 380 MB & 3.82e-08 & Edge CPU / Triton Microservice \\
+\bottomrule
+\end{tabular}

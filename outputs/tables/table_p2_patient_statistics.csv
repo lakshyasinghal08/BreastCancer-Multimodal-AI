@@ -1,0 +1,8 @@
+Dataset,Total Samples,Cohort Patients,Multi-Modal Patients,Mono-Modal Patients,Samples per Patient,Modality Coverage
+Clinical,569,569,1,568,1.0,Clinical
+CBIS-DDSM,882,561,0,561,1.6,Mammography
+Dataset_BUSI_with_GT,780,0,0,0,0.0,Ultrasound
+EHR,341,335,47,288,1.0,EHR
+Genomic,151,273,122,151,0.6,Genomic
+Histopathology,224872,229,1,228,982.0,Histopathology
+Vision_Genomic_Fusion,250325,122,122,0,2051.8,"Histopathology, MRI"

@@ -1,0 +1,41 @@
+{
+  "deployment_targets": [
+    {
+      "format": "PyTorch State Dict (.pt)",
+      "file": "multimodal_best_model.pt",
+      "runtime": "PyTorch 2.0+",
+      "precision": "FP32",
+      "size_mb": 1.28,
+      "status": "Ready"
+    },
+    {
+      "format": "TorchScript Traced (.pt)",
+      "file": "model_torchscript.pt",
+      "runtime": "LibTorch C++ / PyTorch C++",
+      "precision": "FP32",
+      "size_mb": 1.34,
+      "status": "Ready"
+    },
+    {
+      "format": "ONNX Graph (.onnx)",
+      "file": "model_fusion.onnx",
+      "runtime": "ONNX Runtime / TensorRT / OpenVINO",
+      "precision": "FP32",
+      "size_mb": 1.31,
+      "status": "Ready"
+    },
+    {
+      "format": "EMA Checkpoint (.pt)",
+      "file": "model_ema.pt",
+      "runtime": "PyTorch Research / In-Depth Evaluation",
+      "precision": "FP32",
+      "size_mb": 1.28,
+      "status": "Ready"
+    }
+  ],
+  "hardware_compatibility": {
+    "cpu": "Intel x86_64, AMD64, ARM64 Apple Silicon",
+    "gpu": "NVIDIA CUDA Compute 7.0+, TensorRT",
+    "edge": "ONNX Runtime Web, LibTorch Mobile"
+  }
+}

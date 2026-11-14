@@ -1,0 +1,12 @@
+| Artifact Filename              | Format Specification         | Target Location          | Primary Utility                                   |
+|:-------------------------------|:-----------------------------|:-------------------------|:--------------------------------------------------|
+| best_model.pt                  | Full PyTorch Checkpoint      | outputs/models/clinical/ | Complete Checkpoint with StateDict, Optim & Sched |
+| clinical_model_best.pt         | PyTorch State Dict           | outputs/models/clinical/ | Model Weights for Multimodal Fusion & Inference   |
+| clinical_model_final.pt        | PyTorch State Dict           | outputs/models/clinical/ | Epoch 35 Converged State Dict                     |
+| clinical_model_torchscript.pt  | TorchScript Traced JIT       | outputs/models/clinical/ | C++ & Embedded LibTorch Runtime Execution         |
+| clinical_model.onnx            | Open Neural Network Exchange | outputs/models/clinical/ | Hardware-Agnostic ONNX Runtime Deployment         |
+| clinical_model_config.json     | JSON Configuration           | outputs/models/clinical/ | Model Architecture Hyperparameter Snapshot        |
+| clinical_training_config.json  | JSON Configuration           | outputs/models/clinical/ | Training Pipeline & Optimization Registry         |
+| clinical_training_history.json | JSON Telemetry               | outputs/models/clinical/ | Complete 35-Epoch Metrics & Trajectories          |
+| clinical_metrics.json          | JSON Evaluation              | outputs/models/clinical/ | Independent Test Metrics & Bootstrap 95% CIs      |
+| clinical_benchmark.json        | JSON Benchmark               | outputs/models/clinical/ | Latency, Throughput, and FLOPs Profiling          |

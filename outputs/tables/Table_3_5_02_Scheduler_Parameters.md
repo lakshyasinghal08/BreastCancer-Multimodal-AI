@@ -1,0 +1,7 @@
+| Scheduler Policy                  | Warmup Steps   | Total Steps   | Min Learning Rate   | Annealing Form        | Status                   |
+|:----------------------------------|:---------------|:--------------|:--------------------|:----------------------|:-------------------------|
+| Warmup-Cosine Annealing (Default) | 2 Epochs       | 10 Epochs     | 1e-6                | Cosine Half-Cycle     | Production Active        |
+| CosineAnnealingLR                 | 0 Epochs       | 10 Epochs     | 1e-6                | Cosine                | Configurable Alternative |
+| ReduceLROnPlateau                 | 0 Epochs       | Metric Driven | 1e-6                | Factor 0.5 on Plateau | Configurable Alternative |
+| OneCycleLR                        | 20% Cycle      | 10 Epochs     | 1e-6                | Cosine Ramp & Decay   | Configurable Alternative |
+| StepLR                            | 0 Epochs       | Step 3 Epochs | N/A                 | Gamma = 0.5           | Configurable Alternative |

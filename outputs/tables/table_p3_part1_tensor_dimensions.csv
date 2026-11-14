@@ -1,0 +1,11 @@
+Module_Name,Input_Shape,Output_Shape,Non_Linearity,Norm
+Mammography Stem / Final,"(B, 1, 224, 224)","(B, 128)",GELU,BatchNorm2d / LayerNorm
+Ultrasound Stem / Final,"(B, 1, 224, 224)","(B, 128)",GELU,BatchNorm2d / LayerNorm
+Histopathology Stem / Final,"(B, 3, 224, 224)","(B, 128)",GELU,BatchNorm2d / LayerNorm
+MRI Stem / Final,"(B, 1, 224, 224)","(B, 128)",GELU,BatchNorm2d / LayerNorm
+Clinical FNA MLP,"(B, 30)","(B, 128)",GELU,LayerNorm
+TCGA EHR Tabular,"(B, 16)","(B, 128)",GELU,LayerNorm
+Genomic Microarray,"(B, 331)","(B, 128)",GELU,LayerNorm
+Embedding Harmonizer,"7x (B, 128)","(B, 7, 128)",Identity,LayerNorm
+Cross-Modal Fusion,"(B, 7, 128)","(B, 128)",GELU,LayerNorm
+Classifier Head,"(B, 128)","(B, 2) & (B, 1)",Softmax / Softplus,LayerNorm

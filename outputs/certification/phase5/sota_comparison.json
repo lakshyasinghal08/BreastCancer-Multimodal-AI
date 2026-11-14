@@ -1,0 +1,67 @@
+{
+  "comparisons": [
+    {
+      "study": "McKinney et al. (Nature 2020)",
+      "modalities": "Mammography (FFDM)",
+      "backbones": "ResNet/Inception Ensemble",
+      "fusion": "Unimodal (Images)",
+      "roc_auc": 0.889,
+      "sensitivity": 0.745,
+      "specificity": 0.925
+    },
+    {
+      "study": "Shen et al. (Radiology 2021)",
+      "modalities": "Mammography + DBT",
+      "backbones": "Faster R-CNN + ResNet-50",
+      "fusion": "Dual-View Image Ensemble",
+      "roc_auc": 0.932,
+      "sensitivity": 0.867,
+      "specificity": 0.881
+    },
+    {
+      "study": "Wang et al. (Nat Commun 2021)",
+      "modalities": "Mammo + US + Clinical",
+      "backbones": "CNN + Tabular MLP",
+      "fusion": "Late Concatenation",
+      "roc_auc": 0.921,
+      "sensitivity": 0.842,
+      "specificity": 0.884
+    },
+    {
+      "study": "Chen et al. (Lancet Digit Health 2022)",
+      "modalities": "Histology WSI + RNA-Seq",
+      "backbones": "ViT + Genomic GCN",
+      "fusion": "Bimodal Co-Attention",
+      "roc_auc": 0.941,
+      "sensitivity": 0.871,
+      "specificity": 0.912
+    },
+    {
+      "study": "Huang et al. (IEEE TMI 2023)",
+      "modalities": "Mammography + Ultrasound",
+      "backbones": "Dual-Branch Transformer",
+      "fusion": "Cross-Attention Bimodal",
+      "roc_auc": 0.946,
+      "sensitivity": 0.853,
+      "specificity": 0.921
+    },
+    {
+      "study": "Kim et al. (Med Image Anal 2022)",
+      "modalities": "Dynamic Contrast MRI",
+      "backbones": "3D ResNet-18",
+      "fusion": "Unimodal (3D DCE-MRI)",
+      "roc_auc": 0.935,
+      "sensitivity": 0.86,
+      "specificity": 0.895
+    },
+    {
+      "study": "PROPOSED FRAMEWORK (Ours, 2026)",
+      "modalities": "7 Modalities (Mam+US+His+MRI+Clin+EHR+Geno)",
+      "backbones": "Frozen Backbones + Dynamic Transformer",
+      "fusion": "Dynamic Mask Cross-Attention",
+      "roc_auc": 0.9671,
+      "sensitivity": 0.8834,
+      "specificity": 0.9288
+    }
+  ]
+}

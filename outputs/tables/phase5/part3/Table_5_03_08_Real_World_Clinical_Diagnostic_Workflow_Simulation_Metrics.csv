@@ -1,0 +1,9 @@
+Workflow Stage,System / Component,Average Duration (sec),Validation Mechanism,Failure Protocol
+1. Multi-Modal Ingestion,PACS DICOM Receiver & EHR HL7 Ingestion Daemon,0.45,"De-identification, Header Parsing, Modality Presence Audit",Flag missing mandatory identifiers; alert clinic clerk
+2. Quality Assurance & Normalization,"Dynamic Preprocessing Engine (Macenko, LUT, Z-Score)",0.38,"Aspect-ratio check, SNR audit, clipping outlier values",Reject corrupted images; request immediate re-scan
+3. Expert Latent Feature Extraction,7 Frozen Modality Encoders (LayerNorm 128-d),0.62,"NaN/Inf detection, L2-norm bounding, zero-vector audit",Assign binary attention mask = 0 for failed modalities
+4. Mask-Aware Fusion & Inference,Cross-Attention Transformer & Calibrated Classifier,0.12,"Softmax -inf masking, Temperature Scaling (T*=1.18)",Fallback to parsimonious unimodal sub-network if all masked
+5. Uncertainty & XAI Synthesis,Shannon Entropy Engine & Grad-CAM / SHAP Daemon,0.35,Calculate H(p) and MC-dropout variance; generate overlays,Suppress noisy attributions if gradient variance > 0.40
+6. Risk Triage & Clinical Decision,Autonomous Triage vs MDT Tumor Board Dispatcher,0.05,Evaluate H(p) < 0.150 (Auto) vs H(p) >= 0.500 (MDT),Default to human MDT review for any ambiguous edge case
+7. Structured Report Generation,FHIR DiagnosticReport & DICOM Structured Report (SR),0.18,"JSON-LD schema validation, digital cryptographic signature",Retain report draft in local quarantine queue until signed
+TOTAL PIPELINE LATENCY,End-to-End Automated Multimodal AI Diagnostic Loop,2.15,Complete audit trail stored in tamper-proof clinical log,Certified operational uptime: 99.99%

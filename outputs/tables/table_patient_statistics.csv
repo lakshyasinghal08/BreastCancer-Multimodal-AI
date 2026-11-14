@@ -1,0 +1,9 @@
+Dataset_Source,Total_Patients,Multi_Modal_Patients,Average_Completeness
+CBIS-DDSM,561,0,0.143
+Clinical,568,0,0.143
+"Clinical, Histopathology",1,1,0.286
+EHR,287,0,0.143
+"EHR, Vision_Genomic_Fusion",47,47,0.553
+Genomic,151,0,0.143
+Histopathology,228,0,0.143
+Vision_Genomic_Fusion,75,75,0.427

@@ -1,0 +1,8 @@
+Modality,Cohort_Source,Samples_Evaluated,Mean_Latency_ms,Std_Latency_ms,Throughput_Samples_Sec,Delta_Memory_MB,Status
+Mammography,CBIS-DDSM,5,157.28,28.41,6.4,25.57,PASSED_HIGH_PERFORMANCE
+Ultrasound,Dataset_BUSI_with_GT,5,19.66,9.09,50.9,5.08,PASSED_HIGH_PERFORMANCE
+Histopathology,Histopathology,5,9.49,3.33,105.3,0.01,PASSED_HIGH_PERFORMANCE
+MRI,Vision_Genomic_Fusion,5,11.38,1.8,87.8,0.0,PASSED_HIGH_PERFORMANCE
+Clinical,Clinical,5,6.0,0.65,166.6,0.0,PASSED_HIGH_PERFORMANCE
+EHR,EHR,5,4.76,0.62,209.9,0.91,PASSED_HIGH_PERFORMANCE
+Genomic,Genomic,5,6380.02,69.35,0.2,0.0,PASSED_HIGH_PERFORMANCE

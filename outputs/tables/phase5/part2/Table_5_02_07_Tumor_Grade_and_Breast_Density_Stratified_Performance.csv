@@ -1,0 +1,8 @@
+Pathological / Radiological Stratum,Sample Size (n),Accuracy,ROC-AUC,Sensitivity,Specificity,F1-Score,ECE,Clinical Diagnostic Characteristic
+Nottingham Grade 1 (Well Differentiated),98,0.9184,0.964,0.875,0.932,0.885,0.036,"Bland cytology, indolent architecture"
+Nottingham Grade 2 (Moderately Diff),204,0.8971,0.955,0.862,0.911,0.866,0.0425,Intermediate glandular formation
+Nottingham Grade 3 (Poorly Diff),272,0.9191,0.974,0.8919,0.9439,0.902,0.032,"High mitotic rate, infiltrative pleomorphism"
+BI-RADS Category a (Almost Entirely Fatty),112,0.9286,0.978,0.913,0.938,0.911,0.0295,Maximum radiographic contrast
+BI-RADS Category b (Scattered Fibroglandular),176,0.9091,0.9665,0.881,0.929,0.888,0.0365,Moderate radiographic contrast
+BI-RADS Category c (Heterogeneously Dense),194,0.9072,0.962,0.878,0.926,0.884,0.0388,Moderate parenchymal masking
+BI-RADS Category d (Extremely Dense),92,0.9022,0.959,0.867,0.921,0.876,0.041,Severe parenchymal masking; US/MRI rescue

@@ -1,0 +1,22 @@
+\begin{tabular}{lllll}
+\toprule
+Feature Index & Attribute Name & Attribute Type & Clinical Description & Normalization / Encoding Strategy \\
+\midrule
+Idx 00 & Age & Continuous & Patient age at initial diagnosis (years) & Z-Score (Mean=58.700, Std=13.439) \\
+Idx 01 & Gender\_Male & Binary & Biological sex indicator (1=Male, 0=Female) & Binary [0.0, 1.0] \\
+Idx 02 & Protein1 & Continuous & Normalized expression level of Protein 1 & Z-Score (Mean=0.005, Std=0.550) \\
+Idx 03 & Protein2 & Continuous & Normalized expression level of Protein 2 & Z-Score (Mean=1.029, Std=0.928) \\
+Idx 04 & Protein3 & Continuous & Normalized expression level of Protein 3 & Z-Score (Mean=-0.108, Std=0.545) \\
+Idx 05 & Protein4 & Continuous & Normalized expression level of Protein 4 & Z-Score (Mean=0.037, Std=0.612) \\
+Idx 06 & Tumour\_Stage\_Ordinal & Ordinal & Pathological tumor stage (1.0=Stage I, 2.0=Stage II, 3.0=Stage III) & Ordinal Z-Score (Mean=2.06, Std=0.65) \\
+Idx 07 & ER\_Status\_Positive & Binary & Estrogen receptor status (1=Positive, 0=Negative) & Binary [0.0, 1.0] \\
+Idx 08 & PR\_Status\_Positive & Binary & Progesterone receptor status (1=Positive, 0=Negative) & Binary [0.0, 1.0] \\
+Idx 09 & HER2\_Status\_Positive & Binary & Human epidermal growth factor receptor 2 (1=Positive, 0=Negative) & Binary [0.0, 1.0] \\
+Idx 10 & Surgery\_Lumpectomy & Binary & Surgical procedure: Lumpectomy/Breast Conserving Surgery & Binary [0.0, 1.0] \\
+Idx 11 & Surgery\_ModifiedRadicalMastectomy & Binary & Surgical procedure: Modified Radical Mastectomy & Binary [0.0, 1.0] \\
+Idx 12 & Surgery\_SimpleMastectomy & Binary & Surgical procedure: Simple/Total Mastectomy & Binary [0.0, 1.0] \\
+Idx 13 & Followup\_Days & Continuous & Longitudinal duration between surgery and last clinical visit (days) & Z-Score (Mean=415.601, Std=351.020) \\
+Idx 14 & Followup\_Recorded & Binary & Clinical follow-up tracking validity indicator (1=Recorded, 0=Censored) & Binary [0.0, 1.0] \\
+Idx 15 & Patient\_Survival\_Status & Binary & Longitudinal clinical survival outcome attribute (1=Deceased, 0=Alive) & Binary [0.0, 1.0] \\
+\bottomrule
+\end{tabular}

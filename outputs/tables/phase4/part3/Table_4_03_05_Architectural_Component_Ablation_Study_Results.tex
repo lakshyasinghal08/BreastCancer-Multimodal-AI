@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrrrrl}
+\toprule
+Ablation Variant & Component Modified & Accuracy & ROC_AUC & F1_Score & ECE & Params & ROC_AUC_Delta & Impact_Summary \\
+\midrule
+Proposed Full Architecture & None (Full Reference Framework) & 0.911800 & 0.967200 & 0.890400 & 0.035400 & 326288 & 0.000000 & Optimal synergistic performance across all 7 modalities \\
+w/o Dynamic Masking & Dynamic key-padding mask replaced by zero-padding without attention masking & 0.872800 & 0.928400 & 0.842000 & 0.058200 & 326288 & -0.038800 & Severe degradation: attention attends to uninformative zero vectors \\
+w/o Confidence Weighting & Modality gating MLP removed; uniform 1/7 scalar weighting applied & 0.892000 & 0.948200 & 0.865500 & 0.046500 & 324488 & -0.019000 & Modest drop: noise from lower-quality modalities not suppressed \\
+w/o Cross-Attention (Concat+MLP) & Cross-attention transformer replaced by direct concatenation and MLP & 0.879800 & 0.934500 & 0.851000 & 0.054000 & 212432 & -0.032700 & Large loss: pairwise inter-modality token interaction destroyed \\
+w/o Cross-Attention (Mean Pooling) & Cross-attention transformer replaced by simple average pooling & 0.867600 & 0.921000 & 0.834500 & 0.061500 & 64720 & -0.046200 & Catastrophic loss: treats all modality tokens equally without context \\
+w/o Residual Connections & Skip connections removed from both Cross-Attention blocks & 0.885000 & 0.941200 & 0.857000 & 0.049800 & 326288 & -0.026000 & Moderate drop: loss of identity mapping and gradient propagation \\
+w/o LayerNorm & Pre- and post-LayerNorm removed from transformer blocks & 0.878000 & 0.931800 & 0.849000 & 0.055200 & 325264 & -0.035400 & Substantial drop: feature scale mismatch across disparate modalities \\
+w/o Modality Token Embeddings & Learnable modality identification tokens removed (raw latent tokens only) & 0.893700 & 0.950100 & 0.867200 & 0.044800 & 325392 & -0.017100 & Modest drop: model struggles to disambiguate token origin \\
+w/o Classifier Refinement MLP & Dual-layer classifier replaced with single linear projection & 0.899000 & 0.954200 & 0.874500 & 0.042000 & 293328 & -0.013000 & Minor drop: reduced non-linear decision boundary flexibility \\
+w/o PAM50 Subtype Supervision & Auxiliary molecular subtype classification head omitted during training & 0.902400 & 0.958000 & 0.879000 & 0.039500 & 317968 & -0.009200 & Minor loss: auxiliary biological regularization omitted \\
+w/o Dropout Regularization (p=0) & Dropout disabled across all cross-attention and classification heads & 0.897200 & 0.952500 & 0.871800 & 0.043500 & 326288 & -0.014700 & Minor drop: test generalization degraded by slight co-adaptation \\
+\bottomrule
+\end{tabular}

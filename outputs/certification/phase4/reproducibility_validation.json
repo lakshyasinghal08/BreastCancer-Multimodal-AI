@@ -1,0 +1,17 @@
+{
+  "deterministic_seeds_tested": [
+    42,
+    123,
+    456,
+    789,
+    999,
+    1024,
+    2026,
+    3054,
+    4096,
+    5000
+  ],
+  "label_agreement_pct": 100.0,
+  "logit_l2_divergence": 0.0,
+  "bitwise_reproducible": true
+}

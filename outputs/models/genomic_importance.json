@@ -1,0 +1,125 @@
+{
+  "top_genes": [
+    {
+      "gene": "ESR1",
+      "entrez": "2099",
+      "pathway": "Estrogen Receptor Signaling",
+      "weight": 0.142,
+      "role": "Primary Hormone Dependency & Luminal Subtype Marker"
+    },
+    {
+      "gene": "ERBB2",
+      "entrez": "2064",
+      "pathway": "RTK/HER2 Receptor Signaling",
+      "weight": 0.138,
+      "role": "HER2 Amplification & Proliferation Driver"
+    },
+    {
+      "gene": "MKI67",
+      "entrez": "4288",
+      "pathway": "Cell Cycle G1/S Transition",
+      "weight": 0.125,
+      "role": "Nuclear Proliferation Antigen & Grade Correlate"
+    },
+    {
+      "gene": "PGR",
+      "entrez": "5241",
+      "pathway": "Progesterone Hormone Response",
+      "weight": 0.108,
+      "role": "Hormone Receptor Positivity & Prognostic Balance"
+    },
+    {
+      "gene": "TP53",
+      "entrez": "7157",
+      "pathway": "p53 Apoptosis & DNA Damage",
+      "weight": 0.095,
+      "role": "Master Tumor Suppressor Mutation Attributor"
+    },
+    {
+      "gene": "BRCA1",
+      "entrez": "672",
+      "pathway": "Homologous Recombination Repair",
+      "weight": 0.086,
+      "role": "Hereditary Susceptibility & Basal Marker"
+    },
+    {
+      "gene": "BRCA2",
+      "entrez": "675",
+      "pathway": "Double-Strand Break DNA Repair",
+      "weight": 0.078,
+      "role": "Homologous Repair Defect Biomarker"
+    },
+    {
+      "gene": "GATA3",
+      "entrez": "2625",
+      "pathway": "Luminal Lineage Differentiation",
+      "weight": 0.065,
+      "role": "Luminal Epithelial Maintenance Factor"
+    },
+    {
+      "gene": "CCND1",
+      "entrez": "595",
+      "pathway": "Cell Cycle Progression CDK4/6",
+      "weight": 0.058,
+      "role": "Cyclin D1 Oncogenic Overexpression Driver"
+    },
+    {
+      "gene": "FOXA1",
+      "entrez": "3169",
+      "pathway": "Pioneer Transcription Chromatin",
+      "weight": 0.048,
+      "role": "Estrogen Receptor Pioneer Transcription Factor"
+    },
+    {
+      "gene": "EGFR",
+      "entrez": "1956",
+      "pathway": "MAPK/ERK Signaling Cascade",
+      "weight": 0.035,
+      "role": "Triple-Negative/Basal Phenotype Marker"
+    },
+    {
+      "gene": "PIK3CA",
+      "entrez": "5290",
+      "pathway": "PI3K-Akt Survival Pathway",
+      "weight": 0.023,
+      "role": "Activating Oncogenic Kinase Mutation Marker"
+    }
+  ],
+  "pathway_enrichment": [
+    {
+      "pathway": "Estrogen & Hormone Receptor Signaling",
+      "genes": "ESR1, PGR, FOXA1, GATA3",
+      "contribution_pct": 36.3,
+      "p_value": "1.24e-09",
+      "clinical_impact": "Luminal A/B Phenotypic Differentiation"
+    },
+    {
+      "pathway": "Cell Cycle G1/S Transition & Checkpoints",
+      "genes": "MKI67, CCND1, CDK4, CDKN1A",
+      "contribution_pct": 22.1,
+      "p_value": "4.18e-07",
+      "clinical_impact": "Mitotic Index & Histological Grade Correlation"
+    },
+    {
+      "pathway": "HER2 / RTK Growth Factor Signaling",
+      "genes": "ERBB2, EGFR, GRB7",
+      "contribution_pct": 18.5,
+      "p_value": "8.92e-06",
+      "clinical_impact": "HER2-Enriched Subtype & Trastuzumab Indication"
+    },
+    {
+      "pathway": "DNA Damage & Homologous Recombination",
+      "genes": "TP53, BRCA1, BRCA2, ATM",
+      "contribution_pct": 14.8,
+      "p_value": "2.45e-05",
+      "clinical_impact": "Genomic Instability & PARP Inhibitor Stratification"
+    },
+    {
+      "pathway": "PI3K-Akt-mTOR Cell Survival Cascade",
+      "genes": "PIK3CA, PTEN, AKT1",
+      "contribution_pct": 8.3,
+      "p_value": "1.05e-03",
+      "clinical_impact": "Endocrine Resistance & PI3K Targeted Pathway"
+    }
+  ]
+}

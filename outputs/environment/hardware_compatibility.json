@@ -1,0 +1,22 @@
+{
+  "minimum_requirements": {
+    "cpu_cores": 8,
+    "ram_gb": 32,
+    "disk_gb": 20,
+    "gpu_optional": true
+  },
+  "recommended_workstation": {
+    "cpu": "Intel Core i7-12700K or AMD Ryzen 9 7900X",
+    "ram_gb": 64,
+    "gpu": "NVIDIA RTX 3090 / 4090 24GB",
+    "cuda": "12.1 / 12.2",
+    "vram_gb": 24
+  },
+  "enterprise_production_server": {
+    "cpu": "Dual Intel Xeon Platinum 8380 (64 Cores)",
+    "ram_gb": 256,
+    "gpu": "1x or 2x NVIDIA A100-SXM4-80GB",
+    "interconnect": "NVLink 600 GB/s",
+    "latency_target_ms": "< 10.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "total_parameters": 15125468,
+  "trainable_parameters": 326288,
+  "frozen_parameters": 14799180,
+  "total_flops_m": 371.39,
+  "fusion_overhead_pct": 0.32,
+  "memory_allocations": {
+    "ram_mb": 138,
+    "vram_mb": 380
+  }
+}

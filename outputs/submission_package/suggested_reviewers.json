@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Prof. Maryellen L. Giger, Ph.D.",
+    "institution": "Department of Radiology, University of Chicago, Chicago, IL, USA",
+    "email": "mgiger@uchicago.edu",
+    "expertise": "Multimodal Breast Imaging CADx, Quantitative Radiomics, AI Evaluation",
+    "rationale": "Leading authority on computer-aided diagnosis and multimodal image analysis in breast oncology."
+  },
+  {
+    "name": "Prof. Regina Barzilay, Ph.D.",
+    "institution": "Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT, Cambridge, MA, USA",
+    "email": "regina@csail.mit.edu",
+    "expertise": "Deep Learning for Mammography, Breast Cancer Risk Modeling, Algorithmic Fairness",
+    "rationale": "Pioneered landmark deep learning models for mammographic breast cancer risk estimation."
+  },
+  {
+    "name": "Prof. Krzysztof J. Geras, Ph.D.",
+    "institution": "Department of Radiology, NYU Grossman School of Medicine, New York, NY, USA",
+    "email": "k.j.geras@nyu.edu",
+    "expertise": "Multi-View Mammography, Deep Neural Networks for Breast Screening, Reader Studies",
+    "rationale": "Expertise in deep learning architectures for breast cancer detection and multi-view imaging."
+  },
+  {
+    "name": "Prof. Despina Kontos, Ph.D.",
+    "institution": "Department of Radiology, Columbia University Irving Medical Center, New York, NY, USA",
+    "email": "dkontos@columbia.edu",
+    "expertise": "Breast DCE-MRI Radiomics, Parenchymal Texture Analysis, Multi-Omics Integration",
+    "rationale": "World expert in contrast-enhanced breast MRI and integrating imaging with molecular biomarkers."
+  },
+  {
+    "name": "Prof. Nico Karssemeijer, Ph.D.",
+    "institution": "Radboud University Medical Center, Nijmegen, Netherlands",
+    "email": "nico.karssemeijer@radboudumc.nl",
+    "expertise": "Automated Breast Ultrasound, Digital Breast Tomosynthesis, Interactive Clinical CAD",
+    "rationale": "Extensive experience in European screening protocols, ultrasound, and clinical reader performance."
+  },
+  {
+    "name": "Prof. Fiona J. Gilbert, MD, FRCR",
+    "institution": "Department of Radiology, University of Cambridge, Cambridge, UK",
+    "email": "fjg28@cam.ac.uk",
+    "expertise": "Clinical Breast Screening Trials, AI Evaluation in National Screening Programs, Cost-Effectiveness",
+    "rationale": "Leading clinical radiologist with international expertise in trialing AI systems in population screening."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "epochs": 10,
+  "mean_train_loss": 0.3736,
+  "final_train_loss": 0.2296,
+  "mean_val_loss": 0.428,
+  "final_val_loss": 0.3736,
+  "mean_epoch_duration_s": 194.22,
+  "total_training_time_s": 1942.24,
+  "mean_throughput_spl_per_s": 9.9,
+  "mean_grad_norm": 4.0672
+}

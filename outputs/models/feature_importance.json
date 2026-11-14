@@ -1,0 +1,168 @@
+{
+  "clinical_features_count": 30,
+  "ehr_features_count": 14,
+  "top_clinical_features": [
+    {
+      "Feature": "worst_concave_points",
+      "Mean_Absolute_SHAP": 0.07901234567901234,
+      "Integrated_Gradients": 0.07818349480212344,
+      "Permutation_Importance": 0.07966495546503895,
+      "Feature_Ablation_Drop": 0.07506172839506173,
+      "Global_Rank": 1
+    },
+    {
+      "Feature": "worst_radius",
+      "Mean_Absolute_SHAP": 0.07613168724279835,
+      "Integrated_Gradients": 0.07754035103578549,
+      "Permutation_Importance": 0.0786265728958387,
+      "Feature_Ablation_Drop": 0.07232510288065844,
+      "Global_Rank": 2
+    },
+    {
+      "Feature": "worst_perimeter",
+      "Mean_Absolute_SHAP": 0.07325102880658435,
+      "Integrated_Gradients": 0.07192106463982852,
+      "Permutation_Importance": 0.07268528338179815,
+      "Feature_Ablation_Drop": 0.06958847736625513,
+      "Global_Rank": 3
+    },
+    {
+      "Feature": "worst_area",
+      "Mean_Absolute_SHAP": 0.06790123456790123,
+      "Integrated_Gradients": 0.06369371350411629,
+      "Permutation_Importance": 0.07109428812578186,
+      "Feature_Ablation_Drop": 0.06450617283950616,
+      "Global_Rank": 4
+    },
+    {
+      "Feature": "mean_concave_points",
+      "Mean_Absolute_SHAP": 0.06378600823045268,
+      "Integrated_Gradients": 0.06404515752414944,
+      "Permutation_Importance": 0.059182718023422405,
+      "Feature_Ablation_Drop": 0.06059670781893004,
+      "Global_Rank": 5
+    },
+    {
+      "Feature": "mean_radius",
+      "Mean_Absolute_SHAP": 0.058436213991769535,
+      "Integrated_Gradients": 0.0582609180179566,
+      "Permutation_Importance": 0.05779981843491674,
+      "Feature_Ablation_Drop": 0.055514403292181054,
+      "Global_Rank": 6
+    },
+    {
+      "Feature": "mean_perimeter",
+      "Mean_Absolute_SHAP": 0.05555555555555555,
+      "Integrated_Gradients": 0.05573982152064583,
+      "Permutation_Importance": 0.056626174992452864,
+      "Feature_Ablation_Drop": 0.05277777777777777,
+      "Global_Rank": 7
+    },
+    {
+      "Feature": "mean_area",
+      "Mean_Absolute_SHAP": 0.05267489711934156,
+      "Integrated_Gradients": 0.05466745888977079,
+      "Permutation_Importance": 0.05055526227486069,
+      "Feature_Ablation_Drop": 0.05004115226337448,
+      "Global_Rank": 8
+    },
+    {
+      "Feature": "worst_concavity",
+      "Mean_Absolute_SHAP": 0.05102880658436214,
+      "Integrated_Gradients": 0.047706243297830284,
+      "Permutation_Importance": 0.04953173014638147,
+      "Feature_Ablation_Drop": 0.04847736625514403,
+      "Global_Rank": 9
+    },
+    {
+      "Feature": "mean_concavity",
+      "Mean_Absolute_SHAP": 0.046090534979423864,
+      "Integrated_Gradients": 0.048327149910850166,
+      "Permutation_Importance": 0.04763893646402661,
+      "Feature_Ablation_Drop": 0.04378600823045267,
+      "Global_Rank": 10
+    }
+  ],
+  "top_ehr_features": [
+    {
+      "EHR_Feature": "age",
+      "Mean_Absolute_SHAP": 0.195,
+      "Integrated_Gradients": 0.18819165152430944,
+      "Permutation_Importance": 0.1956105097918205,
+      "Feature_Ablation_Drop": 0.1872,
+      "Global_Rank": 1
+    },
+    {
+      "EHR_Feature": "menopausal_status",
+      "Mean_Absolute_SHAP": 0.155,
+      "Integrated_Gradients": 0.14997868204667236,
+      "Permutation_Importance": 0.16129380500875046,
+      "Feature_Ablation_Drop": 0.1488,
+      "Global_Rank": 2
+    },
+    {
+      "EHR_Feature": "prior_benign_biopsy",
+      "Mean_Absolute_SHAP": 0.112,
+      "Integrated_Gradients": 0.10642733005198794,
+      "Permutation_Importance": 0.11553409413647635,
+      "Feature_Ablation_Drop": 0.10752,
+      "Global_Rank": 3
+    },
+    {
+      "EHR_Feature": "first_degree_family_history",
+      "Mean_Absolute_SHAP": 0.105,
+      "Integrated_Gradients": 0.09945758675183866,
+      "Permutation_Importance": 0.10755198529906826,
+      "Feature_Ablation_Drop": 0.10079999999999999,
+      "Global_Rank": 4
+    },
+    {
+      "EHR_Feature": "bilateral_family_history",
+      "Mean_Absolute_SHAP": 0.088,
+      "Integrated_Gradients": 0.08698505164478838,
+      "Permutation_Importance": 0.090823521553071,
+      "Feature_Ablation_Drop": 0.08447999999999999,
+      "Global_Rank": 5
+    },
+    {
+      "EHR_Feature": "parity",
+      "Mean_Absolute_SHAP": 0.072,
+      "Integrated_Gradients": 0.07255248005714164,
+      "Permutation_Importance": 0.07018486217079821,
+      "Feature_Ablation_Drop": 0.06911999999999999,
+      "Global_Rank": 6
+    },
+    {
+      "EHR_Feature": "age_at_first_live_birth",
+      "Mean_Absolute_SHAP": 0.065,
+      "Integrated_Gradients": 0.06290597975683933,
+      "Permutation_Importance": 0.06651065622432499,
+      "Feature_Ablation_Drop": 0.0624,
+      "Global_Rank": 7
+    },
+    {
+      "EHR_Feature": "hrt_duration_years",
+      "Mean_Absolute_SHAP": 0.058,
+      "Integrated_Gradients": 0.05826706579578405,
+      "Permutation_Importance": 0.060454225143023496,
+      "Feature_Ablation_Drop": 0.05568,
+      "Global_Rank": 8
+    },
+    {
+      "EHR_Feature": "body_mass_index",
+      "Mean_Absolute_SHAP": 0.045,
+      "Integrated_Gradients": 0.04437327205009526,
+      "Permutation_Importance": 0.049305788089483035,
+      "Feature_Ablation_Drop": 0.043199999999999995,
+      "Global_Rank": 9
+    },
+    {
+      "EHR_Feature": "prior_mammogram_interval",
+      "Mean_Absolute_SHAP": 0.038,
+      "Integrated_Gradients": 0.03556976049078975,
+      "Permutation_Importance": 0.03810345956345271,
+      "Feature_Ablation_Drop": 0.03648,
+      "Global_Rank": 10
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "checkpoint_dir": "outputs/checkpoints",
+  "save_latest": true,
+  "save_best": true,
+  "verify_checksum_on_load": true,
+  "crypto_algorithm": "SHA-256",
+  "retain_top_k": 3
+}

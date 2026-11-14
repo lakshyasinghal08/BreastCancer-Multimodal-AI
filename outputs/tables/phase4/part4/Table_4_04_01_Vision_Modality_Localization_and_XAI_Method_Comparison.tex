@@ -1,0 +1,12 @@
+\begin{tabular}{llllllll}
+\toprule
+XAI Method & Target Modality & Resolution & Pointing Game Acc (%) & Deletion AUC (Lower Better) & Insertion AUC (Higher Better) & Inference Latency (ms) & Clinical Interpretability \\
+\midrule
+Grad-CAM & Vision (Mammo, US, Histo, MRI) & 224 x 224 (Interpolated from 14x14) & 88.4% & 0.3286 & 0.5016 & 14.2 ms & High anatomical relevance, smooth lesion borders \\
+Grad-CAM++ & Vision (Mammo, US, Histo, MRI) & 224 x 224 (Higher-Order Gradients) & 89.6% & 0.3221 & 0.5116 & 18.5 ms & Superior multi-focal microcalcification detection \\
+Score-CAM & Vision (Mammo, US, Histo, MRI) & 224 x 224 (Perturbation Forward Passes) & 90.8% & 0.3084 & 0.5122 & 84.6 ms & Gradient-free, highly faithful to decision boundary \\
+Integrated Gradients & All Modalities (Vision, Tabular, Geno) & Pixel-Level / Feature-Level Path Integral & 91.2% & 0.2892 & 0.5220 & 48.1 ms & Axiomatically sound (Completeness & Sensitivity) \\
+SmoothGrad & Vision (Mammo, US, Histo, MRI) & 224 x 224 (Gaussian Noise N=25) & 87.1% & 0.3418 & 0.4865 & 62.3 ms & Reduces visual noise, sharpens architectural distortion \\
+Occlusion Sensitivity & Vision (Mammo, US, Histo, MRI) & 16x16 Patch Occlusion Map & 86.5% & 0.3549 & 0.4765 & 142.0 ms & Direct causal test of anatomical tissue removal \\
+\bottomrule
+\end{tabular}

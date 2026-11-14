@@ -1,0 +1,9 @@
+Hardware Architecture,Host Processor / GPU,Compute Units,Batch Size,Latency (ms),Peak Memory (MB),Throughput (cases/sec),Deployment Tier
+Enterprise Server GPU,NVIDIA A100-SXM4 (80GB),"6,912 CUDA / 432 Tensor",1,8.4,"1,420",119.0,Tier 1: Centralized Hospital Cloud
+Enterprise Server GPU,NVIDIA A100-SXM4 (80GB),"6,912 CUDA / 432 Tensor",32,48.2,"3,850",663.9,Tier 1: High-Volume Screening Batch
+Clinical Workstation GPU,NVIDIA RTX 4090 (24GB),"16,384 CUDA / 512 Tensor",1,9.1,"1,380",109.9,Tier 1: Departmental Reading Room
+Clinical Workstation GPU,NVIDIA RTX 4090 (24GB),"16,384 CUDA / 512 Tensor",32,54.6,"3,620",586.1,Tier 1: Departmental Workstation
+Server CPU (Enterprise),Intel Xeon Platinum 8380,32 Physical Cores (AVX-512),1,42.5,880,23.5,Tier 2: Institutional PACS Server
+Server CPU (Enterprise),Intel Xeon Platinum 8380,32 Physical Cores (AVX-512),16,298.4,"1,840",53.6,Tier 2: Institutional PACS Server
+Workstation CPU (Clinical),Intel Core i7-12700K,12 Cores / 20 Threads,1,58.2,750,17.2,Tier 2: Community Hospital Unit
+Edge Workstation (Apple),Apple M2 Max (Metal),38-Core GPU / 32GB Unified,1,18.7,"1,120",53.5,Tier 2: Mobile Diagnostic Unit

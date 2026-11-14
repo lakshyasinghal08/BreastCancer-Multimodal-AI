@@ -1,0 +1,8 @@
+dataset_id,dataset_name,modality,file_format,sample_count,patient_info_available,local_path,storage_size_mb,status
+DS_001_CBIS_DDSM,CBIS-DDSM,Mammography,PNG / DICOM,3988,Yes (P_0xxxx),datasets/CBIS-DDSM,2963.94,Verified Local
+DS_002_CLINICAL,Clinical,Clinical,CSV,569,Yes (WDBC_patient),datasets/Clinical/data.csv,0.12,Verified Local
+DS_003_DATASET_BUSI_WITH_GT,Dataset_BUSI_with_GT,Ultrasound,PNG,1578,Yes (BUSI_patient),datasets/Dataset_BUSI_with_GT,253.85,Verified Local
+DS_004_EHR,EHR,EHR,CSV,341,Yes (TCGA-xx-xxxx),datasets/EHR/BRCA.csv,0.05,Verified Local
+DS_005_GENOMIC,Genomic,Genomic,CSV,151,Yes (GSMxxxxxx),datasets/Genomic/Breast_GSE45827.csv,133.54,Verified Local
+DS_006_HISTOPATHOLOGY,Histopathology,Histopathology,PNG,224872,Yes (SOB_x_xx-xxxx),datasets/Histopathology,1237.88,Verified Local
+DS_007_VISION_GENOMIC_FUSION,Vision_Genomic_Fusion,Fusion,Mixed (SVS/MRI/Genomic),250332,Yes (TCGA-xx-xxxx),datasets/Vision_Genomic_Fusion,19093.76,Verified Local

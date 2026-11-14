@@ -1,0 +1,6 @@
+XAI Method,Mean Lipschitz Constant (Lower = More Stable),Std Dev,Noise Sensitivity (sigma=0.05),Top-10 Feature Jaccard Stability,Robustness Grade
+SmoothGrad (N=25),0.142,0.018,0.048,0.942,A+ (Ultra Stable)
+Integrated Gradients,0.165,0.021,0.056,0.925,A (Highly Stable)
+Score-CAM,0.188,0.024,0.062,0.912,A (Highly Stable)
+Grad-CAM,0.235,0.032,0.088,0.864,B+ (Good Stability)
+Raw Gradient Saliency,0.642,0.095,0.245,0.582,D (Fragile / Noisy)

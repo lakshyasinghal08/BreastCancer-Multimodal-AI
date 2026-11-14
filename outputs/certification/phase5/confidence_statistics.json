@@ -1,0 +1,5 @@
+{
+  "mean_confidence_benign": 0.945,
+  "mean_confidence_malignant": 0.932,
+  "confidence_separation_margin": 0.877
+}

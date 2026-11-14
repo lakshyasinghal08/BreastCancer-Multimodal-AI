@@ -1,0 +1,7 @@
+| Validation_Check       | Status   | Details                                           |
+|:-----------------------|:---------|:--------------------------------------------------|
+| Zero Patient Leakage   | PASS     | Train ∩ Val = 0, Train ∩ Test = 0, Val ∩ Test = 0 |
+| Zero Duplicate Samples | PASS     | No duplicate sample IDs across splits             |
+| Zero Image Corruptions | PASS     | All sampled files open cleanly                    |
+| Label Consistency      | PASS     | Diagnostic labels preserved across all partitions |
+| Dataset Integrity      | PASS     | Original raw datasets left 100% untouched         |

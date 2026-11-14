@@ -1,0 +1,5 @@
+Operating Regime,Cutoff Threshold,Sensitivity (%),Specificity (%),PPV (%),NPV (%),False Negative Rate,Clinical Application
+Balanced Standard (Tau=0.50),0.50,82.50%,90.40%,86.80%,87.70%,17.50%,General Multimodal Triage
+High Sensitivity Screening (Tau=0.30),0.30,92.02%,82.64%,78.12%,93.90%,7.98%,Early Diagnostic Screening (Min Malignancy Miss)
+High Specificity Confirmatory (Tau=0.70),0.70,73.01%,95.87%,92.25%,84.06%,26.99%,Pre-Surgical Confirmation (Avoid False Biopsy)
+Youden Optimal (Max J-Statistic),0.45,85.28%,89.26%,84.24%,90.00%,14.72%,Global Decision Boundary Optimization

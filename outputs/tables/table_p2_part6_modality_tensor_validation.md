@@ -1,0 +1,12 @@
+# Comprehensive Modality Tensor Specifications & Validation
+
+| Modality       | Tensor_Shape   | Dtype         |   Memory_KB |   Value_Min |   Value_Max |   NaN_Count |   Inf_Count |
+|:---------------|:---------------|:--------------|------------:|------------:|------------:|------------:|------------:|
+| Mammography    | [1, 224, 224]  | torch.float32 |      200.7  |        0    |        1    |           0 |           0 |
+| Ultrasound     | [1, 224, 224]  | torch.float32 |      200.7  |        0    |        1    |           0 |           0 |
+| Histopathology | [3, 224, 224]  | torch.float32 |      602.1  |       -2.12 |        2.64 |           0 |           0 |
+| MRI            | [1, 224, 224]  | torch.float32 |      200.7  |        0    |        1    |           0 |           0 |
+| Clinical FNA   | [30]           | torch.float32 |        0.12 |       -3.5  |        4.2  |           0 |           0 |
+| TCGA EHR       | [16]           | torch.float32 |        0.06 |       -2.8  |        3.1  |           0 |           0 |
+| Genomic RNA    | [331]          | torch.float32 |        1.32 |       -4.1  |        4.8  |           0 |           0 |
+| Modality Mask  | [7]            | torch.float32 |        0.03 |        0    |        1    |           0 |           0 |

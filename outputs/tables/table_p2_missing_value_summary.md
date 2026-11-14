@@ -1,0 +1,9 @@
+| Modality               | Pre_Imputation_Missing_Rate   | Imputation_Strategy                      | Post_Imputation_Missing_Rate   |
+|:-----------------------|:------------------------------|:-----------------------------------------|:-------------------------------|
+| Mammography Images     | 0.00%                         | N/A (Complete Scans)                     | 0.00%                          |
+| Ultrasound Scans       | 0.00%                         | N/A (Complete Scans)                     | 0.00%                          |
+| Histopathology Slides  | 0.00%                         | N/A (Complete Slides)                    | 0.00%                          |
+| Breast MRI Slices      | 0.00%                         | N/A (Complete Scans)                     | 0.00%                          |
+| Wisconsin FNA Clinical | 0.00%                         | No Imputation Needed                     | 0.00%                          |
+| TCGA-BRCA EHR          | 14.28%                        | Median (Continuous) / Mode (Categorical) | 0.00%                          |
+| Genomic Expression     | 0.00%                         | No Imputation Needed                     | 0.00%                          |

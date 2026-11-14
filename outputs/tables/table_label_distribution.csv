@@ -1,0 +1,8 @@
+Dataset,Total Samples,Malignant,Benign,Normal / Other / Screening,Malignant Ratio (%),Label Completeness (%)
+CBIS-DDSM,882,0,0,882,0.0%,100.0%
+Clinical,569,212,357,0,37.3%,100.0%
+Dataset_BUSI_with_GT,780,210,437,133,26.9%,100.0%
+EHR,341,0,0,341,0.0%,100.0%
+Genomic,151,0,0,151,0.0%,100.0%
+Histopathology,224872,65744,159128,0,29.2%,100.0%
+Vision_Genomic_Fusion,250325,250325,0,0,100.0%,100.0%

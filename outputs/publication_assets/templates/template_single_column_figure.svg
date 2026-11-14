@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" width="88mm" height="60mm">
+  <rect x="0" y="0" width="880" height="600" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">Fig. X: Single-Column Journal Layout (88 mm Width)</text>
+  <rect x="40" y="80" width="800" height="460" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="440" y="320" font-family="Arial, sans-serif" font-size="22" fill="#64748B" text-anchor="middle">[Main Content Plot Area: 300 - 600 DPI]</text>
+  <text x="40" y="575" font-family="Arial, sans-serif" font-size="16" fill="#94A3B8">Q1 Journal Standard | IEEE TMI / MedIA / Lancet DH Compliant</text>
+</svg>

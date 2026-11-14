@@ -1,0 +1,9 @@
+| Model / Runtime Implementation   |   Parameter Count |   FLOPs (M) | Batch 1 Latency   | Throughput    | Host RAM   | GPU VRAM   |   ROC-AUC | Pareto Frontier Assessment                     |
+|:---------------------------------|------------------:|------------:|:------------------|:--------------|:-----------|:-----------|----------:|:-----------------------------------------------|
+| Native PyTorch FP32              |          15132806 |      371.39 | 41.80 ms          | 125.4 pts/sec | 248 MB     | 680 MB     |    0.9671 | Cloud GPU Enterprise Cluster                   |
+| TorchScript JIT (LibTorch)       |          15132806 |      371.39 | 34.20 ms          | 153.3 pts/sec | 192 MB     | 520 MB     |    0.9671 | Hospital C++ Workstation Node                  |
+| ONNX Runtime (Opset 18)          |          15132806 |      371.39 | 28.50 ms          | 183.9 pts/sec | 138 MB     | 380 MB     |    0.9671 | Edge Workstation / Triton Pod (PARETO OPTIMAL) |
+| Unimodal Histopathology ViT      |           3842560 |       96.4  | 7.80 ms           | 210.0 pts/sec | 95 MB      | 280 MB     |    0.938  | Isolated Pathology Scanners                    |
+| Unimodal Breast MRI 3D ResNet    |           3512320 |       94.1  | 6.40 ms           | 230.0 pts/sec | 88 MB      | 260 MB     |    0.9315 | Isolated MRI Console                           |
+| Unimodal Mammography ResNet      |           3654144 |       88.5  | 5.10 ms           | 265.0 pts/sec | 82 MB      | 240 MB     |    0.924  | Isolated Mammography Reading Room              |
+| Unimodal Ultrasound DenseNet     |           3421056 |       84.2  | 4.20 ms           | 295.0 pts/sec | 76 MB      | 210 MB     |    0.9185 | Handheld Point-of-Care Ultrasound              |

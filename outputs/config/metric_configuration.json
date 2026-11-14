@@ -1,0 +1,13 @@
+{
+  "primary_metric": "roc_auc",
+  "secondary_metrics": [
+    "f1_score",
+    "balanced_accuracy",
+    "sensitivity",
+    "specificity",
+    "ece"
+  ],
+  "bootstrap_confidence_interval_resamples": 1000,
+  "ci_alpha": 0.05,
+  "calibration_bins": 10
+}

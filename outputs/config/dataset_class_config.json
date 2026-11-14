@@ -1,0 +1,16 @@
+{
+  "implemented_classes": [
+    "MammographyDataset",
+    "UltrasoundDataset",
+    "HistopathologyDataset",
+    "MRIDataset",
+    "ClinicalDataset",
+    "EHRDataset",
+    "GenomicDataset",
+    "UnifiedMultimodalDataset"
+  ],
+  "unified_entrypoint": "UnifiedMultimodalDataset(manifest_df, base_dir)",
+  "lazy_loading": true,
+  "caching_supported": true,
+  "multi_worker_safe": true
+}

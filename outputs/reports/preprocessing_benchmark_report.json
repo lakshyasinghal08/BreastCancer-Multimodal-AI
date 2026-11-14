@@ -1,0 +1,29 @@
+{
+  "system_telemetry": {
+    "rss_memory_mb": 362.45,
+    "vms_memory_mb": 638.28,
+    "cpu_utilization_percent": 20.7
+  },
+  "modalities": {
+    "mammography": {
+      "average_latency_ms": 0.0,
+      "throughput_samples_per_sec": 840335.9
+    },
+    "ultrasound": {
+      "average_latency_ms": 0.0,
+      "throughput_samples_per_sec": 813007.7
+    },
+    "histopathology": {
+      "average_latency_ms": 0.0,
+      "throughput_samples_per_sec": 833333.1
+    },
+    "mri": {
+      "average_latency_ms": 0.0,
+      "throughput_samples_per_sec": 653594.8
+    },
+    "clinical": {
+      "average_latency_ms": 4.3675,
+      "throughput_samples_per_sec": 229.0
+    }
+  }
+}

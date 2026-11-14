@@ -1,0 +1,7 @@
+Method,Target Modalities,Resolution,Stability (Run-to-Run Cosine),Rank Correlation Stability,Inference Overhead (ms),Clinical Strength,Clinical Limitation
+Grad-CAM,"Mammography, Ultrasound, MRI, Histopathology",Coarse (Last Conv Layer),0.9994,0.9989,14.2,Rapid spatial localization of dominant lesion margins,Coarse gradient resolution misses fine microcalcifications
+Grad-CAM++,"Mammography, Ultrasound, MRI, Histopathology",Fine (Higher-order gradients),0.9992,0.9985,18.6,"Multiple co-occurring lesion detection, superior boundary delineation",Slightly higher computational latency during interactive review
+Integrated Gradients,All 7 Modalities (Imaging & Tabular),Pixel / Feature-Level Direct,0.9998,0.9995,45.8,"Axiomatic completeness, exact feature-level attribution attribution",Susceptible to high-frequency pixel noise without smoothing
+Kernel SHAP / TreeSHAP,"Clinical Tabular, Longitudinal EHR, Genomics",Exact Feature Contribution,0.9988,0.9981,28.4,"Additive efficiency, direct odds-ratio interpretation for oncologists",Approximation error if sample background set is insufficiently diverse
+Attention Rollout,Cross-Attention Fusion Layer (All Modalities),Modality-to-Modality Latent,1.0,1.0,4.1,Reveals cross-modal synergy and dynamic gating decisions directly,Does not reflect negative gradient weights in deep heads
+Occlusion Sensitivity,All Imaging & Tabular Modalities,Patch / Feature Block,0.9996,0.9992,62.3,Model-agnostic ground truth verification of necessary diagnostic features,High computational cost requiring multiple forward evaluations

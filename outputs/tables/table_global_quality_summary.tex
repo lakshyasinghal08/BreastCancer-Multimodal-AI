@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Global Medical Dataset Quality Index Dimension Decomposition}
+\label{tab:table_global_quality_summary}
+\begin{tabular}{lrrrl}
+\toprule
+Dimension & Weight & Raw\_Score & Weighted\_Contribution & Basis \\
+\midrule
+Dataset Health Score & 0.200000 & 98.500000 & 19.700000 & All 7 cohorts accessible with 0 unhandled read faults \\
+Patient Integrity Score & 0.150000 & 100.000000 & 15.000000 & 1,918 patients verified with strict namespace isolation \\
+Image Integrity Score & 0.150000 & 99.800000 & 14.970000 & Valid bit depth, entropy, dynamic range, and resolution \\
+Metadata Completeness Score & 0.150000 & 96.400000 & 14.460000 & Standardized manifest with rich modality annotations \\
+Label Ground Truth Score & 0.150000 & 100.000000 & 15.000000 & 100\% verified clinical biopsy / surgical diagnoses \\
+Completeness \& Diversity Score & 0.100000 & 94.800000 & 9.480000 & Full 7-modality coverage with 47 quad-modal bridge pts \\
+Downstream Readiness Score & 0.100000 & 99.000000 & 9.900000 & Leakage-free partitions (Train 70/Val 15/Test 15) \& 5-fold CV \\
+\bottomrule
+\end{tabular}
+\end{table}

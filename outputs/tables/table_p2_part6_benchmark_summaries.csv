@@ -1,0 +1,6 @@
+Batch_Size,Workers,Latency_ms,Throughput_Samples_Sec,Peak_RAM_MB,Cache_Hit_Latency_ms
+1,1,12.4,80.6,780.2,0.04
+2,1,23.8,84.0,782.5,0.04
+4,1,44.5,89.9,788.1,0.04
+8,1,87.2,91.7,795.4,0.04
+16,1,165.1,96.9,810.0,0.04

@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 4 - Part 4.5",
+  "checkpoint_validated": "outputs/models/best_model.pt",
+  "evaluation_cohort": "Locked Test Cohort (N = 574 patients)",
+  "single_patient_latency_ms": 28.5,
+  "single_patient_e2e_ms": 76.9,
+  "max_throughput_fps": 183.9,
+  "memory_footprint_mb": 138,
+  "verification_status": "PRODUCTION_DEPLOYMENT_VALIDATED"
+}

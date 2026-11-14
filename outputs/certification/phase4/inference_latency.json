@@ -1,0 +1,104 @@
+{
+  "latency_decomposition": [
+    {
+      "Subsystem Component": "PACS DICOM Ingestion & Header Parse",
+      "Execution Device": "CPU I/O",
+      "Latency (ms)": 8.4,
+      "Share (%)": 10.92,
+      "Overhead Type": "Network & Storage"
+    },
+    {
+      "Subsystem Component": "Preprocessing (Resize, Norm, Align)",
+      "Execution Device": "CPU",
+      "Latency (ms)": 6.2,
+      "Share (%)": 8.06,
+      "Overhead Type": "Data Ingestion"
+    },
+    {
+      "Subsystem Component": "Mammography Vision Expert Forward",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 10.15,
+      "Share (%)": 13.2,
+      "Overhead Type": "Vision Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Ultrasound Vision Expert Forward",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 8.45,
+      "Share (%)": 10.99,
+      "Overhead Type": "Vision Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Histopathology Vision Expert Forward",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 10.8,
+      "Share (%)": 14.04,
+      "Overhead Type": "Vision Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Breast MRI 3D Vision Expert Forward",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 12.5,
+      "Share (%)": 16.25,
+      "Overhead Type": "Vision Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Clinical FNA Cytology MLP Forward",
+      "Execution Device": "CPU",
+      "Latency (ms)": 0.45,
+      "Share (%)": 0.59,
+      "Overhead Type": "Tabular Feature Extraction"
+    },
+    {
+      "Subsystem Component": "EHR Tabular Transformer Forward",
+      "Execution Device": "CPU",
+      "Latency (ms)": 0.65,
+      "Share (%)": 0.85,
+      "Overhead Type": "Tabular Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Genomic Microarray MLP Forward",
+      "Execution Device": "CPU",
+      "Latency (ms)": 1.8,
+      "Share (%)": 2.34,
+      "Overhead Type": "Genomic Feature Extraction"
+    },
+    {
+      "Subsystem Component": "Modality Token Embedding & Gating",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 0.85,
+      "Share (%)": 1.11,
+      "Overhead Type": "Multimodal Fusion"
+    },
+    {
+      "Subsystem Component": "Cross-Attention Transformer (2 Layers)",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 3.2,
+      "Share (%)": 4.16,
+      "Overhead Type": "Multimodal Fusion"
+    },
+    {
+      "Subsystem Component": "Dual-Head Classifier & Subtyping",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 0.95,
+      "Share (%)": 1.24,
+      "Overhead Type": "Classification & Uncertainty"
+    },
+    {
+      "Subsystem Component": "Real-Time XAI (Rollout & Grad-CAM)",
+      "Execution Device": "CPU / GPU",
+      "Latency (ms)": 12.5,
+      "Share (%)": 16.25,
+      "Overhead Type": "Clinical Explainability"
+    },
+    {
+      "Subsystem Component": "TOTAL END-TO-END DIAGNOSTIC PIPELINE",
+      "Execution Device": "Unified System",
+      "Latency (ms)": 76.9,
+      "Share (%)": 100.0,
+      "Overhead Type": "Full Patient Workup"
+    }
+  ],
+  "onnx_speedup_vs_pytorch": "1.47x",
+  "torchscript_speedup_vs_pytorch": "1.22x"
+}

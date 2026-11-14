@@ -1,0 +1,38 @@
+{
+  "project_name": "Multimodal-Breast-Cancer-AI",
+  "version": "1.0.0",
+  "date": "2026-11-13",
+  "python_environment": {
+    "python_version": "3.10.13",
+    "implementation": "CPython",
+    "compiler": "GCC 11.4.0 / MSVC 19.38",
+    "bitness": 64
+  },
+  "deep_learning_framework": {
+    "framework": "PyTorch",
+    "torch_version": "2.1.2+cu121",
+    "torchvision_version": "0.16.2+cu121",
+    "cuda_runtime": "12.2",
+    "cudnn_version": "8.9.2",
+    "deterministic_mode": true,
+    "benchmark_mode": false
+  },
+  "deterministic_configuration": {
+    "master_seed": 42,
+    "python_hash_seed": 42,
+    "numpy_seed": 42,
+    "torch_cpu_seed": 42,
+    "torch_cuda_seed": 42
+  },
+  "core_libraries": {
+    "numpy": "1.26.2",
+    "scipy": "1.11.4",
+    "pandas": "2.1.4",
+    "scikit_learn": "1.3.2",
+    "matplotlib": "3.8.2",
+    "seaborn": "0.13.0",
+    "onnxruntime": "1.16.3",
+    "pydicom": "2.4.4",
+    "simpleitk": "2.3.1"
+  }
+}

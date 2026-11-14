@@ -1,0 +1,8 @@
+Modalities_Available,Completeness_Pct,Patient_Count,Proportion_Pct,Stratum_Role
+1 / 7,14.3%,1796,93.59%,Unimodal Benchmark
+2 / 7,28.6%,2,0.10%,Bimodal Cross-Modal Bridge
+3 / 7,42.9%,80,4.17%,Multimodal Cross-Attention Core
+4 / 7,57.1%,41,2.14%,Multimodal Cross-Attention Core
+5 / 7,71.4%,0,0.00%,Multimodal Cross-Attention Core
+6 / 7,85.7%,0,0.00%,Multimodal Cross-Attention Core
+7 / 7,100.0%,0,0.00%,Multimodal Cross-Attention Core

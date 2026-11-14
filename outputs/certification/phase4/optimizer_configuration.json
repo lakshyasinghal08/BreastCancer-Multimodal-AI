@@ -1,0 +1,41 @@
+{
+  "optimizer_name": "AdamW",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "parameter_groups": [
+    {
+      "group": "token_embeddings",
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "params": 1920
+    },
+    {
+      "group": "confidence_weighting",
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "params": 8513
+    },
+    {
+      "group": "cross_attention_transformer",
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "params": 132864
+    },
+    {
+      "group": "classifier_heads",
+      "lr": 0.00075,
+      "weight_decay": 0.0001,
+      "params": 182991
+    }
+  ],
+  "frozen_parameters": {
+    "backbones": "7 Unimodal Encoders",
+    "requires_grad": false,
+    "count": 14799180
+  }
+}

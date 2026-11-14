@@ -1,0 +1,8 @@
+{
+  "uncalibrated_ece": 0.0845,
+  "temperature_scaled_ece": 0.0367,
+  "optimal_temperature_t": 1.18,
+  "brier_score": 0.245,
+  "shannon_entropy_threshold_clear_cut": 0.15,
+  "shannon_entropy_threshold_escalation": 0.5
+}

@@ -1,0 +1,37 @@
+{
+  "framework": "PyTorch 2.6.0+cpu",
+  "phase": "Phase 4: Multimodal Cross-Attention Fusion & Clinical Explainability",
+  "part": "Part 4.2: End-to-End Multimodal Fusion Training & Optimization",
+  "timestamp": "2026-11-05T21:50:41.316722",
+  "random_seed": 42,
+  "deterministic_execution": true,
+  "epochs": 10,
+  "batch_size": 32,
+  "gradient_accumulation_steps": 1,
+  "effective_batch_size": 32,
+  "loss_formulation": {
+    "primary_loss": "LabelSmoothingCrossEntropy",
+    "label_smoothing": 0.05,
+    "class_weighting": "Effective Number of Samples [0.42, 0.58]",
+    "auxiliary_loss": "CrossEntropyLoss (PAM50 Molecular Subtype)",
+    "auxiliary_weight_lambda": 0.2
+  },
+  "mixed_precision": {
+    "enabled": true,
+    "dtype": "BFloat16 / FP16 Autocast",
+    "scaler": "torch.cuda.amp.GradScaler (CUDA) / Native Autocast (CPU)"
+  },
+  "regularization": {
+    "dropout": 0.15,
+    "weight_decay": 0.0001,
+    "gradient_clipping_max_norm": 1.0,
+    "ema_decay": 0.999
+  },
+  "early_stopping": {
+    "enabled": true,
+    "monitor_metric": "val_roc_auc",
+    "mode": "max",
+    "patience": 7,
+    "min_delta": 0.001
+  }
+}

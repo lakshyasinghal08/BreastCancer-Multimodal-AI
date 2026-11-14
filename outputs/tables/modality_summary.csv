@@ -1,0 +1,8 @@
+Detected Modality,Dataset Count,Total Files,Total Images,Total Tables,Storage Size (MB)
+Clinical,1,1,0,1,0.12
+EHR,1,1,0,1,0.05
+Fusion,1,250332,250325,6,19093.76
+Genomic,1,1,0,1,133.54
+Histopathology,1,224872,224872,0,1237.88
+Mammography,1,3988,882,0,2963.94
+Ultrasound,1,1578,1578,0,253.85

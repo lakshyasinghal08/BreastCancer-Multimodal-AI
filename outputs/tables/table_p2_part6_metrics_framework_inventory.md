@@ -1,0 +1,11 @@
+# Standardized Evaluation Metrics Inventory for Phase 3
+
+| Category       | Metric                      | Target   | Storage_Format   | Role                            |
+|:---------------|:----------------------------|:---------|:-----------------|:--------------------------------|
+| Discrimination | ROC-AUC                     | >= 0.95  | Scalar Float     | Primary Model Selector          |
+| Discrimination | PR-AUC                      | >= 0.92  | Scalar Float     | Imbalanced Assessment           |
+| Discrimination | F1-Score                    | >= 0.92  | Scalar Float     | Harmonic Mean                   |
+| Imbalanced     | Balanced Accuracy           | >= 0.92  | Scalar Float     | Class-Agnostic Accuracy         |
+| Imbalanced     | Matthews Corr. Coeff. (MCC) | >= 0.85  | Scalar Float     | Contingency Correlation         |
+| Reliability    | Cohen's Kappa               | >= 0.85  | Scalar Float     | Inter-Rater Reliability         |
+| Calibration    | Expected Calibration Error  | <= 0.05  | Scalar Float     | Clinical Confidence Calibration |

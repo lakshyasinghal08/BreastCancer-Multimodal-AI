@@ -1,0 +1,9 @@
+| Modality | Input_Features | Quality_Sensitivity | Gating_Function | Missing_Mask_Treatment | Explainability_Role |
+| --- | --- | --- | --- | --- | --- |
+| Mammography | 128-D LayerNorm | High for Spiculated Calcifications | 1.0 + Tanh(gamma * w_mam) | Score -> -1e9; Weight -> 0.0 | Quantifies macro-geometric reliance |
+| Ultrasound | 128-D LayerNorm | High for Solid vs Cystic lesions | 1.0 + Tanh(gamma * w_us) | Score -> -1e9; Weight -> 0.0 | Mitigates dense tissue ambiguity |
+| Histopathology | 128-D LayerNorm | Highest for cellular atypia | 1.0 + Tanh(gamma * w_his) | Score -> -1e9; Weight -> 0.0 | Microscopic morphological ground truth |
+| Breast MRI | 128-D LayerNorm | High for vascular enhancement | 1.0 + Tanh(gamma * w_mri) | Score -> -1e9; Weight -> 0.0 | Volumetric dynamic staging anchor |
+| Clinical Tabular | 128-D LayerNorm | High for nuclear symmetry & concavity | 1.0 + Tanh(gamma * w_cli) | Score -> -1e9; Weight -> 0.0 | Rapid biometric baseline weighting |
+| EHR Staging | 128-D LayerNorm | Moderate (Patient Age, Staging) | 1.0 + Tanh(gamma * w_ehr) | Score -> -1e9; Weight -> 0.0 | Longitudinal clinical risk context |
+| Genomic Microarray | 128-D LayerNorm | Superior for molecular subtyping | 1.0 + Tanh(gamma * w_gen) | Score -> -1e9; Weight -> 0.0 | Intrinsic oncogenic pathway weighting |

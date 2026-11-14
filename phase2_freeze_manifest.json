@@ -1,0 +1,74 @@
+{
+  "freeze_timestamp": "2026-10-14T10:00:33+0530",
+  "phase": "Phase 2 - Real Multimodal Data Engineering",
+  "release_candidate": "RC-2",
+  "master_freeze_sha256": "fe34e3041895c5aed3953ce4ca481b9abe1ecdaf3ccb752bd14f452dfdf8f080",
+  "frozen_files_count": 13,
+  "frozen_manifest": {
+    "train.csv": {
+      "path": "outputs\\splits\\train.csv",
+      "sha256": "b6fdf4d1e2c9de9d48475574e8786a2c67685db74d0cb63bdaf3529715a6f8a4",
+      "size_bytes": 115273117
+    },
+    "validation.csv": {
+      "path": "outputs\\splits\\validation.csv",
+      "sha256": "576bb93a5dceab99c23e94f5a2b637a6d78397767752525ceb2584209eeb1022",
+      "size_bytes": 25693400
+    },
+    "test.csv": {
+      "path": "outputs\\splits\\test.csv",
+      "sha256": "238ac86a2c5449722892b49ad44d5c98baad8060c87fc48ad345b14dea625876",
+      "size_bytes": 24884390
+    },
+    "fold_manifest.json": {
+      "path": "outputs\\splits\\fold_manifest.json",
+      "sha256": "1b5c80bda0e40c49407ba5d1a4af447e697cbcc3eb6a584d55a094d7a2ac26f8",
+      "size_bytes": 587614
+    },
+    "pipeline_config.json": {
+      "path": "outputs\\config\\pipeline_config.json",
+      "sha256": "a8fd42e4d8d70c7ab7282a12d2f070eb07bf7671452cebc578e953c1a2b88c27",
+      "size_bytes": 16007
+    },
+    "split_config.json": {
+      "path": "outputs\\config\\split_config.json",
+      "sha256": "9187f4f703a0e7b52b3fd8953085172a10379d5972c4b4ec55c34e83c65d37a4",
+      "size_bytes": 407
+    },
+    "cache_config.json": {
+      "path": "outputs\\config\\cache_config.json",
+      "sha256": "127cecb4b44e4ae332b08ed07c96c014dc0117ffc3777f336c8643196826fadd",
+      "size_bytes": 426
+    },
+    "augmentation_config.json": {
+      "path": "outputs\\config\\augmentation_config.json",
+      "sha256": "68acd7b67ded7086606a097b3008d07912a4eb1d4a7bd33ee8abd903e8327283",
+      "size_bytes": 12573
+    },
+    "dataloader_config.json": {
+      "path": "outputs\\config\\dataloader_config.json",
+      "sha256": "3f984a560b5fe114294491cbc028d4ec1870d750aaab16a8c1a2bcb1847cd968",
+      "size_bytes": 496
+    },
+    "benchmark_config.json": {
+      "path": "outputs\\config\\benchmark_config.json",
+      "sha256": "cb0f1b60397911ec6a19771d0c726e448bdef9f1d2c11537e3be0396c36b9023",
+      "size_bytes": 2403
+    },
+    "dataset_class_config.json": {
+      "path": "outputs\\config\\dataset_class_config.json",
+      "sha256": "d884e94731cfae185bf248b1dadde5fe5b1ce291644a0653c814187e03fc96f1",
+      "size_bytes": 398
+    },
+    "dataset_registry.csv": {
+      "path": "outputs\\tables\\dataset_registry.csv",
+      "sha256": "adb29d2d2579298bd50f9550116c603b366c06ade4384b4ed4141c236eb112d7",
+      "size_bytes": 1207
+    },
+    "patient_registry.csv": {
+      "path": "outputs\\tables\\patient_registry.csv",
+      "sha256": "f109b0d95cc93ebe49f880b98524b9d013bbf9e553388aed09a206ae00d8f2d6",
+      "size_bytes": 6064860
+    }
+  }
+}

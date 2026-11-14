@@ -1,0 +1,1920 @@
+patient_id,dataset_sources,mammography,ultrasound,histopathology,mri,clinical,ehr,genomic,total_modalities,is_multimodal,diagnosis
+100,Genomic,0,0,0,0,0,0,1,1,0,HER
+101,Genomic,0,0,0,0,0,0,1,1,0,basal
+102,Genomic,0,0,0,0,0,0,1,1,0,basal
+10253,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10254,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10255,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10256,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10257,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10258,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10259,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10260,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10261,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10262,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10264,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10268,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10269,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10272,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10273,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10274,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10275,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10276,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10277,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10278,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10279,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10282,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10285,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10286,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10288,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10290,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10291,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10292,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10293,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10295,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10299,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+103,Genomic,0,0,0,0,0,0,1,1,0,HER
+10300,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10301,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10302,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10303,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10304,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10305,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10306,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10307,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+10308,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+104,Genomic,0,0,0,0,0,0,1,1,0,HER
+105,Genomic,0,0,0,0,0,0,1,1,0,HER
+106,Genomic,0,0,0,0,0,0,1,1,0,basal
+107,Genomic,0,0,0,0,0,0,1,1,0,HER
+108,Genomic,0,0,0,0,0,0,1,1,0,basal
+109,Genomic,0,0,0,0,0,0,1,1,0,basal
+110,Genomic,0,0,0,0,0,0,1,1,0,basal
+111,Genomic,0,0,0,0,0,0,1,1,0,basal
+112,Genomic,0,0,0,0,0,0,1,1,0,basal
+113,Genomic,0,0,0,0,0,0,1,1,0,basal
+114,Genomic,0,0,0,0,0,0,1,1,0,basal
+115,Genomic,0,0,0,0,0,0,1,1,0,basal
+116,Genomic,0,0,0,0,0,0,1,1,0,HER
+117,Genomic,0,0,0,0,0,0,1,1,0,HER
+118,Genomic,0,0,0,0,0,0,1,1,0,basal
+119,Genomic,0,0,0,0,0,0,1,1,0,basal
+120,Genomic,0,0,0,0,0,0,1,1,0,basal
+121,Genomic,0,0,0,0,0,0,1,1,0,HER
+122,Genomic,0,0,0,0,0,0,1,1,0,HER
+12241,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12242,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+123,Genomic,0,0,0,0,0,0,1,1,0,HER
+124,Genomic,0,0,0,0,0,0,1,1,0,basal
+125,Genomic,0,0,0,0,0,0,1,1,0,basal
+126,Genomic,0,0,0,0,0,0,1,1,0,HER
+12626,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+127,Genomic,0,0,0,0,0,0,1,1,0,HER
+12748,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12749,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12750,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12751,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12752,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+128,Genomic,0,0,0,0,0,0,1,1,0,basal
+12810,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12811,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12817,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12818,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12819,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12820,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12821,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12822,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12823,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12824,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12826,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12867,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12868,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12869,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12870,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12871,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12872,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12873,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12875,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12876,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12877,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12878,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12879,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12880,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12881,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12882,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12883,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12884,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12886,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12890,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12891,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12892,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12893,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12894,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12895,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12896,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12897,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12898,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+129,Genomic,0,0,0,0,0,0,1,1,0,HER
+12900,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12901,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12905,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12906,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12907,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12908,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12909,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12910,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12911,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12929,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12930,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12931,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12932,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12933,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12934,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12935,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12947,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12948,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12949,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12951,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12954,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+12955,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+130,Genomic,0,0,0,0,0,0,1,1,0,basal
+13018,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13019,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13020,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13021,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13022,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13023,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13024,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13025,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+131,Genomic,0,0,0,0,0,0,1,1,0,basal
+13106,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+132,Genomic,0,0,0,0,0,0,1,1,0,HER
+133,Genomic,0,0,0,0,0,0,1,1,0,HER
+134,Genomic,0,0,0,0,0,0,1,1,0,HER
+13400,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13401,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13402,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13403,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13404,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13458,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13459,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13460,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13461,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13462,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+135,Genomic,0,0,0,0,0,0,1,1,0,basal
+13591,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+136,Genomic,0,0,0,0,0,0,1,1,0,basal
+13613,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13616,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13617,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13666,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13687,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13688,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13689,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13691,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13692,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13693,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+13694,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+137,Genomic,0,0,0,0,0,0,1,1,0,HER
+138,Genomic,0,0,0,0,0,0,1,1,0,basal
+139,Genomic,0,0,0,0,0,0,1,1,0,basal
+13916,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+140,Genomic,0,0,0,0,0,0,1,1,0,HER
+14078,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14079,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14081,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14082,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+141,Genomic,0,0,0,0,0,0,1,1,0,HER
+14153,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14154,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14155,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14156,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14157,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14188,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14189,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14190,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14191,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14192,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+142,Genomic,0,0,0,0,0,0,1,1,0,basal
+14209,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14210,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14211,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14212,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14213,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+143,Genomic,0,0,0,0,0,0,1,1,0,basal
+14304,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14305,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14306,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+14321,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+144,Genomic,0,0,0,0,0,0,1,1,0,basal
+145,Genomic,0,0,0,0,0,0,1,1,0,basal
+146,Genomic,0,0,0,0,0,0,1,1,0,basal
+147,Genomic,0,0,0,0,0,0,1,1,0,basal
+148,Genomic,0,0,0,0,0,0,1,1,0,basal
+149,Genomic,0,0,0,0,0,0,1,1,0,basal
+150,Genomic,0,0,0,0,0,0,1,1,0,basal
+151,Genomic,0,0,0,0,0,0,1,1,0,HER
+152,Genomic,0,0,0,0,0,0,1,1,0,HER
+153,Genomic,0,0,0,0,0,0,1,1,0,HER
+154,Genomic,0,0,0,0,0,0,1,1,0,HER
+15471,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15472,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15473,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+155,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+15510,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15512,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15513,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15514,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15515,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15516,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+156,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+15632,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15633,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15634,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+157,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+158,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+15839,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15840,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+159,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+15902,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+15903,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+160,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+16014,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16085,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+161,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+16165,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16166,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16167,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+162,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+163,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+164,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+165,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+16531,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16532,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16533,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16534,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16550,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16551,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16552,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16553,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16554,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16555,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16568,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16569,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16570,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+166,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+167,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+168,Genomic,0,0,0,0,0,0,1,1,0,cell_line
+16895,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+16896,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+171,Genomic,0,0,0,0,0,0,1,1,0,normal
+172,Genomic,0,0,0,0,0,0,1,1,0,normal
+173,Genomic,0,0,0,0,0,0,1,1,0,normal
+174,Genomic,0,0,0,0,0,0,1,1,0,normal
+175,Genomic,0,0,0,0,0,0,1,1,0,normal
+177,Genomic,0,0,0,0,0,0,1,1,0,normal
+178,Genomic,0,0,0,0,0,0,1,1,0,normal
+180,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+181,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+182,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+183,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+184,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+185,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+186,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+187,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+188,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+189,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+190,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+191,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+192,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+193,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+194,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+195,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+196,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+197,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+198,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+199,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+200,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+201,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+202,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+203,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+204,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+205,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+206,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+207,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+208,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+209,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+210,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+211,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+212,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+213,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+214,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+215,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+216,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+217,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+218,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+219,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+220,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+221,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+222,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+223,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+224,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+225,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+226,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+227,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+228,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+229,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+230,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+231,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+232,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+233,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+234,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+235,Genomic,0,0,0,0,0,0,1,1,0,luminal_A
+236,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+237,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+238,Genomic,0,0,0,0,0,0,1,1,0,luminal_B
+84,Genomic,0,0,0,0,0,0,1,1,0,basal
+842302,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+842517,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84300903,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84348301,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84358402,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+843786,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+844359,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84458202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+844981,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84501001,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+845636,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84610002,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+846226,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+846381,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84667401,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84799002,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+848406,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+84862001,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+849014,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+85,Genomic,0,0,0,0,0,0,1,1,0,basal
+8510426,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8510653,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8510824,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8511133,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+851509,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+852552,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+852631,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+852763,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+852781,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+852973,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+853201,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+853401,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+853612,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+85382601,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+854002,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+854039,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+854253,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+854268,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+854941,Clinical,0,0,0,0,1,0,0,1,0,Benign
+855133,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+855138,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+855167,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+855563,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+855625,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+856106,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+85638502,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+857010,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+85713702,Clinical,0,0,0,0,1,0,0,1,0,Benign
+85715,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+857155,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857156,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857343,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857373,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857374,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857392,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+857438,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+85759902,Clinical,0,0,0,0,1,0,0,1,0,Benign
+857637,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+857793,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+857810,Clinical,0,0,0,0,1,0,0,1,0,Benign
+858477,Clinical,0,0,0,0,1,0,0,1,0,Benign
+858970,Clinical,0,0,0,0,1,0,0,1,0,Benign
+858981,Clinical,0,0,0,0,1,0,0,1,0,Benign
+858986,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+859196,Clinical,0,0,0,0,1,0,0,1,0,Benign
+85922302,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+859283,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+859464,Clinical,0,0,0,0,1,0,0,1,0,Benign
+859465,Clinical,0,0,0,0,1,0,0,1,0,Benign
+859471,Clinical,0,0,0,0,1,0,0,1,0,Benign
+859487,Clinical,0,0,0,0,1,0,0,1,0,Benign
+859575,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+859711,Clinical,0,0,0,0,1,0,0,1,0,Benign
+859717,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+859983,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86,Genomic,0,0,0,0,0,0,1,1,0,HER
+8610175,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8610404,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8610629,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8610637,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8610862,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8610908,Clinical,0,0,0,0,1,0,0,1,0,Benign
+861103,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8611161,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8611555,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8611792,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8612080,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8612399,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86135501,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86135502,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+861597,Clinical,0,0,0,0,1,0,0,1,0,Benign
+861598,Clinical,0,0,0,0,1,0,0,1,0,Benign
+861648,Clinical,0,0,0,0,1,0,0,1,0,Benign
+861799,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+861853,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862009,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862028,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86208,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86211,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862261,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862485,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862548,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+862717,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+862722,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862965,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862980,Clinical,0,0,0,0,1,0,0,1,0,Benign
+862989,Clinical,0,0,0,0,1,0,0,1,0,Benign
+863030,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+863031,Clinical,0,0,0,0,1,0,0,1,0,Benign
+863270,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86355,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+864018,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864033,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86408,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86409,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864292,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864496,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864685,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864726,Clinical,0,0,0,0,1,0,0,1,0,Benign
+864729,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+864877,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+865128,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+865137,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86517,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+865423,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+865432,Clinical,0,0,0,0,1,0,0,1,0,Benign
+865468,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86561,Clinical,0,0,0,0,1,0,0,1,0,Benign
+866083,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+866203,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+866458,Clinical,0,0,0,0,1,0,0,1,0,Benign
+866674,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+866714,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8670,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86730502,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+867387,Clinical,0,0,0,0,1,0,0,1,0,Benign
+867739,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+868202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+868223,Clinical,0,0,0,0,1,0,0,1,0,Benign
+868682,Clinical,0,0,0,0,1,0,0,1,0,Benign
+868826,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+868871,Clinical,0,0,0,0,1,0,0,1,0,Benign
+868999,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869104,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+869218,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869224,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869254,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869476,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869691,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+86973701,Clinical,0,0,0,0,1,0,0,1,0,Benign
+86973702,Clinical,0,0,0,0,1,0,0,1,0,Benign
+869931,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87,Genomic,0,0,0,0,0,0,1,1,0,basal
+871001501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+871001502,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8710441,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87106,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8711002,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8711003,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8711202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8711216,Clinical,0,0,0,0,1,0,0,1,0,Benign
+871122,Clinical,0,0,0,0,1,0,0,1,0,Benign
+871149,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8711561,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8711803,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+871201,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8712064,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8712289,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8712291,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87127,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8712729,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8712766,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8712853,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87139402,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87163,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+87164,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+871641,Clinical,0,0,0,0,1,0,0,1,0,Benign
+871642,Clinical,0,0,0,0,1,0,0,1,0,Benign
+872113,Clinical,0,0,0,0,1,0,0,1,0,Benign
+872608,Clinical,0,0,0,0,1,0,0,1,0,Benign
+87281702,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+873357,Clinical,0,0,0,0,1,0,0,1,0,Benign
+873586,Clinical,0,0,0,0,1,0,0,1,0,Benign
+873592,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+873593,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+873701,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+873843,Clinical,0,0,0,0,1,0,0,1,0,Benign
+873885,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+874158,Clinical,0,0,0,0,1,0,0,1,0,Benign
+874217,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+874373,Clinical,0,0,0,0,1,0,0,1,0,Benign
+874662,Clinical,0,0,0,0,1,0,0,1,0,Benign
+874839,Clinical,0,0,0,0,1,0,0,1,0,Benign
+874858,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+875093,Clinical,0,0,0,0,1,0,0,1,0,Benign
+875099,Clinical,0,0,0,0,1,0,0,1,0,Benign
+875263,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+87556202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+875878,Clinical,0,0,0,0,1,0,0,1,0,Benign
+875938,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+877159,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+877486,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+877500,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+877501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+877989,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+878796,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+87880,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+87930,Clinical,0,0,0,0,1,0,0,1,0,Benign
+879523,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+879804,Clinical,0,0,0,0,1,0,0,1,0,Benign
+879830,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88,Genomic,0,0,0,0,0,0,1,1,0,HER
+8810158,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8810436,Clinical,0,0,0,0,1,0,0,1,0,Benign
+881046502,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8810528,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8810703,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+881094802,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8810955,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8810987,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8811523,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8811779,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8811842,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88119002,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8812816,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8812818,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8812844,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8812877,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8813129,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88143502,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88147101,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88147102,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88147202,Clinical,0,0,0,0,1,0,0,1,0,Benign
+881861,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+881972,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88199202,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88203002,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88206102,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+882488,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88249602,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88299702,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+883263,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+883270,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88330202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88350402,Clinical,0,0,0,0,1,0,0,1,0,Benign
+883539,Clinical,0,0,0,0,1,0,0,1,0,Benign
+883852,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88411702,Clinical,0,0,0,0,1,0,0,1,0,Benign
+884180,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+884437,Clinical,0,0,0,0,1,0,0,1,0,Benign
+884448,Clinical,0,0,0,0,1,0,0,1,0,Benign
+884626,Clinical,0,0,0,0,1,0,0,1,0,Benign
+88466802,Clinical,0,0,0,0,1,0,0,1,0,Benign
+884689,Clinical,0,0,0,0,1,0,0,1,0,Benign
+884948,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88518501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+885429,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8860702,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+886226,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8863,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+8864,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+886452,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88649001,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8865,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+8867,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+886776,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+887181,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88725602,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+887549,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+888264,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+888570,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+889403,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+889719,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+88995002,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+89,Genomic,0,0,0,0,0,0,1,1,0,HER
+8910251,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910499,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910506,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910720,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910721,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910748,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8910988,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8910996,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8911163,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8911164,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8911230,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8911670,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8911800,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8911834,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8912049,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8912055,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89122,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8912280,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8912284,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8912521,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8912909,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8913,"Clinical, Histopathology",0,0,1,0,1,0,0,2,1,Benign; Malignant (IDC)
+8913049,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8914,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+89143601,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89143602,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8915,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8916,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+891670,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8917,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+891703,Clinical,0,0,0,0,1,0,0,1,0,Benign
+891716,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8918,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+891923,Clinical,0,0,0,0,1,0,0,1,0,Benign
+891936,Clinical,0,0,0,0,1,0,0,1,0,Benign
+892189,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+892214,Clinical,0,0,0,0,1,0,0,1,0,Benign
+892399,Clinical,0,0,0,0,1,0,0,1,0,Benign
+892438,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+892604,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89263202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+892657,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89296,Clinical,0,0,0,0,1,0,0,1,0,Benign
+893061,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89344,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89346,Clinical,0,0,0,0,1,0,0,1,0,Benign
+893526,Clinical,0,0,0,0,1,0,0,1,0,Benign
+893548,Clinical,0,0,0,0,1,0,0,1,0,Benign
+893783,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89382601,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89382602,Clinical,0,0,0,0,1,0,0,1,0,Benign
+893988,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894047,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894089,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894090,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894326,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+894329,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894335,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894604,Clinical,0,0,0,0,1,0,0,1,0,Benign
+894618,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+894855,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8950,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+8951,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+895100,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+89511501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89511502,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89524,Clinical,0,0,0,0,1,0,0,1,0,Benign
+895299,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8953902,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8955,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+8956,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+895633,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8957,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+8959,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+896839,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+896864,Clinical,0,0,0,0,1,0,0,1,0,Benign
+897132,Clinical,0,0,0,0,1,0,0,1,0,Benign
+897137,Clinical,0,0,0,0,1,0,0,1,0,Benign
+897374,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8974,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+89742801,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+8975,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+897604,Clinical,0,0,0,0,1,0,0,1,0,Benign
+897630,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+897880,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8980,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+89812,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+89813,Clinical,0,0,0,0,1,0,0,1,0,Benign
+898143,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89827,Clinical,0,0,0,0,1,0,0,1,0,Benign
+8984,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+898431,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+89864002,Clinical,0,0,0,0,1,0,0,1,0,Benign
+898677,Clinical,0,0,0,0,1,0,0,1,0,Benign
+898678,Clinical,0,0,0,0,1,0,0,1,0,Benign
+89869,Clinical,0,0,0,0,1,0,0,1,0,Benign
+898690,Clinical,0,0,0,0,1,0,0,1,0,Benign
+899147,Clinical,0,0,0,0,1,0,0,1,0,Benign
+899187,Clinical,0,0,0,0,1,0,0,1,0,Benign
+899667,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+899987,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+90,Genomic,0,0,0,0,0,0,1,1,0,basal
+9010018,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+901011,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010258,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010259,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901028,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010333,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901034301,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901034302,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901041,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010598,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010872,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9010877,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901088,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9011494,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9011495,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9011971,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9012000,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9012315,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9012568,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9012795,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+901288,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9013005,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901303,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901315,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9013579,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9013594,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9013838,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+901549,Clinical,0,0,0,0,1,0,0,1,0,Benign
+901836,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9022,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+9023,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+90250,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90251,Clinical,0,0,0,0,1,0,0,1,0,Benign
+902727,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9029,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+90291,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+902975,Clinical,0,0,0,0,1,0,0,1,0,Benign
+902976,Clinical,0,0,0,0,1,0,0,1,0,Benign
+903011,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90312,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+90317302,Clinical,0,0,0,0,1,0,0,1,0,Benign
+903483,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9035,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+903507,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+903516,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+903554,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9036,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+9037,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+903811,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90401601,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90401602,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9041,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+9043,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+904302,Clinical,0,0,0,0,1,0,0,1,0,Benign
+904357,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90439701,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9044,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+904647,Clinical,0,0,0,0,1,0,0,1,0,Benign
+904689,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9047,Clinical,0,0,0,0,1,0,0,1,0,Benign
+904969,Clinical,0,0,0,0,1,0,0,1,0,Benign
+904971,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905189,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905190,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90524101,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+905501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905502,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905520,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905539,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905557,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905680,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+905686,Clinical,0,0,0,0,1,0,0,1,0,Benign
+905978,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90602302,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+906024,Clinical,0,0,0,0,1,0,0,1,0,Benign
+906290,Clinical,0,0,0,0,1,0,0,1,0,Benign
+906539,Clinical,0,0,0,0,1,0,0,1,0,Benign
+906564,Clinical,0,0,0,0,1,0,0,1,0,Benign
+906616,Clinical,0,0,0,0,1,0,0,1,0,Benign
+906878,Clinical,0,0,0,0,1,0,0,1,0,Benign
+907145,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9073,Histopathology,0,0,1,0,0,0,0,1,0,Benign; Malignant (IDC)
+907367,Clinical,0,0,0,0,1,0,0,1,0,Benign
+907409,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90745,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9075,Histopathology,0,0,1,0,0,0,0,1,0,Benign
+90769601,Clinical,0,0,0,0,1,0,0,1,0,Benign
+90769602,Clinical,0,0,0,0,1,0,0,1,0,Benign
+907914,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+907915,Clinical,0,0,0,0,1,0,0,1,0,Benign
+908194,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+908445,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+908469,Clinical,0,0,0,0,1,0,0,1,0,Benign
+908489,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+908916,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909220,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909231,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909410,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909411,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909445,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+90944601,Clinical,0,0,0,0,1,0,0,1,0,Benign
+909777,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91,Genomic,0,0,0,0,0,0,1,1,0,basal
+9110127,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9110720,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9110732,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9110944,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911150,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911157302,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9111596,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9111805,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9111843,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911201,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911202,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9112085,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9112366,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9112367,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9112594,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9112712,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911296201,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+911296202,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+9113156,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911320501,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911320502,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113239,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113455,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113514,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113538,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+911366,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113778,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113816,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911384,Clinical,0,0,0,0,1,0,0,1,0,Benign
+9113846,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911391,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911408,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911654,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911673,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911685,Clinical,0,0,0,0,1,0,0,1,0,Benign
+911916,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+912193,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91227,Clinical,0,0,0,0,1,0,0,1,0,Benign
+912519,Clinical,0,0,0,0,1,0,0,1,0,Benign
+912558,Clinical,0,0,0,0,1,0,0,1,0,Benign
+912600,Clinical,0,0,0,0,1,0,0,1,0,Benign
+913063,Clinical,0,0,0,0,1,0,0,1,0,Benign
+913102,Clinical,0,0,0,0,1,0,0,1,0,Benign
+913505,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+913512,Clinical,0,0,0,0,1,0,0,1,0,Benign
+913535,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91376701,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91376702,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914062,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+914101,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914102,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914333,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914366,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914580,Clinical,0,0,0,0,1,0,0,1,0,Benign
+914769,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91485,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+914862,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91504,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91505,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915143,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+915186,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915276,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91544001,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91544002,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915452,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915460,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91550,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915664,Clinical,0,0,0,0,1,0,0,1,0,Benign
+915691,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+915940,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91594602,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+916221,Clinical,0,0,0,0,1,0,0,1,0,Benign
+916799,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+916838,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+917062,Clinical,0,0,0,0,1,0,0,1,0,Benign
+917080,Clinical,0,0,0,0,1,0,0,1,0,Benign
+917092,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91762702,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91789,Clinical,0,0,0,0,1,0,0,1,0,Benign
+917896,Clinical,0,0,0,0,1,0,0,1,0,Benign
+917897,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91805,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91813701,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91813702,Clinical,0,0,0,0,1,0,0,1,0,Benign
+918192,Clinical,0,0,0,0,1,0,0,1,0,Benign
+918465,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91858,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91903901,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91903902,Clinical,0,0,0,0,1,0,0,1,0,Benign
+91930402,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+919537,Clinical,0,0,0,0,1,0,0,1,0,Benign
+919555,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+91979701,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+919812,Clinical,0,0,0,0,1,0,0,1,0,Benign
+92,Genomic,0,0,0,0,0,0,1,1,0,basal
+921092,Clinical,0,0,0,0,1,0,0,1,0,Benign
+921362,Clinical,0,0,0,0,1,0,0,1,0,Benign
+921385,Clinical,0,0,0,0,1,0,0,1,0,Benign
+921386,Clinical,0,0,0,0,1,0,0,1,0,Benign
+921644,Clinical,0,0,0,0,1,0,0,1,0,Benign
+922296,Clinical,0,0,0,0,1,0,0,1,0,Benign
+922297,Clinical,0,0,0,0,1,0,0,1,0,Benign
+922576,Clinical,0,0,0,0,1,0,0,1,0,Benign
+922577,Clinical,0,0,0,0,1,0,0,1,0,Benign
+922840,Clinical,0,0,0,0,1,0,0,1,0,Benign
+923169,Clinical,0,0,0,0,1,0,0,1,0,Benign
+923465,Clinical,0,0,0,0,1,0,0,1,0,Benign
+923748,Clinical,0,0,0,0,1,0,0,1,0,Benign
+923780,Clinical,0,0,0,0,1,0,0,1,0,Benign
+924084,Clinical,0,0,0,0,1,0,0,1,0,Benign
+924342,Clinical,0,0,0,0,1,0,0,1,0,Benign
+924632,Clinical,0,0,0,0,1,0,0,1,0,Benign
+924934,Clinical,0,0,0,0,1,0,0,1,0,Benign
+924964,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925236,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925277,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925291,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925292,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925311,Clinical,0,0,0,0,1,0,0,1,0,Benign
+925622,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+926125,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+926424,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+926682,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+926954,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+927241,Clinical,0,0,0,0,1,0,0,1,0,Malignant
+92751,Clinical,0,0,0,0,1,0,0,1,0,Benign
+93,Genomic,0,0,0,0,0,0,1,1,0,basal
+94,Genomic,0,0,0,0,0,0,1,1,0,basal
+95,Genomic,0,0,0,0,0,0,1,1,0,HER
+96,Genomic,0,0,0,0,0,0,1,1,0,HER
+97,Genomic,0,0,0,0,0,0,1,1,0,HER
+98,Genomic,0,0,0,0,0,0,1,1,0,HER
+99,Genomic,0,0,0,0,0,0,1,1,0,basal
+P_00005,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00016,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00017,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00018,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00019,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00021,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00026,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00032,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00037,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00038,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00039,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00041,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00046,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00056,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00059,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00061,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00066,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00074,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00076,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00077,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00088,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00091,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00095,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00099,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00100,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00105,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00106,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00107,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00114,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00116,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00117,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00118,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00124,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00126,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00127,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00131,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00132,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00140,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00141,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00145,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00147,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00150,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00156,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00158,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00159,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00160,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00162,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00163,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00164,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00166,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00171,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00173,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00174,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00177,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00180,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00185,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00192,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00194,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00195,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00198,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00200,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00202,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00203,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00209,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00212,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00214,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00223,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00229,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00230,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00231,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00232,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00235,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00238,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00242,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00243,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00244,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00246,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00247,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00257,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00264,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00270,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00276,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00278,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00296,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00299,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00304,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00315,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00319,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00324,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00325,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00328,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00331,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00333,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00340,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00343,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00344,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00347,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00352,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00353,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00358,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00359,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00363,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00366,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00368,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00369,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00372,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00375,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00379,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00380,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00381,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00387,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00390,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00391,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00394,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00396,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00397,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00402,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00403,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00405,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00409,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00411,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00412,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00414,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00419,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00421,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00425,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00426,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00428,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00429,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00433,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00436,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00439,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00443,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00457,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00460,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00464,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00465,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00466,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00467,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00470,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00473,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00474,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00475,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00476,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00481,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00482,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00485,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00490,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00493,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00494,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00495,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00496,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00497,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00498,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00500,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00508,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00510,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00514,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00516,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00518,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00524,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00529,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00531,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00533,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00537,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00544,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00558,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00559,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00562,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00570,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00576,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00577,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00578,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00579,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00583,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00584,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00585,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00587,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00589,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00591,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00598,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00600,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00601,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00608,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00612,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00615,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00620,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00622,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00623,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00629,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00636,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00638,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00639,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00641,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00642,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00643,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00646,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00649,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00652,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00656,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00661,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00662,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00663,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00666,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00670,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00671,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00677,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00678,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00679,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00681,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00682,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00686,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00694,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00698,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00699,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00700,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00701,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00705,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00707,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00710,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00711,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00713,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00718,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00719,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00723,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00735,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00738,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00739,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00741,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00747,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00753,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00758,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00766,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00772,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00773,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00774,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00776,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00778,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00784,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00788,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00789,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00790,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00795,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00799,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00811,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00813,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00816,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00820,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00827,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00834,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00837,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00843,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00849,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00857,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00859,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00866,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00868,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00869,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00875,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00876,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00879,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00882,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00893,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00896,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00905,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00906,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00914,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00919,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00922,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00923,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00924,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00928,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00932,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00937,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00942,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00947,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00951,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00952,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00954,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00960,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00962,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00963,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00966,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00969,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00974,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00978,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00979,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00980,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00985,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00986,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00987,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00990,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00991,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00992,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00997,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_00999,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01003,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01004,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01006,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01010,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01014,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01022,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01029,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01030,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01033,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01041,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01042,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01044,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01045,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01050,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01051,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01056,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01058,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01067,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01068,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01071,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01084,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01090,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01091,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01092,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01101,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01103,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01106,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01108,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01110,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01114,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01119,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01127,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01132,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01136,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01140,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01143,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01145,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01148,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01152,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01153,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01154,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01156,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01157,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01158,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01164,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01167,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01175,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01179,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01183,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01187,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01190,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01192,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01204,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01210,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01211,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01213,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01217,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01221,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01224,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01227,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01231,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01233,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01235,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01237,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01248,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01251,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01253,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01254,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01256,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01257,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01262,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01265,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01272,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01277,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01286,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01293,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01294,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01298,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01303,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01305,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01307,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01308,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01313,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01316,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01318,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01320,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01322,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01323,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01331,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01333,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01334,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01336,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01337,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01347,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01348,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01351,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01352,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01353,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01355,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01358,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01362,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01365,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01369,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01370,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01378,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01379,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01381,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01389,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01390,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01391,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01392,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01395,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01399,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01401,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01402,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01407,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01414,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01415,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01416,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01419,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01425,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01426,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01433,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01441,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01444,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01446,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01451,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01454,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01456,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01460,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01461,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01465,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01467,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01471,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01476,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01477,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01482,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01483,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01489,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01490,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01502,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01510,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01512,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01518,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01523,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01529,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01534,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01535,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01536,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01538,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01539,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01546,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01547,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01551,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01556,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01558,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01562,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01565,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01566,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01569,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01576,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01578,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01581,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01582,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01589,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01590,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01595,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01599,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01602,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01605,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01614,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01617,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01621,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01623,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01626,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01629,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01635,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01638,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01640,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01642,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01643,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01645,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01651,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01661,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01664,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01666,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01668,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01669,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01670,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01673,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01677,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01684,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01687,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01690,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01697,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01700,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01711,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01713,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01716,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01717,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01719,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01720,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01726,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01728,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01740,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01741,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01743,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01752,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01753,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01759,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01760,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01765,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01769,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01773,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01778,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01787,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01791,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01795,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01796,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01797,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01800,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01803,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01807,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01815,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01820,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01825,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01830,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01833,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01834,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01842,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01844,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01845,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01861,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01864,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01865,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01866,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01867,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01868,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01872,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01878,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01882,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01883,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01890,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_01912,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02079,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02092,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02102,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02105,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02133,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02139,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02153,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02159,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02176,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02190,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02198,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02275,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02313,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02418,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02420,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02432,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02434,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02464,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02498,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02501,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+P_02584,CBIS-DDSM,1,0,0,0,0,0,0,1,0,Abnormal (Screening)
+TCGA-3C-AAAU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-5L-AAT0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A1-A0SD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A1-A0SE,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-A1-A0SF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A1-A0SG,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A1-A0SI,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A1-A0SQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A04Y,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0CK,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0CL,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0CO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0CV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A0CY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0CZ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0D3,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0D4,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-A2-A0ES,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0EU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0EV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0EW,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A0EX,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0SU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A0T5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0T6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0T7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A0YH,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A0YI,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-A2-A0YL,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A1FV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A1FZ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A1G4,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A25C,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A3KD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A2-A4RW,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A4RX,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A4RY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A4S0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A4S2,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A2-A4S3,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A0CJ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A13G,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A7-A26E,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A26J,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A7-A3J0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A3J1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A3RF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A426,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A4SB,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A56D,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A7-A5ZW,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-A7-A6VX,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A06O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A06P,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A06Q,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A06Y,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A079,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A07E,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A07F,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A07G,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A07J,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A07L,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A07W,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A07Z,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A081,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A082,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A083,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A085,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A086,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A08A,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A08F,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A08I,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A08O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A08Z,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A092,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A093,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A095,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A096,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A09A,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A09B,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09D,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09K,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A09M,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09Q,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09R,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09T,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A09V,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A0A1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-A8-A0A2,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A0A4,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A0A6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A0A9,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-A8-A0AD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A2B8,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A3BB,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A3HN,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A3OD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A3W6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A5EI,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A5XS,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A5XU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AC-A62Y,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-AC-A6NO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AC-A8OR,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AN-A03Y,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AN-A046,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AN-A049,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AN-A04A,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AN-A0FF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AN-A0FY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A03M,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AO-A03N,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-AO-A03O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A03R,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A03T,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A03V,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AO-A0J7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A0J8,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AO-A0J9,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AO-A0JA,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A0JB,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AO-A0JC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A0JD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A0JF,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AO-A0JI,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AO-A0JJ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A0JM,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AO-A125,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A126,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AO-A12B,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A12D,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AO-A12E,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A12F,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AO-A12H,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A1KO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A1KP,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AO-A1KQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AQ-A04H,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AQ-A1H3,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AQ-A54O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AQ-A7U7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AR-A0U2,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AR-A0U3,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A1AK,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A1AL,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A1AN,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AR-A1AQ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AR-A1AS,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A1AV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A1AX,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AR-A24H,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AR-A24M,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AR-A24O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-AR-A24R,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AR-A24S,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AR-A24U,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AR-A24V,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A24W,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-AR-A24X,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AR-A24Z,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A252,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A254,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-AR-A2LN,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-AR-A2LQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-B6-A401,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-B6-A40B,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-B6-A40C,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-BH-A0AW,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0AY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0AZ,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0B0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0B1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0B3,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0B5,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0B6,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0BA,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0BC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0BD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0BF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0BJ,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0BM,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0BO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0BP,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0BQ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0BR,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0BT,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0BV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0BZ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0C0,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0C1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0DE,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DG,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0DH,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DI,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DK,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0DP,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0DQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0DS,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0DT,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DV,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DX,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0DZ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0E0,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0E1,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0E2,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0E7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0E9,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0EA,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0EI,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0GY,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0GZ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0H0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0H3,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0H6,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0H7,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0H9,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0HA,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0HF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0HI,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0HO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A0HQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0HU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A0HX,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A0HY,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0RX,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0W3,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0W5,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A0W7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A18F,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-BH-A18H,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A18I,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A18J,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A18K,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A18L,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A18N,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A18S,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A201,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A202,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A28O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A28Q,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-BH-A2L8,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-BH-A42V,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A5J0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A8FY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-A8G0,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-BH-AB28,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A12N,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A12O,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A12U,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A12W,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A12X,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A1HG,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A1HI,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A1HM,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A26V,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A26Z,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A273,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A274,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-C8-A27A,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-C8-A8HQ,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-D8-A13Y,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A141,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A146,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1J8,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A1JC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A1JE,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A1JH,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JI,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JJ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JP,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JS,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1JU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A1X6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1X7,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A1XB,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XD,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XM,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XR,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A1XU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A27I,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-D8-A27K,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A27L,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A27P,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A27T,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A27V,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A3Z5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A3Z6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A4Z1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A73U,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-D8-A73X,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A108,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A10C,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-E2-A14N,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A14P,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A14Q,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A14T,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A14V,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A14X,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A14Y,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A14Z,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A150,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A152,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A153,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A154,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A156,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A159,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15A,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A15E,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15F,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-E2-A15G,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A15H,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15I,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15J,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15K,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15L,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A15M,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A15P,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1B1,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1B4,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1B5,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A1B6,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1BC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1IE,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1IF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1IG,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A1II,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1IJ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1IK,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A1IL,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1IN,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A1IU,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1L6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E2-A1L7,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E2-A1L9,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-E2-A1LG,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-E9-A1NH,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-E9-A227,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E9-A54X,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-E9-A54Y,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E9-A5FK,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-E9-A6HE,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A1IX,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-EW-A1IY,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1IZ,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1J1,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-EW-A1J2,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1J5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-EW-A1J6,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1OX,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-EW-A1OY,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1OZ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-EW-A1P0,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-EW-A1P3,"EHR, Vision_Genomic_Fusion",0,0,1,1,0,1,1,4,1,Mucinous Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1P4,Vision_Genomic_Fusion,0,0,0,1,0,0,1,2,1,Malignant (Invasive Carcinoma)
+TCGA-EW-A1P5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A1PA,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Ductal Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-EW-A1PC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A1PE,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A1PF,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A2FS,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-EW-A2FV,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-EW-A2FW,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-EW-A423,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-EW-A6SC,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-GI-A2C8,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A2DL,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A2DM,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-GM-A2DN,EHR,0,0,0,0,0,1,0,1,0,Mucinous Carcinoma
+TCGA-GM-A2DO,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A3NY,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A3XG,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A3XN,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-GM-A5PX,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-HN-A2OB,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-LD-A66U,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-LD-A7W5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-LD-A7W6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-LL-A6FQ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-LL-A7SZ,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-MS-A51U,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-OK-A5Q2,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-OL-A5D6,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5D7,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5D8,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5DA,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5RU,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5RV,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5RW,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5RX,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A5RZ,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66I,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66J,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66K,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66L,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66N,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A66O,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A6VO,Vision_Genomic_Fusion,0,0,1,1,0,0,1,3,1,Malignant (Invasive Carcinoma)
+TCGA-OL-A6VR,"EHR, Vision_Genomic_Fusion",0,0,0,1,0,1,1,3,1,Infiltrating Lobular Carcinoma; Malignant (Invasive Carcinoma)
+TCGA-S3-A6ZG,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-W8-A86G,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-WT-AB44,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-XX-A899,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-XX-A89A,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+TCGA-Z7-A8R5,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Lobular Carcinoma
+TCGA-Z7-A8R6,EHR,0,0,0,0,0,1,0,1,0,Infiltrating Ductal Carcinoma
+nan,EHR,0,0,0,0,0,1,0,1,0,Unknown

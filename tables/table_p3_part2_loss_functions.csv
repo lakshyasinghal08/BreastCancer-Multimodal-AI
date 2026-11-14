@@ -1,0 +1,6 @@
+Loss Function,Formula,Hyperparameters,Clinical Application,Reduction
+Label Smoothing Cross-Entropy,L = (1-eps)*CE + eps/K,smoothing=0.05,Prevents overconfident diagnostic calibration,mean
+Focal Loss,FL = -alpha*(1-pt)^gamma*log(pt),"alpha=0.25, gamma=2.0",Severe class imbalance mitigation in screening,mean
+Class-Balanced Loss,CB = (1-beta)/(1-beta^n)*FL,"beta=0.999, gamma=2.0",Effective sample volume balancing,mean
+Weighted BCE With Logits,WBCE = -[w*y*log(p) + (1-y)*log(1-p)],pos_weight=1.5,Prioritizing malignancy sensitivity (FN penalty),mean
+Standard Binary Cross-Entropy,BCE = -[y*log(p) + (1-y)*log(1-p)],None,Baseline probabilistic classification,mean

@@ -1,0 +1,11 @@
+{
+  "test_cohort_n": 574,
+  "multimodal_roc_auc": 0.9671,
+  "multimodal_pr_auc": 0.9542,
+  "multimodal_accuracy": 0.9111,
+  "multimodal_f1_score": 0.8898,
+  "best_unimodal_roc_auc": 0.938,
+  "auc_improvement_over_best_unimodal": 0.0291,
+  "delong_test_p_value": "4.12e-07",
+  "statistical_significance": "CONFIRMED"
+}

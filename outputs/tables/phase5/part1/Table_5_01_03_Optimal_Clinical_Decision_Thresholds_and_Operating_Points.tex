@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrrl}
+\toprule
+Operating Point Strategy & Threshold (T*) & Sensitivity & Specificity & PPV (Precision) & NPV & Accuracy & F1-Score & Youden J & Clinical Diagnostic Intention \\
+\midrule
+Standard Default Decision Cutoff & 0.500000 & 0.883400 & 0.928800 & 0.887400 & 0.926100 & 0.911100 & 0.889800 & 0.812200 & Standard classification benchmark \\
+Optimal Youden Index J* Maximizer & 0.468200 & 0.901300 & 0.920200 & 0.877700 & 0.936200 & 0.912900 & 0.889300 & 0.821500 & RECOMMENDED PRIMARY OPERATING POINT \\
+High-Sensitivity Screening Priority & 0.320000 & 0.959600 & 0.854700 & 0.807500 & 0.970900 & 0.895500 & 0.877000 & 0.814300 & Population screening; minimizes false negatives \\
+High-Specificity Surgical Confirmatory & 0.680000 & 0.802700 & 0.974400 & 0.952100 & 0.885700 & 0.907700 & 0.871100 & 0.777100 & Pre-operative confirmation; avoids unnecessary surgery \\
+Cost-Weighted Ratio (FN:FP = 5:1) & 0.285000 & 0.973100 & 0.826200 & 0.780600 & 0.979700 & 0.883300 & 0.866500 & 0.799300 & Public health prioritized screening setting \\
+\bottomrule
+\end{tabular}

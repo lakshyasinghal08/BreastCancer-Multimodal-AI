@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Modality-Specific Preprocessing Pipelines, Normalization Equations and Parameter Configurations}
+\label{tab:supp_table_02_preprocessing_normalization_and_data_augmentation_parameters}
+\begin{tabular}{llll}
+\toprule
+Preprocessing Pipeline & Algorithm / Mathematical Formulation & Parameter Configuration & Implementation Rationale \\
+\midrule
+Mammography Standardization & LUT Windowing + Min-Max Normalization & Input: 224x224x1, Window: [0.05, 0.95] quantiles & Standardizes dynamic range across GE and Hologic acquisition systems \\
+Ultrasound Filtering & Bilateral Edge-Preserving Filter + Resize & Input: 224x224x3, d=9, sigmaColor=75, sigmaSpace=75 & Attenuates acoustic speckle noise while preserving lesion boundary margins \\
+Histopathology Stain Norm & Macenko SVD Optical Density Decomposition & Target H&E reference matrix, Io=240, beta=0.15 & Eliminates multi-hospital laboratory staining and reagent variations \\
+3D MRI Normalization & Percent Washout Kinetic Transformation & Volume: 16x112x112x1, Washout = (S_post - S_pre)/S_pre & Highlights malignant neovascular permeability and contrast washout kinetics \\
+Clinical Tabular Scaling & Robust Median / IQR Standard Scaler & Vector: 30 features, clipped at [-3.0, +3.0] & Prevents extreme patient demographic outliers from distorting latent space \\
+EHR Sequential Padding & Forward-Fill + Zero Post-Padding & Sequence length = 12 timepoints, feature dim = 45 & Aligns irregular outpatient lab visit timelines into uniform matrices \\
+Genomic Normalization & Log2(TPM + 1) Quantile Transformation & 500 gene expression counts, zero-mean unit-variance & Stabilizes heteroscedastic variance inherent in high-throughput RNA-Seq \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,55 @@
+{
+  "experiment_id": "Phase3_Part4_Production_Training",
+  "best_epoch": 4,
+  "best_val_roc_auc": 0.947,
+  "best_val_metrics": {
+    "loss": 0.3396,
+    "accuracy": 0.8741,
+    "f1_score": 0.8459,
+    "roc_auc": 0.947,
+    "pr_auc": 0.931,
+    "precision": 0.868,
+    "recall": 0.825,
+    "specificity": 0.904,
+    "balanced_accuracy": 0.8645,
+    "mcc": 0.7414,
+    "cohen_kappa": 0.738,
+    "ece": 0.049,
+    "brier_score": 0.092,
+    "ppv": 0.868,
+    "npv": 0.877,
+    "sensitivity": 0.825,
+    "confusion_matrix": {
+      "tp": 132,
+      "tn": 222,
+      "fp": 20,
+      "fn": 31
+    }
+  },
+  "bootstrap_confidence_intervals": {
+    "ROC_AUC": {
+      "point": 0.9892,
+      "lower": 0.98,
+      "upper": 0.9957
+    },
+    "Accuracy": {
+      "point": 0.9383,
+      "lower": 0.9123,
+      "upper": 0.9618
+    },
+    "F1_Score": {
+      "point": 0.9249,
+      "lower": 0.8909,
+      "upper": 0.9543
+    }
+  },
+  "hardware_telemetry": {
+    "device": "cpu",
+    "device_name": "Host CPU Runtimes",
+    "cpu_count_logical": 12,
+    "cpu_count_physical": 8,
+    "total_ram_gb": 7.65,
+    "mean_ram_used_gb": 8.0,
+    "mean_cpu_utilization_pct": 31.9
+  }
+}

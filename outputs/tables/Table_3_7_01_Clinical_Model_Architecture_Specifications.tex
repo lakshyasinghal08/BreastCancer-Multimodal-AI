@@ -1,0 +1,12 @@
+\begin{tabular}{lllll}
+\toprule
+Module Component & Input Shape & Output Shape & Parameter Count & Operations \\
+\midrule
+Input Projection & (B, 30) & (B, 128) & 4,224 & Linear + LayerNorm + GELU + Dropout(0.15) \\
+Residual Block 1 & (B, 128) & (B, 64) & 21,120 & Pre-LayerNorm + Linear + GELU + Linear + Skip Linear \\
+Residual Block 2 & (B, 64) & (B, 32) & 5,472 & Pre-LayerNorm + Linear + GELU + Linear + Skip Linear \\
+Embedding Harmonizer Proj & (B, 32) & (B, 128) & 4,480 & Linear(32, 128) + LayerNorm(128) + GELU (Multimodal Anchor) \\
+Diagnostic Classifier Head & (B, 128) & (B, 2) & 8,514 & Dropout(0.15) + Linear(128, 64) + LayerNorm + GELU + Linear(64, 2) \\
+Total Network Architecture & (B, 30) & Logits: (B, 2), Latent: (B, 128) & 43,810 & Full Feedforward Inference with Dual Outputs \\
+\bottomrule
+\end{tabular}

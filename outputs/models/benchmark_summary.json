@@ -1,0 +1,11 @@
+{
+  "multimodal_auc": 0.9671,
+  "best_unimodal_auc": 0.938,
+  "delta_auc": 0.0291,
+  "delong_p_value": "4.12e-07",
+  "parameters": 15132806,
+  "trainable_parameters": 326662,
+  "flops_mflops": 371.39,
+  "latency_ms_onnx": 28.5,
+  "throughput_pts_sec": 183.9
+}

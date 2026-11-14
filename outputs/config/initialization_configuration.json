@@ -1,0 +1,8 @@
+{
+  "initialization_scheme": "composite",
+  "conv_init": "kaiming_normal",
+  "linear_init": "xavier_uniform",
+  "bias_init": "zeros",
+  "norm_init": "ones",
+  "seed": 42
+}

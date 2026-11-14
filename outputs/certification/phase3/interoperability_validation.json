@@ -1,0 +1,150 @@
+{
+  "validation_timestamp": "2026-11-05T20:43:12",
+  "preprocessing_pipeline_certified": true,
+  "dataset_classes_certified": true,
+  "dataloaders_certified": true,
+  "cache_engine_certified": true,
+  "multimodal_latent_bridge_certified": true,
+  "modality_tests": {
+    "mammography": {
+      "modality": "mammography",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.2623,
+      "std_activation": 0.6249,
+      "min_val": -0.17,
+      "max_val": 3.215,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "ultrasound": {
+      "modality": "ultrasound",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.2823,
+      "std_activation": 0.6058,
+      "min_val": -0.17,
+      "max_val": 2.2801,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "histopathology": {
+      "modality": "histopathology",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.2704,
+      "std_activation": 0.5634,
+      "min_val": -0.17,
+      "max_val": 2.8369,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "mri": {
+      "modality": "mri",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.2859,
+      "std_activation": 0.63,
+      "min_val": -0.17,
+      "max_val": 2.7065,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "clinical": {
+      "modality": "clinical",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.2924,
+      "std_activation": 0.6031,
+      "min_val": -0.17,
+      "max_val": 2.851,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "ehr": {
+      "modality": "ehr",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.696,
+      "std_activation": 1.0704,
+      "min_val": -0.17,
+      "max_val": 6.0523,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    },
+    "genomic": {
+      "modality": "genomic",
+      "latent_dimension": 128,
+      "batch_size_tested": 8,
+      "output_shape": [
+        8,
+        128
+      ],
+      "output_dtype": "torch.float32",
+      "deterministic_l2_diff": 0.0,
+      "contains_nan": false,
+      "contains_inf": false,
+      "mean_activation": 0.0004,
+      "std_activation": 1.0074,
+      "min_val": -3.1409,
+      "max_val": 2.7618,
+      "layer_norm_aligned": true,
+      "cross_attention_ready": true,
+      "verification_status": "PASSED_CERTIFIED"
+    }
+  }
+}

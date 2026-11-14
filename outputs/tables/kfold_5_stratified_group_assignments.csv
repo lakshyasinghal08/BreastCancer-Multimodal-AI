@@ -1,0 +1,1919 @@
+patient_id,assigned_val_fold,dataset_name,diagnosis_label,sample_count
+852973,0,Clinical,Malignant,1
+P_01483,0,CBIS-DDSM,Abnormal (Screening),2
+13916,0,Histopathology,Benign,1633
+TCGA-A8-A08A,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01110,0,CBIS-DDSM,Abnormal (Screening),1
+919537,0,Clinical,Benign,1
+852552,0,Clinical,Malignant,1
+P_01401,0,CBIS-DDSM,Abnormal (Screening),1
+8863,0,Histopathology,Benign,979
+TCGA-A8-A08O,0,EHR,Infiltrating Lobular Carcinoma,1
+85382601,0,Clinical,Malignant,1
+TCGA-E2-A108,0,EHR,Infiltrating Ductal Carcinoma,1
+12822,0,Histopathology,Benign,761
+TCGA-AO-A0JI,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),580
+P_00264,0,CBIS-DDSM,Abnormal (Screening),1
+P_01148,0,CBIS-DDSM,Abnormal (Screening),1
+P_00583,0,CBIS-DDSM,Abnormal (Screening),1
+862722,0,Clinical,Benign,1
+TCGA-AC-A3BB,0,EHR,Infiltrating Ductal Carcinoma,1
+12905,0,Histopathology,Benign,1214
+P_00409,0,CBIS-DDSM,Abnormal (Screening),2
+8810955,0,Clinical,Malignant,1
+12911,0,Histopathology,Benign,1242
+P_01912,0,CBIS-DDSM,Abnormal (Screening),2
+858970,0,Clinical,Benign,1
+TCGA-A2-A0CY,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0HQ,0,EHR,Infiltrating Ductal Carcinoma,1
+12909,0,Histopathology,Benign,797
+9011495,0,Clinical,Benign,1
+229,0,Genomic,luminal_B,1
+P_00375,0,CBIS-DDSM,Abnormal (Screening),2
+P_01551,0,CBIS-DDSM,Abnormal (Screening),2
+P_00257,0,CBIS-DDSM,Abnormal (Screening),2
+P_00671,0,CBIS-DDSM,Abnormal (Screening),2
+133,0,Genomic,HER,1
+P_01152,0,CBIS-DDSM,Abnormal (Screening),3
+222,0,Genomic,luminal_A,1
+TCGA-W8-A86G,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-EW-A1P4,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1201
+P_01033,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AR-A1AN,0,EHR,Infiltrating Ductal Carcinoma,1362
+P_00481,0,CBIS-DDSM,Abnormal (Screening),2
+8612080,0,Clinical,Benign,1
+867387,0,Clinical,Benign,1
+TCGA-BH-A0E9,0,EHR,Infiltrating Ductal Carcinoma,2734
+861648,0,Clinical,Benign,1
+TCGA-A2-A1FZ,0,EHR,Infiltrating Lobular Carcinoma,1
+12877,0,Histopathology,Benign,305
+894855,0,Clinical,Benign,1
+TCGA-E2-A156,0,EHR,Infiltrating Ductal Carcinoma,1
+12626,0,Histopathology,Benign,1342
+147,0,Genomic,basal,1
+10257,0,Histopathology,Benign,635
+862009,0,Clinical,Benign,1
+10277,0,Histopathology,Benign,955
+9111805,0,Clinical,Malignant,1
+P_00962,0,CBIS-DDSM,Abnormal (Screening),2
+921386,0,Clinical,Benign,1
+15633,0,Histopathology,Benign,451
+P_01670,0,CBIS-DDSM,Abnormal (Screening),2
+9113156,0,Clinical,Benign,1
+12750,0,Histopathology,Benign,1434
+203,0,Genomic,luminal_A,1
+P_01490,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A8-A07J,0,EHR,Infiltrating Lobular Carcinoma,1
+P_01741,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-EW-A1PF,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01547,0,CBIS-DDSM,Abnormal (Screening),2
+P_01539,0,CBIS-DDSM,Abnormal (Screening),2
+P_00466,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A27V,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A0A4,0,EHR,Infiltrating Ductal Carcinoma,1
+12907,0,Histopathology,Benign,1050
+12955,0,Histopathology,Benign,1062
+TCGA-E2-A1B6,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1200
+TCGA-B6-A40B,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A18N,0,EHR,Infiltrating Ductal Carcinoma,1
+P_00816,0,CBIS-DDSM,Abnormal (Screening),1
+8812816,0,Clinical,Benign,1
+86561,0,Clinical,Benign,1
+TCGA-AR-A0U2,0,EHR,Infiltrating Lobular Carcinoma,1
+P_01167,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BF,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-E2-A1IU,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AC-A62Y,0,EHR,Mucinous Carcinoma,1
+8610629,0,Clinical,Benign,1
+897374,0,Clinical,Benign,1
+864877,0,Clinical,Malignant,1
+892399,0,Clinical,Benign,1
+236,0,Genomic,luminal_B,1
+TCGA-OL-A5RX,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),3150
+TCGA-BH-A0BJ,0,EHR,Infiltrating Lobular Carcinoma,2076
+P_00636,0,CBIS-DDSM,Abnormal (Screening),2
+898143,0,Clinical,Benign,1
+P_00718,0,CBIS-DDSM,Abnormal (Screening),1
+8710441,0,Clinical,Benign,1
+852781,0,Clinical,Malignant,1
+TCGA-BH-A0BT,0,EHR,Infiltrating Ductal Carcinoma,2220
+89,0,Genomic,HER,1
+160,0,Genomic,cell_line,1
+886776,0,Clinical,Malignant,1
+P_01298,0,CBIS-DDSM,Abnormal (Screening),2
+P_01815,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-S3-A6ZG,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01446,0,CBIS-DDSM,Abnormal (Screening),1
+232,0,Genomic,luminal_A,1
+8910506,0,Clinical,Benign,1
+P_00158,0,CBIS-DDSM,Abnormal (Screening),1
+P_01143,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0DI,0,EHR,Infiltrating Ductal Carcinoma,1830
+9047,0,Clinical,Benign,1
+14079,0,Histopathology,Benign,890
+P_00145,0,CBIS-DDSM,Abnormal (Screening),2
+181,0,Genomic,luminal_A,1
+P_02105,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A08I,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0B6,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2921
+P_01323,0,CBIS-DDSM,Abnormal (Screening),2
+210,0,Genomic,luminal_B,1
+892438,0,Clinical,Malignant,1
+TCGA-LL-A6FQ,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AO-A12H,0,EHR,Infiltrating Ductal Carcinoma,1
+87556202,0,Clinical,Malignant,1
+174,0,Genomic,normal,1
+TCGA-C8-A12W,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01303,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A0CL,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01878,0,CBIS-DDSM,Abnormal (Screening),1
+P_00319,0,CBIS-DDSM,Abnormal (Screening),1
+119,0,Genomic,basal,1
+10305,0,Histopathology,Benign,1821
+P_01444,0,CBIS-DDSM,Abnormal (Screening),1
+911408,0,Clinical,Benign,1
+89827,0,Clinical,Benign,1
+P_02176,0,CBIS-DDSM,Abnormal (Screening),2
+857438,0,Clinical,Malignant,1
+TCGA-E2-A1L9,0,EHR,Infiltrating Ductal Carcinoma,1002
+P_01595,0,CBIS-DDSM,Abnormal (Screening),2
+12872,0,Histopathology,Benign,780
+88147102,0,Clinical,Benign,1
+TCGA-AR-A24V,0,EHR,Infiltrating Ductal Carcinoma,1
+10259,0,Histopathology,Benign,1465
+88203002,0,Clinical,Benign,1
+93,0,Genomic,basal,1
+P_01286,0,CBIS-DDSM,Abnormal (Screening),1
+13688,0,Histopathology,Benign,342
+P_00820,0,CBIS-DDSM,Abnormal (Screening),4
+P_01558,0,CBIS-DDSM,Abnormal (Screening),2
+P_00126,0,CBIS-DDSM,Abnormal (Screening),2
+905686,0,Clinical,Benign,1
+P_00758,0,CBIS-DDSM,Abnormal (Screening),2
+91376702,0,Clinical,Benign,1
+12886,0,Histopathology,Benign,527
+P_01666,0,CBIS-DDSM,Abnormal (Screening),2
+15632,0,Histopathology,Benign,493
+TCGA-EW-A1P0,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2154
+P_00485,0,CBIS-DDSM,Abnormal (Screening),2
+90602302,0,Clinical,Malignant,1
+12881,0,Histopathology,Benign,273
+12870,0,Histopathology,Benign,829
+TCGA-A2-A4RX,0,EHR,Infiltrating Ductal Carcinoma,1
+905978,0,Clinical,Benign,1
+P_01395,0,CBIS-DDSM,Abnormal (Screening),2
+915940,0,Clinical,Benign,1
+9010018,0,Clinical,Malignant,1
+922576,0,Clinical,Benign,1
+P_00699,0,CBIS-DDSM,Abnormal (Screening),2
+903011,0,Clinical,Benign,1
+TCGA-GM-A2DL,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-D8-A73U,0,EHR,Infiltrating Ductal Carcinoma,1
+883852,0,Clinical,Benign,1
+TCGA-AC-A5XS,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A085,0,EHR,Infiltrating Lobular Carcinoma,1
+P_01257,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A14N,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1643
+874373,0,Clinical,Benign,1
+P_01684,0,CBIS-DDSM,Abnormal (Screening),2
+859983,0,Clinical,Malignant,1
+864018,0,Clinical,Benign,1
+P_00662,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A1B1,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1005
+881046502,0,Clinical,Malignant,1
+91550,0,Clinical,Benign,1
+P_00192,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AR-A2LQ,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AQ-A54O,0,EHR,Infiltrating Lobular Carcinoma,1
+168,0,Genomic,cell_line,1
+P_01092,0,CBIS-DDSM,Abnormal (Screening),2
+P_01482,0,CBIS-DDSM,Abnormal (Screening),1
+P_00666,0,CBIS-DDSM,Abnormal (Screening),2
+122,0,Genomic,HER,1
+TCGA-E2-A15M,0,EHR,Infiltrating Ductal Carcinoma,723
+911654,0,Clinical,Benign,1
+85715,0,Clinical,Malignant,1
+846226,0,Clinical,Malignant,1
+P_01502,0,CBIS-DDSM,Abnormal (Screening),4
+TCGA-AN-A049,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01136,0,CBIS-DDSM,Abnormal (Screening),1
+P_00974,0,CBIS-DDSM,Abnormal (Screening),2
+P_01800,0,CBIS-DDSM,Abnormal (Screening),3
+P_01426,0,CBIS-DDSM,Abnormal (Screening),1
+907409,0,Clinical,Benign,1
+858477,0,Clinical,Benign,1
+875099,0,Clinical,Benign,1
+91789,0,Clinical,Benign,1
+P_00875,0,CBIS-DDSM,Abnormal (Screening),2
+P_00127,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-D8-A13Y,0,EHR,Infiltrating Ductal Carcinoma,1
+149,0,Genomic,basal,1
+921644,0,Clinical,Benign,1
+150,0,Genomic,basal,1
+TCGA-AO-A0JJ,0,EHR,Infiltrating Lobular Carcinoma,1
+P_00159,0,CBIS-DDSM,Abnormal (Screening),1
+92,0,Genomic,basal,1
+897137,0,Clinical,Benign,1
+14156,0,Histopathology,Benign,1398
+TCGA-A8-A095,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01719,0,CBIS-DDSM,Abnormal (Screening),2
+872113,0,Clinical,Benign,1
+134,0,Genomic,HER,1
+P_01614,0,CBIS-DDSM,Abnormal (Screening),1
+P_00177,0,CBIS-DDSM,Abnormal (Screening),2
+87139402,0,Clinical,Benign,1
+8611555,0,Clinical,Malignant,1
+P_01518,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A7-A5ZW,0,EHR,Mucinous Carcinoma,1
+901288,0,Clinical,Malignant,1
+P_00700,0,CBIS-DDSM,Abnormal (Screening),1
+86973701,0,Clinical,Benign,1
+13461,0,Histopathology,Benign,664
+917896,0,Clinical,Benign,1
+90439701,0,Clinical,Malignant,1
+12826,0,Histopathology,Benign,1137
+TCGA-BH-A0DE,0,EHR,Infiltrating Ductal Carcinoma,1327
+12898,0,Histopathology,Benign,580
+TCGA-A8-A09K,0,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-A8-A093,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A18F,0,EHR,Infiltrating Lobular Carcinoma,1957
+P_00608,0,CBIS-DDSM,Abnormal (Screening),2
+909777,0,Clinical,Benign,1
+85638502,0,Clinical,Malignant,1
+84348301,0,Clinical,Malignant,1
+14081,0,Histopathology,Benign,326
+905190,0,Clinical,Benign,1
+P_00694,0,CBIS-DDSM,Abnormal (Screening),1
+P_00524,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A8-A081,0,EHR,Infiltrating Lobular Carcinoma,1
+12242,0,Histopathology,Benign,1097
+888264,0,Clinical,Malignant,1
+9010877,0,Clinical,Benign,1
+P_01454,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-E2-A14P,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1632
+10260,0,Histopathology,Benign,1289
+89344,0,Clinical,Benign,1
+P_01590,0,CBIS-DDSM,Abnormal (Screening),2
+14189,0,Histopathology,Benign,1002
+8712064,0,Clinical,Benign,1
+TCGA-A8-A083,0,EHR,Infiltrating Ductal Carcinoma,1
+915186,0,Clinical,Benign,1
+855563,0,Clinical,Malignant,1
+P_00649,0,CBIS-DDSM,Abnormal (Screening),2
+8951,0,Histopathology,Benign,613
+912519,0,Clinical,Benign,1
+9112712,0,Clinical,Benign,1
+TCGA-BH-A0DH,0,EHR,Infiltrating Ductal Carcinoma,2198
+P_01617,0,CBIS-DDSM,Abnormal (Screening),2
+88206102,0,Clinical,Malignant,1
+891670,0,Clinical,Benign,1
+P_00790,0,CBIS-DDSM,Abnormal (Screening),2
+86208,0,Clinical,Malignant,1
+171,0,Genomic,normal,1
+TCGA-BH-A0HY,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2377
+P_00147,0,CBIS-DDSM,Abnormal (Screening),2
+TCGA-EW-A1P3,0,EHR,Mucinous Carcinoma,3365
+TCGA-EW-A2FV,0,EHR,Infiltrating Lobular Carcinoma,1
+P_01890,0,CBIS-DDSM,Abnormal (Screening),1
+185,0,Genomic,luminal_B,1
+909220,0,Clinical,Benign,1
+P_00473,0,CBIS-DDSM,Abnormal (Screening),1
+9112366,0,Clinical,Benign,1
+P_00394,0,CBIS-DDSM,Abnormal (Screening),1
+914366,0,Clinical,Benign,1
+234,0,Genomic,luminal_A,1
+P_00118,0,CBIS-DDSM,Abnormal (Screening),2
+124,0,Genomic,basal,1
+84667401,0,Clinical,Malignant,1
+8912049,0,Clinical,Malignant,1
+16569,0,Histopathology,Benign,337
+859465,0,Clinical,Benign,1
+P_00494,0,CBIS-DDSM,Abnormal (Screening),2
+858981,0,Clinical,Benign,1
+TCGA-AR-A0U3,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A096,0,EHR,Infiltrating Lobular Carcinoma,1
+10302,0,Histopathology,Benign,1907
+10299,0,Histopathology,Benign,2106
+89263202,0,Clinical,Malignant,1
+917062,0,Clinical,Benign,1
+P_01635,0,CBIS-DDSM,Abnormal (Screening),3
+87,0,Genomic,basal,1
+9010333,0,Clinical,Benign,1
+TCGA-AN-A0FF,0,EHR,Infiltrating Ductal Carcinoma,1
+8812877,0,Clinical,Malignant,1
+TCGA-OL-A5RW,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2504
+111,0,Genomic,basal,1
+P_01512,0,CBIS-DDSM,Abnormal (Screening),2
+P_01154,0,CBIS-DDSM,Abnormal (Screening),2
+10301,0,Histopathology,Benign,1416
+P_01402,0,CBIS-DDSM,Abnormal (Screening),1
+12934,0,Histopathology,Benign,2004
+TCGA-E2-A1L6,0,EHR,Infiltrating Ductal Carcinoma,1
+12811,0,Histopathology,Benign,251
+8913,0,Clinical,Benign,956
+TCGA-D8-A1X7,0,EHR,Infiltrating Lobular Carcinoma,1
+88649001,0,Clinical,Malignant,1
+P_00195,0,CBIS-DDSM,Abnormal (Screening),2
+P_01379,0,CBIS-DDSM,Abnormal (Screening),1
+889403,0,Clinical,Malignant,1
+16570,0,Histopathology,Benign,917
+155,0,Genomic,cell_line,1
+9073,0,Histopathology,Benign,834
+P_00391,0,CBIS-DDSM,Abnormal (Screening),4
+877500,0,Clinical,Malignant,1
+TCGA-E9-A5FK,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0W3,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2299
+TCGA-A8-A07G,0,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-HN-A2OB,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01318,0,CBIS-DDSM,Abnormal (Screening),1
+P_01460,0,CBIS-DDSM,Abnormal (Screening),4
+12752,0,Histopathology,Benign,1099
+P_00061,0,CBIS-DDSM,Abnormal (Screening),2
+866083,0,Clinical,Malignant,1
+P_01795,0,CBIS-DDSM,Abnormal (Screening),2
+P_00077,0,CBIS-DDSM,Abnormal (Screening),4
+TCGA-E2-A15K,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1267
+P_01546,0,CBIS-DDSM,Abnormal (Screening),2
+12879,0,Histopathology,Benign,416
+TCGA-AR-A24O,0,EHR,Infiltrating Lobular Carcinoma,1
+P_01006,0,CBIS-DDSM,Abnormal (Screening),2
+P_01416,0,CBIS-DDSM,Abnormal (Screening),2
+10286,0,Histopathology,Benign,620
+183,0,Genomic,luminal_B,1
+P_01753,0,CBIS-DDSM,Abnormal (Screening),1
+96,0,Genomic,HER,1
+911320502,0,Clinical,Benign,1
+903483,0,Clinical,Benign,1
+859283,0,Clinical,Malignant,1
+P_00923,0,CBIS-DDSM,Abnormal (Screening),1
+P_01489,0,CBIS-DDSM,Abnormal (Screening),1
+P_00493,0,CBIS-DDSM,Abnormal (Screening),1
+TCGA-C8-A27A,0,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-D8-A1JU,0,EHR,Infiltrating Lobular Carcinoma,1
+P_00495,0,CBIS-DDSM,Abnormal (Screening),2
+P_00372,0,CBIS-DDSM,Abnormal (Screening),2
+859575,0,Clinical,Malignant,1
+P_00429,0,CBIS-DDSM,Abnormal (Screening),2
+91930402,0,Clinical,Malignant,1
+TCGA-AR-A24U,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2271
+862261,0,Clinical,Benign,1
+871149,0,Clinical,Benign,1
+207,0,Genomic,luminal_B,1
+877486,0,Clinical,Malignant,1
+864685,0,Clinical,Benign,1
+884626,0,Clinical,Benign,1
+213,0,Genomic,luminal_A,1
+P_01643,0,CBIS-DDSM,Abnormal (Screening),4
+898431,0,Clinical,Malignant,1
+8610862,0,Clinical,Malignant,1
+P_01022,0,CBIS-DDSM,Abnormal (Screening),2
+10292,0,Histopathology,Benign,1485
+TCGA-A7-A0CJ,0,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-C8-A12O,0,EHR,Infiltrating Ductal Carcinoma,1
+P_01217,0,CBIS-DDSM,Abnormal (Screening),2
+P_00387,0,CBIS-DDSM,Abnormal (Screening),2
+884689,0,Clinical,Benign,1
+P_00646,0,CBIS-DDSM,Abnormal (Screening),2
+127,0,Genomic,HER,1
+TCGA-E2-A1IE,0,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1187
+P_00163,0,CBIS-DDSM,Abnormal (Screening),2
+864292,0,Clinical,Benign,1
+P_01029,0,CBIS-DDSM,Abnormal (Screening),1
+924632,0,Clinical,Benign,1
+15513,0,Histopathology,Benign,869
+8712766,0,Clinical,Malignant,1
+8980,0,Histopathology,Benign,696
+TCGA-BH-A0DS,0,EHR,Infiltrating Ductal Carcinoma,1
+P_00324,0,CBIS-DDSM,Abnormal (Screening),2
+8911800,0,Clinical,Benign,1
+877989,0,Clinical,Malignant,1
+84358402,0,Clinical,Malignant,1
+P_00232,1,CBIS-DDSM,Abnormal (Screening),1
+P_01272,1,CBIS-DDSM,Abnormal (Screening),2
+13691,1,Histopathology,Benign,1191
+914769,1,Clinical,Malignant,1
+873357,1,Clinical,Benign,1
+908445,1,Clinical,Malignant,1
+901836,1,Clinical,Benign,1
+P_00992,1,CBIS-DDSM,Abnormal (Screening),1
+10253,1,Histopathology,Benign,549
+13025,1,Histopathology,Benign,761
+P_02198,1,CBIS-DDSM,Abnormal (Screening),2
+892214,1,Clinical,Benign,1
+91376701,1,Clinical,Benign,1
+TCGA-A2-A1FV,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A2-A0EW,1,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-C8-A274,1,EHR,Infiltrating Ductal Carcinoma,1
+P_01164,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AC-A6NO,1,EHR,Infiltrating Ductal Carcinoma,1
+848406,1,Clinical,Malignant,1
+P_01578,1,CBIS-DDSM,Abnormal (Screening),1
+P_01697,1,CBIS-DDSM,Abnormal (Screening),2
+9012795,1,Clinical,Malignant,1
+8812844,1,Clinical,Benign,1
+8911670,1,Clinical,Malignant,1
+TCGA-GM-A5PX,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A201,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2330
+873843,1,Clinical,Benign,1
+88,1,Genomic,HER,1
+8956,1,Histopathology,Benign,1825
+9037,1,Histopathology,Benign,1112
+8950,1,Histopathology,Benign,610
+901041,1,Clinical,Benign,1
+P_00426,1,CBIS-DDSM,Abnormal (Screening),1
+904647,1,Clinical,Benign,1
+TCGA-A7-A26J,1,EHR,Infiltrating Lobular Carcinoma,1
+84458202,1,Clinical,Malignant,1
+8915,1,Clinical,Benign,1
+TCGA-A2-A4RW,1,EHR,Infiltrating Ductal Carcinoma,1
+8959,1,Histopathology,Benign,356
+14078,1,Histopathology,Benign,221
+TCGA-AO-A12B,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00166,1,CBIS-DDSM,Abnormal (Screening),1
+879523,1,Clinical,Malignant,1
+9112085,1,Clinical,Benign,1
+923780,1,Clinical,Benign,1
+TCGA-A8-A06Q,1,EHR,Infiltrating Ductal Carcinoma,1
+194,1,Genomic,luminal_A,1
+238,1,Genomic,luminal_B,1
+228,1,Genomic,luminal_A,1
+89382601,1,Clinical,Benign,1
+871641,1,Clinical,Benign,1
+P_00747,1,CBIS-DDSM,Abnormal (Screening),1
+P_00679,1,CBIS-DDSM,Abnormal (Screening),2
+911391,1,Clinical,Benign,1
+P_00879,1,CBIS-DDSM,Abnormal (Screening),2
+P_01581,1,CBIS-DDSM,Abnormal (Screening),1
+P_02092,1,CBIS-DDSM,Abnormal (Screening),1
+P_00589,1,CBIS-DDSM,Abnormal (Screening),2
+P_00741,1,CBIS-DDSM,Abnormal (Screening),2
+P_00784,1,CBIS-DDSM,Abnormal (Screening),1
+P_02133,1,CBIS-DDSM,Abnormal (Screening),1
+868682,1,Clinical,Benign,1
+P_01132,1,CBIS-DDSM,Abnormal (Screening),1
+197,1,Genomic,luminal_B,1
+10288,1,Histopathology,Benign,2278
+P_00156,1,CBIS-DDSM,Abnormal (Screening),1
+98,1,Genomic,HER,1
+TCGA-D8-A146,1,EHR,Infiltrating Ductal Carcinoma,1
+862028,1,Clinical,Malignant,1
+P_00979,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-D8-A1JS,1,EHR,Infiltrating Ductal Carcinoma,1
+86,1,Genomic,HER,1
+907367,1,Clinical,Benign,1
+167,1,Genomic,cell_line,1
+P_02418,1,CBIS-DDSM,Abnormal (Screening),2
+129,1,Genomic,HER,1
+12948,1,Histopathology,Benign,167
+8917,1,Histopathology,Benign,975
+P_01830,1,CBIS-DDSM,Abnormal (Screening),1
+P_01103,1,CBIS-DDSM,Abnormal (Screening),1
+99,1,Genomic,basal,1
+868999,1,Clinical,Benign,1
+TCGA-WT-AB44,1,EHR,Infiltrating Lobular Carcinoma,1
+892189,1,Clinical,Malignant,1
+89869,1,Clinical,Benign,1
+P_01700,1,CBIS-DDSM,Abnormal (Screening),1
+193,1,Genomic,luminal_B,1
+TCGA-E2-A15A,1,EHR,Infiltrating Ductal Carcinoma,1952
+10307,1,Histopathology,Benign,995
+P_01071,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-EW-A1OY,1,EHR,Infiltrating Ductal Carcinoma,1899
+8712853,1,Clinical,Benign,1
+P_01566,1,CBIS-DDSM,Abnormal (Screening),3
+TCGA-E2-A152,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1979
+88119002,1,Clinical,Malignant,1
+85759902,1,Clinical,Benign,1
+TCGA-A2-A0CK,1,EHR,Infiltrating Ductal Carcinoma,1
+908916,1,Clinical,Benign,1
+13616,1,Histopathology,Benign,1357
+869218,1,Clinical,Benign,1
+P_00529,1,CBIS-DDSM,Abnormal (Screening),1
+P_00368,1,CBIS-DDSM,Abnormal (Screening),2
+901011,1,Clinical,Benign,1
+215,1,Genomic,luminal_B,1
+909445,1,Clinical,Malignant,1
+TCGA-AR-A1AV,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AR-A1AK,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00443,1,CBIS-DDSM,Abnormal (Screening),1
+P_00242,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-EW-A2FW,1,EHR,Infiltrating Ductal Carcinoma,1
+916799,1,Clinical,Malignant,1
+P_00304,1,CBIS-DDSM,Abnormal (Screening),1
+88411702,1,Clinical,Benign,1
+TCGA-AC-A3HN,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00827,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0DV,1,EHR,Infiltrating Ductal Carcinoma,2653
+15510,1,Histopathology,Benign,1061
+P_00076,1,CBIS-DDSM,Abnormal (Screening),1
+859196,1,Clinical,Benign,1
+857810,1,Clinical,Benign,1
+853612,1,Clinical,Malignant,1
+926954,1,Clinical,Malignant,1
+10300,1,Histopathology,Benign,1493
+P_01391,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BQ,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2723
+P_00116,1,CBIS-DDSM,Abnormal (Screening),2
+P_01820,1,CBIS-DDSM,Abnormal (Screening),1
+865137,1,Clinical,Benign,1
+8864,1,Histopathology,Benign,1133
+P_01187,1,CBIS-DDSM,Abnormal (Screening),1
+911201,1,Clinical,Benign,1
+863270,1,Clinical,Benign,1
+P_00124,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A2-A4S3,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A0A9,1,EHR,Infiltrating Ductal Carcinoma,1
+12748,1,Histopathology,Benign,366
+P_01765,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A03O,1,EHR,Infiltrating Lobular Carcinoma,1
+P_00315,1,CBIS-DDSM,Abnormal (Screening),1
+921362,1,Clinical,Benign,1
+TCGA-E2-A14Q,1,EHR,Infiltrating Ductal Carcinoma,1529
+869476,1,Clinical,Benign,1
+TCGA-AN-A0FY,1,EHR,Infiltrating Lobular Carcinoma,1
+P_01378,1,CBIS-DDSM,Abnormal (Screening),3
+P_00397,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-C8-A26Z,1,EHR,Infiltrating Ductal Carcinoma,1
+140,1,Genomic,HER,1
+865128,1,Clinical,Malignant,1
+P_01392,1,CBIS-DDSM,Abnormal (Screening),1
+138,1,Genomic,basal,1
+P_00537,1,CBIS-DDSM,Abnormal (Screening),1
+862717,1,Clinical,Malignant,1
+TCGA-E2-A1IJ,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),922
+P_00131,1,CBIS-DDSM,Abnormal (Screening),2
+90317302,1,Clinical,Benign,1
+TCGA-A2-A1G4,1,EHR,Infiltrating Lobular Carcinoma,1
+P_00514,1,CBIS-DDSM,Abnormal (Screening),1
+87880,1,Clinical,Malignant,1
+TCGA-BH-A0B0,1,EHR,Infiltrating Ductal Carcinoma,1
+P_01787,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A0D4,1,EHR,Mucinous Carcinoma,1
+885429,1,Clinical,Malignant,1
+P_00150,1,CBIS-DDSM,Abnormal (Screening),1
+P_00490,1,CBIS-DDSM,Abnormal (Screening),2
+922840,1,Clinical,Benign,1
+TCGA-BH-A0B5,1,EHR,Infiltrating Ductal Carcinoma,2164
+892657,1,Clinical,Benign,1
+87163,1,Clinical,Malignant,1
+P_00978,1,CBIS-DDSM,Abnormal (Screening),1
+94,1,Genomic,basal,1
+13687,1,Histopathology,Benign,454
+12895,1,Histopathology,Benign,1680
+911150,1,Clinical,Benign,1
+9012315,1,Clinical,Malignant,1
+14082,1,Histopathology,Benign,478
+13689,1,Histopathology,Benign,586
+88143502,1,Clinical,Benign,1
+15839,1,Histopathology,Benign,239
+P_01320,1,CBIS-DDSM,Abnormal (Screening),1
+9010872,1,Clinical,Benign,1
+P_00615,1,CBIS-DDSM,Abnormal (Screening),2
+P_00579,1,CBIS-DDSM,Abnormal (Screening),1
+13591,1,Histopathology,Benign,1035
+926424,1,Clinical,Malignant,1
+8910748,1,Clinical,Benign,1
+P_01277,1,CBIS-DDSM,Abnormal (Screening),2
+P_00056,1,CBIS-DDSM,Abnormal (Screening),1
+P_00380,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-E9-A6HE,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AO-A0JM,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1089
+P_01825,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-EW-A1J5,1,EHR,Infiltrating Lobular Carcinoma,1
+875263,1,Clinical,Malignant,1
+139,1,Genomic,basal,1
+P_01224,1,CBIS-DDSM,Abnormal (Screening),2
+P_00005,1,CBIS-DDSM,Abnormal (Screening),1
+157,1,Genomic,cell_line,1
+871001501,1,Clinical,Benign,1
+917092,1,Clinical,Benign,1
+TCGA-BH-A0B3,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2283
+TCGA-B6-A40C,1,EHR,Mucinous Carcinoma,1
+12810,1,Histopathology,Benign,1166
+13458,1,Histopathology,Benign,443
+154,1,Genomic,HER,1
+195,1,Genomic,luminal_A,1
+P_00366,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A1JJ,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00960,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A086,1,EHR,Infiltrating Lobular Carcinoma,1
+8912055,1,Clinical,Benign,1
+855138,1,Clinical,Malignant,1
+8611792,1,Clinical,Malignant,1
+10269,1,Histopathology,Benign,1154
+P_01778,1,CBIS-DDSM,Abnormal (Screening),1
+864726,1,Clinical,Benign,1
+894090,1,Clinical,Benign,1
+16166,1,Histopathology,Benign,1290
+TCGA-BH-AB28,1,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-BH-A18K,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00914,1,CBIS-DDSM,Abnormal (Screening),1
+P_02139,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AN-A046,1,EHR,Infiltrating Ductal Carcinoma,1
+90,1,Genomic,basal,1
+8811523,1,Clinical,Benign,1
+P_00893,1,CBIS-DDSM,Abnormal (Screening),2
+915691,1,Clinical,Malignant,1
+P_00987,1,CBIS-DDSM,Abnormal (Screening),2
+P_01556,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A2-A0SU,1,EHR,Infiltrating Lobular Carcinoma,1
+15514,1,Histopathology,Benign,638
+84862001,1,Clinical,Malignant,1
+TCGA-D8-A1JP,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00620,1,CBIS-DDSM,Abnormal (Screening),1
+8811779,1,Clinical,Benign,1
+P_01090,1,CBIS-DDSM,Abnormal (Screening),3
+P_00046,1,CBIS-DDSM,Abnormal (Screening),1
+8711216,1,Clinical,Benign,1
+8974,1,Histopathology,Benign,1741
+873593,1,Clinical,Malignant,1
+14211,1,Histopathology,Benign,2096
+P_00198,1,CBIS-DDSM,Abnormal (Screening),2
+P_00202,1,CBIS-DDSM,Abnormal (Screening),4
+16551,1,Histopathology,Benign,2183
+P_00686,1,CBIS-DDSM,Abnormal (Screening),1
+204,1,Genomic,luminal_A,1
+P_01347,1,CBIS-DDSM,Abnormal (Screening),2
+136,1,Genomic,basal,1
+TCGA-EW-A1IY,1,EHR,Infiltrating Ductal Carcinoma,2996
+P_01669,1,CBIS-DDSM,Abnormal (Screening),1
+91544001,1,Clinical,Benign,1
+P_00766,1,CBIS-DDSM,Abnormal (Screening),2
+8711803,1,Clinical,Malignant,1
+P_00789,1,CBIS-DDSM,Abnormal (Screening),1
+P_01661,1,CBIS-DDSM,Abnormal (Screening),2
+16532,1,Histopathology,Benign,467
+84501001,1,Clinical,Malignant,1
+12882,1,Histopathology,Benign,392
+8610637,1,Clinical,Malignant,1
+9113538,1,Clinical,Malignant,1
+TCGA-D8-A27I,1,EHR,Infiltrating Lobular Carcinoma,1
+P_01348,1,CBIS-DDSM,Abnormal (Screening),1
+166,1,Genomic,cell_line,1
+TCGA-GI-A2C8,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00776,1,CBIS-DDSM,Abnormal (Screening),1
+856106,1,Clinical,Malignant,1
+P_01030,1,CBIS-DDSM,Abnormal (Screening),2
+P_00723,1,CBIS-DDSM,Abnormal (Screening),1
+903507,1,Clinical,Malignant,1
+P_01322,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A8-A07L,1,EHR,Infiltrating Lobular Carcinoma,1
+P_00173,1,CBIS-DDSM,Abnormal (Screening),4
+TCGA-A2-A0CO,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00652,1,CBIS-DDSM,Abnormal (Screening),1
+911202,1,Clinical,Benign,1
+861853,1,Clinical,Benign,1
+P_00498,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0H6,1,EHR,Infiltrating Ductal Carcinoma,1480
+P_00997,1,CBIS-DDSM,Abnormal (Screening),1
+P_00203,1,CBIS-DDSM,Abnormal (Screening),2
+898678,1,Clinical,Benign,1
+TCGA-C8-A1HI,1,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-A8-A0A1,1,EHR,Infiltrating Lobular Carcinoma,1
+862485,1,Clinical,Benign,1
+891923,1,Clinical,Benign,1
+TCGA-BH-A0HI,1,EHR,Infiltrating Ductal Carcinoma,1290
+226,1,Genomic,luminal_B,1
+P_01523,1,CBIS-DDSM,Abnormal (Screening),1
+P_00460,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A1KQ,1,EHR,Infiltrating Ductal Carcinoma,1
+P_00533,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A0JA,1,EHR,Infiltrating Ductal Carcinoma,1
+909231,1,Clinical,Benign,1
+8712729,1,Clinical,Malignant,1
+8813129,1,Clinical,Benign,1
+12949,1,Histopathology,Benign,808
+TCGA-AR-A24S,1,EHR,Infiltrating Ductal Carcinoma,1828
+P_01352,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-EW-A1PA,1,EHR,Infiltrating Ductal Carcinoma,1254
+172,1,Genomic,normal,1
+9110127,1,Clinical,Malignant,1
+TCGA-A1-A0SI,1,EHR,Infiltrating Ductal Carcinoma,1
+86409,1,Clinical,Benign,1
+P_00866,1,CBIS-DDSM,Abnormal (Screening),1
+88249602,1,Clinical,Benign,1
+125,1,Genomic,basal,1
+P_01334,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BV,1,EHR,Infiltrating Lobular Carcinoma,1
+P_01101,1,CBIS-DDSM,Abnormal (Screening),1
+868871,1,Clinical,Benign,1
+P_00328,1,CBIS-DDSM,Abnormal (Screening),1
+9110720,1,Clinical,Benign,1
+914333,1,Clinical,Benign,1
+12241,1,Histopathology,Benign,152
+868202,1,Clinical,Malignant,1
+854039,1,Clinical,Malignant,1
+P_00500,1,CBIS-DDSM,Abnormal (Screening),1
+894047,1,Clinical,Benign,1
+TCGA-EW-A1J1,1,EHR,Infiltrating Lobular Carcinoma,1
+P_00059,1,CBIS-DDSM,Abnormal (Screening),1
+12931,1,Histopathology,Benign,607
+89511501,1,Clinical,Benign,1
+842517,1,Clinical,Malignant,1
+214,1,Genomic,luminal_B,1
+TCGA-AR-A1AQ,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2786
+15903,1,Histopathology,Benign,1039
+TCGA-A8-A0A6,1,EHR,Infiltrating Ductal Carcinoma,1
+9111596,1,Clinical,Benign,1
+TCGA-OL-A5D8,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2795
+917897,1,Clinical,Benign,1
+906616,1,Clinical,Benign,1
+9075,1,Histopathology,Benign,1012
+TCGA-BH-A0BP,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0AY,1,EHR,Infiltrating Ductal Carcinoma,1
+9113455,1,Clinical,Benign,1
+89511502,1,Clinical,Benign,1
+14157,1,Histopathology,Benign,1478
+90401601,1,Clinical,Benign,1
+894089,1,Clinical,Benign,1
+P_00642,1,CBIS-DDSM,Abnormal (Screening),1
+P_00584,1,CBIS-DDSM,Abnormal (Screening),2
+9010258,1,Clinical,Benign,1
+857392,1,Clinical,Malignant,1
+217,1,Genomic,luminal_A,1
+TCGA-AO-A12D,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1174
+P_01067,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A1-A0SG,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-E9-A54X,1,EHR,Mucinous Carcinoma,1
+113,1,Genomic,basal,1
+175,1,Genomic,normal,1
+922577,1,Clinical,Benign,1
+14191,1,Histopathology,Benign,1340
+TCGA-C8-A1HM,1,EHR,Infiltrating Lobular Carcinoma,1
+888570,1,Clinical,Malignant,1
+16165,1,Histopathology,Benign,2111
+P_01640,1,CBIS-DDSM,Abnormal (Screening),1
+877159,1,Clinical,Malignant,1
+13400,1,Histopathology,Benign,1363
+TCGA-A8-A07F,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-GM-A3NY,1,EHR,Infiltrating Ductal Carcinoma,1
+P_01713,1,CBIS-DDSM,Abnormal (Screening),1
+P_00359,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0DO,1,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0E7,1,EHR,Infiltrating Lobular Carcinoma,1
+90312,1,Clinical,Malignant,1
+P_01305,1,CBIS-DDSM,Abnormal (Screening),1
+87281702,1,Clinical,Malignant,1
+882488,1,Clinical,Benign,1
+TCGA-AO-A0J9,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1326
+P_00598,1,CBIS-DDSM,Abnormal (Screening),2
+P_00390,1,CBIS-DDSM,Abnormal (Screening),2
+TCGA-OL-A5D6,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2990
+TCGA-AC-A3W6,1,EHR,Infiltrating Ductal Carcinoma,1
+P_01844,1,CBIS-DDSM,Abnormal (Screening),1
+220,1,Genomic,luminal_A,1
+913063,1,Clinical,Benign,1
+P_00799,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AO-A12F,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),786
+TCGA-E2-A1L7,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),898
+P_01510,1,CBIS-DDSM,Abnormal (Screening),2
+8955,1,Histopathology,Benign,495
+8975,1,Histopathology,Benign,2212
+13018,1,Histopathology,Benign,303
+TCGA-BH-A0E1,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2426
+P_01864,1,CBIS-DDSM,Abnormal (Screening),1
+TCGA-OL-A5RZ,1,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),4619
+TCGA-E2-A1IG,1,EHR,Infiltrating Ductal Carcinoma,477
+15515,1,Histopathology,Benign,1162
+P_01210,2,CBIS-DDSM,Abnormal (Screening),1
+P_00229,2,CBIS-DDSM,Abnormal (Screening),1
+887181,2,Clinical,Malignant,1
+P_00363,2,CBIS-DDSM,Abnormal (Screening),1
+P_00641,2,CBIS-DDSM,Abnormal (Screening),2
+10261,2,Histopathology,Benign,646
+P_01866,2,CBIS-DDSM,Abnormal (Screening),1
+12821,2,Histopathology,Benign,1385
+P_00510,2,CBIS-DDSM,Abnormal (Screening),2
+8510824,2,Clinical,Benign,1
+913102,2,Clinical,Benign,1
+15471,2,Histopathology,Benign,534
+899667,2,Clinical,Malignant,1
+873586,2,Clinical,Benign,1
+883263,2,Clinical,Malignant,1
+135,2,Genomic,basal,1
+9013005,2,Clinical,Benign,1
+9011971,2,Clinical,Malignant,1
+TCGA-AO-A03T,2,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-EW-A423,2,EHR,Infiltrating Lobular Carcinoma,1
+97,2,Genomic,HER,1
+P_00735,2,CBIS-DDSM,Abnormal (Screening),1
+16896,2,Histopathology,Benign,1127
+TCGA-OL-A66N,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),5514
+TCGA-E2-A14Y,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1825
+P_00238,2,CBIS-DDSM,Abnormal (Screening),2
+919555,2,Clinical,Malignant,1
+TCGA-E2-A14T,2,EHR,Infiltrating Ductal Carcinoma,1467
+10293,2,Histopathology,Benign,870
+216,2,Genomic,luminal_A,1
+14212,2,Histopathology,Benign,211
+P_01677,2,CBIS-DDSM,Abnormal (Screening),1
+864033,2,Clinical,Benign,1
+165,2,Genomic,cell_line,1
+86135502,2,Clinical,Malignant,1
+861597,2,Clinical,Benign,1
+P_00379,2,CBIS-DDSM,Abnormal (Screening),2
+911673,2,Clinical,Benign,1
+P_00037,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A0EU,2,EHR,Infiltrating Ductal Carcinoma,1
+180,2,Genomic,luminal_A,1
+15634,2,Histopathology,Benign,809
+862548,2,Clinical,Malignant,1
+TCGA-A8-A09B,2,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A08Z,2,EHR,Infiltrating Ductal Carcinoma,1
+8611161,2,Clinical,Benign,1
+897630,2,Clinical,Malignant,1
+TCGA-BH-A0B1,2,EHR,Infiltrating Ductal Carcinoma,1
+100,2,Genomic,HER,1
+14154,2,Histopathology,Benign,1520
+869104,2,Clinical,Malignant,1
+15473,2,Histopathology,Benign,1438
+12930,2,Histopathology,Benign,1000
+TCGA-D8-A1XU,2,EHR,Infiltrating Ductal Carcinoma,1
+904971,2,Clinical,Benign,1
+918465,2,Clinical,Benign,1
+TCGA-GM-A2DM,2,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-E2-A1B4,2,EHR,Infiltrating Ductal Carcinoma,1
+905539,2,Clinical,Benign,1
+9010598,2,Clinical,Benign,1
+TCGA-OK-A5Q2,2,EHR,Infiltrating Ductal Carcinoma,1
+10279,2,Histopathology,Benign,1694
+P_00105,2,CBIS-DDSM,Abnormal (Screening),1
+14155,2,Histopathology,Benign,1877
+TCGA-A2-A0T6,2,EHR,Infiltrating Ductal Carcinoma,1
+121,2,Genomic,HER,1
+128,2,Genomic,basal,1
+P_00576,2,CBIS-DDSM,Abnormal (Screening),2
+P_00969,2,CBIS-DDSM,Abnormal (Screening),2
+855167,2,Clinical,Malignant,1
+TCGA-AR-A1AX,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2841
+905189,2,Clinical,Benign,1
+TCGA-AO-A126,2,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-A8-A06Y,2,EHR,Infiltrating Ductal Carcinoma,1
+9044,2,Histopathology,Benign,158
+865468,2,Clinical,Benign,1
+177,2,Genomic,normal,1
+P_01883,2,CBIS-DDSM,Abnormal (Screening),3
+TCGA-A8-A06O,2,EHR,Infiltrating Ductal Carcinoma,1
+894618,2,Clinical,Malignant,1
+P_01638,2,CBIS-DDSM,Abnormal (Screening),1
+881094802,2,Clinical,Malignant,1
+TCGA-E2-A1BC,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00325,2,CBIS-DDSM,Abnormal (Screening),1
+P_00467,2,CBIS-DDSM,Abnormal (Screening),1
+86135501,2,Clinical,Malignant,1
+13666,2,Histopathology,Benign,407
+895299,2,Clinical,Benign,1
+P_01419,2,CBIS-DDSM,Abnormal (Screening),2
+P_00601,2,CBIS-DDSM,Abnormal (Screening),3
+P_01773,2,CBIS-DDSM,Abnormal (Screening),2
+912193,2,Clinical,Benign,1
+P_02464,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A15I,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),555
+P_00991,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A2L8,2,EHR,Infiltrating Lobular Carcinoma,1
+P_01119,2,CBIS-DDSM,Abnormal (Screening),2
+917080,2,Clinical,Benign,1
+227,2,Genomic,luminal_B,1
+91762702,2,Clinical,Malignant,1
+TCGA-A2-A04Y,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00230,2,CBIS-DDSM,Abnormal (Screening),2
+85,2,Genomic,basal,1
+P_00578,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AC-A2B8,2,EHR,Infiltrating Ductal Carcinoma,1
+9023,2,Histopathology,Benign,871
+P_01740,2,CBIS-DDSM,Abnormal (Screening),1
+P_01183,2,CBIS-DDSM,Abnormal (Screening),2
+P_01370,2,CBIS-DDSM,Abnormal (Screening),1
+13401,2,Histopathology,Benign,567
+163,2,Genomic,cell_line,1
+9113514,2,Clinical,Benign,1
+914862,2,Clinical,Benign,1
+P_01759,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A082,2,EHR,Infiltrating Ductal Carcinoma,1
+91903902,2,Clinical,Benign,1
+P_00333,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A09Q,2,EHR,Infiltrating Ductal Carcinoma,1
+913512,2,Clinical,Benign,1
+P_00639,2,CBIS-DDSM,Abnormal (Screening),1
+12933,2,Histopathology,Benign,155
+P_00591,2,CBIS-DDSM,Abnormal (Screening),1
+P_00331,2,CBIS-DDSM,Abnormal (Screening),2
+869224,2,Clinical,Benign,1
+TCGA-BH-A0C0,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2290
+TCGA-Z7-A8R5,2,EHR,Infiltrating Lobular Carcinoma,1
+914102,2,Clinical,Benign,1
+152,2,Genomic,HER,1
+P_01425,2,CBIS-DDSM,Abnormal (Screening),2
+P_00698,2,CBIS-DDSM,Abnormal (Screening),1
+9035,2,Histopathology,Benign,236
+85922302,2,Clinical,Malignant,1
+16568,2,Histopathology,Benign,828
+8711003,2,Clinical,Benign,1
+208,2,Genomic,luminal_A,1
+8953902,2,Clinical,Malignant,1
+TCGA-AO-A03N,2,EHR,Mucinous Carcinoma,1
+TCGA-LD-A7W6,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01833,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A1XB,2,EHR,Infiltrating Ductal Carcinoma,1
+901028,2,Clinical,Benign,1
+877501,2,Clinical,Benign,1
+P_00622,2,CBIS-DDSM,Abnormal (Screening),1
+869254,2,Clinical,Benign,1
+P_01461,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-C8-A12N,2,EHR,Infiltrating Ductal Carcinoma,1
+86408,2,Clinical,Benign,1
+TCGA-A8-A09V,2,EHR,Infiltrating Ductal Carcinoma,1
+911296202,2,Clinical,Malignant,1
+TCGA-A2-A25C,2,EHR,Infiltrating Lobular Carcinoma,1
+87106,2,Clinical,Benign,1
+12873,2,Histopathology,Benign,281
+P_01441,2,CBIS-DDSM,Abnormal (Screening),1
+854941,2,Clinical,Benign,1
+855625,2,Clinical,Malignant,1
+223,2,Genomic,luminal_A,1
+126,2,Genomic,HER,1
+91858,2,Clinical,Benign,1
+P_01045,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AQ-A1H3,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01140,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A10C,2,EHR,Infiltrating Lobular Carcinoma,1
+10282,2,Histopathology,Benign,2033
+TCGA-E2-A14V,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1176
+921092,2,Clinical,Benign,1
+P_00160,2,CBIS-DDSM,Abnormal (Screening),1
+871122,2,Clinical,Benign,1
+P_01235,2,CBIS-DDSM,Abnormal (Screening),1
+86730502,2,Clinical,Malignant,1
+P_01562,2,CBIS-DDSM,Abnormal (Screening),2
+P_01845,2,CBIS-DDSM,Abnormal (Screening),2
+196,2,Genomic,luminal_B,1
+857155,2,Clinical,Benign,1
+868223,2,Clinical,Benign,1
+P_00185,2,CBIS-DDSM,Abnormal (Screening),1
+871201,2,Clinical,Malignant,1
+P_00849,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A18S,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01565,2,CBIS-DDSM,Abnormal (Screening),2
+893548,2,Clinical,Benign,1
+TCGA-A2-A0YL,2,EHR,Infiltrating Ductal Carcinoma,1
+10262,2,Histopathology,Benign,1807
+871642,2,Clinical,Benign,1
+90291,2,Clinical,Malignant,1
+TCGA-AO-A03V,2,EHR,Infiltrating Lobular Carcinoma,873
+P_00235,2,CBIS-DDSM,Abnormal (Screening),1
+8912521,2,Clinical,Benign,1
+P_01882,2,CBIS-DDSM,Abnormal (Screening),2
+10285,2,Histopathology,Benign,1233
+927241,2,Clinical,Malignant,1
+TCGA-E2-A159,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1508
+TCGA-BH-A0C1,2,EHR,Infiltrating Lobular Carcinoma,1
+869931,2,Clinical,Benign,1
+P_01127,2,CBIS-DDSM,Abnormal (Screening),1
+16552,2,Histopathology,Benign,187
+904969,2,Clinical,Benign,1
+9013579,2,Clinical,Benign,1
+P_02153,2,CBIS-DDSM,Abnormal (Screening),2
+881972,2,Clinical,Malignant,1
+P_00039,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A7-A13G,2,EHR,Infiltrating Lobular Carcinoma,1
+118,2,Genomic,basal,1
+912600,2,Clinical,Benign,1
+TCGA-AR-A24X,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1220
+TCGA-D8-A1J8,2,EHR,Infiltrating Lobular Carcinoma,1
+P_01433,2,CBIS-DDSM,Abnormal (Screening),1
+P_00739,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A1JI,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01145,2,CBIS-DDSM,Abnormal (Screening),1
+P_00710,2,CBIS-DDSM,Abnormal (Screening),2
+86517,2,Clinical,Malignant,1
+923465,2,Clinical,Benign,1
+182,2,Genomic,luminal_B,1
+P_01351,2,CBIS-DDSM,Abnormal (Screening),1
+P_01791,2,CBIS-DDSM,Abnormal (Screening),1
+P_01536,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-LD-A66U,2,EHR,Infiltrating Ductal Carcinoma,1
+91485,2,Clinical,Malignant,1
+112,2,Genomic,basal,1
+P_00223,2,CBIS-DDSM,Abnormal (Screening),1
+8670,2,Clinical,Malignant,1
+12932,2,Histopathology,Benign,737
+TCGA-D8-A1JH,2,EHR,Infiltrating Ductal Carcinoma,1
+895100,2,Clinical,Malignant,1
+P_01316,2,CBIS-DDSM,Abnormal (Screening),2
+P_00433,2,CBIS-DDSM,Abnormal (Screening),2
+925277,2,Clinical,Benign,1
+P_00340,2,CBIS-DDSM,Abnormal (Screening),1
+13020,2,Histopathology,Benign,386
+P_00032,2,CBIS-DDSM,Abnormal (Screening),2
+866714,2,Clinical,Benign,1
+TCGA-A8-A09T,2,EHR,Infiltrating Ductal Carcinoma,1
+915460,2,Clinical,Malignant,1
+8810528,2,Clinical,Benign,1
+10306,2,Histopathology,Benign,1024
+P_00099,2,CBIS-DDSM,Abnormal (Screening),1
+198,2,Genomic,luminal_B,1
+P_01313,2,CBIS-DDSM,Abnormal (Screening),1
+879830,2,Clinical,Malignant,1
+84799002,2,Clinical,Malignant,1
+10272,2,Histopathology,Benign,2175
+857793,2,Clinical,Malignant,1
+P_00209,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0HO,2,EHR,Infiltrating Lobular Carcinoma,1
+P_00623,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A15H,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1285
+TCGA-BH-A18I,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2286
+10278,2,Histopathology,Benign,1159
+16085,2,Histopathology,Benign,1937
+P_01265,2,CBIS-DDSM,Abnormal (Screening),2
+219,2,Genomic,luminal_B,1
+866458,2,Clinical,Benign,1
+9113846,2,Clinical,Benign,1
+P_00919,2,CBIS-DDSM,Abnormal (Screening),2
+854268,2,Clinical,Malignant,1
+P_01803,2,CBIS-DDSM,Abnormal (Screening),3
+879804,2,Clinical,Benign,1
+P_01331,2,CBIS-DDSM,Abnormal (Screening),2
+P_00353,2,CBIS-DDSM,Abnormal (Screening),2
+16554,2,Histopathology,Benign,717
+TCGA-AR-A1AL,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00937,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AO-A0J7,2,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-OL-A5DA,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1729
+12878,2,Histopathology,Benign,1474
+TCGA-A2-A0EX,2,EHR,Infiltrating Ductal Carcinoma,1
+902976,2,Clinical,Benign,1
+P_01868,2,CBIS-DDSM,Abnormal (Screening),2
+9013594,2,Clinical,Benign,1
+TCGA-EW-A1PC,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00344,2,CBIS-DDSM,Abnormal (Screening),2
+P_00171,2,CBIS-DDSM,Abnormal (Screening),2
+P_01153,2,CBIS-DDSM,Abnormal (Screening),1
+873885,2,Clinical,Malignant,1
+TCGA-OL-A5RU,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1896
+89143601,2,Clinical,Benign,1
+P_00425,2,CBIS-DDSM,Abnormal (Screening),1
+P_00214,2,CBIS-DDSM,Abnormal (Screening),3
+897604,2,Clinical,Benign,1
+922296,2,Clinical,Benign,1
+15472,2,Histopathology,Benign,1704
+TCGA-BH-A8G0,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00559,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A1JC,2,EHR,Infiltrating Ductal Carcinoma,1
+16550,2,Histopathology,Benign,2302
+P_02501,2,CBIS-DDSM,Abnormal (Screening),2
+151,2,Genomic,HER,1
+P_00896,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-E2-A1B5,2,EHR,Infiltrating Ductal Carcinoma,1319
+844359,2,Clinical,Malignant,1
+P_01623,2,CBIS-DDSM,Abnormal (Screening),2
+857374,2,Clinical,Benign,1
+907145,2,Clinical,Benign,1
+144,2,Genomic,basal,1
+164,2,Genomic,cell_line,1
+9112594,2,Clinical,Benign,1
+P_00231,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0W5,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2029
+P_00834,2,CBIS-DDSM,Abnormal (Screening),1
+881861,2,Clinical,Malignant,1
+P_00369,2,CBIS-DDSM,Abnormal (Screening),2
+P_00905,2,CBIS-DDSM,Abnormal (Screening),2
+P_01760,2,CBIS-DDSM,Abnormal (Screening),1
+8711561,2,Clinical,Benign,1
+P_00843,2,CBIS-DDSM,Abnormal (Screening),2
+12884,2,Histopathology,Benign,769
+10308,2,Histopathology,Benign,2278
+TCGA-C8-A1HG,2,EHR,Infiltrating Lobular Carcinoma,1
+P_00570,2,CBIS-DDSM,Abnormal (Screening),1
+925236,2,Clinical,Benign,1
+8860702,2,Clinical,Malignant,1
+TCGA-A7-A3J1,2,EHR,Infiltrating Ductal Carcinoma,1
+904689,2,Clinical,Benign,1
+898690,2,Clinical,Benign,1
+855133,2,Clinical,Malignant,1
+89346,2,Clinical,Benign,1
+871001502,2,Clinical,Benign,1
+P_00508,2,CBIS-DDSM,Abnormal (Screening),1
+845636,2,Clinical,Malignant,1
+TCGA-A2-A0CV,2,EHR,Infiltrating Lobular Carcinoma,1
+904302,2,Clinical,Benign,1
+TCGA-BH-A8FY,2,EHR,Infiltrating Ductal Carcinoma,1
+12929,2,Histopathology,Benign,160
+TCGA-E2-A14X,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1809
+12824,2,Histopathology,Benign,707
+P_01254,2,CBIS-DDSM,Abnormal (Screening),2
+231,2,Genomic,luminal_A,1
+12875,2,Histopathology,Benign,374
+P_00518,2,CBIS-DDSM,Abnormal (Screening),1
+P_00088,2,CBIS-DDSM,Abnormal (Screening),1
+14213,2,Histopathology,Benign,422
+P_00476,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-D8-A4Z1,2,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A1-A0SE,2,EHR,Mucinous Carcinoma,1
+9110944,2,Clinical,Benign,1
+TCGA-D8-A1XR,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00713,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0DP,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00682,2,CBIS-DDSM,Abnormal (Screening),2
+P_00643,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A0J8,2,EHR,Infiltrating Lobular Carcinoma,2062
+894335,2,Clinical,Benign,1
+TCGA-A2-A0T7,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00421,2,CBIS-DDSM,Abnormal (Screening),1
+P_00162,2,CBIS-DDSM,Abnormal (Screening),1
+867739,2,Clinical,Malignant,1
+142,2,Genomic,basal,1
+909411,2,Clinical,Benign,1
+TCGA-A8-A0A2,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01451,2,CBIS-DDSM,Abnormal (Screening),1
+12951,2,Histopathology,Benign,1138
+TCGA-BH-A18H,2,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2149
+89742801,2,Clinical,Malignant,1
+TCGA-BH-A18J,2,EHR,Infiltrating Ductal Carcinoma,1
+13024,2,Histopathology,Benign,810
+221,2,Genomic,luminal_A,1
+16531,2,Histopathology,Benign,249
+P_00041,2,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0AZ,2,EHR,Infiltrating Lobular Carcinoma,2154
+TCGA-AR-A24M,2,EHR,Infiltrating Ductal Carcinoma,2393
+P_01390,2,CBIS-DDSM,Abnormal (Screening),2
+12880,2,Histopathology,Benign,1935
+TCGA-BH-A42V,2,EHR,Infiltrating Ductal Carcinoma,1
+P_00428,2,CBIS-DDSM,Abnormal (Screening),1
+P_01582,2,CBIS-DDSM,Abnormal (Screening),2
+893061,2,Clinical,Benign,1
+924084,2,Clinical,Benign,1
+TCGA-D8-A3Z6,2,EHR,Infiltrating Ductal Carcinoma,1
+12947,2,Histopathology,Benign,830
+206,2,Genomic,luminal_B,1
+P_00661,2,CBIS-DDSM,Abnormal (Screening),1
+13694,2,Histopathology,Benign,1230
+P_00869,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-XX-A89A,2,EHR,Infiltrating Ductal Carcinoma,1
+896839,2,Clinical,Malignant,1
+911366,2,Clinical,Benign,1
+102,2,Genomic,basal,1
+TCGA-A7-A3RF,2,EHR,Infiltrating Ductal Carcinoma,1
+P_01355,2,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0EI,2,EHR,Infiltrating Lobular Carcinoma,2529
+891936,2,Clinical,Benign,1
+P_00663,2,CBIS-DDSM,Abnormal (Screening),2
+851509,2,Clinical,Malignant,1
+P_00174,3,CBIS-DDSM,Abnormal (Screening),1
+P_01726,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A7-A6VX,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AR-A254,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1959
+P_02079,3,CBIS-DDSM,Abnormal (Screening),1
+P_00496,3,CBIS-DDSM,Abnormal (Screening),1
+8810436,3,Clinical,Benign,1
+P_02102,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A1-A0SQ,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01602,3,CBIS-DDSM,Abnormal (Screening),1
+905520,3,Clinical,Benign,1
+893988,3,Clinical,Benign,1
+P_00985,3,CBIS-DDSM,Abnormal (Screening),2
+12818,3,Histopathology,Benign,1611
+P_01307,3,CBIS-DDSM,Abnormal (Screening),3
+TCGA-AN-A04A,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-C8-A26V,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-OL-A6VO,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),4775
+P_01872,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A0JF,3,EHR,Infiltrating Lobular Carcinoma,1572
+P_00016,3,CBIS-DDSM,Abnormal (Screening),2
+90524101,3,Clinical,Malignant,1
+16534,3,Histopathology,Benign,63
+90251,3,Clinical,Benign,1
+233,3,Genomic,luminal_B,1
+8511133,3,Clinical,Malignant,1
+8910721,3,Clinical,Benign,1
+P_00531,3,CBIS-DDSM,Abnormal (Screening),1
+924342,3,Clinical,Benign,1
+P_01192,3,CBIS-DDSM,Abnormal (Screening),2
+P_01227,3,CBIS-DDSM,Abnormal (Screening),1
+8712289,3,Clinical,Malignant,1
+923748,3,Clinical,Benign,1
+P_00656,3,CBIS-DDSM,Abnormal (Screening),1
+P_01042,3,CBIS-DDSM,Abnormal (Screening),2
+P_01056,3,CBIS-DDSM,Abnormal (Screening),1
+899147,3,Clinical,Benign,1
+192,3,Genomic,luminal_B,1
+P_01084,3,CBIS-DDSM,Abnormal (Screening),1
+P_00952,3,CBIS-DDSM,Abnormal (Screening),2
+10290,3,Histopathology,Benign,2031
+TCGA-D8-A1JD,3,EHR,Infiltrating Lobular Carcinoma,1
+12819,3,Histopathology,Benign,1627
+TCGA-OL-A5D7,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2008
+91504,3,Clinical,Malignant,1
+P_02498,3,CBIS-DDSM,Abnormal (Screening),2
+87930,3,Clinical,Benign,1
+TCGA-AO-A1KO,3,EHR,Infiltrating Ductal Carcinoma,1
+109,3,Genomic,basal,1
+89122,3,Clinical,Malignant,1
+P_00026,3,CBIS-DDSM,Abnormal (Screening),1
+P_01529,3,CBIS-DDSM,Abnormal (Screening),1
+TCGA-E2-A154,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00773,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A0D3,3,EHR,Infiltrating Ductal Carcinoma,1
+12893,3,Histopathology,Benign,698
+P_00600,3,CBIS-DDSM,Abnormal (Screening),1
+P_00954,3,CBIS-DDSM,Abnormal (Screening),1
+899187,3,Clinical,Benign,1
+TCGA-A2-A4S2,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00405,3,CBIS-DDSM,Abnormal (Screening),2
+858986,3,Clinical,Malignant,1
+TCGA-BH-A0RX,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),3091
+13460,3,Histopathology,Benign,669
+853201,3,Clinical,Malignant,1
+TCGA-5L-AAT0,3,EHR,Infiltrating Ductal Carcinoma,1
+906290,3,Clinical,Benign,1
+TCGA-OL-A66O,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),3350
+P_01621,3,CBIS-DDSM,Abnormal (Screening),2
+873592,3,Clinical,Malignant,1
+P_00180,3,CBIS-DDSM,Abnormal (Screening),2
+91813702,3,Clinical,Benign,1
+12749,3,Histopathology,Benign,1762
+8712291,3,Clinical,Benign,1
+TCGA-E9-A227,3,EHR,Infiltrating Ductal Carcinoma,1
+914101,3,Clinical,Benign,1
+P_01211,3,CBIS-DDSM,Abnormal (Screening),4
+P_01233,3,CBIS-DDSM,Abnormal (Screening),1
+95,3,Genomic,HER,1
+P_00678,3,CBIS-DDSM,Abnormal (Screening),1
+892604,3,Clinical,Benign,1
+P_00106,3,CBIS-DDSM,Abnormal (Screening),1
+869691,3,Clinical,Malignant,1
+P_00951,3,CBIS-DDSM,Abnormal (Screening),3
+189,3,Genomic,luminal_B,1
+TCGA-BH-A0HF,3,EHR,Infiltrating Lobular Carcinoma,1
+P_01190,3,CBIS-DDSM,Abnormal (Screening),1
+906878,3,Clinical,Benign,1
+91979701,3,Clinical,Malignant,1
+TCGA-BH-A202,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2428
+TCGA-A2-A0ES,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00813,3,CBIS-DDSM,Abnormal (Screening),1
+TCGA-MS-A51U,3,EHR,Infiltrating Ductal Carcinoma,1
+8912284,3,Clinical,Benign,1
+TCGA-BH-A0BM,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1660
+P_00670,3,CBIS-DDSM,Abnormal (Screening),1
+923169,3,Clinical,Benign,1
+10303,3,Histopathology,Benign,1352
+88518501,3,Clinical,Benign,1
+P_01467,3,CBIS-DDSM,Abnormal (Screening),2
+903554,3,Clinical,Benign,1
+90944601,3,Clinical,Benign,1
+91,3,Genomic,basal,1
+P_01717,3,CBIS-DDSM,Abnormal (Screening),1
+107,3,Genomic,HER,1
+P_02434,3,CBIS-DDSM,Abnormal (Screening),1
+P_00414,3,CBIS-DDSM,Abnormal (Screening),1
+199,3,Genomic,luminal_A,1
+P_01599,3,CBIS-DDSM,Abnormal (Screening),2
+130,3,Genomic,basal,1
+137,3,Genomic,HER,1
+8810703,3,Clinical,Malignant,1
+875938,3,Clinical,Malignant,1
+191,3,Genomic,luminal_A,1
+89864002,3,Clinical,Benign,1
+TCGA-OL-A6VR,3,EHR,Infiltrating Lobular Carcinoma,5220
+P_00928,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A4RY,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-B6-A401,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00711,3,CBIS-DDSM,Abnormal (Screening),1
+911320501,3,Clinical,Benign,1
+TCGA-BH-A0GZ,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2220
+887549,3,Clinical,Malignant,1
+89296,3,Clinical,Benign,1
+15516,3,Histopathology,Benign,1291
+915452,3,Clinical,Benign,1
+875878,3,Clinical,Benign,1
+P_00243,3,CBIS-DDSM,Abnormal (Screening),1
+TCGA-GM-A2DO,3,EHR,Infiltrating Ductal Carcinoma,1
+92751,3,Clinical,Benign,1
+P_01237,3,CBIS-DDSM,Abnormal (Screening),2
+106,3,Genomic,basal,1
+90745,3,Clinical,Benign,1
+P_00212,3,CBIS-DDSM,Abnormal (Screening),2
+105,3,Genomic,HER,1
+862965,3,Clinical,Benign,1
+224,3,Genomic,luminal_A,1
+13459,3,Histopathology,Benign,1026
+13617,3,Histopathology,Benign,355
+TCGA-3C-AAAU,3,EHR,Infiltrating Lobular Carcinoma,1
+893783,3,Clinical,Benign,1
+TCGA-A8-A07W,3,EHR,Infiltrating Lobular Carcinoma,1
+14306,3,Histopathology,Benign,431
+14305,3,Histopathology,Benign,986
+P_00074,3,CBIS-DDSM,Abnormal (Screening),1
+P_00906,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0W7,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01248,3,CBIS-DDSM,Abnormal (Screening),1
+P_01687,3,CBIS-DDSM,Abnormal (Screening),1
+188,3,Genomic,luminal_B,1
+P_02313,3,CBIS-DDSM,Abnormal (Screening),1
+897132,3,Clinical,Benign,1
+TCGA-AC-A8OR,3,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-BH-A0H7,3,EHR,Infiltrating Ductal Carcinoma,2056
+TCGA-D8-A1X6,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-D8-A1XD,3,EHR,Infiltrating Ductal Carcinoma,1
+8910988,3,Clinical,Malignant,1
+TCGA-AN-A03Y,3,EHR,Infiltrating Lobular Carcinoma,1
+P_00343,3,CBIS-DDSM,Abnormal (Screening),4
+8911163,3,Clinical,Malignant,1
+120,3,Genomic,basal,1
+913505,3,Clinical,Malignant,1
+P_00924,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-C8-A273,3,EHR,Infiltrating Ductal Carcinoma,1
+12891,3,Histopathology,Benign,614
+90769601,3,Clinical,Benign,1
+P_01465,3,CBIS-DDSM,Abnormal (Screening),1
+P_00986,3,CBIS-DDSM,Abnormal (Screening),1
+P_00100,3,CBIS-DDSM,Abnormal (Screening),2
+P_00464,3,CBIS-DDSM,Abnormal (Screening),2
+905680,3,Clinical,Malignant,1
+TCGA-A2-A0CZ,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A09M,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-EW-A1J6,3,EHR,Infiltrating Ductal Carcinoma,2673
+859471,3,Clinical,Benign,1
+12817,3,Histopathology,Benign,934
+P_00019,3,CBIS-DDSM,Abnormal (Screening),1
+P_02190,3,CBIS-DDSM,Abnormal (Screening),1
+912558,3,Clinical,Benign,1
+10255,3,Histopathology,Benign,272
+TCGA-BH-A0DZ,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2476
+TCGA-OL-A66L,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),6567
+114,3,Genomic,basal,1
+P_01711,3,CBIS-DDSM,Abnormal (Screening),2
+9111843,3,Clinical,Benign,1
+P_01414,3,CBIS-DDSM,Abnormal (Screening),2
+P_00095,3,CBIS-DDSM,Abnormal (Screening),1
+P_01041,3,CBIS-DDSM,Abnormal (Screening),1
+915664,3,Clinical,Benign,1
+158,3,Genomic,cell_line,1
+TCGA-BH-A0DK,3,EHR,Infiltrating Ductal Carcinoma,2839
+P_00411,3,CBIS-DDSM,Abnormal (Screening),1
+926682,3,Clinical,Malignant,1
+P_01010,3,CBIS-DDSM,Abnormal (Screening),1
+P_01673,3,CBIS-DDSM,Abnormal (Screening),2
+12892,3,Histopathology,Benign,226
+893526,3,Clinical,Benign,1
+P_00882,3,CBIS-DDSM,Abnormal (Screening),2
+897880,3,Clinical,Benign,1
+205,3,Genomic,luminal_A,1
+TCGA-AO-A125,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01362,3,CBIS-DDSM,Abnormal (Screening),1
+P_00705,3,CBIS-DDSM,Abnormal (Screening),1
+857343,3,Clinical,Benign,1
+10268,3,Histopathology,Benign,2109
+12869,3,Histopathology,Benign,796
+853401,3,Clinical,Malignant,1
+TCGA-BH-A0EA,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-C8-A12U,3,EHR,Infiltrating Lobular Carcinoma,1
+P_01231,3,CBIS-DDSM,Abnormal (Screening),1
+894604,3,Clinical,Benign,1
+10256,3,Histopathology,Benign,468
+88299702,3,Clinical,Malignant,1
+13613,3,Histopathology,Benign,1457
+9113816,3,Clinical,Benign,1
+12910,3,Histopathology,Benign,1718
+TCGA-A7-A3J0,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01175,3,CBIS-DDSM,Abnormal (Screening),1
+12883,3,Histopathology,Benign,349
+849014,3,Clinical,Malignant,1
+P_01399,3,CBIS-DDSM,Abnormal (Screening),2
+89143602,3,Clinical,Benign,1
+TCGA-BH-A0BD,3,EHR,Infiltrating Lobular Carcinoma,1
+P_00091,3,CBIS-DDSM,Abnormal (Screening),1
+P_00719,3,CBIS-DDSM,Abnormal (Screening),1
+901088,3,Clinical,Malignant,1
+14210,3,Histopathology,Benign,573
+TCGA-BH-A0AW,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2124
+P_00247,3,CBIS-DDSM,Abnormal (Screening),1
+908194,3,Clinical,Malignant,1
+8984,3,Histopathology,Benign,1118
+P_01589,3,CBIS-DDSM,Abnormal (Screening),1
+13106,3,Histopathology,Benign,1134
+10276,3,Histopathology,Benign,939
+12868,3,Histopathology,Benign,861
+90401602,3,Clinical,Benign,1
+12894,3,Histopathology,Benign,1716
+178,3,Genomic,normal,1
+16533,3,Histopathology,Benign,367
+8812818,3,Clinical,Benign,1
+211,3,Genomic,luminal_B,1
+901315,3,Clinical,Benign,1
+TCGA-BH-A0HX,3,EHR,Infiltrating Ductal Carcinoma,2500
+13019,3,Histopathology,Benign,1510
+883270,3,Clinical,Benign,1
+TCGA-EW-A1J2,3,EHR,Infiltrating Ductal Carcinoma,305
+P_01179,3,CBIS-DDSM,Abnormal (Screening),1
+P_00474,3,CBIS-DDSM,Abnormal (Screening),1
+161,3,Genomic,cell_line,1
+P_00681,3,CBIS-DDSM,Abnormal (Screening),2
+P_00018,3,CBIS-DDSM,Abnormal (Screening),1
+12900,3,Histopathology,Benign,1023
+10258,3,Histopathology,Benign,530
+TCGA-A2-A3KD,3,EHR,Infiltrating Lobular Carcinoma,1
+P_00436,3,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BA,3,EHR,Infiltrating Lobular Carcinoma,1
+861598,3,Clinical,Benign,1
+TCGA-AO-A0JC,3,EHR,Infiltrating Lobular Carcinoma,1
+P_01861,3,CBIS-DDSM,Abnormal (Screening),2
+P_00772,3,CBIS-DDSM,Abnormal (Screening),1
+10304,3,Histopathology,Benign,880
+123,3,Genomic,HER,1
+905502,3,Clinical,Benign,1
+8911230,3,Clinical,Benign,1
+14192,3,Histopathology,Benign,1032
+90250,3,Clinical,Benign,1
+P_01213,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-D8-A1XO,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0E2,3,EHR,Infiltrating Lobular Carcinoma,2380
+P_00868,3,CBIS-DDSM,Abnormal (Screening),1
+904357,3,Clinical,Benign,1
+TCGA-A8-A08F,3,EHR,Infiltrating Ductal Carcinoma,1
+857373,3,Clinical,Benign,1
+12897,3,Histopathology,Benign,861
+TCGA-A1-A0SD,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A07Z,3,EHR,Infiltrating Ductal Carcinoma,1
+896864,3,Clinical,Benign,1
+P_00544,3,CBIS-DDSM,Abnormal (Screening),2
+8810987,3,Clinical,Malignant,1
+TCGA-E2-A1II,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1183
+P_00358,3,CBIS-DDSM,Abnormal (Screening),2
+P_00516,3,CBIS-DDSM,Abnormal (Screening),2
+P_01004,3,CBIS-DDSM,Abnormal (Screening),2
+84,3,Genomic,basal,1
+TCGA-E2-A15J,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1321
+10264,3,Histopathology,Benign,1204
+12823,3,Histopathology,Benign,1003
+P_01114,3,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A09R,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00701,3,CBIS-DDSM,Abnormal (Screening),1
+P_00117,3,CBIS-DDSM,Abnormal (Screening),1
+88330202,3,Clinical,Malignant,1
+883539,3,Clinical,Benign,1
+159,3,Genomic,cell_line,1
+866203,3,Clinical,Malignant,1
+209,3,Genomic,luminal_A,1
+P_02432,3,CBIS-DDSM,Abnormal (Screening),2
+13402,3,Histopathology,Benign,811
+P_00419,3,CBIS-DDSM,Abnormal (Screening),3
+P_01333,3,CBIS-DDSM,Abnormal (Screening),2
+925311,3,Clinical,Benign,1
+8510426,3,Clinical,Benign,1
+10254,3,Histopathology,Benign,848
+103,3,Genomic,HER,1
+TCGA-E2-A150,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1629
+TCGA-EW-A1IX,3,EHR,Infiltrating Lobular Carcinoma,1
+8610908,3,Clinical,Benign,1
+TCGA-EW-A1OZ,3,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2642
+P_00753,3,CBIS-DDSM,Abnormal (Screening),2
+14321,3,Histopathology,Benign,621
+TCGA-C8-A8HQ,3,EHR,Mucinous Carcinoma,1
+TCGA-LL-A7SZ,3,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-D8-A27L,3,EHR,Infiltrating Ductal Carcinoma,1
+P_00876,3,CBIS-DDSM,Abnormal (Screening),2
+921385,3,Clinical,Benign,1
+891703,3,Clinical,Benign,1
+190,3,Genomic,luminal_A,1
+922297,3,Clinical,Benign,1
+P_01068,3,CBIS-DDSM,Abnormal (Screening),1
+88725602,3,Clinical,Malignant,1
+P_00587,3,CBIS-DDSM,Abnormal (Screening),2
+P_00066,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A4S0,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-XX-A899,3,EHR,Infiltrating Ductal Carcinoma,1
+884180,3,Clinical,Malignant,1
+91544002,3,Clinical,Benign,1
+TCGA-AC-A5XU,3,EHR,Infiltrating Lobular Carcinoma,1
+8910720,3,Clinical,Benign,1
+9113239,3,Clinical,Benign,1
+925291,3,Clinical,Benign,1
+P_01651,3,CBIS-DDSM,Abnormal (Screening),2
+91594602,3,Clinical,Malignant,1
+110,3,Genomic,basal,1
+891716,3,Clinical,Benign,1
+903516,3,Clinical,Malignant,1
+TCGA-D8-A3Z5,3,EHR,Infiltrating Ductal Carcinoma,1
+84300903,3,Clinical,Malignant,1
+P_01456,3,CBIS-DDSM,Abnormal (Screening),1
+884437,3,Clinical,Benign,1
+P_00141,3,CBIS-DDSM,Abnormal (Screening),2
+9013838,3,Clinical,Malignant,1
+13404,3,Histopathology,Benign,557
+TCGA-E2-A15G,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01476,3,CBIS-DDSM,Abnormal (Screening),2
+12906,3,Histopathology,Benign,1703
+P_01720,3,CBIS-DDSM,Abnormal (Screening),1
+P_00707,3,CBIS-DDSM,Abnormal (Screening),2
+886452,3,Clinical,Malignant,1
+909410,3,Clinical,Benign,1
+861799,3,Clinical,Malignant,1
+P_00439,3,CBIS-DDSM,Abnormal (Screening),1
+878796,3,Clinical,Malignant,1
+P_01389,3,CBIS-DDSM,Abnormal (Screening),1
+12820,3,Histopathology,Benign,1122
+9011494,3,Clinical,Malignant,1
+TCGA-Z7-A8R6,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01058,3,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A8-A092,3,EHR,Infiltrating Ductal Carcinoma,1
+P_01158,3,CBIS-DDSM,Abnormal (Screening),1
+8711202,3,Clinical,Malignant,1
+186,3,Genomic,luminal_B,1
+P_01044,3,CBIS-DDSM,Abnormal (Screening),1
+915143,3,Clinical,Malignant,1
+TCGA-A8-A079,3,EHR,Infiltrating Ductal Carcinoma,1
+901303,3,Clinical,Benign,1
+P_02584,3,CBIS-DDSM,Abnormal (Screening),1
+901034301,3,Clinical,Benign,1
+865423,3,Clinical,Malignant,1
+TCGA-BH-A0BZ,3,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-GM-A3XN,3,EHR,Infiltrating Ductal Carcinoma,1
+88466802,3,Clinical,Benign,1
+TCGA-A7-A426,3,EHR,Infiltrating Ductal Carcinoma,1
+898677,3,Clinical,Benign,1
+874217,3,Clinical,Malignant,1
+P_00164,3,CBIS-DDSM,Abnormal (Screening),1
+12751,3,Histopathology,Benign,1816
+TCGA-EW-A1OX,3,EHR,Mucinous Carcinoma,1
+9012000,3,Clinical,Malignant,1
+895633,3,Clinical,Malignant,1
+TCGA-AC-A5EI,3,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0DX,3,EHR,Infiltrating Ductal Carcinoma,2142
+874158,4,Clinical,Benign,1
+89524,4,Clinical,Benign,1
+89382602,4,Clinical,Benign,1
+874662,4,Clinical,Benign,1
+854002,4,Clinical,Malignant,1
+TCGA-AO-A03R,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A1-A0SF,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-AR-A252,4,EHR,Infiltrating Ductal Carcinoma,1
+P_01204,4,CBIS-DDSM,Abnormal (Screening),2
+P_01471,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A153,4,EHR,Infiltrating Ductal Carcinoma,1
+101,4,Genomic,basal,1
+P_00347,4,CBIS-DDSM,Abnormal (Screening),2
+P_01157,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A18L,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-BH-A0H3,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2015
+P_01051,4,CBIS-DDSM,Abnormal (Screening),1
+86211,4,Clinical,Benign,1
+TCGA-BH-A0DG,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2433
+P_00990,4,CBIS-DDSM,Abnormal (Screening),1
+12908,4,Histopathology,Benign,1040
+P_01014,4,CBIS-DDSM,Abnormal (Screening),2
+919812,4,Clinical,Benign,1
+16553,4,Histopathology,Benign,680
+P_01796,4,CBIS-DDSM,Abnormal (Screening),2
+916838,4,Clinical,Malignant,1
+89813,4,Clinical,Benign,1
+865432,4,Clinical,Benign,1
+P_00132,4,CBIS-DDSM,Abnormal (Screening),1
+P_01256,4,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BC,4,EHR,Infiltrating Lobular Carcinoma,1
+9113778,4,Clinical,Benign,1
+846381,4,Clinical,Malignant,1
+886226,4,Clinical,Malignant,1
+108,4,Genomic,basal,1
+8811842,4,Clinical,Malignant,1
+88147202,4,Clinical,Benign,1
+P_00017,4,CBIS-DDSM,Abnormal (Screening),2
+9043,4,Histopathology,Benign,836
+15840,4,Histopathology,Benign,1106
+911296201,4,Clinical,Malignant,1
+TCGA-AO-A12E,4,EHR,Infiltrating Ductal Carcinoma,1
+P_00465,4,CBIS-DDSM,Abnormal (Screening),1
+P_00296,4,CBIS-DDSM,Abnormal (Screening),2
+8910499,4,Clinical,Benign,1
+864496,4,Clinical,Benign,1
+894329,4,Clinical,Benign,1
+TCGA-BH-A5J0,4,EHR,Infiltrating Ductal Carcinoma,1
+915276,4,Clinical,Benign,1
+8911164,4,Clinical,Benign,1
+862989,4,Clinical,Benign,1
+TCGA-D8-A27T,4,EHR,Infiltrating Ductal Carcinoma,1
+8918,4,Histopathology,Benign,1541
+P_00470,4,CBIS-DDSM,Abnormal (Screening),2
+902975,4,Clinical,Benign,1
+P_00738,4,CBIS-DDSM,Abnormal (Screening),2
+926125,4,Clinical,Malignant,1
+TCGA-OL-A66I,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2298
+TCGA-E9-A1NH,4,EHR,Infiltrating Lobular Carcinoma,1
+10295,4,Histopathology,Benign,895
+TCGA-D8-A1XM,4,EHR,Infiltrating Ductal Carcinoma,1
+12896,4,Histopathology,Benign,507
+8912909,4,Clinical,Benign,1
+TCGA-OL-A66J,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2111
+859464,4,Clinical,Benign,1
+P_01251,4,CBIS-DDSM,Abnormal (Screening),2
+87164,4,Clinical,Malignant,1
+8910251,4,Clinical,Benign,1
+225,4,Genomic,luminal_A,1
+866674,4,Clinical,Malignant,1
+P_00837,4,CBIS-DDSM,Abnormal (Screening),2
+P_00107,4,CBIS-DDSM,Abnormal (Screening),1
+875093,4,Clinical,Benign,1
+12901,4,Histopathology,Benign,808
+TCGA-AR-A2LN,4,EHR,Infiltrating Ductal Carcinoma,1
+13693,4,Histopathology,Benign,2395
+TCGA-A2-A0T5,4,EHR,Infiltrating Ductal Carcinoma,1
+861103,4,Clinical,Benign,1
+14153,4,Histopathology,Benign,789
+P_00922,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A28O,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-D8-A141,4,EHR,Infiltrating Ductal Carcinoma,1
+P_00577,4,CBIS-DDSM,Abnormal (Screening),1
+P_01605,4,CBIS-DDSM,Abnormal (Screening),1
+862980,4,Clinical,Benign,1
+153,4,Genomic,HER,1
+148,4,Genomic,basal,1
+200,4,Genomic,luminal_A,1
+132,4,Genomic,HER,1
+115,4,Genomic,basal,1
+TCGA-BH-A0DT,4,EHR,Infiltrating Lobular Carcinoma,2250
+P_01353,4,CBIS-DDSM,Abnormal (Screening),2
+P_00114,4,CBIS-DDSM,Abnormal (Screening),1
+P_01262,4,CBIS-DDSM,Abnormal (Screening),1
+P_00778,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-D8-A1XC,4,EHR,Infiltrating Ductal Carcinoma,1
+918192,4,Clinical,Benign,1
+TCGA-OL-A66K,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),4387
+156,4,Genomic,cell_line,1
+TCGA-A8-A07E,4,EHR,Infiltrating Lobular Carcinoma,1
+10275,4,Histopathology,Benign,1057
+TCGA-E2-A15E,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1581
+91227,4,Clinical,Benign,1
+864729,4,Clinical,Malignant,1
+P_00947,4,CBIS-DDSM,Abnormal (Screening),2
+P_00396,4,CBIS-DDSM,Abnormal (Screening),1
+859717,4,Clinical,Malignant,1
+8957,4,Histopathology,Benign,111
+10274,4,Histopathology,Benign,878
+924964,4,Clinical,Benign,1
+901034302,4,Clinical,Benign,1
+8916,4,Histopathology,Benign,171
+TCGA-BH-A0HU,4,EHR,Infiltrating Ductal Carcinoma,1
+13022,4,Histopathology,Benign,1342
+P_01797,4,CBIS-DDSM,Abnormal (Screening),2
+889719,4,Clinical,Malignant,1
+TCGA-D8-A27K,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AQ-A7U7,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-AR-A24W,4,EHR,Infiltrating Ductal Carcinoma,1811
+P_01867,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A15L,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1090
+201,4,Genomic,luminal_B,1
+237,4,Genomic,luminal_B,1
+P_00299,4,CBIS-DDSM,Abnormal (Screening),3
+P_00638,4,CBIS-DDSM,Abnormal (Screening),1
+P_00980,4,CBIS-DDSM,Abnormal (Screening),2
+P_00963,4,CBIS-DDSM,Abnormal (Screening),1
+88147101,4,Clinical,Benign,1
+TCGA-E2-A15P,4,EHR,Infiltrating Ductal Carcinoma,1
+143,4,Genomic,basal,1
+P_01743,4,CBIS-DDSM,Abnormal (Screening),2
+P_00021,4,CBIS-DDSM,Abnormal (Screening),1
+9022,4,Histopathology,Benign,517
+852631,4,Clinical,Malignant,1
+P_01308,4,CBIS-DDSM,Abnormal (Screening),1
+P_02275,4,CBIS-DDSM,Abnormal (Screening),2
+843786,4,Clinical,Malignant,1
+13021,4,Histopathology,Benign,1197
+12876,4,Histopathology,Benign,155
+TCGA-A7-A4SB,4,EHR,Infiltrating Ductal Carcinoma,1
+P_01336,4,CBIS-DDSM,Abnormal (Screening),3
+TCGA-E2-A1IN,4,EHR,Infiltrating Lobular Carcinoma,567
+TCGA-BH-A0DQ,4,EHR,Infiltrating Ductal Carcinoma,1
+905501,4,Clinical,Benign,1
+TCGA-BH-A0H9,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),1900
+TCGA-E9-A54Y,4,EHR,Infiltrating Ductal Carcinoma,1
+873701,4,Clinical,Malignant,1
+872608,4,Clinical,Benign,1
+8867,4,Histopathology,Benign,1642
+TCGA-AR-A1AS,4,EHR,Infiltrating Ductal Carcinoma,1
+P_00562,4,CBIS-DDSM,Abnormal (Screening),4
+16167,4,Histopathology,Benign,192
+8865,4,Histopathology,Benign,712
+TCGA-EW-A1IZ,4,EHR,Infiltrating Ductal Carcinoma,1603
+P_00038,4,CBIS-DDSM,Abnormal (Screening),4
+TCGA-BH-A0H0,4,EHR,Infiltrating Ductal Carcinoma,1
+15902,4,Histopathology,Benign,1167
+884948,4,Clinical,Malignant,1
+10291,4,Histopathology,Benign,1212
+P_01534,4,CBIS-DDSM,Abnormal (Screening),4
+12935,4,Histopathology,Benign,1226
+91813701,4,Clinical,Benign,1
+P_01535,4,CBIS-DDSM,Abnormal (Screening),2
+16555,4,Histopathology,Benign,400
+P_01716,4,CBIS-DDSM,Abnormal (Screening),2
+P_00352,4,CBIS-DDSM,Abnormal (Screening),2
+8911834,4,Clinical,Benign,1
+84610002,4,Clinical,Malignant,1
+TCGA-EW-A6SC,4,EHR,Infiltrating Lobular Carcinoma,1
+903811,4,Clinical,Benign,1
+TCGA-A8-A09D,4,EHR,Infiltrating Ductal Carcinoma,1
+8610175,4,Clinical,Benign,1
+P_01626,4,CBIS-DDSM,Abnormal (Screening),2
+141,4,Genomic,HER,1
+TCGA-D8-A1JE,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-AR-A24Z,4,EHR,Infiltrating Ductal Carcinoma,1
+91903901,4,Clinical,Benign,1
+TCGA-E2-A1IF,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-A8-A0AD,4,EHR,Infiltrating Ductal Carcinoma,1
+90769602,4,Clinical,Benign,1
+911384,4,Clinical,Benign,1
+P_01050,4,CBIS-DDSM,Abnormal (Screening),1
+P_00200,4,CBIS-DDSM,Abnormal (Screening),4
+14188,4,Histopathology,Benign,709
+TCGA-OL-A5RV,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),3464
+P_00278,4,CBIS-DDSM,Abnormal (Screening),2
+906564,4,Clinical,Benign,1
+TCGA-A7-A26E,4,EHR,Infiltrating Ductal Carcinoma,1
+12890,4,Histopathology,Benign,1471
+P_01369,4,CBIS-DDSM,Abnormal (Screening),1
+9112367,4,Clinical,Benign,1
+12867,4,Histopathology,Benign,1426
+P_00811,4,CBIS-DDSM,Abnormal (Screening),1
+P_00612,4,CBIS-DDSM,Abnormal (Screening),1
+P_01106,4,CBIS-DDSM,Abnormal (Screening),1
+P_01629,4,CBIS-DDSM,Abnormal (Screening),1
+924934,4,Clinical,Benign,1
+8910996,4,Clinical,Benign,1
+P_00270,4,CBIS-DDSM,Abnormal (Screening),1
+230,4,Genomic,luminal_B,1
+TCGA-D8-A73X,4,EHR,Infiltrating Ductal Carcinoma,1
+P_01337,4,CBIS-DDSM,Abnormal (Screening),1
+914580,4,Clinical,Benign,1
+913535,4,Clinical,Malignant,1
+P_00788,4,CBIS-DDSM,Abnormal (Screening),1
+906539,4,Clinical,Benign,1
+88350402,4,Clinical,Benign,1
+P_00774,4,CBIS-DDSM,Abnormal (Screening),2
+P_01156,4,CBIS-DDSM,Abnormal (Screening),1
+P_00942,4,CBIS-DDSM,Abnormal (Screening),1
+899987,4,Clinical,Malignant,1
+9036,4,Histopathology,Benign,1306
+P_01842,4,CBIS-DDSM,Abnormal (Screening),1
+874839,4,Clinical,Benign,1
+P_00381,4,CBIS-DDSM,Abnormal (Screening),2
+P_00276,4,CBIS-DDSM,Abnormal (Screening),1
+8912280,4,Clinical,Malignant,1
+85713702,4,Clinical,Benign,1
+9041,4,Histopathology,Benign,1035
+P_01834,4,CBIS-DDSM,Abnormal (Screening),1
+911916,4,Clinical,Malignant,1
+P_01569,4,CBIS-DDSM,Abnormal (Screening),1
+P_00402,4,CBIS-DDSM,Abnormal (Screening),2
+12871,4,Histopathology,Benign,182
+13403,4,Histopathology,Benign,312
+P_01664,4,CBIS-DDSM,Abnormal (Screening),1
+TCGA-BH-A0BR,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-AR-A24R,4,EHR,Infiltrating Ductal Carcinoma,2048
+P_00140,4,CBIS-DDSM,Abnormal (Screening),4
+86973702,4,Clinical,Benign,1
+86355,4,Clinical,Malignant,1
+8610404,4,Clinical,Malignant,1
+P_00244,4,CBIS-DDSM,Abnormal (Screening),1
+P_00194,4,CBIS-DDSM,Abnormal (Screening),2
+P_01690,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-A2-A0EV,4,EHR,Infiltrating Ductal Carcinoma,1
+925292,4,Clinical,Benign,1
+P_01668,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A1LG,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),959
+15512,4,Histopathology,Benign,222
+P_00677,4,CBIS-DDSM,Abnormal (Screening),2
+905557,4,Clinical,Benign,1
+P_00966,4,CBIS-DDSM,Abnormal (Screening),1
+P_01477,4,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AR-A24H,4,EHR,Infiltrating Lobular Carcinoma,1
+P_01642,4,CBIS-DDSM,Abnormal (Screening),1
+P_01415,4,CBIS-DDSM,Abnormal (Screening),1
+88199202,4,Clinical,Benign,1
+116,4,Genomic,HER,1
+8810158,4,Clinical,Benign,1
+908489,4,Clinical,Malignant,1
+88995002,4,Clinical,Malignant,1
+P_00999,4,CBIS-DDSM,Abnormal (Screening),1
+218,4,Genomic,luminal_B,1
+TCGA-AQ-A04H,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),614
+911157302,4,Clinical,Malignant,1
+852763,4,Clinical,Malignant,1
+P_01576,4,CBIS-DDSM,Abnormal (Screening),1
+857637,4,Clinical,Malignant,1
+14209,4,Histopathology,Benign,342
+10273,4,Histopathology,Benign,2022
+859487,4,Clinical,Benign,1
+854253,4,Clinical,Malignant,1
+P_00558,4,CBIS-DDSM,Abnormal (Screening),1
+16895,4,Histopathology,Benign,151
+212,4,Genomic,luminal_B,1
+91805,4,Clinical,Benign,1
+P_02420,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0BO,4,EHR,Infiltrating Ductal Carcinoma,1
+925622,4,Clinical,Malignant,1
+P_00585,4,CBIS-DDSM,Abnormal (Screening),1
+TCGA-AO-A0JB,4,EHR,Infiltrating Lobular Carcinoma,1347
+TCGA-BH-A0HA,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2829
+P_01294,4,CBIS-DDSM,Abnormal (Screening),2
+P_01769,4,CBIS-DDSM,Abnormal (Screening),1
+184,4,Genomic,luminal_A,1
+P_01108,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A1IK,4,EHR,Infiltrating Ductal Carcinoma,1399
+911685,4,Clinical,Benign,1
+P_01752,4,CBIS-DDSM,Abnormal (Screening),2
+9029,4,Histopathology,Benign,1634
+908469,4,Clinical,Benign,1
+8612399,4,Clinical,Malignant,1
+P_00482,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A1KP,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-C8-A12X,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-BH-A0E0,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2332
+8711002,4,Clinical,Benign,1
+P_00457,4,CBIS-DDSM,Abnormal (Screening),2
+P_00859,4,CBIS-DDSM,Abnormal (Screening),1
+162,4,Genomic,cell_line,1
+TCGA-D8-A27P,4,EHR,Infiltrating Ductal Carcinoma,1
+104,4,Genomic,HER,1
+TCGA-A7-A56D,4,EHR,Infiltrating Ductal Carcinoma,1
+P_01407,4,CBIS-DDSM,Abnormal (Screening),4
+13462,4,Histopathology,Benign,1754
+9010259,4,Clinical,Benign,1
+13023,4,Histopathology,Benign,227
+89812,4,Clinical,Malignant,1
+TCGA-A2-A0YI,4,EHR,Mucinous Carcinoma,1
+P_01865,4,CBIS-DDSM,Abnormal (Screening),1
+87127,4,Clinical,Benign,1
+916221,4,Clinical,Benign,1
+P_01293,4,CBIS-DDSM,Abnormal (Screening),1
+P_00475,4,CBIS-DDSM,Abnormal (Screening),1
+91505,4,Clinical,Benign,1
+857010,4,Clinical,Malignant,1
+TCGA-BH-A28Q,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2605
+9012568,4,Clinical,Benign,1
+P_01365,4,CBIS-DDSM,Abnormal (Screening),1
+863030,4,Clinical,Malignant,1
+842302,4,Clinical,Malignant,1
+P_00412,4,CBIS-DDSM,Abnormal (Screening),1
+863031,4,Clinical,Benign,1
+P_01807,4,CBIS-DDSM,Abnormal (Screening),1
+907915,4,Clinical,Benign,1
+8913049,4,Clinical,Benign,1
+146,4,Genomic,basal,1
+P_01253,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-E2-A15F,4,EHR,Infiltrating Lobular Carcinoma,1
+TCGA-GM-A3XG,4,EHR,Infiltrating Ductal Carcinoma,1
+P_01728,4,CBIS-DDSM,Abnormal (Screening),1
+235,4,Genomic,luminal_A,1
+P_01358,4,CBIS-DDSM,Abnormal (Screening),1
+12954,4,Histopathology,Benign,2009
+P_01538,4,CBIS-DDSM,Abnormal (Screening),1
+844981,4,Clinical,Malignant,1
+P_00629,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-AO-A0JD,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-AO-A03M,4,EHR,Infiltrating Lobular Carcinoma,1181
+TCGA-EW-A1PE,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-EW-A2FS,4,Vision_Genomic_Fusion,Malignant (Invasive Carcinoma),2338
+TCGA-GM-A2DN,4,EHR,Mucinous Carcinoma,1
+P_02159,4,CBIS-DDSM,Abnormal (Screening),2
+P_01221,4,CBIS-DDSM,Abnormal (Screening),1
+P_00403,4,CBIS-DDSM,Abnormal (Screening),2
+P_01003,4,CBIS-DDSM,Abnormal (Screening),1
+187,4,Genomic,luminal_A,1
+TCGA-A2-A0YH,4,EHR,Infiltrating Lobular Carcinoma,1
+P_00246,4,CBIS-DDSM,Abnormal (Screening),1
+P_01091,4,CBIS-DDSM,Abnormal (Screening),1
+914062,4,Clinical,Malignant,1
+14190,4,Histopathology,Benign,949
+9110732,4,Clinical,Malignant,1
+906024,4,Clinical,Benign,1
+P_00932,4,CBIS-DDSM,Abnormal (Screening),1
+TCGA-A8-A09A,4,EHR,Infiltrating Lobular Carcinoma,1
+894326,4,Clinical,Malignant,1
+TCGA-AC-A3OD,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-LD-A7W5,4,EHR,Infiltrating Ductal Carcinoma,1
+907914,4,Clinical,Malignant,1
+13692,4,Histopathology,Benign,607
+TCGA-E2-A1IL,4,EHR,Infiltrating Ductal Carcinoma,1
+14304,4,Histopathology,Benign,842
+145,4,Genomic,basal,1
+884448,4,Clinical,Benign,1
+117,4,Genomic,HER,1
+857156,4,Clinical,Benign,1
+16014,4,Histopathology,Benign,706
+8914,4,Histopathology,Benign,1053
+P_01381,4,CBIS-DDSM,Abnormal (Screening),2
+P_00795,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-EW-A1P5,4,EHR,Infiltrating Ductal Carcinoma,1
+TCGA-E2-A14Z,4,EHR,Infiltrating Ductal Carcinoma,1
+131,4,Genomic,basal,1
+902727,4,Clinical,Benign,1
+TCGA-A8-A06P,4,EHR,Infiltrating Ductal Carcinoma,1
+859711,4,Clinical,Benign,1
+874858,4,Clinical,Malignant,1
+202,4,Genomic,luminal_B,1
+901549,4,Clinical,Benign,1
+173,4,Genomic,normal,1
+P_00857,4,CBIS-DDSM,Abnormal (Screening),2
+868826,4,Clinical,Malignant,1
+P_00497,4,CBIS-DDSM,Abnormal (Screening),2
+TCGA-BH-A0GY,4,EHR,Infiltrating Ductal Carcinoma,2348
+8510653,4,Clinical,Benign,1
+P_01645,4,CBIS-DDSM,Abnormal (Screening),1

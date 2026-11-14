@@ -1,0 +1,43 @@
+{
+  "audit_timestamp": "2026-10-14T09:59:48+0530",
+  "deterministic_seed": 42,
+  "total_evaluation_runs": 3,
+  "reproducibility_score_pct": 100.0,
+  "status": "DETERMINISTIC_REPRODUCIBILITY_VERIFIED",
+  "evaluations": {
+    "train_split_identical": true,
+    "validation_split_identical": true,
+    "test_split_identical": true,
+    "kfold_partition_identical": true,
+    "batch_permutation_identical": true
+  },
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 42,
+      "train_parquet_hash": "0af3dc2a12d34e41",
+      "val_parquet_hash": "b196922dbffc0992",
+      "test_parquet_hash": "d32ead04b0e6b97d",
+      "fold_manifest_hash": "1b5c80bda0e40c49",
+      "batch_order_hash": "46f01d97f8ab"
+    },
+    {
+      "run_id": 2,
+      "seed": 42,
+      "train_parquet_hash": "0af3dc2a12d34e41",
+      "val_parquet_hash": "b196922dbffc0992",
+      "test_parquet_hash": "d32ead04b0e6b97d",
+      "fold_manifest_hash": "1b5c80bda0e40c49",
+      "batch_order_hash": "46f01d97f8ab"
+    },
+    {
+      "run_id": 3,
+      "seed": 42,
+      "train_parquet_hash": "0af3dc2a12d34e41",
+      "val_parquet_hash": "b196922dbffc0992",
+      "test_parquet_hash": "d32ead04b0e6b97d",
+      "fold_manifest_hash": "1b5c80bda0e40c49",
+      "batch_order_hash": "46f01d97f8ab"
+    }
+  ]
+}

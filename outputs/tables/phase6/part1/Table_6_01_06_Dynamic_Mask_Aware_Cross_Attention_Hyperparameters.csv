@@ -1,0 +1,8 @@
+Hyperparameter Component,Optimal Setting,Search Range,Design Rationale
+Latent Embedding Dimension (d),128,"[64, 128, 256, 512]",Guarantees lightweight footprint while preserving multimodal expressivity
+Multi-Head Cross-Attention Heads (h),4,"[2, 4, 8]",Each head specializes in distinct pairwise interactions (e.g. imaging-genomics)
+Attention Head Dimension (d_k),32,"[16, 32, 64]",Calculated as d / h = 128 / 4 = 32
+Feed-Forward Hidden Dimension,256,"[128, 256, 512]",Standard 2x expansion factor with GELU non-linear activation
+Dropout Probability,0.2,"[0.10, 0.20, 0.30]",Prevents co-adaptation and serves as MC-Dropout epistemic estimator
+Missing Modality Masking,Softmax -inf,"[-inf, 0-impute, mean]",Mathematically zeroes attention weight for unobserved modalities
+Temperature Scaling Factor (T*),1.18,[0.80 - 1.50],Minimizes validation negative log-likelihood to soften raw overconfidence

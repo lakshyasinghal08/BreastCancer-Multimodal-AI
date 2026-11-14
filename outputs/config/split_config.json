@@ -1,0 +1,20 @@
+{
+  "primary_split": "70/15/15",
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "alternative_split": "80/10/10",
+  "stratification": "dataset_name + diagnosis_label",
+  "kfold_schemes": [
+    "5_fold_stratified_group",
+    "10_fold_stratified_group"
+  ],
+  "leakage_prevented": true,
+  "patient_counts": {
+    "train": 1336,
+    "val": 282,
+    "test": 300
+  }
+}

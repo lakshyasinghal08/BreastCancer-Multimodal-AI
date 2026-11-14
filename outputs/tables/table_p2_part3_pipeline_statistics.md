@@ -1,0 +1,9 @@
+| Metric                         | Value                                            |
+|:-------------------------------|:-------------------------------------------------|
+| Total Registered Patients      | 1,918                                            |
+| Total Preprocessed Samples     | 477,913                                          |
+| Imaging Modalities             | 4 (Mammography, Ultrasound, Histopathology, MRI) |
+| Tabular Modalities             | 3 (Clinical, EHR, Genomic)                       |
+| Patient Leakage Between Splits | 0 Patients (100% Cryptographically Isolated)     |
+| Default DataLoader Batch Size  | 32                                               |
+| Cache Acceleration Ratio       | 1131.6x                                          |

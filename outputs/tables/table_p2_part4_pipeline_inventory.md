@@ -1,0 +1,14 @@
+| Module                        | Version   | Primary Artifact                 |   Samples Managed | Status    |
+|:------------------------------|:----------|:---------------------------------|------------------:|:----------|
+| Dataset Discovery Engine      | v1.0-RC1  | dataset_registry.csv             |            477913 | Certified |
+| Patient Linkage Registry      | v2.1-Prod | patient_registry.csv             |            477913 | Certified |
+| Master Manifest Generator     | v2.1-Prod | master_manifest.parquet          |            477913 | Certified |
+| Patient-Wise Splitting Engine | v2.3-Prod | train.csv / val.csv / test.csv   |            477913 | Certified |
+| Augmentation Framework        | v2.3-Prod | augmentation_config.json         |            477913 | Certified |
+| Tabular Preprocessor          | v2.2-Prod | clinical_preprocessing_stats.csv |              1600 | Certified |
+| Dataset Classes Suite         | v2.3-Prod | dataset_class_config.json        |            477913 | Certified |
+| Production DataLoader         | v2.3-Prod | dataloader_config.json           |            477913 | Certified |
+| Multi-Tier Caching Engine     | v2.3-Prod | cache_config.json                |            477913 | Certified |
+| Pipeline QA & Integrity Audit | v2.4-RC2  | pipeline_qa_report.json          |            477913 | Certified |
+| Performance Profiler          | v2.4-RC2  | pipeline_profiling_report.json   |            477913 | Certified |
+| RC-2 Certification Gate       | v2.4-RC2  | pipeline_rc2_certification.json  |            477913 | Certified |

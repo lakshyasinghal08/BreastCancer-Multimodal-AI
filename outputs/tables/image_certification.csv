@@ -1,0 +1,5 @@
+Modality,Sample_File,Dimensions,Aspect_Ratio,Channels,Color_Mode,Dynamic_Range,Mean_Brightness,Contrast_Std,Entropy,Blur_Variance,Medical_Integrity
+Mammography,Calc-Test_P_00038_LEFT_CC_FULL_PRE.png,4247x4247,1.0,1,L,255,24.14,47.85,1.53,38.55,CERTIFIED_HIGH_FIDELITY
+Ultrasound,benign (10).png,683x585,1.17,3,RGB,255,103.24,58.32,4.75,79.25,CERTIFIED_HIGH_FIDELITY
+Histopathology,10253_idx5_x1001_y1001_class0.png,50x50,1.0,3,RGB,215,184.17,38.98,4.42,1012.01,CERTIFIED_HIGH_FIDELITY
+MRI,TCGA-AO-A03M_img_0000.jpg,512x512,1.0,1,L,245,9.15,24.6,1.23,16.68,CERTIFIED_HIGH_FIDELITY

@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "best_model.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\best_model.pt",
+    "size_bytes": 10278445,
+    "modified": "2026-10-19T09:29:18.802820"
+  },
+  {
+    "filename": "checkpoint_epoch_001.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_001.pt",
+    "size_bytes": 10293053,
+    "modified": "2026-10-19T15:37:15.349487"
+  },
+  {
+    "filename": "checkpoint_epoch_003.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_003.pt",
+    "size_bytes": 10292925,
+    "modified": "2026-10-19T09:26:16.693143"
+  },
+  {
+    "filename": "checkpoint_epoch_005.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_005.pt",
+    "size_bytes": 10292925,
+    "modified": "2026-10-19T09:32:36.406508"
+  },
+  {
+    "filename": "checkpoint_epoch_006.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_006.pt",
+    "size_bytes": 10292925,
+    "modified": "2026-10-19T09:35:39.632110"
+  },
+  {
+    "filename": "checkpoint_epoch_007.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_007.pt",
+    "size_bytes": 10292925,
+    "modified": "2026-10-19T09:39:08.707364"
+  },
+  {
+    "filename": "checkpoint_epoch_008.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_008.pt",
+    "size_bytes": 10292989,
+    "modified": "2026-10-19T15:10:11.668114"
+  },
+  {
+    "filename": "checkpoint_epoch_009.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_009.pt",
+    "size_bytes": 10292989,
+    "modified": "2026-10-19T15:14:25.225818"
+  },
+  {
+    "filename": "checkpoint_epoch_010.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\checkpoint_epoch_010.pt",
+    "size_bytes": 10292989,
+    "modified": "2026-10-19T15:18:14.857109"
+  },
+  {
+    "filename": "latest_checkpoint.pt",
+    "path": "d:\\BreastCancer-Multimodal-AI\\outputs\\checkpoints\\latest_checkpoint.pt",
+    "size_bytes": 10288709,
+    "modified": "2026-10-19T15:37:15.552052"
+  }
+]

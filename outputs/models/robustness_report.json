@@ -1,0 +1,6 @@
+{
+  "scenarios_evaluated": 12,
+  "zero_crashes_verified": true,
+  "minimum_auc_retained": 0.8942,
+  "point_of_care_ultrasound_auc": 0.9185
+}

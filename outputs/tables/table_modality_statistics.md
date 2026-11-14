@@ -1,0 +1,11 @@
+# Clinical Modality Enrollment and Sample Distribution
+
+| Modality       |   Enrolled_Patients |   Harmonized_Samples | Patient_Coverage_Pct   | Sample_Volume_Pct   |
+|:---------------|--------------------:|---------------------:|:-----------------------|:--------------------|
+| Mammography    |                 561 |                  882 | 29.23%                 | 0.18%               |
+| Ultrasound     |                   0 |                  780 | 0.00%                  | 0.16%               |
+| Histopathology |                 344 |               301627 | 17.93%                 | 63.11%              |
+| MRI            |                 122 |               173570 | 6.36%                  | 36.32%              |
+| Clinical       |                 569 |                  569 | 29.65%                 | 0.12%               |
+| EHR            |                 335 |                  341 | 17.46%                 | 0.07%               |
+| Genomic        |                 273 |                  151 | 14.23%                 | 0.03%               |

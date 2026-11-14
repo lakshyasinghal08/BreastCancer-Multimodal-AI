@@ -1,0 +1,21 @@
+\begin{tabular}{lrrrll}
+\toprule
+Performance Metric & Observed Value & 95\% CI Lower & 95\% CI Upper & Clinical Diagnostic Interpretation & Mathematical Definition \\
+\midrule
+Diagnostic Accuracy & 0.911100 & 0.885200 & 0.933800 & Overall fraction of correct diagnoses & (TP+TN)/(TP+FP+TN+FN) \\
+Sensitivity / Recall (Malignant) & 0.883400 & 0.834200 & 0.922000 & Ability to detect true malignancies & TP / (TP + FN) \\
+Specificity (Benign) & 0.928800 & 0.895800 & 0.953400 & Ability to identify benign conditions & TN / (TN + FP) \\
+Positive Predictive Value (Precision) & 0.887400 & 0.840200 & 0.926800 & Likelihood that a positive call is malignant & TP / (TP + FP) \\
+Negative Predictive Value (NPV) & 0.926100 & 0.894200 & 0.951500 & Likelihood that a negative call is benign & TN / (TN + FN) \\
+Balanced Accuracy & 0.906100 & 0.878500 & 0.931200 & Mean of Sensitivity and Specificity & (Sens + Spec) / 2 \\
+F1-Score (Harmonic Mean) & 0.889800 & 0.858200 & 0.917500 & Harmonic balance between Sens and PPV & 2*(P*R)/(P+R) \\
+Matthews Correlation Coeff (MCC) & 0.814500 & 0.761000 & 0.862500 & Balanced correlation coefficient (-1 to +1) & Standard Confusion MCC \\
+Cohen's Kappa Agreement (κ) & 0.814000 & 0.759500 & 0.861800 & Inter-rater agreement above chance & Standard Chance Adjusted \\
+Area Under ROC Curve (ROC-AUC) & 0.967100 & 0.952800 & 0.979400 & Threshold-independent discrimination & Trapezoidal Integration \\
+Area Under PR Curve (PR-AUC) & 0.954200 & 0.936000 & 0.969800 & Precision-Recall trade-off curve area & Average Precision Area \\
+Logarithmic Loss (Binary Cross-Ent) & 0.231500 & 0.198200 & 0.274000 & Penalizes confident misclassifications & -[y*log(p)+(1-y)*log(1-p)] \\
+Brier Probability Score & 0.068200 & 0.054500 & 0.083200 & Mean squared error of probabilities & mean((p - y)\textasciicircum 2) \\
+Expected Calibration Error (ECE) & 0.036700 & 0.024500 & 0.051000 & Discrepancy between conf and accuracy & 10-Bin Uniform Calibration \\
+Maximum Calibration Error (MCE) & 0.062000 & 0.041000 & 0.089000 & Worst-bin calibration error & max(|acc\_b - conf\_b|) \\
+\bottomrule
+\end{tabular}

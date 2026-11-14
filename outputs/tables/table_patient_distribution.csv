@@ -1,0 +1,10 @@
+Dataset_Source,Train_Units,Validation_Units,Test_Units,Total_Units,Train_Ratio_Pct
+CBIS-DDSM,393,84,84,561,70.1%
+Clinical,397,85,86,568,69.9%
+"Clinical, Histopathology",1,0,0,1,100.0%
+Dataset_BUSI_with_GT,546,118,116,780,70.0%
+EHR,202,43,43,288,70.1%
+"EHR, Vision_Genomic_Fusion",33,7,7,47,70.2%
+Genomic,106,23,22,151,70.2%
+Histopathology,160,34,34,228,70.2%
+Vision_Genomic_Fusion,52,11,12,75,69.3%

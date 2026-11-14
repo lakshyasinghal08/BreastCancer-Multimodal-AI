@@ -1,0 +1,13 @@
+\begin{tabular}{lllll}
+\toprule
+Metric Name & Category & Mathematical Form & Target Threshold & Primary/Secondary \\
+\midrule
+Area Under ROC (ROC-AUC) & Discrimination & Integral of TPR vs FPR over all thresholds & >= 0.85 & Primary Optimization Criterion \\
+F1-Score (Harmonic Mean) & Clinical Balance & 2 * (Precision * Recall) / (Precision + Recall) & >= 0.80 & Primary Clinical Metric \\
+Balanced Accuracy & Imbalance Robustness & 0.5 * (Sensitivity + Specificity) & >= 0.80 & Secondary \\
+Matthews Correlation (MCC) & Binary Correlation & (TP*TN - FP*FN) / sqrt((TP+FP)(TP+FN)(TN+FP)(TN+FN)) & >= 0.65 & Secondary \\
+Expected Calibration Error (ECE) & Calibration Quality & Sum\_m (B\_m / N) * |acc(B\_m) - conf(B\_m)| & <= 0.08 & Reliability Audit \\
+Brier Score & Probabilistic Accuracy & (1 / N) * Sum\_i (prob\_i - y\_i)\textasciicircum 2 & <= 0.12 & Reliability Audit \\
+Cohen's Kappa & Inter-Rater Agreement & (p\_o - p\_e) / (1 - p\_e) & >= 0.70 & Secondary \\
+\bottomrule
+\end{tabular}

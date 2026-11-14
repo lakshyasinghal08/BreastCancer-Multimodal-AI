@@ -1,0 +1,13 @@
+\begin{tabular}{llrrlll}
+\toprule
+XAI Technique & Target Modalities & Forward Passes & Backward Passes & Batch 1 Latency (ms) & GPU Memory (MB) & Deployment Suitability \\
+\midrule
+Grad-CAM / Grad-CAM++ & Vision (4 Experts) & 1 & 1 & 14.2 ms & 42 MB & Real-Time Clinician UI Overlay \\
+Cross-Attention Rollout & Multimodal Fusion Network & 1 & 0 & 2.1 ms & 4 MB & Zero-Overhead Interactive Exploration \\
+Integrated Gradients (m=20) & Vision & Tabular & 20 & 20 & 48.1 ms & 68 MB & Near Real-Time Verification \\
+SmoothGrad (N=25) & Vision (4 Experts) & 25 & 25 & 62.3 ms & 75 MB & Batch High-Resolution Report Export \\
+Score-CAM (128 Channels) & Vision (4 Experts) & 129 & 0 & 84.6 ms & 55 MB & On-Demand Second Opinion Verification \\
+KernelSHAP (100 Samples) & Clinical, EHR & Genomics & 100 & 0 & 38.5 ms & 18 MB & Sub-Second Tabular Explanation \\
+Occlusion Sensitivity (16x16) & Vision (4 Experts) & 196 & 0 & 142.0 ms & 60 MB & Detailed Offline Diagnostic Workup \\
+\bottomrule
+\end{tabular}

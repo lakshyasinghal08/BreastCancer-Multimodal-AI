@@ -1,0 +1,165 @@
+{
+  "validation_timestamp": "2026-11-05T21:45:16",
+  "test_cases_evaluated": 14,
+  "all_cases_passed": true,
+  "zero_nans": true,
+  "zero_infs": true,
+  "deterministic_verified": true,
+  "l2_determinism_error": 0.0,
+  "results": [
+    {
+      "Case_Name": "Mammography Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Ultrasound Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Histopathology Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Breast MRI Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Clinical FNA Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "EHR Staging Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Genomic Only",
+      "Active_Modalities_Count": 1,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Dual: Mammo + Ultrasound",
+      "Active_Modalities_Count": 2,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Dual: Clinical + EHR",
+      "Active_Modalities_Count": 2,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Dual: Histopath + Genomic",
+      "Active_Modalities_Count": 2,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Triple: Mammo + US + Histo",
+      "Active_Modalities_Count": 3,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Triple: MRI + Clinical + Genomic",
+      "Active_Modalities_Count": 3,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Quad: Mammo + MRI + Clinical + EHR",
+      "Active_Modalities_Count": 4,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    },
+    {
+      "Case_Name": "Full Multimodal (All 7 Present)",
+      "Active_Modalities_Count": 7,
+      "Logits_Shape": "[4, 2]",
+      "Fused_Dim": 128,
+      "Attention_Shape": "[4, 4, 8, 8]",
+      "Contains_NaN": false,
+      "Contains_Inf": false,
+      "Prob_Sum_Check": 1.0,
+      "Validation_Status": "PASSED"
+    }
+  ]
+}

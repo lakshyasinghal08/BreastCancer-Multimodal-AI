@@ -1,0 +1,7 @@
+Field,Type,Description,Validation_Rule
+epoch,integer,Current training epoch counter,>= 0
+global_step,integer,Cumulative batch update iterations,>= 0
+best_metric,float,Primary validation metric value (ROC-AUC),0.0 <= x <= 1.0
+model_architecture,string,Model class name and revision,Non-empty string
+optimizer_state,dictionary,Internal momentum and learning rates,Valid PyTorch optimizer state
+dataset_version,string,Dataset manifest cryptographic fingerprint,Exact SHA-256 match

@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Comprehensive File Type Support and Data Ingestion Protocols}
+\label{tab:table_supported_file_types}
+\begin{tabular}{lllll}
+\toprule
+Modality & File\_Format & Primary\_Reader & Lazy\_Support & Error\_Handling \\
+\midrule
+Mammography & .dcm / .jpg & pydicom / PIL & Yes (On-demand decode) & Graceful Skip \\
+Ultrasound & .png & PIL Image & Yes (Metadata First) & Graceful Skip \\
+Histopathology & .png / .svs & PIL Image / OpenSlide & Yes (Tile-level Lazy) & Graceful Skip \\
+MRI & .png & PIL Image & Yes (Slice-level Lazy) & Graceful Skip \\
+Clinical & .csv & pandas (chunked) & Yes (Column Filtering) & Graceful Skip \\
+EHR & .csv & pandas (chunked) & Yes (Column Filtering) & Graceful Skip \\
+Genomic & .csv & pandas (indexed) & Yes (Sample Matrix Slice) & Graceful Skip \\
+\bottomrule
+\end{tabular}
+\end{table}
